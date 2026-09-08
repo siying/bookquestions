@@ -1,6 +1,7 @@
 import { Book } from '../types/quiz';
+import { MAGIC_TREE_HOUSE_BOOKS } from './magicTreeHouseBooks';
 
-export const DEFAULT_BOOKS: Book[] = [
+export const CLASSIC_BOOKS: Book[] = [
   {
     id: 'charlottes-web',
     title: "Charlotte's Web",
@@ -907,4 +908,9 @@ export const DEFAULT_BOOKS: Book[] = [
       }
     ]
   }
+];
+
+export const DEFAULT_BOOKS: Book[] = [
+  ...MAGIC_TREE_HOUSE_BOOKS,
+  ...CLASSIC_BOOKS,
 ];

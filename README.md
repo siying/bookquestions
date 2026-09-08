@@ -13,8 +13,31 @@ Deployable directly to **GitHub Pages** with zero configuration required!
 - **💡 Two-Step Progressive Hint System**:
   - **Wrong on First Try?** The app does not penalize or immediately reveal the answer. Instead, it displays an encouraging hint alongside an **actual excerpt / sample text from the book** and lets the child try again!
   - **Correct or Still Wrong on Second Try?** Displays the relevant **sample passage from the book** and provides a clear, kid-friendly **explanation** of why that answer is correct.
-- **📚 Curated Children's Literature Sets (60 Questions)**:
-  Built-in verified books with 10 questions each ready out of the box:
+- **🔍 Fast Search & Category Filters**:
+  Instantly filter by title, book number (e.g. `#1`, `#17`), keyword, or author with quick-jump tags and category tabs.
+- **🌲 Magic Tree House Books #1–#20 (200 Questions)**:
+  Full 10-question comprehension sets for the first 20 adventures by Mary Pope Osborne:
+  - 🦖 #1: Dinosaurs Before Dark
+  - ⚔️ #2: The Knight at Dawn
+  - 🏺 #3: Mummies in the Morning
+  - 🏴‍☠️ #4: Pirates Past Noon
+  - 🥷 #5: Night of the Ninjas
+  - 🐒 #6: Afternoon on the Amazon
+  - 🦣 #7: Sunset of the Sabertooth
+  - 🚀 #8: Midnight on the Moon
+  - 🐬 #9: Dolphins at Daybreak
+  - 🤠 #10: Ghost Town at Sundown
+  - 🦁 #11: Lions at Lunchtime
+  - 🐻‍❄️ #12: Polar Bears Past Bedtime
+  - 🌋 #13: Vacation Under the Volcano
+  - 🐉 #14: Day of the Dragon King
+  - ⛵ #15: Viking Ships at Sunrise
+  - 🏛️ #16: Hour of the Olympics
+  - 🚢 #17: Tonight on the Titanic
+  - 🦬 #18: Buffalo Before Breakfast
+  - 🐅 #19: Tigers at Twilight
+  - 🦘 #20: Dingoes at Dinnertime
+- **🌟 Classic Children's Literature (60 Questions)**:
   - 🕷️ *Charlotte's Web* by E.B. White
   - 🌹 *The Little Prince* by Antoine de Saint-Exupéry
   - 🍫 *Charlie and the Chocolate Factory* by Roald Dahl
