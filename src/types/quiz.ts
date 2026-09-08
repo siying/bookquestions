@@ -17,7 +17,6 @@ export interface Book {
   readingLevel: string;
   synopsis: string;
   questions: Question[];
-  isCustom?: boolean;
 }
 
 export type QuestionAttemptStatus = 
@@ -39,13 +38,4 @@ export interface QuizProgress {
   currentIndex: number;
   questionStates: Record<number, QuestionState>;
   isCompleted: boolean;
-}
-
-export interface UserSettings {
-  geminiApiKey: string;
-  selectedModel: string;
-  soundEnabled: boolean;
-  speechEnabled: boolean;
-  voicePitch: number;
-  voiceRate: number;
 }

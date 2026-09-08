@@ -1,12 +1,10 @@
 import React from 'react';
 import { Book } from '../types/quiz';
-import { Sparkles, BookOpen, ArrowRight, Trash2, Award } from 'lucide-react';
+import { BookOpen, ArrowRight, Award, Sparkles } from 'lucide-react';
 
 interface BookSelectorProps {
   books: Book[];
   onSelectBook: (book: Book) => void;
-  onOpenCustomBookModal: () => void;
-  onDeleteCustomBook?: (bookId: string) => void;
 }
 
 const THEME_STYLES: Record<string, { bg: string; border: string; badge: string; text: string; button: string }> = {
@@ -57,8 +55,6 @@ const THEME_STYLES: Record<string, { bg: string; border: string; badge: string; 
 export const BookSelector: React.FC<BookSelectorProps> = ({
   books,
   onSelectBook,
-  onOpenCustomBookModal,
-  onDeleteCustomBook,
 }) => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 sm:py-12">
@@ -77,36 +73,6 @@ export const BookSelector: React.FC<BookSelectorProps> = ({
         </p>
       </div>
 
-      {/* AI Custom Book Hero Card */}
-      <div className="mb-10 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 rounded-3xl p-6 sm:p-8 text-white shadow-xl shadow-purple-200 relative overflow-hidden flex flex-col sm:flex-row items-center justify-between gap-6">
-        <div className="relative z-10 text-center sm:text-left">
-          <span className="inline-block bg-white/20 backdrop-blur-md text-white text-[11px] font-black uppercase px-2.5 py-1 rounded-full mb-2">
-            AI Magic ✨
-          </span>
-          <h2 className="text-xl sm:text-2xl font-black mb-2">
-            Want to test another book?
-          </h2>
-          <p className="text-white/80 text-xs sm:text-sm max-w-md">
-            Type any book title and author, and our AI will create 10 tailored comprehension questions with book excerpts and smart hints!
-          </p>
-        </div>
-
-        <div className="relative z-10 shrink-0">
-          <button
-            onClick={onOpenCustomBookModal}
-            className="flex items-center gap-2 px-6 py-3.5 bg-white text-purple-700 hover:bg-purple-50 font-black rounded-2xl shadow-lg active:scale-95 transition-all text-sm group"
-          >
-            <Sparkles className="w-4 h-4 text-purple-600 group-hover:rotate-12 transition-transform" />
-            Generate New Book Quiz
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-          </button>
-        </div>
-
-        {/* Decorative background circles */}
-        <div className="absolute -right-8 -top-8 w-48 h-48 bg-white/10 rounded-full blur-2xl pointer-events-none" />
-        <div className="absolute -left-8 -bottom-8 w-48 h-48 bg-purple-400/20 rounded-full blur-2xl pointer-events-none" />
-      </div>
-
       {/* Books Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {books.map((book) => {
@@ -117,20 +83,6 @@ export const BookSelector: React.FC<BookSelectorProps> = ({
               key={book.id}
               className={`group bg-gradient-to-br ${theme.bg} bg-white rounded-3xl p-6 border ${theme.border} shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between relative`}
             >
-              {/* Delete custom book button */}
-              {book.isCustom && onDeleteCustomBook && (
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onDeleteCustomBook(book.id);
-                  }}
-                  className="absolute top-4 right-4 p-1.5 text-slate-400 hover:text-rose-600 hover:bg-rose-50 rounded-lg transition-colors"
-                  title="Remove this custom book"
-                >
-                  <Trash2 className="w-4 h-4" />
-                </button>
-              )}
-
               <div>
                 {/* Header with Emoji & Level */}
                 <div className="flex items-center justify-between mb-4">
@@ -163,15 +115,9 @@ export const BookSelector: React.FC<BookSelectorProps> = ({
                     <BookOpen className="w-3.5 h-3.5 text-indigo-500" />
                     {book.questions.length} Questions
                   </span>
-                  {book.isCustom ? (
-                    <span className="flex items-center gap-1 text-purple-600">
-                      <Sparkles className="w-3.5 h-3.5" /> AI Generated
-                    </span>
-                  ) : (
-                    <span className="flex items-center gap-1 text-emerald-600">
-                      <Award className="w-3.5 h-3.5" /> Verified Set
-                    </span>
-                  )}
+                  <span className="flex items-center gap-1 text-emerald-600">
+                    <Award className="w-3.5 h-3.5" /> Comprehension Set
+                  </span>
                 </div>
 
                 <button

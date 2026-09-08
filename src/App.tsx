@@ -1,50 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { Book, QuestionState } from './types/quiz';
 import { DEFAULT_BOOKS } from './data/defaultBooks';
-import { 
-  getStoredApiKey, 
-  getStoredModel, 
-  DEFAULT_MODEL 
-} from './services/gemini';
 import { soundManager } from './utils/audio';
 import { speechManager } from './utils/speech';
 import { Navbar } from './components/Navbar';
 import { BookSelector } from './components/BookSelector';
 import { QuizCard } from './components/QuizCard';
 import { QuizSummary } from './components/QuizSummary';
-import { SettingsModal } from './components/SettingsModal';
-import { CustomBookModal } from './components/CustomBookModal';
 
-const CUSTOM_BOOKS_STORAGE_KEY = 'bookquest_custom_books_v1';
 const SOUND_STORAGE_KEY = 'bookquest_sound_enabled';
 const SPEECH_STORAGE_KEY = 'bookquest_speech_enabled';
 
 export const App: React.FC = () => {
-  // Books library (default + saved custom books)
-  const [books, setBooks] = useState<Book[]>(() => {
-    try {
-      const saved = localStorage.getItem(CUSTOM_BOOKS_STORAGE_KEY);
-      if (saved) {
-        const customBooks: Book[] = JSON.parse(saved);
-        return [...customBooks, ...DEFAULT_BOOKS];
-      }
-    } catch {
-      // ignore
-    }
-    return DEFAULT_BOOKS;
-  });
+  // Books library
+  const [books] = useState<Book[]>(DEFAULT_BOOKS);
 
   // Active quiz state
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [questionStates, setQuestionStates] = useState<Record<number, QuestionState>>({});
   const [isCompleted, setIsCompleted] = useState(false);
-
-  // Settings & Modals state
-  const [apiKey, setApiKey] = useState(getStoredApiKey());
-  const [model, setModel] = useState(getStoredModel() || DEFAULT_MODEL);
-  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
-  const [isCustomBookOpen, setIsCustomBookOpen] = useState(false);
 
   // Audio toggles
   const [soundEnabled, setSoundEnabled] = useState(() => {
@@ -122,41 +97,6 @@ export const App: React.FC = () => {
     }
   };
 
-  // Add custom book generated via AI
-  const handleBookCreated = (newBook: Book) => {
-    setBooks((prev) => {
-      const updated = [newBook, ...prev];
-      const customOnly = updated.filter((b) => b.isCustom);
-      try {
-        localStorage.setItem(CUSTOM_BOOKS_STORAGE_KEY, JSON.stringify(customOnly));
-      } catch {
-        // ignore
-      }
-      return updated;
-    });
-
-    // Start quiz immediately
-    handleSelectBook(newBook);
-  };
-
-  // Delete custom book
-  const handleDeleteCustomBook = (bookId: string) => {
-    setBooks((prev) => {
-      const updated = prev.filter((b) => b.id !== bookId);
-      const customOnly = updated.filter((b) => b.isCustom);
-      try {
-        localStorage.setItem(CUSTOM_BOOKS_STORAGE_KEY, JSON.stringify(customOnly));
-      } catch {
-        // ignore
-      }
-      return updated;
-    });
-
-    if (selectedBook?.id === bookId) {
-      handleExitQuiz();
-    }
-  };
-
   // Calculate current stars
   let goldStars = 0;
   let silverStars = 0;
@@ -178,9 +118,7 @@ export const App: React.FC = () => {
       <Navbar
         currentBook={selectedBook}
         onOpenBookSelector={handleExitQuiz}
-        onOpenSettings={() => setIsSettingsOpen(true)}
         onRestartQuiz={selectedBook ? handleRestartQuiz : undefined}
-        hasApiKey={Boolean(apiKey)}
         soundEnabled={soundEnabled}
         onToggleSound={() => setSoundEnabled((prev) => !prev)}
         speechEnabled={speechEnabled}
@@ -192,8 +130,6 @@ export const App: React.FC = () => {
           <BookSelector
             books={books}
             onSelectBook={handleSelectBook}
-            onOpenCustomBookModal={() => setIsCustomBookOpen(true)}
-            onDeleteCustomBook={handleDeleteCustomBook}
           />
         ) : isCompleted ? (
           <QuizSummary
@@ -227,31 +163,10 @@ export const App: React.FC = () => {
             <span>Fun Comprehension &amp; Clues for Kids</span>
           </div>
           <div className="text-slate-400">
-            Powered by Google Gemini AI &amp; Hosted on GitHub Pages
+            Hosted on GitHub Pages
           </div>
         </div>
       </footer>
-
-      {/* Settings Modal */}
-      <SettingsModal
-        isOpen={isSettingsOpen}
-        onClose={() => setIsSettingsOpen(false)}
-        currentApiKey={apiKey}
-        currentModel={model}
-        onSave={(newKey, newModel) => {
-          setApiKey(newKey);
-          setModel(newModel);
-        }}
-      />
-
-      {/* Custom Book Generator Modal */}
-      <CustomBookModal
-        isOpen={isCustomBookOpen}
-        onClose={() => setIsCustomBookOpen(false)}
-        onBookCreated={handleBookCreated}
-        hasApiKey={Boolean(apiKey)}
-        onOpenSettings={() => setIsSettingsOpen(true)}
-      />
     </div>
   );
 };
