@@ -3,6 +3,11 @@ import { Book, QuestionState } from './types/quiz';
 import { DEFAULT_BOOKS } from './data/defaultBooks';
 import { soundManager } from './utils/audio';
 import { speechManager } from './utils/speech';
+import { 
+  getSavedAnsweredBooks, 
+  saveBookAnswerProgress, 
+  SavedBookRecord 
+} from './utils/quizStorage';
 import { Navbar } from './components/Navbar';
 import { BookSelector } from './components/BookSelector';
 import { QuizCard } from './components/QuizCard';
@@ -14,6 +19,9 @@ const SPEECH_STORAGE_KEY = 'bookquest_speech_enabled';
 export const App: React.FC = () => {
   // Books library
   const [books] = useState<Book[]>(DEFAULT_BOOKS);
+
+  // Persistent answered books records
+  const [savedBooks, setSavedBooks] = useState<Record<string, SavedBookRecord>>(() => getSavedAnsweredBooks());
 
   // Active quiz state
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
@@ -44,13 +52,51 @@ export const App: React.FC = () => {
 
   // Start quiz for a book
   const handleSelectBook = (book: Book) => {
-    setSelectedBook(book);
-    setCurrentIndex(0);
+    // Check if book was already answered previously:
+    // If so, preserve its exact questions & options ordering so it's never modified
+    const savedRecord = savedBooks[book.id];
+    const bookToUse: Book = savedRecord && savedRecord.questions && savedRecord.questions.length > 0
+      ? { ...book, questions: savedRecord.questions }
+      : book;
+
+    setSelectedBook(bookToUse);
     setIsCompleted(false);
 
-    // Initialize blank question states
+    let initialStates: Record<number, QuestionState> = {};
+    let startIndex = 0;
+
+    // If previously in progress (not completed), resume saved question answers
+    if (savedRecord && savedRecord.questionStates && !savedRecord.isCompleted) {
+      initialStates = { ...savedRecord.questionStates };
+      const firstUnanswered = bookToUse.questions.findIndex((_, idx) => {
+        const st = initialStates[idx];
+        return !st || st.status === 'unanswered';
+      });
+      if (firstUnanswered !== -1) {
+        startIndex = firstUnanswered;
+      }
+    } else {
+      // Start fresh
+      bookToUse.questions.forEach((_, idx) => {
+        initialStates[idx] = {
+          status: 'unanswered',
+          selectedOptionIndex: null,
+          secondOptionIndex: null,
+          wrongOptions: [],
+        };
+      });
+    }
+
+    setQuestionStates(initialStates);
+    setCurrentIndex(startIndex);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Restart active quiz
+  const handleRestartQuiz = () => {
+    if (!selectedBook) return;
     const initialStates: Record<number, QuestionState> = {};
-    book.questions.forEach((_, idx) => {
+    selectedBook.questions.forEach((_, idx) => {
       initialStates[idx] = {
         status: 'unanswered',
         selectedOptionIndex: null,
@@ -59,13 +105,9 @@ export const App: React.FC = () => {
       };
     });
     setQuestionStates(initialStates);
+    setCurrentIndex(0);
+    setIsCompleted(false);
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  // Restart active quiz
-  const handleRestartQuiz = () => {
-    if (!selectedBook) return;
-    handleSelectBook(selectedBook);
   };
 
   // Return to books gallery
@@ -74,15 +116,28 @@ export const App: React.FC = () => {
     setSelectedBook(null);
     setCurrentIndex(0);
     setIsCompleted(false);
+    setSavedBooks(getSavedAnsweredBooks());
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   // Update question state when user picks an option
   const handleUpdateQuestionState = (newState: QuestionState) => {
-    setQuestionStates((prev) => ({
-      ...prev,
+    if (!selectedBook) return;
+    const nextStates = {
+      ...questionStates,
       [currentIndex]: newState,
-    }));
+    };
+    setQuestionStates(nextStates);
+
+    let currentGold = 0;
+    let currentSilver = 0;
+    Object.values(nextStates).forEach((st) => {
+      if (st.status === 'correct_first_try') currentGold++;
+      if (st.status === 'correct_second_try') currentSilver++;
+    });
+
+    saveBookAnswerProgress(selectedBook, nextStates, isCompleted, currentGold, currentSilver);
+    setSavedBooks(getSavedAnsweredBooks());
   };
 
   // Move to next question or show summary
@@ -93,6 +148,8 @@ export const App: React.FC = () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
       setIsCompleted(true);
+      saveBookAnswerProgress(selectedBook, questionStates, true, goldStars, silverStars);
+      setSavedBooks(getSavedAnsweredBooks());
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
@@ -129,6 +186,7 @@ export const App: React.FC = () => {
         {!selectedBook ? (
           <BookSelector
             books={books}
+            savedBooks={savedBooks}
             onSelectBook={handleSelectBook}
           />
         ) : isCompleted ? (

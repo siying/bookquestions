@@ -15,12 +15,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'cw-1',
         question: "Why did Fern stop her father, Mr. Arable, from taking the little pig out to the woods at the very beginning of the story?",
         options: [
-          "She wanted to sell the pig at the county fair for money.",
           "She believed it was unfair to kill the pig just because he was born small and weak.",
+          "She wanted to sell the pig at the county fair for money.",
           "She was worried the pig would run into Mrs. Zuckerman's kitchen.",
           "Her teacher told her to bring a farm animal for show-and-tell."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Fern pushed him away. ‘Please don’t kill it!’ she sobbed. ‘It’s unfair.’ Mr. Arable stopped. ‘Fern,’ he said gently, ‘you will have to learn to control yourself.’ ‘Control myself?’ yelled Fern. ‘This is a matter of life and death, and you talk about controlling myself? If I had been very small at birth, would you have killed me?’”",
         hint: "Notice how Fern compares the little pig's size at birth to her own when she was a baby!",
         explanation: "Fern pleaded for the piglet's life because he was a runt. She showed deep empathy, asking her father if he would have done the same to her if she had been born unusually small."
@@ -43,12 +43,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'cw-3',
         question: "How does Charlotte get the words she weaves into her web after 'SOME PIG'?",
         options: [
-          "Templeton the rat searches the dump for discarded newspaper and magazine clippings.",
           "Fern writes vocabulary words on slips of paper and pins them to the barn wall.",
+          "Templeton the rat searches the dump for discarded newspaper and magazine clippings.",
           "The old sheep looks them up in an encyclopedia in the farmhouse library.",
           "Charlotte listens to the farmers talking during their morning coffee."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“‘I need new words for my web,’ said Charlotte. The old sheep turned to Templeton. ‘Templeton can help. Whenever he goes to the dump, he can bring back clippings of printed matter. He can tear out pieces of newspaper and bring them to Charlotte.’”",
         hint: "Look at the passage to see which barnyard character visits the dump and retrieves scraps of paper!",
         explanation: "Templeton the rat was persuaded by the old sheep to scavenge the town dump for cardboard wrappers and newspaper clippings containing words like 'TERRIFIC', 'RADIANT', and 'HUMBLE'."
@@ -58,11 +58,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What is Templeton the rat's main motivation for helping Wilbur and Charlotte throughout the story?",
         options: [
           "He has a secret kind heart and loves making everyone happy.",
-          "He is promised leftover food scraps, treats, and Wilbur's untouched trough meals.",
+          "He is competing against the barn mice for the title of barn leader.",
           "He wants Mr. Zuckerman to adopt him as a beloved house pet.",
-          "He is competing against the barn mice for the title of barn leader."
+          "He is promised leftover food scraps, treats, and Wilbur's untouched trough meals."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“‘Let him die,’ said Templeton. ‘I should worry.’ ‘Wilbur’s food is your food,’ whispered the old sheep. ‘If Wilbur dies, Lurvy will stop filling this trough. You’ll starve to death, rat.’ Templeton’s whiskers twitched. ‘Is that true?’ he asked. ‘All right, I’ll help.’”",
         hint: "The excerpt shows what Templeton cares about most: his stomach and Wilbur's trough food!",
         explanation: "Templeton is purely self-interested. He helps Wilbur because the old sheep reminds him that if Wilbur is slaughtered, there will be no tasty slops and leftovers in the trough for him to eat."
@@ -71,12 +71,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'cw-5',
         question: "What does the word 'RADIANT' woven in the web describe about Wilbur?",
         options: [
-          "He emits an actual bright green glow in the dark.",
           "He looks glowing, healthy, happy, and full of joyful energy.",
+          "He emits an actual bright green glow in the dark.",
           "He has learned how to do backflips in the mud puddle.",
           "He has pure white fur like fresh snow on a sunny morning."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“‘Look at me, Charlotte!’ said Wilbur, racing around his pen, leaping into the air, and landing with a joyful twist. ‘Do I look radiant?’ Charlotte smiled gently. ‘You’re radiant to me, Wilbur. You shine with happiness and good health.’”",
         hint: "Check the excerpt: Charlotte explains that radiant means shining with health and happiness!",
         explanation: "Charlotte chooses 'RADIANT' from a soap advertisement snippet. Wilbur tries his best to jump, twirl, and beam with joy so he looks shiny, happy, and truly radiant to the crowds."
@@ -86,11 +86,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "Why was Charlotte unable to return home to the Zuckerman farm after the County Fair?",
         options: [
           "She decided to move to a new barn near the fairgrounds.",
-          "She had completed her life cycle, was too old and weak, and was dying.",
           "The judges placed her in a glass jar to display in the fair museum.",
+          "She had completed her life cycle, was too old and weak, and was dying.",
           "Templeton accidentally tore down her web and lost her in the sawdust."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“‘I won’t be going back to the barn, Wilbur,’ Charlotte whispered softly. ‘My time has come. A few days, perhaps, and I will be gone. In a few minutes I shall be dead.’ Wilbur threw himself on the ground in agony. ‘Charlotte!’ he cried. ‘My true friend!’”",
         hint: "Read Charlotte's gentle words in the excerpt: what natural process has reached its end for her?",
         explanation: "Charlotte had poured all her remaining strength into weaving her egg sac containing 514 eggs. Like natural barn spiders, she reached the natural end of her lifespan after egg laying."
@@ -99,12 +99,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'cw-7',
         question: "What promise did Wilbur make to Templeton so the rat would retrieve Charlotte's egg sac from the ceiling rafters?",
         options: [
-          "Wilbur would give Templeton first choice of all food in his trough for the rest of his life.",
           "Wilbur would let Templeton sleep inside his warm straw bed every winter night.",
+          "Wilbur would give Templeton first choice of all food in his trough for the rest of his life.",
           "Wilbur promised to bite Lurvy if Lurvy ever tried to set rat traps.",
           "Wilbur said he would carry Templeton on his back across the entire county."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“‘Listen to me, Templeton!’ gasped Wilbur. ‘If you climb up and get that egg sac for me, I will make a solemn promise. From now on, you may eat first at every meal. I will not touch a single morsel until you have eaten your fill!’ Templeton’s eyes gleamed. ‘First choice? Every single day?’”",
         hint: "Notice what Wilbur offers regarding every meal that arrives in his trough!",
         explanation: "Wilbur made a binding vow allowing Templeton to feast first at every meal before Wilbur touched a bite, guaranteeing Templeton all the choice scraps and dessert."
@@ -114,11 +114,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "How did Wilbur safely transport the fragile egg sac back home from the fairgrounds?",
         options: [
           "He balanced it carefully on top of his snout while riding in the crate.",
-          "He carried it gently inside his warm mouth beneath his tongue.",
+          "He tucked it into Templeton's little pouch tied around the rat's neck.",
           "He asked Fern to wrap it in her handkerchief and carry it in her pocket.",
-          "He tucked it into Templeton's little pouch tied around the rat's neck."
+          "He carried it gently inside his warm mouth beneath his tongue."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“Wilbur placed the peach-colored sac on his tongue, pushed it gently against the roof of his mouth, and closed his lips without biting down. He breathed through his snout. He held it so carefully that not a single one of the 514 little eggs inside was harmed.”",
         hint: "Where did Wilbur place the egg sac so no one would see or drop it?",
         explanation: "Wilbur carried Charlotte's egg sac in his mouth, resting it safely on his tongue all the way back to the barn, guarding it with his life."
@@ -141,12 +141,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'cw-10',
         question: "What three baby spiders chose to stay behind in the barn cellar to be Wilbur's lifelong friends?",
         options: [
-          "Joy, Aranea, and Nellie",
-          "Ruby, Rose, and Daisy",
           "Hope, Faith, and Charity",
+          "Ruby, Rose, and Daisy",
+          "Joy, Aranea, and Nellie",
           "Penny, Polly, and Pip"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“‘Three of us are staying,’ said a tiny voice from the doorpost. ‘We like this barn. We like you.’ Wilbur cried tears of happiness. He helped them choose their names: Joy, Aranea, and Nellie, after their wonderful mother.”",
         hint: "Read the excerpt above—which three names did Wilbur and the baby spiders choose?",
         explanation: "Three daughters—Joy, Aranea, and Nellie—stayed behind in the barn. Wilbur loved them deeply, although he never forgot his first and dearest friend, Charlotte."
@@ -166,12 +166,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'lp-1',
         question: "When the narrator was six years old, what did grown-ups think his Drawing Number One was?",
         options: [
-          "An ordinary brown hat.",
           "A sleeping snake in the grass.",
+          "An ordinary brown hat.",
           "A cave in a rocky mountain.",
           "An elephant standing behind a boulder."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“My Drawing Number One showed a boa constrictor digesting an elephant. But when I showed my masterpiece to the grown-ups and asked if it frightened them, they answered: ‘Why should anyone be frightened by a hat?’ So I had to draw Drawing Number Two showing the elephant inside.”",
         hint: "Look at the grown-ups' exact question in the excerpt: 'Why should anyone be frightened by a...?'",
         explanation: "Grown-ups lacked imagination and thought the boa constrictor holding an elephant was merely a hat, forcing the narrator to abandon drawing until he met the prince."
@@ -181,11 +181,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What is the very first request the Little Prince makes to the narrator stranded in the Sahara desert?",
         options: [
           "“Please help me find water in this desert.”",
-          "“Please draw me a sheep.”",
+          "“Tell me where I can find the King.”",
           "“Can you repair my airplane wings?”",
-          "“Tell me where I can find the King.”"
+          "“Please draw me a sheep.”"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“I was awakened by an odd little voice. It said: ‘If you please—draw me a sheep!’ I leaped to my feet as if struck by lightning. I blinked my eyes hard. I looked closely. And I saw a most extraordinary small person examining me solemnly.”",
         hint: "Check the excerpt for the little voice's exact opening words when the narrator wakes up!",
         explanation: "The Little Prince miraculously appeared in the middle of the desolate desert and asked simply: 'If you please—draw me a sheep!'"
@@ -209,11 +209,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "Why is it so dangerous for baobab trees to sprout on the Little Prince's tiny asteroid B-612?",
         options: [
           "Their thorns are poisonous to the sheep.",
-          "Their enormous roots will grow so large they split the tiny planet apart.",
           "They block all the sunsets from view.",
+          "Their enormous roots will grow so large they split the tiny planet apart.",
           "Their flowers produce a foul smell that drives away visitors."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“Now there were terrible seeds on the planet of the little prince; and these were the seeds of the baobab. If you get to a baobab too late, you can never get rid of it. It spreads over the entire planet. It bores clear through with its roots. And if the planet is too small, and the baobabs too many, they split it in pieces.”",
         hint: "What do the roots of the baobab do to a tiny planet if not pulled out early?",
         explanation: "Baobabs are massive trees. If allowed to take root on a tiny asteroid, their invasive roots will rip the planet apart, which is why the prince pulls them out every morning."
@@ -237,11 +237,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "Why was the rose on Asteroid B-612 so special, despite her proud and demanding vanity?",
         options: [
           "She could speak human languages and predict the future.",
-          "The Little Prince had watered her, protected her under a glass globe, and loved her deeply.",
+          "She was the only flower that could survive without sunlight.",
           "She had diamond thorns and bloomed in the middle of winter.",
-          "She was the only flower that could survive without sunlight."
+          "The Little Prince had watered her, protected her under a glass globe, and loved her deeply."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“‘You are beautiful, but you are empty,’ the prince said to the garden of five thousand roses. ‘One could not die for you. To an ordinary passerby, my rose would look just like you. But my rose, all on her own, is more important than all of you, because she is the one I have watered. Because she is my rose.’”",
         hint: "Read the excerpt: what personal care did the prince give to his own rose that made her unique?",
         explanation: "The prince realized that what made his rose unique in all the universe was not that she was physically one-of-a-kind, but the love, time, and tender care he had dedicated to sheltering and watering her."
@@ -250,12 +250,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'lp-7',
         question: "What does the Fox mean when he teaches the Little Prince about 'taming'?",
         options: [
-          "Training an animal to perform tricks with treats.",
-          "Caging a wild creature so it cannot run away.",
           "Establishing affectionate emotional ties so you become unique to each other.",
+          "Caging a wild creature so it cannot run away.",
+          "Training an animal to perform tricks with treats.",
           "Scaring away danger in the forest."
         ],
-        correctAnswerIndex: 2,
+        correctAnswerIndex: 0,
         samplePassage: "“‘To me, you are still nothing more than a little boy who is just like a hundred thousand other little boys,’ said the fox. ‘And I have no need of you. But if you tame me, then we shall need each other. To me, you will be unique in all the world. To you, I shall be unique in all the world... It means to establish ties.’”",
         hint: "Check the fox's words in the passage: 'It means to establish...'",
         explanation: "To 'tame', according to the wise fox, means creating meaningful bonds of friendship and love. Through caring for someone, you become irreplaceable to each other."
@@ -265,11 +265,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What famous secret does the Fox give to the Little Prince as a parting gift?",
         options: [
           "“Always follow the stars when you are lost.”",
-          "“It is only with the heart that one can see rightly; what is essential is invisible to the eye.”",
           "“Words are the source of all misunderstandings, so never speak again.”",
+          "“It is only with the heart that one can see rightly; what is essential is invisible to the eye.”",
           "“Only grow-ups know how to manage banks and money.”"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“‘And now here is my secret, a very simple secret: It is only with the heart that one can see rightly; what is essential is invisible to the eye.’ ‘What is essential is invisible to the eye,’ the little prince repeated, so that he would be sure to remember.”",
         hint: "Look at the exact quotation the Little Prince repeats to himself to make sure he remembers!",
         explanation: "The fox's central wisdom is that true value—love, loyalty, beauty, friendship—cannot be measured with our eyes, but must be felt with the heart."
@@ -278,12 +278,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'lp-9',
         question: "What does the King on the first asteroid the prince visits insist upon?",
         options: [
-          "Everyone must bow down and shine his shoes.",
           "He only issues 'reasonable orders' that can actually be obeyed.",
+          "Everyone must bow down and shine his shoes.",
           "He demands that everyone bring him chocolate.",
           "He forces visitors to stay on his planet forever."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“‘I have the right to require obedience, because my orders are reasonable,’ the King was in the habit of saying. ‘If I ordered a general to fly from one flower to another like a butterfly, and the general did not obey, which of us would be in the wrong? It would be me. One must demand from each what each can perform.’”",
         hint: "Look at the King's rule in the passage: what kind of orders does he issue?",
         explanation: "The King was an absolute monarch, yet he prided himself on giving only reasonable commands—such as ordering the sun to set only when the time for sunset had arrived!"
@@ -293,11 +293,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "Why does the Little Prince allow the yellow snake in the desert to bite him at the end of the story?",
         options: [
           "He accidentally tripped over the snake while looking at the stars.",
-          "He believed his physical body was too heavy to carry back to his beloved rose and Asteroid B-612.",
+          "He wanted to become invisible so he could explore Earth undetected.",
           "The snake tricked him into drinking poison disguised as water.",
-          "He wanted to become invisible so he could explore Earth undetected."
+          "He believed his physical body was too heavy to carry back to his beloved rose and Asteroid B-612."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“‘It will look like I am dying, but it won’t be true,’ the prince told the aviator. ‘You understand... It is too far. I cannot carry this body with me. It is too heavy. It will look like an old abandoned shell. There is nothing sad about old shells... and my rose, I am responsible for her.’”",
         hint: "Notice what the prince says about his physical body being too heavy for the long journey home!",
         explanation: "The Little Prince explains that returning across the stars to Asteroid B-612 to protect his rose requires leaving behind his heavy mortal body, comparing it to shedding an empty shell."
@@ -318,11 +318,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What did Charlie Bucket receive once every year on his birthday that he savored for an entire month?",
         options: [
           "A brand new pair of leather winter boots.",
-          "A single bar of Wonka chocolate.",
           "A toy wooden train carved by Grandpa Joe.",
+          "A single bar of Wonka chocolate.",
           "A bowl of cabbage soup with extra potatoes."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“Only once a year, on his birthday, did Charlie Bucket ever taste a bit of chocolate. The whole family saved up their pennies for that very special occasion, and when the great day arrived, Charlie was always presented with one single small chocolate bar to eat all by himself. He would make it last for more than a month by nibbling just a tiny corner each day.”",
         hint: "What sweet treat did the family save up pennies to buy Charlie once a year?",
         explanation: "Because Charlie's family was so impoverished, he received only one chocolate bar each year on his birthday, which he treasured and rationed bite by bite for a month."
@@ -331,12 +331,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'cf-2',
         question: "How many Golden Tickets were hidden beneath the wrappers of Wonka chocolate bars worldwide?",
         options: [
-          "3 tickets",
           "5 tickets",
+          "3 tickets",
           "7 tickets",
           "10 tickets"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“‘Golden Tickets!’ read Mr. Bucket from the evening newspaper. ‘Mr. Willy Wonka has hidden five Golden Tickets underneath the ordinary paper wrappers of five ordinary candy bars. These five candy bars may be anywhere—in any shop in any street in any town in any country in the world!’”",
         hint: "Look at the headline read by Mr. Bucket in the excerpt above!",
         explanation: "Mr. Wonka hid exactly five Golden Tickets across the globe, offering five lucky children a tour of his secret factory and a lifetime supply of sweets."
@@ -346,11 +346,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What bad habit led to Augustus Gloop's downfall in the Chocolate Room?",
         options: [
           "He was chewing experimental three-course dinner gum.",
-          "He fell into the melted chocolate river because he greedily tried to drink from it.",
+          "He kept staring at television screens and refused to move.",
           "He demanded that his father buy him one of Wonka's trained squirrels.",
-          "He kept staring at television screens and refused to move."
+          "He fell into the melted chocolate river because he greedily tried to drink from it."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“‘Augustus!’ cried Mr. Wonka. ‘Please do not do that! My chocolate must remain untouched by human hands!’ But Augustus was deaf to everything except his appetite. He was kneeling on the brown bank, scooping hot melted chocolate into his mouth as fast as he could. Then—SPLASH!—he tumbled right into the river and was sucked into the great glass pipe.”",
         hint: "Check the excerpt: what did Augustus do on the brown bank despite Mr. Wonka's warning?",
         explanation: "Augustus Gloop's uncontrollable gluttony drove him to kneel and scoop chocolate from the river, causing him to slip, fall in, and get sucked into a glass pipe leading to the fudge room."
@@ -360,11 +360,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What happened to Violet Beauregarde after she snatched and chewed the prototype gum against Mr. Wonka's advice?",
         options: [
           "Her teeth turned into solid peppermint sticks.",
-          "She grew giant rabbit ears that heard everything.",
           "She turned royal purple and inflated like a giant blueberry.",
+          "She grew giant rabbit ears that heard everything.",
           "She shrunk down until she was only one inch tall."
         ],
-        correctAnswerIndex: 2,
+        correctAnswerIndex: 1,
         samplePassage: "“‘It’s blueberry pie and cream!’ shouted Violet. ‘It’s sensational!’ ‘Oh, heavens!’ screamed Mrs. Beauregarde. ‘Look at your nose! It’s turning blue!’ Within seconds, Violet’s cheeks, chin, arms, and belly were swelling up like a balloon filled with juice. She was turning into a giant, round, juicy blueberry!”",
         hint: "What fruit did Violet resemble as she puffed up and turned purple?",
         explanation: "When Violet reached the blueberry pie dessert stage of the untested chewing gum, she swelled into a massive purple blueberry and had to be rolled to the Juicing Room."
@@ -373,12 +373,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'cf-5',
         question: "Who works inside Willy Wonka's factory, creating the candies and singing witty cautionary songs?",
         options: [
-          "The Oompa-Loompas from Loompaland",
-          "A clan of magical elves from the North Pole",
           "Robots powered by peppermint clockwork gears",
+          "A clan of magical elves from the North Pole",
+          "The Oompa-Loompas from Loompaland",
           "Grandpa Joe's former factory co-workers"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“‘They are Oompa-Loompas!’ Mr. Wonka announced. ‘Imported straight from Loompaland! They are wonderful workers, and they simply adore cocoa beans. In Loompaland, they lived on green caterpillars and dreamed of cocoa beans. I offered to pay them in cocoa beans if they came to live in my factory!’”",
         hint: "Read Mr. Wonka's quote: what is the name of these diminutive workers from Loompaland?",
         explanation: "Mr. Wonka rescued the Oompa-Loompas from the dangers of Loompaland and employed them in his factory, paying them in their most treasured food: cocoa beans."
@@ -387,12 +387,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'cf-6',
         question: "Why did the squirrels in the Nut Room attack Veruca Salt and throw her down the garbage chute?",
         options: [
-          "She threw rocks at their acorn baskets.",
           "She tried to kidnap a squirrel, so they tested her head and judged her to be a 'bad nut'.",
+          "She threw rocks at their acorn baskets.",
           "She made fun of their fluffy tails.",
           "She tried to steal the golden walnut on the table."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Twenty-five squirrels leaped onto Veruca’s shoulders and pinned her to the floor. Then the leader gave her forehead a firm tap with its knuckles. The squirrels listened to the hollow sound. ‘They’re testing her to see if she’s a bad nut,’ whispered Mr. Wonka. ‘And by Jove, they’ve decided she is! Down the garbage chute she goes!’”",
         hint: "What did the squirrels test on Veruca before shoving her into the rubbish chute?",
         explanation: "Veruca threw a tantrum demanding a trained nut-cracking squirrel. When she entered their room, the squirrels pinned her down, tapped her skull, decided she was a 'bad nut', and discarded her down the chute."
@@ -402,11 +402,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What happened to television-obsessed Mike Teavee when he sent himself through Wonka Television?",
         options: [
           "He was permanently stuck inside a commercial for laundry detergent.",
-          "He shrunk to a tiny miniature figure only a few inches high.",
+          "His skin became translucent like a glowing television monitor.",
           "He grew antennas out of his forehead that picked up cartoons.",
-          "His skin became translucent like a glowing television monitor."
+          "He shrunk to a tiny miniature figure only a few inches high."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“Mike Teavee waved cheerily from the screen, no bigger than an inch tall. Mr. Wonka reached out, picked up the tiny boy between his finger and thumb, and placed him in his mother’s hand. ‘He’s shrunk!’ cried Mrs. Teavee. ‘He’s tiny!’”",
         hint: "Look at the passage above—what size was Mike Teavee when Mr. Wonka picked him up?",
         explanation: "Mike Teavee jumped into the Television Chocolate transmitter to appear on TV, which broke him into millions of tiny pieces and reassembled him as a tiny miniature only a few inches tall."
@@ -430,11 +430,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "Why was Charlie Bucket the only child who reached the end of the factory tour safely?",
         options: [
           "He was wearing a special protective suit designed by Grandpa Joe.",
-          "He was respectful, patient, humble, and listened carefully to Mr. Wonka's rules.",
           "He knew secret cheat codes to bypass all of the factory's traps.",
+          "He was respectful, patient, humble, and listened carefully to Mr. Wonka's rules.",
           "He bribed the Oompa-Loompas with extra pennies."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“‘My dear boy,’ said Mr. Wonka, staring at Charlie with sparkling eyes. ‘That means you are the only one left! You won! I knew it would be you! You were quiet, polite, and didn’t let greed or arrogance get the best of you. You followed every rule and respected this magical place!’”",
         hint: "What virtues did Charlie display compared to the spoiled behavior of the other children?",
         explanation: "Unlike the other children who were spoiled, greedy, rude, or obsessive, Charlie was polite, grateful, and well-behaved, respecting Mr. Wonka and following all instructions."
@@ -443,12 +443,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'cf-10',
         question: "What grand prize does Mr. Wonka give to Charlie at the conclusion of the story?",
         options: [
-          "A lifetime supply of five candy bars a week.",
           "The entire chocolate factory and everything inside it to run as his own.",
+          "A lifetime supply of five candy bars a week.",
           "A mansion on the hill next door with ten servants.",
           "One million dollars in crisp brand-new banknotes."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“‘I am giving the entire factory to you, Charlie,’ Mr. Wonka said gently. ‘I have no family of my own, and I am getting old. I needed a good, sensible, loving child to whom I could teach all my secrets and hand over everything I have created.’”",
         hint: "Look at what Mr. Wonka announces he is giving to Charlie in the passage!",
         explanation: "The entire tour was a secret test. Mr. Wonka was searching for an honest, kind-hearted child successor to inherit and run his miraculous chocolate factory forever."
@@ -497,11 +497,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What sweet treat did the White Witch use to enchant and manipulate Edmund?",
         options: [
           "Chocolate fudge brownies",
-          "Turkish Delight",
           "Candied apples",
+          "Turkish Delight",
           "Hot cinnamon rolls"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“The Queen took out a small bottle and let a single drop fall upon the snow. Instantly there appeared a round box bound in green silk ribbon. Inside was several pounds of the most delicious Turkish Delight Edmund had ever tasted. Each piece was sweet and light to the very center, and the more he ate, the more he wanted.”",
         hint: "Look at the enchanted confectionery named in the excerpt!",
         explanation: "The White Witch gave Edmund magical Turkish Delight that created an insatiable craving, making him willing to betray his brother and sisters just to taste more."
@@ -510,12 +510,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'lww-4',
         question: "What cruel curse has the White Witch cast over all of Narnia?",
         options: [
-          "The animals are forbidden from speaking.",
           "It is always winter, but never Christmas.",
+          "The animals are forbidden from speaking.",
           "The oceans have turned into poisonous vinegar.",
           "No flowers or trees can ever produce leaves."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“‘It is she that makes it always winter,’ Mr. Tumnus said with a shudder. ‘Always winter and never Christmas; think of that! A whole hundred years of snow, cold winds, and bare trees, without a single holiday or gift to bring hope.’”",
         hint: "Look at Mr. Tumnus's exact phrase in the passage: 'Always winter and...'",
         explanation: "The White Witch's tyrannical spell kept Narnia in a hundred-year frozen winter without spring, warmth, or Christmas to bring hope."
@@ -524,12 +524,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'lww-5',
         question: "Whose sudden arrival in Narnia is the first undeniable sign that the Witch's winter spell is beginning to thaw?",
         options: [
-          "Father Christmas",
+          "The King of Archenland",
           "The Emperor-beyond-the-Sea",
           "A flock of golden eagles",
-          "The King of Archenland"
+          "Father Christmas"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“He was a huge man in a bright red robe with a hood, trimmed with white fur, and a great white beard that fell like a foamy waterfall over his chest. ‘I’ve broken through at last,’ said Father Christmas. ‘She has kept me out for a long time, but Aslan is on the move. The Witch’s magic is weakening!’”",
         hint: "Who arrives in a red robe with a sledge and presents for the children?",
         explanation: "Father Christmas breaks through the melting snowdrifts, signaling that Aslan is approaching and the Witch's magical hold over Narnia is collapsing."
@@ -538,12 +538,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'lww-6',
         question: "What gifts does Father Christmas give to Lucy Pevensie to protect and heal her friends?",
         options: [
-          "A small dagger and a cordial bottle made of diamond that can heal any wound or illness",
           "A silver sword and a shining shield bearing a red lion",
+          "A small dagger and a cordial bottle made of diamond that can heal any wound or illness",
           "A bow with arrows that never miss and an ivory horn",
           "A golden cloak that makes the wearer completely invisible"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“‘In this bottle,’ Father Christmas said, giving Lucy a little vial of diamond glass, ‘is a cordial made from the juice of fire-flowers. If you or any of your friends are hurt, a single drop will restore health. And here is a small dagger. You are only to use it in great danger, for you must not be in the battle.’”",
         hint: "Notice the healing vial made of diamond and the small weapon given to Lucy in the excerpt!",
         explanation: "Father Christmas gave Lucy a healing cordial capable of reviving the fatally wounded, alongside a small dagger for personal emergency defense."
@@ -553,11 +553,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "Why did the White Witch claim that she had the legal right to execute Edmund under the Deep Magic?",
         options: [
           "He broke a statue in her castle courtyard.",
-          "He was a traitor who betrayed his own family.",
           "He was a human living illegally in Narnia.",
+          "He was a traitor who betrayed his own family.",
           "He stole the Turkish Delight without paying for it."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“‘You know the Deep Magic which the Emperor-beyond-the-Sea wrote on the Stone Table,’ the Witch said. ‘You know that every traitor belongs to me as my lawful prey and that for every treachery I have a right to kill. His life is forfeit to me!’”",
         hint: "Read what the Witch calls Edmund in the passage: 'every... belongs to me as my lawful prey'.",
         explanation: "Under the ancient Deep Magic engraved on the Stone Table, all traitors belonged to the White Witch, and blood was required for Edmund's treachery."
@@ -566,12 +566,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'lww-8',
         question: "How does Aslan save Edmund from being executed by the White Witch?",
         options: [
-          "He defeats the Witch in a public fencing duel.",
           "He secretly offers his own life on the Stone Table as a substitute sacrifice.",
+          "He defeats the Witch in a public fencing duel.",
           "He banishes the Witch to the far frozen North with a roar.",
           "He transforms Edmund into a stone lion so he cannot be harmed."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Aslan made a quiet agreement with the Witch in private. That night, unknown to the soldiers, Aslan walked solemnly to the Stone Table. He allowed the Witch and her cruel monsters to bind him, shear his mane, and strike him down so that Edmund could live.”",
         hint: "Look at the passage: what sacrifice did Aslan make at the Stone Table?",
         explanation: "Aslan willingly offered himself to be bound, humiliated, and sacrificed on the Stone Table in Edmund's place, satisfying the ancient law through selfless love."
@@ -581,11 +581,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "Why did Aslan miraculously rise from the dead the following morning?",
         options: [
           "Lucy poured her entire bottle of healing cordial on his mane.",
-          "A Deeper Magic from before the dawn of time stated that if a willing victim with no treachery died in a traitor's place, the Stone Table would crack and death would reverse.",
+          "The rising sun melted the Stone Table into warm spring water.",
           "The wood mice chewed through his wounds and revived his heart.",
-          "The rising sun melted the Stone Table into warm spring water."
+          "A Deeper Magic from before the dawn of time stated that if a willing victim with no treachery died in a traitor's place, the Stone Table would crack and death would reverse."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“‘The Table was cracked in two!’ said Aslan. ‘The Witch knew the Deep Magic, but there is a Deeper Magic she did not know. If a willing victim who had committed no treachery was killed in a traitor’s stead, the Table would crack and Death itself would start working backward!’”",
         hint: "Read Aslan's explanation in the excerpt about the 'Deeper Magic from before the dawn of time'!",
         explanation: "The Deeper Magic unknown to the Witch decreed that an innocent, willing sacrifice on behalf of a traitor shatters death and resurrects the innocent victim."
@@ -619,12 +619,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'mat-1',
         question: "What did Matilda do when her father refused to buy her books and told her to watch television instead?",
         options: [
-          "She hid under her bed and refused to eat dinner.",
           "She walked by herself to the village public library every afternoon and read everything on the shelves.",
+          "She hid under her bed and refused to eat dinner.",
           "She secretly ordered encyclopedias using her mother's credit card.",
           "She wrote angry letters to the Prime Minister."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“‘Daddy,’ she said, ‘do you think you could buy me a book?’ ‘What’s wrong with the telly?’ he barked. So every afternoon, as soon as her mother left for bingo, Matilda walked down to the village public library all by herself. Mrs. Phelps, the librarian, watched in amazement as a four-year-old girl sat reading Great Expectations by Charles Dickens.”",
         hint: "Where did Matilda go on her own while her mother played bingo?",
         explanation: "Undeterred by her father's refusal, four-year-old Matilda walked to the local library every day, reading classics by Dickens, Hemingway, and Austen under the watchful eye of Mrs. Phelps."
@@ -633,12 +633,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'mat-2',
         question: "How did Matilda punish her arrogant father, Mr. Wormwood, after he unjustly tore up her library book?",
         options: [
-          "She put superglue along the inside rim of his favorite pork-pie hat.",
           "She painted his secondhand cars neon pink during the night.",
+          "She put superglue along the inside rim of his favorite pork-pie hat.",
           "She let all the air out of his car tires before work.",
           "She replaced his hair tonic with green food coloring."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Matilda slipped into the hall cloakroom with a tube of Superglue. She carefully ran a thin ring of glue all around the inside band of her father’s favorite hat. When Mr. Wormwood put it on to go to work, it stuck fast to his forehead. He had to keep it on all day, even when sleeping!”",
         hint: "Look at what Matilda applied to the inside band of her father's favorite pork-pie hat!",
         explanation: "To teach him a lesson for ripping up her book, Matilda coated the inside band of Mr. Wormwood's hat with superglue, forcing him to wear it everywhere, even to bed."
@@ -648,11 +648,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What cruel punishment room does the terrifying headmistress, Miss Trunchbull, use to terrorize students?",
         options: [
           "The Dungeon",
-          "The Chokey",
+          "The Spiky Shed",
           "The Iron Closet",
-          "The Spiky Shed"
+          "The Chokey"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“‘Have you heard of The Chokey?’ whispered Hortensia. ‘It’s a tall, narrow cupboard with walls covered in broken glass and sharp nails sticking out. You can’t sit down, you can’t lean against the walls, and the Trunchbull locks you in there for hours in pitch darkness!’”",
         hint: "Read the horrifying name of the narrow, nail-lined cupboard in Hortensia's quote!",
         explanation: "Miss Trunchbull used 'The Chokey'—a narrow, pitch-dark closet lined with broken glass and rusty nails—to terrorize and torture innocent children."
@@ -662,11 +662,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What heroic feat did young Bruce Bogtrotter accomplish during a school assembly to Miss Trunchbull's absolute fury?",
         options: [
           "He climbed to the very top of the flagpole and tied a white flag.",
-          "He ate an entire massive sixteen-inch chocolate cake by himself down to the very last crumb.",
           "He caught Miss Trunchbull's hammer throw in mid-air.",
+          "He ate an entire massive sixteen-inch chocolate cake by himself down to the very last crumb.",
           "He recited the entire times table up to one hundred backward without stopping."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“‘Eat!’ bellowed the Trunchbull. ‘You stole a slice of my private chocolate cake, so you will eat the entire cake!’ It was a monster, two feet across and covered in rich chocolate cream. Bruce chewed and choked, but he kept going. When he swallowed the final crumb, the whole school erupted in wild cheering!”",
         hint: "What gigantic chocolate dessert did Bruce finish eating in front of the whole school?",
         explanation: "Miss Trunchbull tried to punish Bruce Bogtrotter for stealing a slice of her cake by forcing him to eat an enormous chocolate cake until he burst, but Bruce miraculously finished every single bite to the school's cheers."
@@ -675,12 +675,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'mat-5',
         question: "What small amphibian did Lavender place into Miss Trunchbull's water pitcher to play a prank on her?",
         options: [
-          "A green tree frog",
           "A slimy newt",
+          "A green tree frog",
           "A spotted salamander",
           "A small pond toad"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Lavender had captured a muddy newt with a bright orange belly from the pond. Before class began, she carefully tipped the creature into the glass water jug on the teacher’s table. When the Trunchbull poured a glass of water, plop! Out splashed the wriggling creature right into her cup!”",
         hint: "Check the passage: what pond creature with an orange belly did Lavender catch?",
         explanation: "Lavender caught a slimy newt in a pond and dropped it into Miss Trunchbull's water pitcher. When Trunchbull poured water, the newt splashed into her glass and startled her."
@@ -689,12 +689,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'mat-6',
         question: "How did Matilda discover her telekinetic power for the very first time?",
         options: [
-          "She concentrated her intense eye gaze to tip over the glass of water containing the newt.",
           "She lifted her heavy desk into the air to stop Miss Trunchbull from hitting her.",
+          "She concentrated her intense eye gaze to tip over the glass of water containing the newt.",
           "She opened the locked front gates of the school using her mind.",
           "She made her father's television screen explode during a broadcast."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Matilda felt a strange fiery power surging behind her eyes. ‘Tip it over!’ she willed silently. ‘Tip it over!’ She focused all her mind’s energy onto the glass containing the newt. Tiny sparks of lightning seemed to shoot from her eyes, and suddenly, slowly, the heavy glass toppled over onto the Trunchbull’s chest!”",
         hint: "What object did Matilda focus her fiery eye energy on to topple it over?",
         explanation: "Enraged by Miss Trunchbull falsely accusing her of putting the newt in the glass, Matilda channeled her immense mental focus into her eyes, causing the glass to tip over onto the headmistress."
@@ -703,12 +703,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'mat-7',
         question: "What tragic secret connects the sweet teacher Miss Honey to Miss Trunchbull?",
         options: [
-          "Miss Trunchbull is actually Miss Honey's cruel aunt who took over her father's house and stole her inheritance.",
+          "Miss Trunchbull adopted Miss Honey from an orphanage in London.",
           "Miss Honey used to be Miss Trunchbull's teacher in primary school.",
           "They are sisters who fought over the ownership of the school.",
-          "Miss Trunchbull adopted Miss Honey from an orphanage in London."
+          "Miss Trunchbull is actually Miss Honey's cruel aunt who took over her father's house and stole her inheritance."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“‘Miss Trunchbull is my aunt,’ Miss Honey whispered. ‘Her name is Agatha. When my dear father, Dr. Magnus Honey, died under mysterious circumstances, she seized his house, kept all his money, and treated me like a slave for years.’”",
         hint: "Look at Miss Honey's revelation: what family relation is Miss Trunchbull to her?",
         explanation: "Miss Trunchbull is Miss Honey's aunt Agatha, who seized the family estate and salary after Dr. Magnus Honey's suspicious death, leaving Miss Honey to live in extreme poverty in a cottage without furniture or plumbing."
@@ -718,11 +718,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "How does Matilda use her telekinetic powers during class to permanently frighten Miss Trunchbull away?",
         options: [
           "She flies around the classroom like a superhero.",
-          "She uses her mind to lift chalk and write a message on the blackboard pretending to be Magnus Honey's ghost.",
           "She locks Miss Trunchbull inside The Chokey from across the room.",
+          "She uses her mind to lift chalk and write a message on the blackboard pretending to be Magnus Honey's ghost.",
           "She causes all the windows in the assembly hall to shatter simultaneously."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“The piece of chalk rose into the air and began to write across the blackboard: ‘Agatha, this is Magnus. Give my Jenny her house. Give my Jenny her money. If you don’t, I will come and get you!’ The Trunchbull’s face turned white as chalk. She screamed, fainted to the floor, and fled the town forever!”",
         hint: "Look at what the floating piece of chalk wrote on the blackboard in the excerpt!",
         explanation: "Matilda practiced moving chalk with her eyes until she could write a terrifying message on the board demanding that Agatha return Jenny Honey's house, posing as the ghost of Miss Honey's late father Magnus."
@@ -745,12 +745,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'mat-10',
         question: "What happy ending is arranged for Matilda when her family leaves the country?",
         options: [
-          "She moves into a luxury boarding school in Switzerland.",
           "Her parents agree to let Miss Honey adopt her, and they live happily together in Miss Honey's reclaimed house.",
+          "She moves into a luxury boarding school in Switzerland.",
           "She becomes the youngest headmistress of Crunchem Hall.",
           "She moves in with Mrs. Phelps at the village library."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“‘Let me stay with Miss Honey!’ Matilda begged. ‘You don’t care about me anyway!’ Mr. Wormwood shrugged. ‘One less mouth to feed,’ he grunted, signing the adoption papers on the boot of his car. Matilda threw her arms around Miss Honey as the Wormwoods sped off forever.”",
         hint: "Who does Matilda ask to stay with instead of moving to Spain?",
         explanation: "Her parents gladly surrendered custody because they never appreciated Matilda, allowing Miss Honey to officially adopt her so they could live together as a loving family in Dr. Honey's reclaimed home."
@@ -771,11 +771,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What unusual sight causes Alice to leap to her feet and follow the White Rabbit into the rabbit hole?",
         options: [
           "He was riding a tiny bicycle through the daisies.",
-          "He wore a waistcoat and took a pocket watch out of his pocket, muttering that he was late.",
           "He had bright pink sunglasses and was playing an accordion.",
+          "He wore a waistcoat and took a pocket watch out of his pocket, muttering that he was late.",
           "He dropped a gold key that unlocked an iron gate."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“There was nothing very remarkable in hearing the Rabbit say: ‘Oh dear! I shall be late!’ But when the Rabbit actually took a watch out of its waistcoat pocket, looked at it, and hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat pocket or a watch to take out of it!”",
         hint: "What clothing item and accessory did the White Rabbit pull out that shocked Alice?",
         explanation: "Alice had seen rabbits before, but never one wearing a waistcoat with a pocket watch checking the time and speaking English, sparking her irresistible curiosity."
@@ -785,11 +785,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What happened to Alice when she drank from the glass bottle labeled 'DRINK ME' on the three-legged glass table?",
         options: [
           "She fell fast asleep for a hundred years.",
-          "She shrank down until she was only ten inches high.",
+          "She turned invisible from head to toe.",
           "She grew so tall her head bumped into the ceiling.",
-          "She turned invisible from head to toe."
+          "She shrank down until she was only ten inches high."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“It was all very well to say ‘Drink me,’ but wise little Alice was not going to do that in a hurry without checking for poison. Finding no poison mark, she tasted it, and found it delicious. ‘What a curious feeling!’ said Alice. ‘I must be shutting up like a telescope!’ And so it was: she was now only ten inches high.”",
         hint: "Check the passage: how small did Alice become after sipping the bottle?",
         explanation: "Drinking from the 'DRINK ME' bottle caused Alice to shrink like a telescope until she was only ten inches tall, allowing her to see the little door to the garden."
@@ -812,12 +812,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'aw-4',
         question: "Why are the Mad Hatter, the March Hare, and the Dormouse trapped in an eternal, never-ending tea party?",
         options: [
-          "They ran out of clean teacups and cannot wash dishes.",
           "The Hatter had a quarrel with Time, so Time stopped the clock at six o'clock forever.",
+          "They ran out of clean teacups and cannot wash dishes.",
           "The Queen of Hearts ordered them to drink tea until sunset as a royal decree.",
           "The teapot is enchanted and never runs dry."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“‘It’s always six o’clock now,’ sighed the Hatter. ‘We had a dreadful quarrel last March, just before he went mad. I was singing for the Queen, and she screamed: ‘He’s murdering time!’ Ever since then, Time won’t do a thing I ask! It’s always six o’clock—always tea-time, and we’ve no time to wash the things between whiles!’”",
         hint: "Who did the Hatter quarrel with so that the clock remains permanently stuck at six o'clock?",
         explanation: "The Hatter offended Time at a concert, so Time froze the hour at six o'clock—tea-time—meaning they must continuously move around the table from one cup to the next."
@@ -826,12 +826,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'aw-5',
         question: "What riddle does the Mad Hatter pose to Alice that famously has no actual answer in the original story?",
         options: [
-          "“Why is a raven like a writing desk?”",
-          "“Where does the candle flame go when it is blown out?”",
           "“How many stars can dance on a teacup?”",
+          "“Where does the candle flame go when it is blown out?”",
+          "“Why is a raven like a writing desk?”",
           "“Why does the moon smile on Tuesdays?”"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“The Hatter opened his eyes very wide on hearing this; but all he said was, ‘Why is a raven like a writing desk?’ ‘Come, we shall have some fun now!’ thought Alice. ‘I’m glad they’ve begun asking riddles—I believe I can guess that.’ But when she gave up, the Hatter confessed: ‘I haven’t the slightest idea!’”",
         hint: "Look at the Hatter's riddle about a bird and a piece of furniture in the excerpt!",
         explanation: "The Hatter asked: 'Why is a raven like a writing desk?'. Alice spent time trying to deduce the answer, only for the Hatter and March Hare to admit they had no answer at all!"
@@ -841,11 +841,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What are the playing-card gardeners furiously doing to the white rose trees when Alice enters the Queen's garden?",
         options: [
           "Pruning the thorns so they do not scratch the King.",
-          "Painting the white roses red with paintbrushes because the Queen demanded red roses.",
+          "Digging up their roots to plant tulip bulbs.",
           "Watering them with strawberry juice to make them smell like candy.",
-          "Digging up their roots to plant tulip bulbs."
+          "Painting the white roses red with paintbrushes because the Queen demanded red roses."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“Three gardeners were busy painting a large white rose-tree red. ‘Would you tell me,’ said Alice, ‘why you are painting those roses?’ ‘Why, Miss,’ said Two, ‘the fact is, this ought to have been a red rose-tree, and we put in a white one by mistake. If the Queen was to find out, we should all have our heads cut off!’”",
         hint: "Why were the gardeners covering the white petals with red paint?",
         explanation: "The gardeners mistakenly planted a white rose bush instead of a red one. Terrified that the Queen of Hearts would execute them, they scrambled to paint all the petals red before she arrived."
@@ -868,12 +868,12 @@ export const CLASSIC_BOOKS: Book[] = [
         id: 'aw-8',
         question: "What is the Queen of Hearts' catchphrase whenever anyone displeases her?",
         options: [
-          "“Lock them in the deepest tower!”",
           "“Off with their heads!”",
+          "“Lock them in the deepest tower!”",
           "“Turn them into card games!”",
           "“Throw them down the well!”"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“The Queen turned crimson with fury, and glared at Alice like a wild beast. ‘Off with her head!’ the Queen shouted at the top of her voice. ‘Off with—’ ‘Nonsense!’ said Alice, very loudly and decidedly, and the Queen was silent.”",
         hint: "What severe order does the Queen shout in the passage?",
         explanation: "The tyrannical Queen of Hearts solves every trivial disagreement or annoyance by bellowing her infamous command: 'Off with their heads!'"
@@ -883,11 +883,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "What was the Knave of Hearts accused of stealing during the courtroom trial?",
         options: [
           "The Queen's golden crown",
-          "The tarts baked by the Queen on a summer day",
           "The King's royal pocket watch",
+          "The tarts baked by the Queen on a summer day",
           "The White Rabbit's white kid gloves"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“The White Rabbit blew three blasts on the trumpet, unrolled the parchment scroll, and read as follows: ‘The Queen of Hearts, she made some tarts, all on a summer day: The Knave of Hearts, he stole those tarts, and took them quite away!’”",
         hint: "Look at the rhyme read by the White Rabbit in the courtroom excerpt!",
         explanation: "Based on the famous nursery rhyme, the Knave of Hearts stood trial before the King and Queen on charges of stealing a dish of freshly baked tarts."
@@ -897,11 +897,11 @@ export const CLASSIC_BOOKS: Book[] = [
         question: "How does Alice wake up from her fantastical dream in Wonderland?",
         options: [
           "She falls into a pool of tears and splashes her face.",
-          "When the Queen orders the cards to attack, Alice shouts 'You're nothing but a pack of cards!' and awakens with dry leaves brushing her face.",
+          "Her cat Dinah purrs loudly in her ear.",
           "The White Rabbit drops his pocket watch, which rings like an alarm clock.",
-          "Her cat Dinah purrs loudly in her ear."
+          "When the Queen orders the cards to attack, Alice shouts 'You're nothing but a pack of cards!' and awakens with dry leaves brushing her face."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“‘Who cares for you?’ said Alice (she had grown to her full size by this time). ‘You’re nothing but a pack of cards!’ At this the whole pack rose up into the air, and came flying down upon her. She gave a little scream, and woke up to find her head in the lap of her sister, gently brushing away some dead leaves that had fluttered down from the trees.”",
         hint: "Read Alice's bold shout to the court cards before she awakens under the tree!",
         explanation: "Realizing the absurdity of the courtroom, Alice declares that the court is merely a deck of ordinary playing cards. The cards flutter into the air, and Alice wakes up on the riverbank to find dead leaves drifting over her face."

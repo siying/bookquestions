@@ -15,12 +15,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth1-1',
         question: "Where do Jack and Annie first discover the magic tree house filled with books?",
         options: [
-          "High in the tallest oak tree in the Frog Creek woods",
           "In their neighbor's abandoned backyard shed",
+          "High in the tallest oak tree in the Frog Creek woods",
           "Deep inside a hidden cave near the town library",
           "On top of the Frog Creek elementary school roof"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Jack ran into the Frog Creek woods after Annie. ‘Look, Jack!’ she called, pointing up into the branches. There was the tallest oak tree in the woods. And high up near the top was a wooden tree house tucked between two branches, with a rope ladder hanging all the way down.”",
         hint: "Look at where Annie pointed in the Frog Creek woods!",
         explanation: "Jack and Annie found the mysterious tree house nestled high up in the tallest oak tree of the Frog Creek woods in Pennsylvania."
@@ -29,12 +29,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth1-2',
         question: "How does the magic tree house start spinning and travel through time?",
         options: [
-          "Jack turns a secret bronze dial hidden on the wall.",
           "Someone points to a picture in an open book and wishes they could go there.",
+          "Jack turns a secret bronze dial hidden on the wall.",
           "Annie whispers an enchanted rhyme three times in a row.",
           "A gust of wind strikes the magical wind chime on the roof."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Jack opened the book on dinosaurs and stared at a picture of a Pteranodon. ‘I wish I could see a Pteranodon for real,’ he whispered. Suddenly the wind began to blow. The tree house started to spin. It spun faster and faster, until everything was still. Absolutely still.”",
         hint: "Notice what Jack does while pointing at the picture of the flying reptile in the book!",
         explanation: "The magic tree house is activated when someone points to an illustration in an open book and makes a wish to go there."
@@ -44,11 +44,11 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         question: "What kind of dinosaur is the gentle flying reptile that Jack and Annie meet first and nickname 'Henry'?",
         options: [
           "A Velociraptor",
-          "A Pteranodon",
           "A Stegosaurus",
+          "A Pteranodon",
           "An Ankylosaurus"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“The creature had a huge crest on the back of its head and no teeth in its long beak. Its wings were like giant bat wings made of soft skin. Jack read his notebook: ‘P-t-e-r-a-n-o-d-o-n. Cretaceous period. Sixty-five million years ago.’ Annie reached out her hand and gently stroked its head. ‘I’ll call you Henry,’ she whispered.”",
         hint: "Check the name Jack read in his scientific notebook!",
         explanation: "The flying reptile was a Pteranodon. Annie immediately bonded with him and affectionately nicknamed him Henry."
@@ -58,11 +58,11 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         question: "What important tool does Jack always carry in his backpack to record facts during their adventures?",
         options: [
           "A magnifying glass and tweezers",
-          "A notebook and pencil",
+          "A disposable camera",
           "A compass and binoculars",
-          "A disposable camera"
+          "A notebook and pencil"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“Jack pulled his small notebook and pencil out of his pack. He loved taking notes. He wrote down everything he saw so he could remember the facts later: ‘Fuzzy skin, bony crest, toothless beak.’ He pushed his glasses up his nose and kept writing.”",
         hint: "What stationery item does Jack pull out of his backpack whenever he observes something new?",
         explanation: "Jack is observant and studious; he always carries his notebook and pencil to write down facts and sketch clues on every journey."
@@ -85,12 +85,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth1-6',
         question: "What giant carnivorous dinosaur suddenly stalks Jack near the tree house?",
         options: [
-          "A Spinosaurus",
           "A Tyrannosaurus rex",
+          "A Spinosaurus",
           "An Allosaurus",
           "A Megalosaurus"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Jack looked up. Emerging from the edge of the dark forest was an enormous monster. It was walking on two muscular hind legs. It had tiny front arms, a thick scaly tail, and huge jaws filled with dagger-sharp teeth. ‘T-Rex!’ Jack gasped, frozen with terror.”",
         hint: "Look at the description of the giant two-legged predator with tiny arms and dagger-like teeth!",
         explanation: "A terrifying Tyrannosaurus rex appeared between Jack and the rope ladder of the tree house."
@@ -100,11 +100,11 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         question: "How does Jack escape the Tyrannosaurus rex and get back to the tree house?",
         options: [
           "Annie hits the T-rex with a large pinecone.",
-          "Henry the Pteranodon flies down and lets Jack ride on his back.",
           "Jack hides inside an empty dinosaur egg until the T-rex walks away.",
+          "Henry the Pteranodon flies down and lets Jack ride on his back.",
           "Jack digs a deep trench in the mud."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“Henry swooped down from the sky. He landed right beside Jack and spread his giant leathery wings. ‘Climb on!’ shouted Annie from the tree. Jack threw his arms around the Pteranodon’s neck, and with a powerful flap, they soared up into the blue sky, leaving the snapping jaws of the T-Rex far below!”",
         hint: "Who swooped down from the sky to give Jack a ride above the roaring monster?",
         explanation: "Henry the friendly Pteranodon rescued Jack by letting him climb onto his back and flying him safely back to the oak tree."
@@ -113,12 +113,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth1-8',
         question: "What dinosaur nest did Annie investigate earlier that caused the mother Anatosaurus to trumpet loudly?",
         options: [
-          "A nest filled with fifteen giant speckled eggs",
+          "A hollow log filled with ancient fossils",
           "A nest of glowing green crystals",
           "A cave filled with sleeping baby pterosaurs",
-          "A hollow log filled with ancient fossils"
+          "A nest filled with fifteen giant speckled eggs"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Annie had crawled right into a massive mud mound. Inside were giant dinosaur eggs, each as big as a basketball. Suddenly a huge duck-billed dinosaur reared up and honked like a foghorn to defend her babies. ‘Stay very still,’ Jack warned.”",
         hint: "What was inside the mud mound that Annie crawled into?",
         explanation: "Annie crawled up to an Anatosaurus (duck-billed dinosaur) nest filled with giant eggs, alarming the protective mother."
@@ -127,12 +127,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth1-9',
         question: "How do Jack and Annie return back home to Frog Creek from the prehistoric age?",
         options: [
-          "Jack points to a picture of Frog Creek woods in the Pennsylvania book and makes a wish.",
-          "Annie waves the gold medallion over her head three times.",
           "They wait until the dinosaur sunset triggers an automatic portal.",
+          "Annie waves the gold medallion over her head three times.",
+          "Jack points to a picture of Frog Creek woods in the Pennsylvania book and makes a wish.",
           "They jump out of the tree house window into a pond."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Jack grabbed the book with the picture of Frog Creek. He slammed his finger onto the photo of their hometown woods. ‘I wish we could go home!’ he cried. The wind began to howl. The tree house spun faster and faster until everything was still.”",
         hint: "What book and picture did Jack point to when he made his desperate wish?",
         explanation: "Jack found the book with a picture of Frog Creek, pointed to the photo of their hometown, and wished to return home."
@@ -169,11 +169,11 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         question: "What time of day do Jack and Annie sneak out to the tree house in this adventure?",
         options: [
           "At midnight during a lightning storm",
-          "Before dawn while it is still dark outside",
+          "Right after sunset on Halloween night",
           "At noon during lunchtime recess",
-          "Right after sunset on Halloween night"
+          "Before dawn while it is still dark outside"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“Jack woke up and saw Annie standing by his bed with a flashlight. ‘The tree house is calling,’ she whispered. The sky was still inky black. The digital clock read 5:35 A.M. They slipped on their sneakers and crept quietly through the sleeping house into the cool morning air before dawn.”",
         hint: "What time was on the digital clock when Annie woke Jack with a flashlight?",
         explanation: "Annie woke Jack up before sunrise at 5:35 A.M., and they crept out to the tree house while the rest of the world was still asleep."
@@ -182,12 +182,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth2-2',
         question: "What book does Annie open that transports them to medieval Europe?",
         options: [
-          "A book about knights, castles, and squires",
-          "A book about pirate treasure maps",
           "A fairytale about dragons and sleeping princesses",
+          "A book about pirate treasure maps",
+          "A book about knights, castles, and squires",
           "An encyclopedia of ancient Roman arenas"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Annie held up a book with a silk bookmark sticking out. On the cover was a knight riding on a mighty black steed toward a stone fortress. ‘Look, Jack! A knight!’ Annie pointed to the picture. ‘I wish I could see this knight in real life!’”",
         hint: "Look at the cover illustration described in the excerpt!",
         explanation: "Annie opened a book about medieval times featuring a picture of a knight riding toward a castle and wished to see him."
@@ -196,12 +196,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth2-3',
         question: "What defensive feature surrounded the stone castle that made entering it tricky?",
         options: [
-          "A ring of boiling magma",
           "A deep water-filled moat crossed by a wooden drawbridge",
+          "A ring of boiling magma",
           "A hedge of poisonous giant thorn bushes",
           "A line of catapults guarding every gate"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Across the green meadow stood a massive gray castle with stone towers. Surrounding the entire fortress was a wide, murky body of water. ‘That’s a moat,’ Jack said, checking his book. ‘It was built to keep enemies from attacking the castle walls. The only way in is across the drawbridge.’”",
         hint: "What is the name for the wide, murky water trench surrounding a medieval fortress?",
         explanation: "The castle was surrounded by a deep moat filled with murky water, requiring them to cross over the wooden drawbridge."
@@ -224,12 +224,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth2-5',
         question: "Why do the guards shout 'Spies!' and arrest Jack and Annie in the castle?",
         options: [
-          "They dropped their flashlight and it rolled across the Great Hall floor.",
+          "Jack took out a map and flashlight in front of the gatekeepers.",
           "They tried to steal the King's silver goblet.",
           "Annie started singing a modern pop song.",
-          "Jack took out a map and flashlight in front of the gatekeepers."
+          "They dropped their flashlight and it rolled across the Great Hall floor."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Annie gasped and accidentally dropped the metal flashlight. CLATTER! It rolled across the stone floor straight into the Great Hall, shining its beam right into the face of a fierce guard with a spear. ‘Spies!’ the guard roared, pointing at Jack and Annie. ‘Seize them!’”",
         hint: "What metal object did Annie accidentally drop that clattered across the floor?",
         explanation: "Annie accidentally dropped the battery-powered flashlight; its clatter and modern glowing beam alerted the guards, who assumed they were enemy spies."
@@ -239,11 +239,11 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         question: "Where do the fierce castle guards lock Jack and Annie after capturing them?",
         options: [
           "In the highest tower balcony",
-          "In a cold, dark dungeon beneath the castle",
           "Inside an empty wooden wine barrel",
+          "In a cold, dark dungeon beneath the castle",
           "In the royal stables behind the horses"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“The guards marched Jack and Annie down steep, spiral stone stairs into the freezing damp bowels of the fortress. They shoved them into a cell with heavy iron bars. ‘Welcome to the dungeon, little spies,’ sneered the guard, slamming the iron door shut with a loud clang.”",
         hint: "What is the cold underground prison cell beneath the castle called?",
         explanation: "The guards took them down spiral stairs and locked them inside a cold, dark dungeon beneath the fortress."
@@ -252,12 +252,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth2-7',
         question: "How do Jack and Annie discover a secret escape route out of the dungeon?",
         options: [
-          "They bribe the guard with chocolate candies.",
           "Jack finds a trapdoor hidden in the dungeon floor that leads to a secret underground tunnel.",
+          "They bribe the guard with chocolate candies.",
           "Annie uses a bobby pin to pick the lock on the iron door.",
           "The flashlight battery suddenly explodes the door hinges."
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Jack read his castle book by the dim light: ‘Many medieval castles had secret passageways built beneath the dungeons.’ Jack tapped the cold stone floor with his shoe. One stone sounded hollow! Together, they pulled up a wooden trapdoor and saw stairs leading down into a secret tunnel.”",
         hint: "Look at what sounded hollow when Jack tapped his shoe on the floor!",
         explanation: "Jack remembered from his book that castles had secret passages; they found a hollow stone hiding a trapdoor that led to an underground escape tunnel."
@@ -266,12 +266,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth2-8',
         question: "When the secret tunnel leads them out under the castle wall, what obstacle do they fall into?",
         options: [
-          "The freezing, murky waters of the castle moat",
           "A muddy pigsty outside the kitchen",
+          "The freezing, murky waters of the castle moat",
           "A thick briar patch filled with nettles",
           "The raging waterfall of the river"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“SPLASH! Jack plunged straight into freezing, murky water. He gasped for air, his heavy backpack pulling him down. ‘Jack! We’re in the moat!’ Annie cried, dog-paddling beside him. Jack kicked with all his might toward the muddy bank.”",
         hint: "What body of water around the castle did the tunnel dump them into?",
         explanation: "The underground tunnel opened up right into the castle moat, forcing them to swim through the freezing, murky water to reach the shore."
@@ -280,12 +280,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth2-9',
         question: "Who appears in shining armor on a magnificent black horse to help them across the foggy field?",
         options: [
-          "Sir Lancelot of the Round Table",
           "A mysterious silent Knight with a shining helmet visor",
+          "Sir Lancelot of the Round Table",
           "The castle's court jester in disguise",
           "King Arthur himself"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Through the thick morning mist rode a knight on a huge black horse. His silver armor gleamed in the dim light, and his helmet covered his face. He didn’t say a single word. He reached down with his gauntleted hand, lifted Annie, then Jack, onto the saddle, and galloped silently through the dark toward the woods.”",
         hint: "Who rode up on the black horse with shining armor and silently lifted them up?",
         explanation: "A mysterious, silent knight in shining silver armor appeared on a black warhorse and carried them safely through the fog back to the oak tree."
@@ -294,12 +294,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth2-10',
         question: "What second clue engraved with the letter 'M' do Jack and Annie notice about their adventure?",
         options: [
-          "A blue velvet bookmark with the letter 'M' woven in gold thread",
-          "The knight's shield had a dragon painted on it",
           "A silver coin dropped in the tree house with an 'M' stamp",
+          "The knight's shield had a dragon painted on it",
+          "A blue velvet bookmark with the letter 'M' woven in gold thread",
           "The tree house rope ladder was tied with a golden rope"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Back in the tree house, Jack picked up the medieval castle book. Tucked inside the pages was a ribbon bookmark made of rich blue velvet. Stitched into the velvet with shiny golden thread was the exact same letter: ‘M’. ‘The same person who owned the dinosaur medallion owns these books!’ Jack breathed.”",
         hint: "What bookmark inside the castle book had the letter 'M' stitched onto it?",
         explanation: "The castle book contained a blue velvet bookmark embroidered with the same golden 'M' found on the dinosaur medallion, deepening the mystery of the tree house's owner."
@@ -321,12 +321,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth3-1',
         question: "What mysterious pet creature appears in the Frog Creek woods that leads Jack and Annie back to the tree house?",
         options: [
-          "A glowing golden owl",
           "A sleek black cat with sleek yellow eyes",
+          "A glowing golden owl",
           "A playful spotted dalmatian puppy",
           "A green chameleon sitting on a pinecone"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Sitting on the bottom rung of the rope ladder was a sleek black cat. It stared at Jack and Annie with unblinking, jewel-like yellow eyes. It gave a quiet meow, then darted up into the tree house. ‘Follow that cat!’ Annie cried, scampering up the ladder after it.”",
         hint: "Look at what animal was sitting on the rope ladder with yellow eyes!",
         explanation: "A sleek black cat with glowing yellow eyes appeared on the rope ladder and led Jack and Annie up into the tree house."
@@ -335,12 +335,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth3-2',
         question: "Where does the magic tree house take Jack and Annie in this adventure?",
         options: [
-          "Ancient Egypt by the pyramids and the Nile River",
-          "The Great Wall of China during a festival",
           "The Hanging Gardens of Babylon in Iraq",
+          "The Great Wall of China during a festival",
+          "Ancient Egypt by the pyramids and the Nile River",
           "The Aztec temples of ancient Mexico"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Jack pointed to a picture of an enormous stone pyramid rising out of golden sands under a scorching sun. The tree house spun, and when it stopped, hot, dry desert air blew through the window. In the distance stood the giant pyramids of ancient Egypt beside the sparkling blue Nile River.”",
         hint: "What country with pyramids and the Nile River did they travel to?",
         explanation: "The tree house took them to ancient Egypt, where colossal pyramids stood beside the Nile River in the scorching desert."
@@ -364,11 +364,11 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         question: "What animal leads Jack and Annie through a secret opening into the cool interior of the pyramid?",
         options: [
           "A desert jackal",
-          "The mysterious black cat",
+          "A desert camel",
           "A blue scarab beetle",
-          "A desert camel"
+          "The mysterious black cat"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 3,
         samplePassage: "“The black cat darted ahead across the burning desert sand. It slipped through a narrow, dark crevice in the base of the Great Pyramid. ‘Come on, Jack!’ Annie whispered, squeezing in after it. Inside, the air was cool, dim, and smelled of ancient cedar and dust.”",
         hint: "Who darted ahead across the sand and slipped through the narrow pyramid crack?",
         explanation: "The black cat guided Jack and Annie through a hidden crevice into the labyrinth of corridors inside the pyramid."
@@ -377,12 +377,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth3-5',
         question: "Who is the ghost queen that Jack and Annie encounter inside the dark burial chamber?",
         options: [
-          "Queen Cleopatra",
-          "Queen Nefertiti",
           "Queen Hutepi, Ghost of the Nile",
+          "Queen Nefertiti",
+          "Queen Cleopatra",
           "Queen Hatshepsut"
         ],
-        correctAnswerIndex: 2,
+        correctAnswerIndex: 0,
         samplePassage: "“A glowing translucent figure floated toward them from the shadows. She wore a pleated white linen gown and a golden headdress with a cobra. ‘I am Hutepi, Queen of the Nile,’ she spoke softly, her voice whispering like sand in the wind. ‘I have waited one thousand years for someone to help me.’”",
         hint: "Read the queen's name in her introductory words to Jack and Annie!",
         explanation: "They met Queen Hutepi, Ghost of the Nile, who had been trapped waiting in the tomb for a thousand years."
@@ -392,11 +392,11 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         question: "What crucial possession has Queen Hutepi lost that she needs to travel to the Next Life?",
         options: [
           "Her golden scepter and ruby crown",
-          "Her Book of the Dead (a scroll of magical spells and prayers)",
           "Her pet cat's jeweled collar",
+          "Her Book of the Dead (a scroll of magical spells and prayers)",
           "Her favorite diamond mirror"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“‘I cannot begin my journey to the Next Life without my Book of the Dead,’ Queen Hutepi wept softly. ‘It contains the magic prayers and passwords written on papyrus. Tomb robbers broke in centuries ago and hid it from me. Without it, my soul is trapped here forever!’”",
         hint: "What scroll containing prayers and passwords does Queen Hutepi need?",
         explanation: "Queen Hutepi needed her Book of the Dead—a sacred papyrus scroll containing spells and instructions necessary to pass the trials of the afterlife."
@@ -419,12 +419,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth3-8',
         question: "What symbols carved on the wall tell Jack and Annie where the scroll is hidden?",
         options: [
-          "A zigzag water line, a swimming bird, a hand, and a curved boat",
+          "A palm tree, a pyramid, a scarab, and a lion",
           "A fire bowl, an arrow, a mountain, and a sword",
           "A sun disk, an eagle, a snake, and a golden throne",
-          "A palm tree, a pyramid, a scarab, and a lion"
+          "A zigzag water line, a swimming bird, a hand, and a curved boat"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Jack read the symbols one by one from left to right: ‘Wavy lines mean water. A bird with wings. A human hand pointing down. And a curved boat!’ Jack gasped. ‘Water, bird, hand, boat! The scroll is hidden inside the wooden boat in the burial chamber!’”",
         hint: "Check the symbols Jack translated: wavy lines, bird, hand, and what kind of vessel?",
         explanation: "The hieroglyphics translated to water, bird, hand, and boat, revealing that the scroll was hidden inside the ornamental boat in the chamber."
@@ -447,12 +447,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth3-10',
         question: "What third clue with the letter 'M' do Jack and Annie notice on the floor of the tree house?",
         options: [
-          "The letter 'M' drawn in the dust on the wooden floorboards",
-          "An Egyptian scarab medallion with the letter 'M'",
           "A papyrus scroll tied with an 'M' ribbon",
+          "An Egyptian scarab medallion with the letter 'M'",
+          "The letter 'M' drawn in the dust on the wooden floorboards",
           "A hieroglyphic tablet stamped with an 'M'"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“When the tree house landed safely back in Frog Creek, a beam of afternoon sunlight fell across the wooden floor. Jack looked down and gasped. Drawn clearly in the dust was a giant, elegant letter: ‘M’. ‘The person who owns this tree house was just here while we were in Egypt!’ Jack whispered.”",
         hint: "Where was the letter 'M' drawn in the tree house upon their return?",
         explanation: "Drawn clearly in the dust on the floor of the tree house was the letter 'M', showing that the mysterious owner had visited while they were away."
@@ -488,12 +488,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth4-2',
         question: "What paradise destination does Annie wish for when she sees an open book of sunny blue ocean waves?",
         options: [
-          "A tropical Caribbean beach with sunny palm trees",
+          "A stormy lighthouse off the coast of Maine",
           "The icy coast of Antarctica with penguins",
           "A bustling fishing harbor in Tokyo",
-          "A stormy lighthouse off the coast of Maine"
+          "A tropical Caribbean beach with sunny palm trees"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Annie stared at an open book showing bright blue water, green palm trees, and warm white sand. ‘Oh, I wish I was there right now instead of this freezing rain!’ she sighed. The wind began to whistle, the tree house started to spin, and suddenly warm tropical sea breeze rushed through the window.”",
         hint: "What did the open book show that made Annie wish to escape the cold rain?",
         explanation: "Annie wished to escape the cold rain by pointing to an illustration of a tropical sunny beach with turquoise water and palm trees."
@@ -530,12 +530,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth4-5',
         question: "Why does Captain Bones force Jack to read the secret treasure map?",
         options: [
-          "Captain Bones cannot read or write words.",
           "Captain Bones lost his reading glasses overboard.",
+          "Captain Bones cannot read or write words.",
           "The map is written in an ancient Greek code.",
           "The map is microscopic and requires Jack's magnifying glass."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Captain Bones shoved a crumpled, faded parchment scroll into Jack’s hands. ‘Read it, matey!’ Bones bellowed. ‘You’re a clever lad with spectacles. Read the words! Cap’n Bones never learned to read his ABCs!’ Jack realized the fierce captain was completely illiterate.”",
         hint: "What basic skill did Captain Bones admit he never learned?",
         explanation: "Captain Bones never learned how to read, so he forced Jack to read the parchment riddle that would lead to the buried treasure."
@@ -544,12 +544,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth4-6',
         question: "What is the famous riddle written on the pirate treasure map?",
         options: [
-          "“The gold doth lie beneath the whale’s eye.”",
+          "“Dig deep where the red parrot sleeps.”",
           "“Follow the rising sun to the hollow tree.”",
           "“Three paces north of the weeping skull.”",
-          "“Dig deep where the red parrot sleeps.”"
+          "“The gold doth lie beneath the whale’s eye.”"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Jack read the faded cursive writing aloud to the rowdy pirates: ‘The gold doth lie beneath the whale’s eye.’ ‘The whale’s eye?’ yelled Captain Bones, scratching his greasy beard. ‘What in blazes does that mean?!’”",
         hint: "Look at the exact rhyme Jack read aloud about the gold and an ocean mammal's eye!",
         explanation: "The treasure map riddle stated: 'The gold doth lie beneath the whale’s eye.'"
@@ -558,12 +558,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth4-7',
         question: "What landmark on the island turns out to be the 'whale' in the riddle?",
         options: [
-          "A giant sea turtle shell on the reef",
           "A massive black rock formation shaped like a whale rising out of the water",
+          "A giant sea turtle shell on the reef",
           "A wooden carving on the front of a sunken ship",
           "A sandy sandbar near the mouth of the bay"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Jack looked across the lagoon. In the shallow water stood an enormous curved black rock that looked exactly like a humpback whale jumping from the sea! Near the top of the rock was a small round cave. ‘The black rock is the whale!’ Jack gasped. ‘And the cave is the whale’s eye!’”",
         hint: "What was shaped like a whale with a cave that looked like an eye?",
         explanation: "The 'whale' was an enormous black stone formation in the lagoon shaped like a whale, with a small round cave acting as its 'eye'."
@@ -572,12 +572,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth4-8',
         question: "What sudden natural event causes Captain Bones and his pirates to panic and flee back to their ship?",
         options: [
-          "A violent tropical hurricane with howling winds and black thunderclouds",
-          "An erupting volcano on the center of the island",
           "A swarm of millions of flying killer bees",
+          "An erupting volcano on the center of the island",
+          "A violent tropical hurricane with howling winds and black thunderclouds",
           "An earthquake that splits the beach open"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“The sky turned pitch black in an instant. Gale-force winds whipped palm fronds across the beach, and giant white-capped waves crashed against the shore. ‘A squall! A hurricane!’ shrieked the pirates, dropping their shovels in terror. ‘To the ship, mates, or the gale will smash her to toothpicks!’”",
         hint: "What weather storm with gale-force winds and crashing waves terrified the pirates?",
         explanation: "A violent hurricane squall hit the island, sending the superstitious pirates running for their lives to save their ship."
@@ -600,12 +600,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth4-10',
         question: "At the end of Book #4, who finally reveals herself as the mysterious owner of the tree house and creator of the magic?",
         options: [
-          "Morgan le Fay, the enchanted enchantress and librarian sister of King Arthur",
+          "Their school librarian Mrs. Peterson in costume",
           "Queen Elizabeth the First of England",
           "A fairy godmother from the magical realm of Camelot",
-          "Their school librarian Mrs. Peterson in costume"
+          "Morgan le Fay, the enchanted enchantress and librarian sister of King Arthur"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Sitting in the tree house was an elegant older woman with silver hair and twinkling eyes, wearing a flowing green cloak. ‘I am Morgan le Fay,’ she said with a warm smile. ‘I am King Arthur’s sister from Camelot. I travel through time and space collecting books for my library, and I have been watching you two very closely.’”",
         hint: "Read the woman's name and royal relationship to King Arthur!",
         explanation: "Morgan le Fay, the enchantress and royal librarian of Camelot, revealed that she owned the tree house and left the books for them to explore."
@@ -627,12 +627,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth5-1',
         question: "What terrible crisis has happened to Morgan le Fay at the start of this adventure?",
         options: [
-          "She has been placed under a dark wizard's spell and turned into a mouse.",
-          "She lost her magic wand in the Frog Creek library.",
           "She was kidnapped by Roman gladiators.",
+          "She lost her magic wand in the Frog Creek library.",
+          "She has been placed under a dark wizard's spell and turned into a mouse.",
           "Her camelot castle was destroyed by an earthquake."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Morgan le Fay was not in the tree house. Instead, a tiny brown mouse was sitting on a scrap of parchment. The note read: ‘Help me. A dark spell has fallen over me. Find four ancient objects to break the enchantment.’ Annie scooped up the mouse gently. ‘I’ll call you Peanut,’ she said.”",
         hint: "What tiny animal was sitting on the parchment note asking for help?",
         explanation: "Morgan le Fay had been placed under a dark enchantment and transformed into a tiny brown mouse, whom Annie named Peanut."
@@ -641,12 +641,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth5-2',
         question: "How many special objects must Jack and Annie find across their next four adventures to break Morgan's spell?",
         options: [
-          "Two golden keys",
           "Four ancient magical objects",
+          "Two golden keys",
           "Seven rainbow gemstones",
           "Ten scrolls of wisdom"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Jack read Morgan’s message again: ‘To release me from this spell, you must journey to four different times and find four special things. Only then can I return to my true human form.’”",
         hint: "How many different objects and journeys did Morgan's note mention?",
         explanation: "Morgan's note instructed Jack and Annie to collect four ancient objects across four missions to break the spell."
@@ -655,12 +655,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth5-3',
         question: "To what historical setting does the tree house take Jack and Annie in Book #5?",
         options: [
-          "Ancient feudal Japan during the era of ninjas and samurai",
+          "Colonial America during the Boston Tea Party",
           "Ancient Egypt during the construction of the Great Sphinx",
           "Medieval France during the Hundred Years' War",
-          "Colonial America during the Boston Tea Party"
+          "Ancient feudal Japan during the era of ninjas and samurai"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Jack opened the book on ancient Japan. Outside the tree house window were misty green mountains, dense bamboo forests, and rushing icy waterfalls. ‘Feudal Japan,’ Jack whispered, consulting the book. ‘Hundreds of years ago, when secret shadow warriors called ninjas lived in these hills.’”",
         hint: "What Asian country filled with bamboo forests and shadow warriors did they visit?",
         explanation: "They were transported to ancient feudal Japan, a land of misty mountains, samurai warriors, and secret ninja clans."
@@ -684,11 +684,11 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         question: "Where do the two ninjas take Jack and Annie across the icy river?",
         options: [
           "To the Emperor's palace in the city of Kyoto",
-          "To a hidden mountain cave where the Ninja Master resides",
           "To an underground dungeon under a samurai fortress",
+          "To a hidden mountain cave where the Ninja Master resides",
           "To an abandoned wooden ship by the sea"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 2,
         samplePassage: "“The ninjas led Jack and Annie up steep mountain trails into a secret cavern hidden behind a roaring waterfall. Sitting cross-legged on a woven straw mat before a small crackling fire was an older ninja with piercing, calm eyes. ‘I am the Ninja Master,’ he spoke in a low voice.”",
         hint: "Where was the Ninja Master sitting by a fire behind a waterfall?",
         explanation: "The ninjas escorted Jack and Annie up the mountain to a secluded cave where the wise Ninja Master lived."
@@ -697,12 +697,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth5-6',
         question: "What fierce warriors who serve warlords must Jack and Annie avoid while crossing the valley?",
         options: [
-          "The Mongol cavalry",
           "Samurai warriors with razor-sharp swords and iron armor",
+          "The Mongol cavalry",
           "Imperial archers in bamboo chariots",
           "Bandits armed with brass shields"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“‘Beware the samurai,’ the Ninja Master warned solemnly. ‘They are fierce warriors who serve the warlords. They carry two razor-sharp curved swords and wear terrifying demon face-masks. If they capture you, you will never see your home again.’”",
         hint: "What armored sword-wielding warriors did the Ninja Master warn them about?",
         explanation: "The Ninja Master warned them to beware of the samurai—formidable warriors loyal to powerful warlords who patrolled the valley."
@@ -711,12 +711,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth5-7',
         question: "What core philosophy does the Ninja Master teach Jack and Annie to survive danger?",
         options: [
-          "“Use your mind, be like nature, and keep your heart calm.”",
+          "“Hide in the tallest trees and wait for help.”",
           "“Attack first and never retreat from battle.”",
           "“Always carry three sharp blades in your boots.”",
-          "“Hide in the tallest trees and wait for help.”"
+          "“Use your mind, be like nature, and keep your heart calm.”"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“‘To be a ninja,’ the Master told them, placing his hands together, ‘you must not fight with anger. You must use nature. Be like water: quiet, flexible, and finding your way through every crack. Keep your mind still, and your heart calm as a mountain pool.’”",
         hint: "What did the Master say about being like water and keeping your heart calm?",
         explanation: "The Ninja Master taught them the true ninja philosophy: remain calm, use your brain, and flow like water through nature to overcome difficulties without violence."
@@ -780,12 +780,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth6-1',
         question: "Where does the magic tree house take Jack and Annie on their quest for the second object?",
         options: [
-          "The Amazon Rainforest in South America",
+          "The snowy Siberian taiga",
           "The Sahara Desert in North Africa",
           "The Australian Outback",
-          "The snowy Siberian taiga"
+          "The Amazon Rainforest in South America"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Jack opened the book with a colorful parrot on the cover. ‘Look,’ he said, pointing to a photograph of giant green vines, vibrant flowering canopies, and a wide muddy river. ‘The Amazon Rainforest in South America. The largest rainforest on Earth!’”",
         hint: "What world-famous South American rainforest did they visit?",
         explanation: "They traveled to the Amazon Rainforest in South America, home to millions of plant and animal species."
@@ -808,12 +808,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth6-3',
         question: "What terrifying swarm of predatory insects forces Jack and Annie to scurry down the tree?",
         options: [
-          "Millions of marching army ants devouring everything in their path",
-          "A swarm of giant killer hornets",
           "A swarm of biting tsetse flies",
+          "A swarm of giant killer hornets",
+          "Millions of marching army ants devouring everything in their path",
           "A plague of desert locusts"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Rustling sounds filled the bark. Crawling up the trunk in a solid black wave were millions of ferocious army ants. ‘Army ants!’ Jack shouted, reading his guide. ‘They march in massive columns and devour every insect, lizard, and bird in their path! Run!’”",
         hint: "What insect army crawled up the trunk in a black wave eating everything in its path?",
         explanation: "A relentless swarm of millions of army ants marched up the tree trunk, forcing Jack and Annie to scramble away immediately."
@@ -822,12 +822,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth6-4',
         question: "What vehicle do Jack and Annie use to travel along the Amazon River?",
         options: [
-          "A motorboat with an outboard engine",
           "A small wooden dugout canoe with paddles",
+          "A motorboat with an outboard engine",
           "An inflatable yellow rubber raft",
           "A bamboo catamaran"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "“Tied to a mangrove root at the water’s edge was a hollowed-out log boat. ‘A dugout canoe!’ Jack exclaimed. Jack and Annie climbed inside, untied the vine rope, and used the wooden paddles to steer into the gentle current of the river.”",
         hint: "What log boat hollowed out from a tree did they untie and paddle?",
         explanation: "They found a traditional dugout canoe carved from a hollow log and paddled down the Amazon River."
@@ -836,12 +836,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth6-5',
         question: "What dangerous carnivorous fish with razor-sharp teeth live in the waters beneath their canoe?",
         options: [
-          "Piranhas",
+          "Tiger sharks",
           "Electric eels",
           "Barracudas",
-          "Tiger sharks"
+          "Piranhas"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Annie trailed her fingers in the cool river water. Jack frantically grabbed her arm and pulled it back! ‘Don’t do that!’ he yelled, holding up his book. ‘The Amazon is filled with piranhas! They have razor-sharp triangle teeth that can strip flesh to bone in minutes!’”",
         hint: "What sharp-toothed fish did Jack warn Annie about when she dipped her hand into the river?",
         explanation: "Piranhas inhabit the Amazon River; Jack warned Annie not to trail her fingers in the water because piranhas have razor-sharp teeth."
@@ -850,12 +850,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth6-6',
         question: "What playful river mammal splashes near their canoe and chases away danger?",
         options: [
-          "A pink Amazon river dolphin",
           "A giant river otter",
+          "A pink Amazon river dolphin",
           "A baby manatee",
           "A freshwater seal"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“A sleek, rosy creature breached the surface with a joyful splash. It had a long beak and friendly dark eyes. ‘A pink dolphin!’ Annie cried delightedly. The rare Amazon river dolphin circled their canoe playfully, guiding them past a lurking caiman crocodile.”",
         hint: "What unique rosy-colored aquatic animal breached beside their canoe?",
         explanation: "A rare pink Amazon river dolphin swam beside their canoe and helped guide them safely past a sunbathing caiman."
@@ -864,12 +864,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth6-7',
         question: "What creature drops from a vine into their canoe that terrifies Jack?",
         options: [
-          "A giant green anaconda",
-          "A hairy tarantula spider",
           "A poison dart frog",
+          "A hairy tarantula spider",
+          "A giant green anaconda",
           "A vampire bat"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“THUMP! A thick, heavy coil dropped from an overhanging branch right across the middle of the canoe. It was an enormous green anaconda, twenty feet long, with yellow eyes and patterned scales. ‘Don’t move a muscle,’ Jack squeaked, terrified out of his wits.”",
         hint: "What giant twenty-foot green snake dropped into their canoe from a branch?",
         explanation: "A massive green anaconda fell into their canoe, causing Jack and Annie to freeze in terror until it slid back into the river."
@@ -892,12 +892,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth6-9',
         question: "What second special object does the little monkey guide Jack and Annie to find?",
         options: [
-          "A sweet-smelling, delicious ripe mango",
+          "A silver feather from a harpy eagle",
           "A golden Aztec coin",
           "An emerald carved into a frog",
-          "A silver feather from a harpy eagle"
+          "A sweet-smelling, delicious ripe mango"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“The monkey pointed toward a low bush bearing a glowing, golden-red fruit that smelled like heaven. ‘A mango!’ said Jack. Peanut the mouse scurried over and rubbed her whiskers against the fruit. ‘The second thing to break Morgan’s spell is a mango!’ Annie cheered.”",
         hint: "What delicious golden-red fruit was the second object needed for Morgan's spell?",
         explanation: "The monkey guided them to a ripe mango—the second magical object needed to break the spell on Morgan le Fay."
@@ -906,12 +906,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth6-10',
         question: "How do Jack and Annie escape the stormy weather of the Amazon and return to Pennsylvania?",
         options: [
-          "Jack opens the Pennsylvania book, points to Frog Creek woods, and wishes to go home.",
           "They take a riverboat back to the Atlantic Ocean.",
+          "Jack opens the Pennsylvania book, points to Frog Creek woods, and wishes to go home.",
           "Peanut the mouse taps the mango three times on the floor.",
           "Annie paints a picture of their house on a tree leaf."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Thunder rumbled through the jungle as rain began to pour. Jack scrambled up the rope ladder into the dry tree house. He opened the Frog Creek book, pressed his thumb on the picture of their oak tree, and shouted: ‘I wish we could go home!’ The tree house spun, and in a flash, they were back in Pennsylvania.”",
         hint: "What book and picture did Jack point to when he shouted his wish?",
         explanation: "Jack pointed to the picture of the Frog Creek woods in their hometown book and wished to return home safely."
@@ -947,12 +947,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth7-2',
         question: "Why are Jack and Annie shivering uncontrollably when they first land in the Ice Age?",
         options: [
-          "They are only wearing lightweight summer T-shirts, shorts, and sneakers!",
           "They fell into an icy river.",
+          "They are only wearing lightweight summer T-shirts, shorts, and sneakers!",
           "The tree house heater broke down.",
           "A ghost blew icy breath on them."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Jack’s teeth chattered violently. His knees knocked together. It had been warm summer in Frog Creek, so he was wearing only a thin cotton T-shirt, shorts, and sneakers! ‘W-w-we’ll f-freeze to death!’ Annie stammered, hugging her shivering arms.”",
         hint: "What thin summer clothes were they wearing when they left Frog Creek?",
         explanation: "Because it was summer in Pennsylvania, Jack and Annie were wearing only cotton T-shirts, shorts, and sneakers, leaving them freezing in the sub-zero snow."
@@ -961,12 +961,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth7-3',
         question: "How do Jack and Annie find warm clothing to protect themselves from the freezing cold?",
         options: [
-          "They find warm reindeer fur coats and mammoth hide boots inside a cave shelter.",
+          "They build a huge campfire inside the tree house.",
           "They knit sweaters from woolly mammoth hair.",
           "The tree house magically produces two heated ski parkas.",
-          "They build a huge campfire inside the tree house."
+          "They find warm reindeer fur coats and mammoth hide boots inside a cave shelter."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“They stumbled into a rocky cave out of the biting wind. Inside, lying neatly across flat stones, were two warm hooded coats sewn from thick reindeer fur and lined with woolly mammoth hide. ‘They fit perfectly!’ Annie said, slipping into the snug fur suit.”",
         hint: "What kind of animal fur coats did they find inside the rocky cave shelter?",
         explanation: "Inside a Cro-Magnon cave shelter, they found warm, thick hooded parkas made of reindeer fur and mammoth hide."
@@ -975,12 +975,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth7-4',
         question: "What giant prehistoric creature with long curved tusks and thick shaggy hair do they meet in the snow?",
         options: [
-          "A Woolly Mammoth",
-          "A Mastodon",
           "An Elasmotherium (giant rhino)",
+          "A Mastodon",
+          "A Woolly Mammoth",
           "A Megatherium (giant ground sloth)"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“A colossal animal stepped over the snowdrift. It was as big as an elephant, but covered from head to foot in long, shaggy reddish-brown hair. Two enormous ivory tusks curved outward and upward. ‘A woolly mammoth!’ Jack whispered in awe.”",
         hint: "What shaggy elephant-like giant with huge curved ivory tusks did they encounter?",
         explanation: "They met a magnificent Woolly Mammoth, a giant Ice Age mammal covered in long shaggy fur with immense curved tusks."
@@ -1003,12 +1003,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth7-6',
         question: "What trap does Jack accidentally tumble into while searching for Annie?",
         options: [
-          "A mammoth trap pit dug by Ice Age cave hunters",
           "A deep frozen crevasse in the glacier",
+          "A mammoth trap pit dug by Ice Age cave hunters",
           "A rushing subterranean icy river",
           "A hollow log filled with snow"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“CRACK! The snowy branches beneath Jack’s feet gave way. He plummeted straight down into a deep, steep pit. ‘Help!’ Jack yelled. He checked his book: ‘Ice Age hunters dug deep pits and covered them with branches and snow to trap mammoths.’ Jack was trapped at the bottom!”",
         hint: "What kind of pit covered in branches did early humans dig to catch food?",
         explanation: "Jack fell into a deep pit trap dug by early Cro-Magnon hunters to capture mammoths, and couldn't climb the steep frozen walls."
@@ -1017,12 +1017,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth7-7',
         question: "How is Jack rescued from the deep pit trap?",
         options: [
-          "Lulu the mammoth lowers her strong trunk down into the pit and lifts Jack out.",
+          "Peanut the mouse digs an escape ramp through the snow.",
           "Annie throws him a vine ladder from the woods.",
           "A friendly caveman pulls him up with a mammoth bone rope.",
-          "Peanut the mouse digs an escape ramp through the snow."
+          "Lulu the mammoth lowers her strong trunk down into the pit and lifts Jack out."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Above the rim of the pit, an enormous furry face peered down. It was Lulu! The mammoth lowered her long, powerful trunk all the way to the bottom. ‘Hold on tight, Jack!’ Annie called. Jack wrapped his arms around the trunk, and Lulu effortlessly swung him up onto the snow!”",
         hint: "Who lowered her trunk down into the pit to lift Jack to safety?",
         explanation: "Lulu the woolly mammoth reached her trunk into the pit, allowed Jack to hold on, and hoisted him out to safety."
@@ -1031,12 +1031,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth7-8',
         question: "What ancient artwork do Jack and Annie discover painted by torchlight inside the cave?",
         options: [
-          "Cave paintings of galloping horses, bison, and mammoths",
-          "Hieroglyphic writing about the sun god",
           "A map of the Pennsylvania woods carved into granite",
+          "Hieroglyphic writing about the sun god",
+          "Cave paintings of galloping horses, bison, and mammoths",
           "Clay statues of ancient Roman emperors"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Jack shined his torch on the subterranean cavern walls. Painted in bold red and black pigments were breathtaking images of galloping wild horses, roaring lions, woolly mammoths, and horned bison. ‘Cro-Magnon cave paintings,’ Jack said reverently. ‘Drawn thousands of years ago!’”",
         hint: "What paintings made of red and black pigments covered the cavern walls?",
         explanation: "They discovered stunning Cro-Magnon cave paintings of prehistoric animals created with charcoal and ochre pigments thousands of years ago."
@@ -1045,12 +1045,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth7-9',
         question: "What terrifying predator with two eight-inch curved fangs prowls outside the cave at sunset?",
         options: [
-          "A Sabertooth Tiger (Smilodon)",
           "A Dire Wolf pack",
+          "A Sabertooth Tiger (Smilodon)",
           "A Short-Faced Bear",
           "A Giant Cave Hyena"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Crouched on a snowy boulder against the blood-red sunset was a fierce cat as big as a lion. Sticking down from its upper jaw were two enormous curved fangs, eight inches long and sharp as butcher knives. ‘The sabertooth!’ Jack whispered in terror.”",
         hint: "What big cat with eight-inch curved fangs stood on the boulder at sunset?",
         explanation: "A ferocious Sabertooth Tiger (Smilodon) with eight-inch dagger fangs blocked their path back to the tree house."
@@ -1086,12 +1086,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth8-1',
         question: "What futuristic year and location do Jack and Annie travel to in Book #8?",
         options: [
-          "A moon base on the Earth's Moon in the year 2031",
-          "A space station orbiting Mars in 3000",
           "The International Space Station in 1998",
+          "A space station orbiting Mars in 3000",
+          "A moon base on the Earth's Moon in the year 2031",
           "A cloud city on Venus in 2050"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Jack looked at the cover of the space book. It showed a dome-shaped base on a gray, cratered landscape with the blue planet Earth glowing in the black sky. Underneath it read: ‘Moon Base. Year 2031.’ Jack pointed to the photo: ‘I wish we could go there!’”",
         hint: "What year in the 21st century and celestial body did the book describe?",
         explanation: "They traveled to the future: a scientific moon base on the Moon in the year 2031."
@@ -1100,12 +1100,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth8-2',
         question: "Why must Jack and Annie put on pressurized spacesuits before stepping out of the airlock?",
         options: [
-          "The Moon has no air or oxygen to breathe and extreme temperatures.",
+          "The suits contain jetpacks to fly back to Earth.",
           "The dust on the Moon is sticky like glue.",
           "Alien microbes live in the lunar soil.",
-          "The suits contain jetpacks to fly back to Earth."
+          "The Moon has no air or oxygen to breathe and extreme temperatures."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Jack read the warning sign on the airlock door: ‘No air or atmosphere on the Moon. Temperatures range from freezing cold in shadow to boiling hot in sunlight. Spacesuit and helmet required at all times.’ Jack and Annie pulled on the heavy white suits and clicked their bubble helmets into place.”",
         hint: "Why can humans not survive on the Moon without spacesuits and helmets?",
         explanation: "The Moon has no breathable atmosphere and suffers extreme temperature swings, requiring pressurized spacesuits with oxygen helmets."
@@ -1114,12 +1114,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth8-3',
         question: "How do Jack and Annie move around on the surface of the Moon due to low gravity?",
         options: [
-          "They leap and bounce high into the air with slow-motion giant bounds.",
           "They crawl on their hands and knees to stay steady.",
+          "They leap and bounce high into the air with slow-motion giant bounds.",
           "They slide across the surface like ice skaters.",
           "They must wear heavy iron weights on their boots to stand."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Annie stepped onto the gray lunar dust. She jumped—and soared ten feet into the black sky! She floated down as gently as a feather. ‘Jack, try it!’ she giggled through the radio. ‘Moon gravity is only one-sixth of Earth’s! We can bounce like giant grasshoppers!’”",
         hint: "What happens when you jump on the Moon with only one-sixth of Earth's gravity?",
         explanation: "Because lunar gravity is only one-sixth of Earth's, they could leap ten feet high and float down gently in slow-motion bounces."
@@ -1142,12 +1142,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth8-5',
         question: "What mysterious figure wearing a jetpack flies across the stars and helps them on the Moon?",
         options: [
-          "The Moon Man",
-          "An extraterrestrial alien from Saturn",
           "An astronaut from NASA headquarters",
+          "An extraterrestrial alien from Saturn",
+          "The Moon Man",
           "A robot named Cosmo"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Soaring across the black starry sky on a personal jetpack was a mysterious astronaut in a shining silver suit. He landed gently beside their rover. He didn’t speak aloud, but drew a constellation of stars in the dust before blasting off into the dark. ‘A Moon Man!’ whispered Annie.”",
         hint: "What did Annie call the mysterious flying figure in the silver suit?",
         explanation: "They were visited by a mysterious flying astronaut dubbed the 'Moon Man', who soared on a jetpack and drew clues in the lunar dust."
@@ -1156,12 +1156,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth8-6',
         question: "What constellation pattern drawn in the lunar dust helps Jack find the fourth object?",
         options: [
-          "A mouse constellation with stars for whiskers",
+          "Leo the Lion with his tail",
           "The Big Dipper pointing north",
           "Orion the Hunter with his belt",
-          "Leo the Lion with his tail"
+          "A mouse constellation with stars for whiskers"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Jack examined the dots the Moon Man had traced in the gray dust. Connecting the dots with his gloved finger, he gasped. ‘Annie, look! It’s a mouse! The stars form the shape of a mouse!’ Peanut poked her head out of the suit pocket and squeaked with excitement.”",
         hint: "What animal shape did the connected dots of the constellation reveal?",
         explanation: "The Moon Man traced a constellation in the shape of a mouse, giving Jack the breakthrough clue he needed."
@@ -1170,12 +1170,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth8-7',
         question: "What is the fourth and final magical object that Jack and Annie needed to break Morgan's spell?",
         options: [
-          "A small gray meteorite rock from space",
           "A moonflower growing in the dome",
+          "A small gray meteorite rock from space",
           "A jar of lunar dust",
           "A piece of a solar panel"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Lying in the center of the mouse constellation was a smooth, heavy meteorite rock that had fallen from deep space. Jack picked it up. ‘Moonstone from Japan, mango from Amazon, mammoth bone from Ice Age... and a meteorite from the Moon! All four start with the letter M!’”",
         hint: "What space rock starting with the letter 'M' did Jack pick up from the Moon?",
         explanation: "The fourth object was a meteorite—completing the set of four objects that all began with the letter 'M' (Moonstone, Mango, Mammoth bone, Meteorite)."
@@ -1198,12 +1198,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth8-9',
         question: "Who was the mysterious 'Moon Man' who helped them on the Moon?",
         options: [
-          "A friendly time traveler from Earth's future",
-          "Jack himself from fifty years in the future",
           "Morgan le Fay's brother, King Arthur",
+          "Jack himself from fifty years in the future",
+          "A friendly time traveler from Earth's future",
           "A hologram projected from the tree house"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“‘Who was the man on the jetpack?’ Jack asked Morgan. Morgan smiled mysteriously. ‘A friend from the future. There are many travelers who walk the pathways of time and space, Jack. Not all of them live in the past.’”",
         hint: "Morgan told Jack that the Moon Man was a friend from what time?",
         explanation: "Morgan explained that the Moon Man was a benevolent friend and time traveler from the future."
@@ -1212,12 +1212,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth8-10',
         question: "What special title and role does Morgan le Fay grant Jack and Annie for their courage across the four books?",
         options: [
-          "Master Librarians who travel through time to collect and protect books",
+          "Royal sorcerers of the Court of Camelot",
           "Knights of the Round Table with silver swords",
           "Secret agents for the United Nations",
-          "Royal sorcerers of the Court of Camelot"
+          "Master Librarians who travel through time to collect and protect books"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Morgan placed her hands on Jack and Annie’s shoulders. ‘You have proven yourselves brave, smart, and true lovers of books. I officially name you Master Librarians of Camelot! Whenever a book needs rescuing, the tree house will call for you.’ Jack and Annie beamed with pride.”",
         hint: "What title did Morgan give them to protect and rescue books across history?",
         explanation: "Morgan made Jack and Annie official 'Master Librarians', tasked with traveling across history to rescue lost stories and protect knowledge."
@@ -1239,12 +1239,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth9-1',
         question: "What new task does Morgan le Fay give Jack and Annie as official Master Librarians?",
         options: [
-          "Solve four mysterious riddles to earn their Master Librarian wooden cards",
           "Capture a live dragon from medieval Europe",
+          "Solve four mysterious riddles to earn their Master Librarian wooden cards",
           "Build a new bookshelf in the Frog Creek tree house",
           "Memorize every encyclopedia in the world"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Morgan le Fay held out a small wooden box. ‘To receive your Master Librarian cards, you must solve four ancient riddles,’ she told them. ‘Here is your first scroll. Find the answer to this riddle, and you will take your first step as true keepers of wisdom.’”",
         hint: "What four challenges did Morgan give them to earn their wooden cards?",
         explanation: "To earn their official Master Librarian cards, Morgan gave them four ancient riddles to solve across four new missions."
@@ -1267,12 +1267,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth9-3',
         question: "Where does the tree house land for this oceanic mission?",
         options: [
-          "On a tiny sandy coral reef island in the middle of a sparkling turquoise ocean",
-          "On an iceberg floating near the North Pole",
           "On a pirate schooner in the Caribbean",
+          "On an iceberg floating near the North Pole",
+          "On a tiny sandy coral reef island in the middle of a sparkling turquoise ocean",
           "At the mouth of the Mississippi River"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“The tree house landed in a lone palm tree on a tiny coral island surrounded by endless crystal-clear turquoise ocean. Gentle waves lapped against white sand, and colorful coral reefs shimmered just beneath the surface in the morning sun.”",
         hint: "What kind of small island surrounded by crystal-clear turquoise ocean did they land on?",
         explanation: "The tree house landed in a lone palm tree on a small coral island surrounded by a vibrant coral reef."
@@ -1281,12 +1281,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth9-4',
         question: "What underwater research vehicle do Jack and Annie discover floating near the coral reef?",
         options: [
-          "A yellow mini-submarine with glass viewing windows",
+          "A pedal-powered plastic kayak",
           "An underwater glass diving bell",
           "A scuba diving motor scooter",
-          "A pedal-powered plastic kayak"
+          "A yellow mini-submarine with glass viewing windows"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Bobbing near the edge of the reef was a small, bright yellow mini-submarine. It had round glass portholes, robotic arms, and a hatch on top. Painted on the hull was: ‘Mini-Sub Lab. Autonomous Underwater Research.’ ‘Let’s go inside!’ Annie urged.”",
         hint: "What small, yellow underwater vessel with glass portholes was bobbing near the reef?",
         explanation: "They found an automated yellow mini-submarine equipped with glass viewing portholes and computer controls."
@@ -1295,12 +1295,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth9-5',
         question: "What happens when Annie accidentally presses the computer controls inside the mini-sub?",
         options: [
-          "The hatch seals automatically and the sub dives deep under the ocean!",
           "The sub plays loud rock music through the speakers.",
+          "The hatch seals automatically and the sub dives deep under the ocean!",
           "The engine runs out of battery and turns dark.",
           "The sub shoots a net into the coral reef."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“‘Look at all these flashing buttons!’ Annie giggled, pressing a large green lever. WHIRRR! The hatch slammed shut and sealed with a hiss! The ballast tanks flooded with water, and the mini-sub began to sink beneath the waves, diving deep into the ocean depths!”",
         hint: "What happened to the hatch and the sub when Annie pressed the lever?",
         explanation: "Annie accidentally engaged the controls, which locked the hatch, flooded the ballast tanks, and caused the submarine to dive underwater."
@@ -1323,12 +1323,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth9-7',
         question: "What dangerous predator with a distinctive flat, wide head circles Jack and Annie when they swim toward shore?",
         options: [
-          "A Hammerhead Shark",
-          "A Tiger Shark",
           "A Great White Shark",
+          "A Tiger Shark",
+          "A Hammerhead Shark",
           "A Bull Shark"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“A dark, menacing fin cut through the water only yards away. The shark had eyes set on the extreme ends of a bizarre, wide, hammer-shaped head. ‘Hammerhead shark!’ Jack choked out through his snorkel. ‘Swim, Annie! Swim for the reef!’”",
         hint: "What shark with a wide, hammer-shaped head was circling nearby?",
         explanation: "A hammerhead shark circled dangerously close to them as they tried to swim from the sub to the reef."
@@ -1337,12 +1337,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth9-8',
         question: "Who rescues Jack and Annie from the shark and carries them safely across the water?",
         options: [
-          "Two playful bottle-nosed dolphins that let Jack and Annie hold onto their dorsal fins",
+          "The mini-submarine robotic arm pulls them in",
           "A giant green sea turtle that carries them on its shell",
           "A group of scuba divers from a nearby boat",
-          "The mini-submarine robotic arm pulls them in"
+          "Two playful bottle-nosed dolphins that let Jack and Annie hold onto their dorsal fins"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Two sleek gray dolphins shot through the water like torpedoes! They slapped their tails, scaring the hammerhead shark away. Then they glided right beside the children. ‘Grab their dorsal fins!’ Annie yelled. Jack grabbed on, and the friendly dolphins swiftly towed them across the lagoon to the sandy shore.”",
         hint: "Who swam up, chased the shark away, and let the kids hold their fins to tow them to safety?",
         explanation: "Two bottle-nosed dolphins drove away the shark and allowed Jack and Annie to grasp their dorsal fins, pulling them swiftly to the safety of the beach."
@@ -1351,12 +1351,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth9-9',
         question: "What names do Jack and Annie give to the two friendly dolphins?",
         options: [
-          "Samy and Sukey",
-          "Flipper and Splash",
           "Echo and Wave",
+          "Flipper and Splash",
+          "Samy and Sukey",
           "Penny and Pip"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“The dolphins poked their snouts out of the shallow water, clicking and whistling cheerily. ‘Thank you, Sukey!’ Annie called, waving to the smaller one. ‘Thank you, Samy!’ called Jack. The dolphins did a celebratory backflip in the morning sunlight.”",
         hint: "What names starting with 'S' did Jack and Annie shout as they waved goodbye?",
         explanation: "They named the two friendly dolphins Samy and Sukey."
@@ -1365,12 +1365,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth9-10',
         question: "What is the answer to Morgan's riddle: 'Rough and gray as dark as night, on the reef a treasure bright'?",
         options: [
-          "An oyster shell containing a shimmering white pearl",
           "A piece of volcanic obsidian stone",
+          "An oyster shell containing a shimmering white pearl",
           "A sunken chest filled with silver coins",
           "A gray clam shell filled with gold dust"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Annie picked up a rough, craggy gray shell from the reef. She pried it open with her thumb. Resting inside on a bed of glistening mother-of-pearl was a perfect, glowing pearl! ‘Rough and gray on the outside,’ Jack whispered, ‘with a bright treasure inside! An oyster! The answer to the riddle is an oyster!’”",
         hint: "What rough gray shellfish contained a glowing pearl inside?",
         explanation: "The answer to Morgan's riddle was an oyster—rough and gray on the exterior, but holding a radiant pearl within."
@@ -1392,12 +1392,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth10-1',
         question: "What is the second riddle scroll Morgan le Fay gave Jack and Annie to solve?",
         options: [
-          "“Out of the blue, my lonely voice calls to you. Who am I?”",
+          "“Silver wings in desert skies, golden coins in eagle's eyes.”",
           "“I have four legs but cannot walk, I have a back but cannot sit.”",
           "“Born in fire, buried in stone, singing sweet songs all alone.”",
-          "“Silver wings in desert skies, golden coins in eagle's eyes.”"
+          "“Out of the blue, my lonely voice calls to you. Who am I?”"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“Jack unrolled the second riddle scroll from Morgan: ‘Out of the blue, my lonely voice calls to you. Who am I?’ Jack frowned. ‘Out of the blue... does it mean the sky? Or out of nowhere? We’ll have to find out.’”",
         hint: "Read the lonely voice riddle that Jack unrolled from Morgan's scroll!",
         explanation: "The second riddle stated: 'Out of the blue, my lonely voice calls to you. Who am I?'"
@@ -1406,12 +1406,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth10-2',
         question: "Where and when does the magic tree house transport Jack and Annie in Book #10?",
         options: [
-          "An abandoned ghost town in the American Wild West in the 1880s",
-          "A gold mining camp in San Francisco during 1849",
           "A cattle ranch in Texas during the Civil War",
+          "A gold mining camp in San Francisco during 1849",
+          "An abandoned ghost town in the American Wild West in the 1880s",
           "A railroad depot in Chicago in 1920"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Hot dry wind blew tumbleweeds across a deserted dirt street. Wooden buildings with false fronts stood silent beneath a blazing desert sun: a bank, a livery stable, and a saloon. ‘A ghost town in the Wild West,’ Jack read from his book. ‘Over one hundred years ago.’”",
         hint: "What kind of abandoned western settlement with tumbleweeds and a saloon did they land in?",
         explanation: "They landed in an abandoned ghost town in the American Wild West during the 1880s."
@@ -1434,12 +1434,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth10-4',
         question: "What friendly, lonesome cowboy rides into town and befriends Jack and Annie?",
         options: [
-          "Slim Cool (also known as Lonesome Luke)",
           "Billy the Kid",
+          "Slim Cool (also known as Lonesome Luke)",
           "Wyatt Earp",
           "Wild Bill Hickok"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Riding a tall sorrel horse was a tall, lean cowboy in leather chaps, dusty boots, and a wide-brimmed Stetson hat. He wore a red bandanna around his neck. ‘Howdy, youngsters,’ he drawled with a kind smile. ‘Names Slim. Slim Cool. Some folks call me Lonesome Luke.’”",
         hint: "What was the cowboy's nickname and name?",
         explanation: "They met a friendly, poetry-loving cowboy named Slim Cool, who went by the alias Lonesome Luke."
@@ -1448,12 +1448,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth10-5',
         question: "What herd of wild animals is Slim tracking across the desert plains?",
         options: [
-          "A herd of wild mustangs (horses)",
+          "A herd of wandering bison",
           "A herd of longhorn cattle",
           "A flock of wild bighorn sheep",
-          "A herd of wandering bison"
+          "A herd of wild mustangs (horses)"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 3,
         samplePassage: "“‘I’m tracking a band of wild mustangs,’ Slim explained, adjusting his saddle. ‘Fierce, free horses of the prairie. But horse thieves—rustlers—are trying to steal them and sell them off. I aim to keep those mustangs wild and free.’”",
         hint: "What free-roaming wild horses of the prairie was Slim trying to protect?",
         explanation: "Slim was tracking a band of wild mustangs to protect them from greedy horse thieves (rustlers) who wanted to capture and sell them."
@@ -1462,12 +1462,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth10-6',
         question: "What small wild horse that got separated from its mother do Jack and Annie rescue?",
         options: [
-          "A young black colt that Annie names 'Blackie'",
-          "A spotted pinto pony named 'Patch'",
           "A golden palomino filly named 'Sunny'",
+          "A spotted pinto pony named 'Patch'",
+          "A young black colt that Annie names 'Blackie'",
           "A white mustang named 'Snowy'"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Trapped between two boulders in the dry wash was a terrified little black colt. It whinnied mournfully for its mother. ‘Shh, sweetheart,’ Annie whispered, stroking its trembling velvet nose. ‘I’ll call you Blackie. We’re going to help you find your mama.’”",
         hint: "What color was the young horse that Annie named Blackie?",
         explanation: "They rescued a stranded young black colt who had been separated from the herd, and Annie named him Blackie."
@@ -1490,12 +1490,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth10-8',
         question: "What surprise does Jack discover about the cowboy Slim when they visit the abandoned saloon?",
         options: [
-          "Slim plays classical piano beautifully on the dusty saloon piano.",
           "Slim is secretly the town sheriff.",
+          "Slim plays classical piano beautifully on the dusty saloon piano.",
           "Slim has a bag of stolen gold bars.",
           "Slim is an undercover detective from New York."
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 1,
         samplePassage: "“Slim sat down at the dusty, upright piano in the corner of the abandoned saloon. His rough, calloused cowboy fingers glided effortlessly over the yellowed keys, filling the ghost town with an exquisite, breathtaking classical sonata. ‘Slim!’ Jack gasped. ‘You play the piano!’”",
         hint: "What instrument in the corner of the saloon did Slim play like a master?",
         explanation: "Jack was shocked to discover that beneath his rough cowboy exterior, Slim was an accomplished pianist who played beautiful classical music."
@@ -1518,12 +1518,12 @@ export const MTH_BOOKS_1_TO_10: Book[] = [
         id: 'mth10-10',
         question: "What does Slim give to Jack and Annie as a farewell gift before they climb back into the tree house?",
         options: [
-          "His red bandanna and his handmade book of western poems",
-          "A pair of silver cowboy spurs",
           "A leather holster with a tin star",
+          "A pair of silver cowboy spurs",
+          "His red bandanna and his handmade book of western poems",
           "A golden horseshoe for good luck"
         ],
-        correctAnswerIndex: 0,
+        correctAnswerIndex: 2,
         samplePassage: "“Slim tipped his Stetson hat. He untied his faded red bandanna and handed it to Annie, then pressed a small, leather-bound notebook of his handwritten cowboy poems into Jack’s hands. ‘Keep writing, partner,’ Slim smiled warmly. ‘You’ve got the soul of a true storyteller.’”",
         hint: "What neckwear and poetry notebook did Slim gift them before riding off?",
         explanation: "Slim gave Annie his red cowboy bandanna and gifted Jack his personal leather notebook filled with handwritten western poems."

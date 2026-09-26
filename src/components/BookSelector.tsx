@@ -1,9 +1,11 @@
 import React, { useState, useMemo } from 'react';
 import { Book } from '../types/quiz';
+import { SavedBookRecord } from '../utils/quizStorage';
 import { BookOpen, ArrowRight, Award, Sparkles, Search, X, Compass } from 'lucide-react';
 
 interface BookSelectorProps {
   books: Book[];
+  savedBooks: Record<string, SavedBookRecord>;
   onSelectBook: (book: Book) => void;
 }
 
@@ -52,10 +54,11 @@ const THEME_STYLES: Record<string, { bg: string; border: string; badge: string; 
   },
 };
 
-type FilterCategory = 'all' | 'mth' | 'classics';
+type FilterCategory = 'all' | 'unanswered' | 'completed' | 'mth' | 'classics';
 
 export const BookSelector: React.FC<BookSelectorProps> = ({
   books,
+  savedBooks = {},
   onSelectBook,
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -64,12 +67,34 @@ export const BookSelector: React.FC<BookSelectorProps> = ({
   const mthCount = useMemo(() => books.filter(b => b.id.startsWith('mth-')).length, [books]);
   const classicsCount = useMemo(() => books.filter(b => !b.id.startsWith('mth-')).length, [books]);
 
+  // Sets of answered and completed book IDs
+  const answeredBookIds = useMemo(() => {
+    return new Set(
+      Object.entries(savedBooks)
+        .filter(([_, rec]) => rec.isCompleted || Object.values(rec.questionStates || {}).some(st => st.status !== 'unanswered'))
+        .map(([id]) => id)
+    );
+  }, [savedBooks]);
+
+  const completedBookIds = useMemo(() => {
+    return new Set(
+      Object.entries(savedBooks)
+        .filter(([_, rec]) => rec.isCompleted)
+        .map(([id]) => id)
+    );
+  }, [savedBooks]);
+
+  const unansweredCount = useMemo(() => books.filter(b => !answeredBookIds.has(b.id)).length, [books, answeredBookIds]);
+  const completedCount = useMemo(() => books.filter(b => completedBookIds.has(b.id)).length, [books, completedBookIds]);
+
   // Filtered books
   const filteredBooks = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
 
     return books.filter((book) => {
-      // Category filter
+      // Category & status filters
+      if (selectedCategory === 'unanswered' && answeredBookIds.has(book.id)) return false;
+      if (selectedCategory === 'completed' && !completedBookIds.has(book.id)) return false;
       if (selectedCategory === 'mth' && !book.id.startsWith('mth-')) return false;
       if (selectedCategory === 'classics' && book.id.startsWith('mth-')) return false;
 
@@ -90,7 +115,7 @@ export const BookSelector: React.FC<BookSelectorProps> = ({
 
       return matchesTitle || matchesAuthor || matchesSynopsis || matchesId || matchesBookNumber;
     });
-  }, [books, searchQuery, selectedCategory]);
+  }, [books, searchQuery, selectedCategory, answeredBookIds, completedBookIds]);
 
   const quickChips = [
     { label: '🦖 #1 Dinosaurs', query: '#1' },
@@ -157,6 +182,26 @@ export const BookSelector: React.FC<BookSelectorProps> = ({
               }`}
             >
               All Books ({books.length})
+            </button>
+            <button
+              onClick={() => setSelectedCategory('unanswered')}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all whitespace-nowrap ${
+                selectedCategory === 'unanswered'
+                  ? 'bg-white text-indigo-700 shadow-sm'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              ✨ Never Answered ({unansweredCount})
+            </button>
+            <button
+              onClick={() => setSelectedCategory('completed')}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all whitespace-nowrap ${
+                selectedCategory === 'completed'
+                  ? 'bg-white text-indigo-700 shadow-sm'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              ⭐ Completed ({completedCount})
             </button>
             <button
               onClick={() => setSelectedCategory('mth')}
@@ -232,6 +277,12 @@ export const BookSelector: React.FC<BookSelectorProps> = ({
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredBooks.map((book) => {
           const theme = THEME_STYLES[book.themeColor] || THEME_STYLES.indigo;
+          const record = savedBooks[book.id];
+          const isCompleted = Boolean(record?.isCompleted);
+          const answeredCount = record?.questionStates
+            ? Object.values(record.questionStates).filter((st) => st.status !== 'unanswered').length
+            : 0;
+          const isAnswered = isCompleted || answeredCount > 0;
 
           return (
             <div
@@ -239,14 +290,29 @@ export const BookSelector: React.FC<BookSelectorProps> = ({
               className={`group bg-gradient-to-br ${theme.bg} bg-white rounded-3xl p-6 border ${theme.border} shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between relative`}
             >
               <div>
-                {/* Header with Emoji & Level */}
-                <div className="flex items-center justify-between mb-4">
+                {/* Header with Emoji & Badges */}
+                <div className="flex items-start justify-between mb-4">
                   <div className="w-14 h-14 rounded-2xl bg-white shadow-md flex items-center justify-center text-3xl group-hover:scale-110 transition-transform">
                     {book.coverEmoji}
                   </div>
-                  <span className={`text-[11px] font-extrabold px-2.5 py-1 rounded-full ${theme.badge}`}>
-                    {book.readingLevel}
-                  </span>
+                  <div className="flex flex-col items-end gap-1.5">
+                    <span className={`text-[11px] font-extrabold px-2.5 py-1 rounded-full ${theme.badge}`}>
+                      {book.readingLevel}
+                    </span>
+                    {isCompleted ? (
+                      <span className="inline-flex items-center gap-1 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-300 shadow-xs">
+                        ⭐ Completed {record?.scorePercent !== undefined ? `(${record.scorePercent}%)` : ''}
+                      </span>
+                    ) : isAnswered ? (
+                      <span className="inline-flex items-center gap-1 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-300 shadow-xs">
+                        ✏️ In Progress ({answeredCount}/10)
+                      </span>
+                    ) : (
+                      <span className="inline-flex items-center gap-1 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 shadow-xs">
+                        ✨ Never Answered
+                      </span>
+                    )}
+                  </div>
                 </div>
 
                 {/* Title & Author */}
@@ -279,7 +345,7 @@ export const BookSelector: React.FC<BookSelectorProps> = ({
                   onClick={() => onSelectBook(book)}
                   className={`w-full py-2.5 px-4 rounded-xl font-black text-xs sm:text-sm flex items-center justify-center gap-2 active:scale-95 shadow-md transition-all ${theme.button}`}
                 >
-                  Start Quiz
+                  {isCompleted ? 'Play Again' : isAnswered ? 'Continue Quiz' : 'Start Quiz'}
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>
