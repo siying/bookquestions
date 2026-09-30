@@ -15,20 +15,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
     synopsis: "At nine, Barack returns to Hawaii to live with his grandparents, starts fifth grade at Punahou Academy, and meets his father for the first time during a month-long Christmas visit.",
     questions: [
       {
-        id: 'od3-1',
-        question: "When Barack is nine, where does he go to live with Gramps and Toot?",
-        options: [
-          "Back to Hawaii, where they now live in a high-rise apartment",
-          "To Indonesia, to rejoin Lolo in Jakarta",
-          "To Kenya, to live with his father",
-          "To Kansas, where his grandparents grew up"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "At nine years old, Barack returns to Hawaii to live with Gramps and Toot. They have changed a lot since he last saw them, and now live in a high-rise apartment where Gramps works as a life insurance agent.",
-        hint: "The passage names the state and the kind of building his grandparents now live in.",
-        explanation: "Barack moves back to Hawaii to live with his grandparents in their high-rise apartment. At first it is thrilling, but he soon realizes he is basically living with strangers."
-      },
-      {
         id: 'od3-2',
         question: "What is Gramps's job in Hawaii?",
         options: [
@@ -97,20 +83,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "Barack and the only other Black student, Coretta, carefully avoid each other until one day they chase each other on the playground. As they laugh, children surround them and tease them about being boyfriend and girlfriend. Barack shouts at Coretta and pushes her, and they never speak again.",
         hint: "The passage describes a chase, teasing from other kids, and a shove that ends their contact.",
         explanation: "After other kids tease them about being boyfriend and girlfriend, Barack lashes out at Coretta and pushes her. He fixates on her disappointed look, but they never speak again."
-      },
-      {
-        id: 'od3-7',
-        question: "What does the telegram announce to the family?",
-        options: [
-          "Ann is moving back to Indonesia alone",
-          "Gramps has been offered a new job in Kansas",
-          "Barack's father is coming to stay for a month, over Christmas",
-          "Punahou is closing for the winter holidays"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "One day, Toot reads a telegram announcing that Barack's father is coming to stay for a month, over Christmas. Barack tells the boys at school that his father is a prince, which earns him social capital — though he knows it is a lie.",
-        hint: "The passage says the telegram brings news of a month-long visit over the holidays.",
-        explanation: "The telegram announces that Barack's father will visit for a month over Christmas. Barack, embarrassed, tells classmates his father is a prince."
       },
       {
         id: 'od3-8',
@@ -194,20 +166,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "Ray blames racism for everything — his dating life, Barack's, and their lack of basketball playing time. Barack pushes back, saying white people here just want people who look and play like them."
       },
       {
-        id: 'od4-3',
-        question: "When Ann has to return to Indonesia for fieldwork for her degree, what does Barack decide?",
-        options: [
-          "To move to Indonesia with her and Maya",
-          "To stay in Hawaii with his grandparents",
-          "To go live with Lolo in Jakarta",
-          "To transfer to a boarding school in California"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Barack lived with Ann and Maya for three years, but when Ann had to return to Indonesia for fieldwork for her degree, Barack decided to stay with his grandparents. They mostly leave him alone, which suits Barack fine.",
-        hint: "The passage says he chooses to remain where he is when his mother must travel for her studies.",
-        explanation: "He decides to stay in Hawaii with Gramps and Toot rather than follow Ann to Indonesia. His grandparents mostly leave him alone, which suits him fine."
-      },
-      {
         id: 'od4-4',
         question: "Who is Frank?",
         options: [
@@ -258,24 +216,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
           "Malcolm X refused to speak about Hawaii",
           "Malcolm X thought basketball was a waste of time"
         ],
-        correctAnswerIndex: 2,
+        correctAnswerIndex: 1,
         samplePassage: "Of all the Black authors Barack reads, Malcolm X seems to be the only one who did better — but Barack is concerned by Malcolm's wish that his white blood would be expunged. Barack knows he will never get rid of his own white blood.",
         hint: "The passage says Malcolm wanted to erase part of his own heritage — something Barack could never do.",
         explanation: "Malcolm X wished his white blood could be expunged. Barack knows he can never erase his own white heritage — and wonders what he would give up if he abandoned his white family."
-      },
-      {
-        id: 'od4-8',
-        question: "What frightens Toot at the bus stop?",
-        options: [
-          "A stray dog that chases her",
-          "A Black panhandler who harasses her",
-          "A sudden thunderstorm",
-          "A car that almost hits her"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Barack learns that a Black panhandler harassed Toot yesterday at the bus stop — understandably scaring her — but Gramps is incensed that Toot was afraid of a Black man.",
-        hint: "The passage describes an aggressive beggar scaring Toot while she waits for the bus.",
-        explanation: "A Black panhandler harassed Toot at the bus stop, scaring her. Gramps is furious that she was afraid of a Black man, and the fight leaves Barack sad — his grandparents love him, but they're easily scared of men who could be his brothers."
       },
       {
         id: 'od4-9',
@@ -329,20 +273,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "It is 3 a.m. Barack pours himself a drink, looks around at his apartment — a mess after a party he and his roommate, Hasan, threw — and listens to Billie Holiday. Everyone but Regina enjoyed the party.",
         hint: "The passage names Barack's roommate as his co-host of the party.",
         explanation: "Barack and his roommate Hasan threw the party. Everyone enjoyed it except Regina, who accused Barack of being self-centered."
-      },
-      {
-        id: 'od5-2',
-        question: "In high school, what did Barack use to forget his troubles and find a community?",
-        options: [
-          "Drinking and drugs",
-          "Long-distance running",
-          "Reading Black authors",
-          "Playing chess"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Barack's journey to learning not to care began in high school when he started drinking and using drugs, which helped him forget. Drugs gave him a community and helped him laugh.",
-        hint: "The passage names two substances he turned to as a teenager.",
-        explanation: "He started drinking and using drugs in high school. Drugs helped him forget and gave him a community to laugh with."
       },
       {
         id: 'od5-3',
@@ -415,20 +345,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "Marcus insists Tim is fine and tells Barack to stop judging others and focus on himself. Barack still burns with shame a year later, knowing he was living a lie his first year of college."
       },
       {
-        id: 'od5-8',
-        question: "What does Regina ask to call Barack instead of Barry?",
-        options: [
-          "Bartholomew",
-          "Bobby",
-          "Barack",
-          "Bam"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "They discussed Barack's name and Regina asked if she could call him Barack instead of Barry. They spent the day together talking about her childhood in Chicago, surrounded by family.",
-        hint: "The passage says Regina wants to use his full first name rather than the nickname.",
-        explanation: "Regina asks to call him Barack instead of Barry. They spend the day talking about her family-filled childhood in Chicago — and Barack feels himself growing and rediscovering his voice."
-      },
-      {
         id: 'od5-9',
         question: "What happens during Barack's speech at the anti-apartheid rally?",
         options: [
@@ -496,20 +412,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "His father's letter — the first in years — invites Barack to visit so he can know his people. Barack wonders if it can really be that simple, and decides he first needs community in New York."
       },
       {
-        id: 'od6-3',
-        question: "Which university does Barack transfer to?",
-        options: [
-          "Harvard University",
-          "The New School",
-          "Columbia University",
-          "UCLA"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Deciding he needs community, Barack signs up for a transfer program with Columbia University. There is little keeping him in L.A., as Regina and Hasan have graduated and Marcus dropped out.",
-        hint: "The passage names the New York school he transfers to for a sense of community.",
-        explanation: "He transfers to Columbia University in New York, seeking community. Little keeps him in L.A. — Regina and Hasan have graduated and Marcus dropped out."
-      },
-      {
         id: 'od6-4',
         question: "How does Barack introduce himself to Sadik's girlfriend in New York?",
         options: [
@@ -550,20 +452,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "Barack attempts to live in Harlem, but the brownstones are too expensive and the tenements are uninhabitable. He is offended, but others insist this is just how New York is.",
         hint: "The passage says the nice buildings cost too much and the cheap ones are unlivable.",
         explanation: "Harlem's brownstones are too expensive and the tenements uninhabitable. In New York he also sees America's race and class problems up close — the Black community collapsing while others hold only low-paying jobs."
-      },
-      {
-        id: 'od6-7',
-        question: "What movie does Ann take Barack and Maya to see in New York?",
-        options: [
-          "A new action movie",
-          "Black Orpheus, the first foreign film Ann ever saw when she was sixteen in Chicago",
-          "A documentary about Kenya",
-          "A comedy about college life"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "One night, Ann takes them to a showing of the movie Black Orpheus. It was the first foreign film she saw when she was sixteen and working in Chicago. Barack is disgusted, and embarrassed when he sees how much Ann loves the film.",
-        hint: "The passage names a film that was Ann's first foreign movie as a teenager.",
-        explanation: "Ann takes them to Black Orpheus, the first foreign film she ever saw at sixteen. Barack is disgusted and embarrassed by how much she loves it — he realizes people always look for missing parts of themselves in people of different races."
       },
       {
         id: 'od6-8',
@@ -618,20 +506,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
     readingLevel: "Grades 6+ (Ages 11+)",
     synopsis: "In 1983 Barack decides to become a community organizer, quits a high-paying consulting job, and accepts an offer from Marty Kaufman to organize in Chicago.",
     questions: [
-      {
-        id: 'od7-1',
-        question: "In 1983, what does Barack decide to become?",
-        options: [
-          "A community organizer",
-          "A basketball coach",
-          "A newspaper reporter",
-          "A bank manager"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "In 1983, Barack decides to become a community organizer. He wants to organize Black folks at the grassroots level, though his ideas are vague. At night, he thinks about the Civil Rights Movement.",
-        hint: "The passage names the grassroots job he chooses in 1983.",
-        explanation: "He decides to become a community organizer, wanting to organize Black folks at the grassroots level — and hoping that by organizing, he'll be able to redeem himself."
-      },
       {
         id: 'od7-2',
         question: "What happens when Barack writes letters to civil rights organizations, Black elected officials, and tenant rights groups?",
@@ -715,20 +589,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "Barack wonders who Auma and David are — and who he is if he did not cry for his brother. His reaction impresses upon him that he is totally cut off from half of his family.",
         hint: "The passage says his lack of tears makes him question himself.",
         explanation: "He doesn't cry, and that disturbs him — he wonders who he is if he didn't cry for his own brother. It shows him how cut off he is from half of his family."
-      },
-      {
-        id: 'od7-8',
-        question: "Who is Marty Kaufman?",
-        options: [
-          "Barack's boss at the consulting house",
-          "A Jewish man who calls looking for a trainee to organize in Chicago",
-          "A pastor at a South Side church",
-          "Barack's roommate in New York"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Not long after, a Jewish man named Marty Kaufman calls Barack, looking for a trainee to organize in Chicago. Marty is pudgy, unkempt, and insists that Barack must be angry if he wants to organize.",
-        hint: "The passage names the man who phones Barack with an organizing job in Chicago.",
-        explanation: "Marty Kaufman is a Jewish organizer who calls Barack looking for a trainee to organize in Chicago. He is pudgy and unkempt, and insists Barack must be angry if he wants to organize."
       },
       {
         id: 'od7-9',
@@ -840,34 +700,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "They just won $500,000 in state funding for a job placement program and head to a celebratory rally. Marty admits rebuilding manufacturing will take ten years, but people need victories now."
       },
       {
-        id: 'od8-6',
-        question: "At the rally, who introduces themselves to Barack as Angela, Shirley, and Mona?",
-        options: [
-          "Three women from the churches who are thrilled to have him",
-          "Three reporters covering the event",
-          "Three nuns from the Catholic diocese",
-          "Three of Marty's relatives"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "When they arrive at a school auditorium, Marty introduces Barack to Deacon Will Milton. Three Black women block Barack from following and introduce themselves as Angela, Shirley, and Mona. They start to tell Barack that they are thrilled to have him.",
-        hint: "The passage names three church women who greet him enthusiastically.",
-        explanation: "Angela, Shirley, and Mona — three Black women from the churches — introduce themselves and say they're thrilled to have him. The rally includes a choir, a roll call of churches, and speakers."
-      },
-      {
-        id: 'od8-7',
-        question: "What is Deacon Will Milton's life story?",
-        options: [
-          "He was a teacher who became a pastor",
-          "He served in Vietnam, worked at a bank, was laid off, and turned to Christ",
-          "He was a steelworker who lost his job",
-          "He was a police officer who retired early"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Barack sits next to Will and hears Will's life story. Will served in Vietnam and then worked at a bank, but when he was laid off, he turned to Christ. He wears a collar even though he is married and not ordained.",
-        hint: "The passage traces his path from the military to a bank job to faith.",
-        explanation: "Will served in Vietnam, worked at a bank, and turned to Christ after being laid off. He calls out hypocrisy in the church and wears a collar though married and not ordained — even the cardinal doesn't mind."
-      },
-      {
         id: 'od8-8',
         question: "What is Barack's job when Marty sends him out to interview South Side residents?",
         options: [
@@ -936,20 +768,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "A landfill and a sewage treatment plant flank the Gardens — which is why the chapter asks whether anyone in power cared about the residents' quality of life."
       },
       {
-        id: 'od9-2',
-        question: "After two years of organizing, who announces she is quitting?",
-        options: [
-          "Shirley",
-          "Angela",
-          "Mona",
-          "Will"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Barack walks into a church in Altgeld to find Angela, Shirley, Will, and Mary looking sad. Angela announces that she is quitting, saying that after two years she feels like she has accomplished nothing, and Shirley backs her up.",
-        hint: "The passage names the person who says two years of work added up to nothing.",
-        explanation: "Angela quits after two years of feeling she accomplished nothing; Shirley agrees with her."
-      },
-      {
         id: 'od9-3',
         question: "Who does the organizer Mary remind Barack of?",
         options: [
@@ -1004,20 +822,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "At the Chamber of Commerce, the group meets Mr. Foster, who had resigned as president the previous week. He tells them that business owners turn down thirty applicants every week, which dashes their hope of finding part-time work for Altgeld's youth.",
         hint: "The passage gives a number equal to three tens.",
         explanation: "Thirty applicants per week are turned away, so finding part-time jobs for Altgeld's young people looks very hard."
-      },
-      {
-        id: 'od9-7',
-        question: "What does Ms. Alvarez finally promise at the big meeting?",
-        options: [
-          "To close the job bank",
-          "To resign as director",
-          "A job intake and training center in the area within six months",
-          "To hire Barack herself"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Barack and the women draft a letter to Ms. Alvarez, the director of the Mayor's Office of Employment and Training, demanding a job intake and training center for the Far South Side. About a hundred people attend the meeting, and Mona presses Ms. Alvarez until she promises an intake center in the area within six months.",
-        hint: "The passage names a training center promised within half a year.",
-        explanation: "Ms. Alvarez promises a MET job intake and training center for the Far South Side within six months."
       },
       {
         id: 'od9-8',
@@ -1171,20 +975,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "Barack sees Rafiq's nationalism as a powerful feeling that doesn't actually change the rules of power."
       },
       {
-        id: 'od10-8',
-        question: "What happened to the Nation of Islam toiletry line that Barack watched?",
-        options: [
-          "It made millions",
-          "It rose and fell",
-          "It was never sold",
-          "It became a grocery store"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Barack watches a Nation of Islam toiletry line rise and fall, and he figures it failed because white people still control the markets.",
-        hint: "The passage describes the product line's short life in two words.",
-        explanation: "The toiletry line rose and then fell, showing Barack that Black businesses still operate in markets controlled by white people."
-      },
-      {
         id: 'od10-9',
         question: "Why won't Rafiq ask his congregation to join protests?",
         options: [
@@ -1198,31 +988,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         hint: "The passage says whom Rafiq is suspicious of.",
         explanation: "Rafiq won't bring his congregation to protests and distrusts Black people who would go."
       },
-      {
-        id: 'od10-10',
-        question: "What kind of restaurant do Barack and Ruby eat at before the play?",
-        options: [
-          "A pizza place",
-          "A burger joint",
-          "A Vietnamese restaurant",
-          "A Chinese buffet"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Before the play, Barack and Ruby eat dinner at a Vietnamese restaurant on the north side of the city.",
-        hint: "The passage names the country's cuisine.",
-        explanation: "They ate at a Vietnamese restaurant before heading to the performance."
-      }
-    ]
-  },
-  {
-    id: 'obama-dreams-ch11',
-    title: "Dreams from My Father: Chapter 11",
-    author: "Barack Obama",
-    coverEmoji: "🌺",
-    themeColor: "emerald",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "Barack's half-sister Auma visits from Germany, and over ten days she tells him the painful story of their father, the Old Man — his rise, his blacklisting, his drinking, and his death — ending with her plea that they go home to Kenya.",
-    questions: [
       {
         id: 'od11-1',
         question: "Where has Auma been living when she visits Chicago?",
@@ -1252,20 +1017,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "Auma says Germany pretends to be progressive while its people are still racist."
       },
       {
-        id: 'od11-3',
-        question: "Who does Auma say Barack is stubborn like?",
-        options: [
-          "Marty",
-          "Gramps",
-          "The Old Man",
-          "Lolo"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "When Barack tries to convince Auma to take a nap, she accuses him of being stubborn just like the Old Man, their father.",
-        hint: "The passage names their shared father.",
-        explanation: "Auma says Barack is stubborn like the Old Man, the father they share."
-      },
-      {
         id: 'od11-4',
         question: "How many brothers does Auma say were born around the time the Old Man took them to Nairobi?",
         options: [
@@ -1292,20 +1043,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "After speaking out against tribal divisions in Kenya's government, the president blacklisted the Old Man. He finally found a small job with the Water Department thanks to a sympathetic friend, but he began drinking and his friends cut him off.",
         hint: "The passage names a city utility.",
         explanation: "A sympathetic friend got him a small job with the Water Department."
-      },
-      {
-        id: 'od11-6',
-        question: "What helped Auma stay in school after her father could no longer pay her school fees?",
-        options: [
-          "A job at a store",
-          "A scholarship from her headmistress",
-          "Money from Barack",
-          "A loan from a bank"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Auma survived thanks to boarding school. When the Old Man could no longer pay her school fees, the headmistress gave her a scholarship, letting her stay in school.",
-        hint: "The passage says a school leader helped pay.",
-        explanation: "Her headmistress gave her a scholarship so she could stay in boarding school."
       },
       {
         id: 'od11-7',
@@ -1417,34 +1154,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "Mr. Anderson claimed there was no asbestos but couldn't produce test results, making Barack suspect a cover-up."
       },
       {
-        id: 'od12-4',
-        question: "How many people are willing to ride downtown to the CHA director's office?",
-        options: [
-          "Fifty",
-          "Eight",
-          "A hundred",
-          "Thirty"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "After weeks of unreturned calls to the property manager, the CHA, and the mayor's office, the group plans to go downtown and demand answers. Sadie, Linda, and Bernadette manage to find only eight people willing to go.",
-        hint: "The passage gives a single-digit number.",
-        explanation: "Only eight people would go, but the trip still worked because a news crew showed up."
-      },
-      {
-        id: 'od12-5',
-        question: "What happens when a news crew arrives at the director's office?",
-        options: [
-          "The group runs away",
-          "Barack gives a speech alone",
-          "Barack gets Sadie to give a press conference",
-          "The director calls the police"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "At the director's office, the secretary tries to shoo the group out just as a news crew arrives. Barack coaxes Sadie into giving a press conference, and as she speaks, the director's assistant hurries everyone into a conference room.",
-        hint: "The passage says Barack persuades Sadie to speak to reporters.",
-        explanation: "Sadie's press conference forced the director's office to meet with them."
-      },
-      {
         id: 'od12-6',
         question: "What do the women learn in the conference room?",
         options: [
@@ -1526,20 +1235,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
     synopsis: "A year after the asbestos fight, Barack confronts the South Side's growing crisis of guns and drugs, mentors the troubled teenager Kyle, pushes for school reform, and visits his struggling brother Roy in Washington, D.C.",
     questions: [
       {
-        id: 'od13-1',
-        question: "In what year does this chapter take place?",
-        options: [
-          "1985",
-          "1987",
-          "1990",
-          "1983"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "It is a year after the asbestos campaign. By 1987, Barack notices a change on the South Side: boys snap young saplings, other young men sit in wheelchairs, and many people now believe some boys are beyond help.",
-        hint: "The passage names the year directly.",
-        explanation: "The chapter is set in 1987, a year after the asbestos campaign, when drugs and guns have worsened."
-      },
-      {
         id: 'od13-2',
         question: "What does Johnnie tell Barack he once witnessed?",
         options: [
@@ -1566,20 +1261,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "Barack thinks about Kyle, Ruby's son, who is sixteen now and whose behavior frightens his mother. One day Barack takes Kyle to play basketball and asks whether he is still thinking about joining the air force.",
         hint: "The passage gives Kyle's age as a teen number.",
         explanation: "Kyle is sixteen, and his mother Ruby is frightened by his angry behavior."
-      },
-      {
-        id: 'od13-4',
-        question: "What does Kyle say about becoming a pilot?",
-        options: [
-          "He will join next week",
-          "They will never let a Black man fly a plane",
-          "He already has a license",
-          "He prefers basketball"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "On the basketball court, Barack asks Kyle if he is still thinking about the air force. Kyle insists that they will never let a Black man fly a plane and that he will stay in Chicago.",
-        hint: "The passage states Kyle's belief about Black pilots.",
-        explanation: "Kyle believes racism will keep him from ever flying, so he has given up on the air force."
       },
       {
         id: 'od13-5',
@@ -1705,20 +1386,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "Barack has decided to leave organizing for law school, hoping it will teach him how power really works."
       },
       {
-        id: 'od14-3',
-        question: "When does Barack finally visit Reverend Wright?",
-        options: [
-          "In the spring",
-          "At the end of October",
-          "On Christmas Day",
-          "In July"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Barack keeps meeting with Black pastors in the city. Several younger pastors point him toward Reverend Wright, and at the end of October he finally visits. Children and older women mill around the church after dancing classes, daycare, and Bible study.",
-        hint: "The passage names a month near Halloween.",
-        explanation: "At the end of October, Barack visits Reverend Wright at Trinity."
-      },
-      {
         id: 'od14-4',
         question: "About how many members does Trinity Church have?",
         options: [
@@ -1789,20 +1456,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "Barack realizes the church preserves and shares Black people's stories."
       },
       {
-        id: 'od14-9',
-        question: "How does Barack discover he has been crying during the service?",
-        options: [
-          "Reverend Wright points at him",
-          "A boy next to him offers a tissue",
-          "He sees himself in a mirror",
-          "Mary tells him"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "As the choir sings, the boy sitting next to Barack offers him a tissue. Barack takes it, surprised — he had not realized he was crying.",
-        hint: "The passage mentions a small kindness from a neighbor in the pew.",
-        explanation: "A boy offered Barack a tissue, which was how he realized tears were running down his face."
-      },
-      {
         id: 'od14-10',
         question: "What does Reverend Philips say many of his congregants have done?",
         options: [
@@ -1841,20 +1494,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "On the plane from London to Nairobi, Barack sat beside a young British student on his way to South Africa, where he planned to work with mining companies.",
         hint: "The passage names the student's destination and the industry he was joining.",
         explanation: "A young British student sat next to Barack; he was headed to South Africa to work with mining companies, and their conversation left Barack angry about how white people talked about Africa."
-      },
-      {
-        id: 'od15-2',
-        question: "Where did Barack's bag accidentally get sent?",
-        options: [
-          "Johannesburg",
-          "Lagos",
-          "Cairo",
-          "Addis Ababa"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "At the nearly empty Nairobi airport, Barack learned his bag had never arrived — it had been sent on to Johannesburg by mistake.",
-        hint: "The passage names the city the bag was flown to instead of Nairobi.",
-        explanation: "The airline had sent Barack's bag to Johannesburg instead of Nairobi, leaving him with no luggage for two days."
       },
       {
         id: 'od15-3',
@@ -1955,31 +1594,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "Sarah was disputing the Old Man's will, claiming Auma, Roy, and Bernard were not his children — and Auma warned Barack that Sarah really just wanted his money."
       },
       {
-        id: 'od15-10',
-        question: "How did Barack finally get his lost luggage back?",
-        options: [
-          "He bought all new clothes at the market",
-          "The airline found it on its own the next morning",
-          "A relative who knew the British Airways manager got the manager to arrange its delivery",
-          "Auma drove to Johannesburg to fetch it"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "After two days of no help at the airline office, a relative appeared who knew the British Airways manager, and with his prodding the manager arranged to have Barack's bag delivered that same day.",
-        hint: "The passage credits a family connection, not the airline, for solving the problem.",
-        explanation: "Only a relative's connection to the British Airways manager got the bag delivered — teaching Barack Auma's lesson that in Kenya you get things done through family, friends, or tribe."
-      }
-    ]
-  },
-  {
-    id: 'obama-dreams-ch16',
-    title: "Dreams from My Father: Chapter 16",
-    author: "Barack Obama",
-    coverEmoji: "🌺",
-    themeColor: "amber",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "In Nairobi, Barack plays basketball with Bernard, meets the combative Aunt Sarah in Mathare, and has awkward lunches with his father's ex-wife Ruth and his half-brother Mark, who wants nothing to do with his Kenyan roots.",
-    questions: [
-      {
         id: 'od16-1',
         question: "What did Bernard come to Auma's door to do with Barack?",
         options: [
@@ -1992,20 +1606,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "Bernard showed up at Auma's doorstep so he could play basketball with Barack, then doubted they could run to the courts — and sure enough, he had to walk after a quarter mile.",
         hint: "The passage names the sport Bernard wanted to play.",
         explanation: "Bernard came to play basketball with Barack, though he tired quickly on the run to the courts."
-      },
-      {
-        id: 'od16-2',
-        question: "What did Bernard believe about life in America?",
-        options: [
-          "That everyone has a car and a phone, and work is easy to find",
-          "That it snows there every single day",
-          "That no one there plays basketball",
-          "That all Americans speak Swahili"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "While they shot hoops, Bernard announced that in America everyone has a car and a phone, that finding work would be easy, and that he would come work for Barack's business — a business that did not exist.",
-        hint: "The passage lists two things Bernard thought every American owned.",
-        explanation: "Bernard imagined America as a place where everyone has a car and a phone and jobs are easy — and planned to work for a business Barack didn't even have."
       },
       {
         id: 'od16-3',
@@ -2090,20 +1690,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "Auma explained that after the bitter divorce, David insisted he was an Obama and ran away; Roy found him, he became the family favorite, and he died while living with Roy — breaking Roy's heart.",
         hint: "The passage traces David's path from running away to his death.",
         explanation: "David refused his new stepfamily's name, insisted he was an Obama, ran away to Roy's, and died while living there — a loss that devastated Roy."
-      },
-      {
-        id: 'od16-9',
-        question: "What kind of scientist was Barack's half-brother Mark training to be?",
-        options: [
-          "A chemist",
-          "A biologist",
-          "A physicist",
-          "A geologist"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Over lunch Mark told Barack he was studying physics at Stanford, that he loved Shakespeare and Beethoven, and that he was cutting himself off from his Kenyan roots.",
-        hint: "The passage names the science Mark studied at Stanford.",
-        explanation: "Mark was training to be a physicist at Stanford — and told Barack flatly that he resented the Old Man and wanted nothing to do with his Kenyan past."
       },
       {
         id: 'od16-10',
@@ -2229,20 +1815,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "Roy planned an import-export business selling Kenyan curios in America, but Auma scolded him for overpaying for the cheap sample carvings."
       },
       {
-        id: 'od17-8',
-        question: "What did Roy pour on the floor when he announced he would marry Amy?",
-        options: [
-          "A beer",
-          "A glass of milk",
-          "A cup of tea",
-          "A bottle of water"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Roy announced to the room that he planned to marry Amy because she was an African woman who would not argue with him — and poured a beer onto the floor, which Jane rushed to clean up.",
-        hint: "The passage names the drink Roy spilled as an offering.",
-        explanation: "Roy poured a beer onto the floor as he announced his plan to marry Amy — a gesture that disgusted Auma but sent Jane scrambling to clean."
-      },
-      {
         id: 'od17-9',
         question: "What story did Zeituni tell about the Old Man and dancing?",
         options: [
@@ -2255,59 +1827,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "Zeituni boasted that she was the best dancer and the Old Man the best partner, recalling how he once took Kezia out dancing instead of doing Onyango's chores — Onyango was livid, but the Old Man just put on a record and called Kezia to dance.",
         hint: "The passage explains whose chores the Old Man skipped to go dancing.",
         explanation: "The Old Man skipped Onyango's chores to take Kezia dancing; when the furious Onyango confronted him, he simply put on a record and kept dancing — even calling Granny to join."
-      },
-      {
-        id: 'od17-10',
-        question: "What painful secret did Roy share about the night David died?",
-        options: [
-          "He had argued with David that morning",
-          "He had been in jail in Nairobi, and David had begged for the keys to fetch his papers",
-          "He had left David alone at the club",
-          "He had refused to lend David money"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Outside the club, Roy confessed that he had been in jail the night David died — he had fought a man at a club and had no papers, so David had begged for the keys to go fetch them.",
-        hint: "The passage explains where Roy was and what David was trying to do.",
-        explanation: "Roy had been jailed after a club fight, and David died while fetching Roy's papers — Barack assured Roy it had been an accident, and Roy leapt up to dance."
-      }
-    ]
-  },
-  {
-    id: 'obama-dreams-ch18',
-    title: "Dreams from My Father: Chapter 18",
-    author: "Barack Obama",
-    coverEmoji: "🌺",
-    themeColor: "sky",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "Barack rides the train to Kisumu and travels on to the ancestral home in Alego, where Granny welcomes him, Roy shows him the family graves, and Sayid shares hard-won wisdom about the Old Man.",
-    questions: [
-      {
-        id: 'od18-1',
-        question: "How did Barack and his family travel to Kisumu?",
-        options: [
-          "By airplane",
-          "By train",
-          "By bus",
-          "By boat"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Barack and most of his family boarded a train headed for Kisumu, and he stared out the window thinking about the railway the British had built.",
-        hint: "The passage names the vehicle that carried the whole family west.",
-        explanation: "They rode the train to Kisumu — the same railway the British built as their biggest engineering effort in Kenya."
-      },
-      {
-        id: 'od18-2',
-        question: "What was special about the year 1895, when Onyango was born?",
-        options: [
-          "It was the year the British began building the Kenya railway",
-          "It was the year Kenya became independent",
-          "It was the year Nairobi was founded",
-          "It was the year the Old Man was born"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Barack's grandfather, Hussein Onyango, was born in 1895 — the very year construction began on the great railway the British pushed across Kenya.",
-        hint: "The passage connects Onyango's birth year to the railway's beginning.",
-        explanation: "Onyango was born in 1895, the year the British began building the Kenya railway — a project that reshaped the country he grew up in."
       },
       {
         id: 'od18-3',
@@ -2475,20 +1994,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "Onyango paid a large bride price and had friends kidnap Akumu from the man she was promised to — a \"capture\" Granny called traditional, though Auma called it awful."
       },
       {
-        id: 'od19-4',
-        question: "How old was Granny when she married Onyango?",
-        options: [
-          "Twelve",
-          "Twenty-one",
-          "Sixteen",
-          "Thirty"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Granny told Barack she was only sixteen when she married Onyango, while Akumu already had Sarah and the Old Man and was growing unhappy under Onyango's harsh demands.",
-        hint: "The passage gives Granny's exact age at her wedding.",
-        explanation: "Granny was sixteen when she became Onyango's wife — joining a household where Akumu was already chafing under Onyango's strict rule."
-      },
-      {
         id: 'od19-5',
         question: "What did Onyango accomplish after moving the family to Alego?",
         options: [
@@ -2501,20 +2006,6 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         samplePassage: "After forcing the move to Alego, where there was less crowding and more land, Onyango used the Western farming techniques he had learned to turn the bush into a profitable farm within a single year.",
         hint: "The passage names the time it took Onyango to make the farm succeed.",
         explanation: "Within a year Onyango had a thriving farm in Alego — he even sold his cattle because they eroded the soil, and baked bread and cakes in an oven he installed."
-      },
-      {
-        id: 'od19-6',
-        question: "What happened after Akumu ran away?",
-        options: [
-          "Onyango forgave her and brought her back",
-          "Sarah and the Old Man tried to follow her to Kendu but got lost, and their father retrieved them",
-          "Granny left Onyango as well",
-          "The children never saw her again and forgot her"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "When the Old Man was nine and Sarah twelve, Akumu ran off with her new baby; weeks later the two children tried to reach her in Kendu, got lost, and were in bad shape when their father retrieved them.",
-        hint: "The passage describes the children's failed journey to find their mother.",
-        explanation: "Sarah and the young Old Man tried to follow Akumu to Kendu but got lost, and Onyango brought them home — after which Granny effectively became their mother."
       },
       {
         id: 'od19-7',
