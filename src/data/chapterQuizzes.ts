@@ -55,34 +55,6 @@ export const CHAPTER_QUIZZES: Book[] = [
         explanation: "A bullet tore through the soldier's right thigh and shattered his femur — the kind of wound that almost always became infected."
       },
       {
-        id: 'sb1-4',
-        question: "Of all the fates Fleming imagined for the wounded soldier, which one worried him most?",
-        options: [
-          "Losing his eyesight",
-          "Tetanus",
-          "A broken nose",
-          "Getting lost behind enemy lines"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "There was no shortage of terrible fates befalling soldiers with this kind of injury, from amputation to gangrene, even organ failure. But Fleming was most worried about tetanus — a lethal condition causing paralysis and eventual suffocation — that was terrorizing so many British soldiers in his battlefield hospital.",
-        hint: "The passage names the infection Fleming feared above amputation and gangrene.",
-        explanation: "Fleming feared tetanus most — a bacterial infection that causes paralysis and suffocation, and it was striking many British soldiers."
-      },
-      {
-        id: 'sb1-5',
-        question: "According to the chapter, what does tetanus do to its victims?",
-        options: [
-          "It makes bones grow extra thick",
-          "It turns the skin bright blue",
-          "It causes paralysis and eventual suffocation",
-          "It makes people sleep for weeks at a time"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Fleming dreaded tetanus most of all: a lethal condition causing paralysis and eventual suffocation that was terrorizing British soldiers on the Western Front.",
-        hint: "The passage describes two terrible effects — one on movement, one on breathing.",
-        explanation: "Tetanus causes the body's muscles to lock up in paralysis, eventually suffocating the victim — which is why Fleming feared it above all."
-      },
-      {
         id: 'sb1-6',
         question: "How long had the Great War been going on when Fleming examined the soldier on October 24, 1914?",
         options: [
@@ -220,20 +192,6 @@ export const CHAPTER_QUIZZES: Book[] = [
         explanation: "He returned in September 1928 to find the famous contaminated plate — the 'chance observation' of the book's title."
       },
       {
-        id: 'sb2-5',
-        question: "What did Fleming notice about the bacteria growing near the mold?",
-        options: [
-          "They had turned bright green",
-          "There were no bacteria growing close to the mold",
-          "They had doubled in number overnight",
-          "They had started to glow in the dark"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Just as he was about to throw the plate away, Fleming noticed something remarkable: there were no bacteria growing close to the mold. Something in the fungus had killed the surrounding microbes.",
-        hint: "The passage describes an empty zone around the mold where bacteria should have been.",
-        explanation: "The mold had created a clear bacteria-free zone around itself — visible proof that it produced something lethal to germs."
-      },
-      {
         id: 'sb2-6',
         question: "What did Fleming name the bacteria-killing substance made by the mold?",
         options: [
@@ -274,20 +232,6 @@ export const CHAPTER_QUIZZES: Book[] = [
         samplePassage: "About ten years later, with another world war looming, Howard Florey and Ernst Chain at Oxford University dug up Fleming's forgotten paper and set out to turn penicillin into a real medicine.",
         hint: "The passage names the two Oxford scientists who restarted the work.",
         explanation: "Florey and Chain's Oxford team figured out how to purify penicillin and proved it could cure infections — work that earned them a share of the Nobel Prize."
-      },
-      {
-        id: 'sb2-9',
-        question: "During which conflict did penicillin finally become widely used to save soldiers' lives?",
-        options: [
-          "The Crimean War",
-          "The American Civil War",
-          "World War II",
-          "The Napoleonic Wars"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "By the middle of World War II, factories were producing penicillin in bulk, and it was saving the lives of wounded soldiers who would once have died of infected wounds.",
-        hint: "The passage names the second great war of the twentieth century.",
-        explanation: "Mass-produced penicillin arrived in time for World War II, dramatically cutting deaths from infected wounds."
       },
       {
         id: 'sb2-10',
@@ -427,45 +371,6 @@ export const CHAPTER_QUIZZES: Book[] = [
         explanation: "Gramps and Toot — Stanley and Madelyn Dunham — gave Barack a warm, stable home in Honolulu while his mother worked and studied."
       },
       {
-        id: 'od1-9',
-        question: "How old was Barack when his father came to visit Hawaii?",
-        options: [
-          "Ten years old, for a month-long visit",
-          "Two years old",
-          "Twenty-one years old",
-          "His father never visited"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Aside from his first two years, Barack spent almost no time with his father — except for one month-long visit to Hawaii when Barack was ten years old.",
-        hint: "The passage gives his age as ten and the length of the stay.",
-        explanation: "The 1971 visit, when Barack was ten, was the only extended time he ever spent with his father — and it left him with more questions than answers."
-      },
-      {
-        id: 'od1-10',
-        question: "Growing up, where did most of what Barack knew about his father come from?",
-        options: [
-          "Letters his father wrote every single week",
-          "Newspaper articles about Kenya",
-          "Idealized stories told by his mother and grandparents",
-          "Home movies the family watched together"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Most of what young Barack knew of his father came not from the man himself but from the glowing stories his mother and grandparents told — tales that made him seem heroic but explained nothing about his absence.",
-        hint: "The passage says his knowledge came from other people's tales, not from his father directly.",
-        explanation: "Ann, Gramps, and Toot painted Obama Sr. as a brilliant, heroic figure — but the stories couldn't explain why he had stayed away, leaving Barack to sort out myth from reality."
-      }
-    ]
-  },
-  {
-    id: 'obama-dreams-ch2',
-    title: "Dreams from My Father: Chapter 2",
-    author: "Barack Obama",
-    coverEmoji: "🌏",
-    themeColor: "purple",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "At six years old, Barack moves to Indonesia, where his stepfather Lolo teaches him hard lessons about strength, survival, and the wider world.",
-    questions: [
-      {
         id: 'od2-1',
         question: "At what age — and in what year — did Barack move to Indonesia?",
         options: [
@@ -522,20 +427,6 @@ export const CHAPTER_QUIZZES: Book[] = [
         explanation: "The scars came from leeches in New Guinea, where Lolo had served — a glimpse of how much tougher Lolo's life had been than Barack's."
       },
       {
-        id: 'od2-5',
-        question: "What lesson about strength did Lolo teach Barack?",
-        options: [
-          "Never trust anyone who is strong",
-          "Always run away from every fight",
-          "Strength doesn't matter at all",
-          "Be strong yourself; if you can't be strong, be clever"
-        ],
-        correctAnswerIndex: 3,
-        samplePassage: "Lolo told Barack that men take advantage of weakness in other men — so he should be strong himself, and if he couldn't be strong, he should at least be clever.",
-        hint: "The passage gives two options Lolo offered: strength, or its backup plan.",
-        explanation: "Lolo's hard pragmatism: the world preys on the weak, so be strong — or, failing that, be clever enough to make peace with the strong."
-      },
-      {
         id: 'od2-6',
         question: "What did Lolo teach Barack about beggars?",
         options: [
@@ -548,20 +439,6 @@ export const CHAPTER_QUIZZES: Book[] = [
         samplePassage: "Lolo instructed Barack on how to handle the beggars of Djakarta: don't give them money, keep your distance — and above all, don't end up a beggar yourself.",
         hint: "The passage gives Lolo's two-part rule about beggars.",
         explanation: "Lolo's lesson was unsentimental: don't hand out money, and work hard enough that you never become one of them — a stark contrast to Ann's gentler worldview."
-      },
-      {
-        id: 'od2-7',
-        question: "What demanding lesson routine did Ann set for Barack in Indonesia?",
-        options: [
-          "Midnight swimming practice",
-          "Waking him at 4:30 in the morning for English lessons",
-          "Making him memorize the entire dictionary",
-          "No lessons at all — she let him play"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Worried about his schooling, Ann woke Barack at 4:30 every morning to drill him in English before he went off to his Indonesian school.",
-        hint: "The passage names a very early hour and the subject she taught.",
-        explanation: "Ann rose before dawn to teach Barack English at 4:30 a.m. — her way of making sure Indonesia wouldn't cost him his American education."
       },
       {
         id: 'od2-8',
