@@ -1,8 +1,36 @@
-import { Book } from '../types/quiz';
+import { Book, Question } from '../types/quiz';
 import { MAGIC_TREE_HOUSE_BOOKS } from './magicTreeHouseBooks';
 import { CHAPTER_QUIZZES } from './chapterQuizzes';
 import { SUPERBUGS_CHAPTERS } from './superbugsChapters';
 import { OBAMA_DREAMS_CHAPTERS } from './obamaDreamsChapters';
+import { SUPERBUGS_COMP_A } from './comprehension/superbugsCompA';
+import { SUPERBUGS_COMP_B } from './comprehension/superbugsCompB';
+import { SUPERBUGS_COMP_C } from './comprehension/superbugsCompC';
+import { SUPERBUGS_COMP_D } from './comprehension/superbugsCompD';
+import { SUPERBUGS_COMP_E } from './comprehension/superbugsCompE';
+import { OBAMA_COMP_A } from './comprehension/obamaCompA';
+import { OBAMA_COMP_B } from './comprehension/obamaCompB';
+
+// Higher-order comprehension questions (main idea, tone, character, inference,
+// author's point), keyed by chapter book id.
+const COMPREHENSION: Record<string, Question[]> = {
+  ...SUPERBUGS_COMP_A,
+  ...SUPERBUGS_COMP_B,
+  ...SUPERBUGS_COMP_C,
+  ...SUPERBUGS_COMP_D,
+  ...SUPERBUGS_COMP_E,
+  ...OBAMA_COMP_A,
+  ...OBAMA_COMP_B,
+};
+
+// Append the comprehension questions to each chapter set so every set
+// has 8 detail questions + 4 comprehension questions = 12 total.
+function withComprehension(books: Book[]): Book[] {
+  return books.map((b) => ({
+    ...b,
+    questions: [...b.questions, ...(COMPREHENSION[b.id] ?? [])],
+  }));
+}
 
 export const CLASSIC_BOOKS: Book[] = [
   {
@@ -916,7 +944,7 @@ export const CLASSIC_BOOKS: Book[] = [
 export const DEFAULT_BOOKS: Book[] = [
   ...MAGIC_TREE_HOUSE_BOOKS,
   ...CLASSIC_BOOKS,
-  ...CHAPTER_QUIZZES,
-  ...SUPERBUGS_CHAPTERS,
-  ...OBAMA_DREAMS_CHAPTERS,
+  ...withComprehension(CHAPTER_QUIZZES),
+  ...withComprehension(SUPERBUGS_CHAPTERS),
+  ...withComprehension(OBAMA_DREAMS_CHAPTERS),
 ];
