@@ -29,20 +29,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Gerhard Domagk was the lucky grenadier — he survived the war as a soldier and later discovered the first sulfa drugs."
       },
       {
-        id: 'sb3-2',
-        question: "What happened to Domagk during World War I?",
-        options: [
-          "He enlisted as a grenadier, was wounded on the Western Front, and later served in the Medical Corps",
-          "He stayed home and worked in a bakery",
-          "He was captured and spent the war in a prison camp",
-          "He never joined the army at all"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Domagk's medical studies were interrupted when he enlisted as a grenadier in 1914. He was wounded fighting on the Western Front, and after recovering he was posted to the Medical Corps.",
-        hint: "The passage describes his enlistment, his wound, and his later medical posting.",
-        explanation: "Domagk enlisted as a grenadier, was wounded on the Western Front, and after recovery served in the Medical Corps — experiences that shaped his life's work."
-      },
-      {
         id: 'sb3-3',
         question: "What was Gerhard Domagk's guiding principle in life?",
         options: [
@@ -127,20 +113,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Domagk held fast to his belief that science must preserve life, even when the government around him demanded otherwise."
       },
       {
-        id: 'sb3-9',
-        question: "What family of medicines grew out of Domagk's discovery?",
-        options: [
-          "Vitamins",
-          "Cough drops",
-          "The sulfa drugs, also called sulfonamides",
-          "Sleeping pills"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Domagk's red dye led to a whole family of medicines called sulfa drugs, or sulfonamides — simple compounds that doctors prescribed for bacterial infections for decades.",
-        hint: "The passage names the medicine family that started with his discovery.",
-        explanation: "His work launched the sulfonamides — the sulfa drugs — which were the main weapon against bacterial infections before penicillin took over."
-      },
-      {
         id: 'sb3-10',
         question: "Why does McCarthy begin his trial story with Domagk?",
         options: [
@@ -178,20 +150,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "The chapter recounts the Tuskegee syphilis study, in which the U.S. Public Health Service followed hundreds of poor Black men with syphilis for forty years — studying the disease while deliberately not treating it.",
         hint: "The passage describes a decades-long government study of an untreated disease.",
         explanation: "The Tuskegee study followed Black men with syphilis for forty years without treating them, to observe what the disease did to their bodies."
-      },
-      {
-        id: 'sb4-2',
-        question: "How long did the Tuskegee study last?",
-        options: [
-          "From 1932 to 1972 — forty years",
-          "One week",
-          "Six months, as planned",
-          "Two hundred years"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "What began in 1932 was supposed to run for only six months, but it continued until 1972 — a full forty years of observing men who were never given a cure.",
-        hint: "The passage gives the start and end years of the study.",
-        explanation: "The study ran from 1932 to 1972 — forty years — even though it was originally planned to last only six months."
       },
       {
         id: 'sb4-3',
@@ -262,20 +220,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "Because the disease was left to run its course, around one hundred men died as a direct result of their untreated condition, and many others unknowingly passed the infection to their families.",
         hint: "The passage gives the approximate number who died from the untreated disease.",
         explanation: "Around one hundred men died directly from untreated syphilis — a terrible cost of a study that offered its subjects no benefit."
-      },
-      {
-        id: 'sb4-8',
-        question: "What warning does McCarthy take from Tuskegee?",
-        options: [
-          "Doctors should never do research",
-          "Hospitals should be closed",
-          "Doctors do not always act in their patients' best interests, so trials need strict ethical rules",
-          "Patients should never trust any medicine"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "McCarthy draws a hard lesson from Tuskegee: doctors do not always act in their patients' best interests, which is exactly why modern clinical trials must follow strict ethical safeguards before testing any drug on people.",
-        hint: "The passage states the lesson about doctors, patients, and the need for rules.",
-        explanation: "Tuskegee proved that researchers can harm patients when no rules restrain them — so McCarthy insists on strong ethical safeguards for his own trial."
       },
       {
         id: 'sb4-9',
@@ -359,20 +303,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Beecher showed that even in the 1960s, American researchers were experimenting on patients without their informed consent — proof that safeguards were urgently needed."
       },
       {
-        id: 'sb5-4',
-        question: "What was Beecher's conclusion about medical experiments?",
-        options: [
-          "Anything goes if the results are useful",
-          "Ethics slow down science too much",
-          "An experiment is ethical or not — it does not become ethical after the fact, and ends do not justify means",
-          "Only animals need protection"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Beecher concluded that an experiment is ethical or not from the start: it does not become ethical after the fact, and good results can never justify unethical means.",
-        hint: "The passage quotes Beecher's rule that results cannot excuse unethical methods.",
-        explanation: "Beecher's principle: a study must be ethical from the beginning — no amount of useful results can make an unethical experiment right."
-      },
-      {
         id: 'sb5-5',
         question: "What is an IRB?",
         options: [
@@ -443,45 +373,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Informed consent is not just a signature: the patient must truly understand the risks and benefits and agree freely."
       },
       {
-        id: 'sb5-10',
-        question: "Which lesson convinced McCarthy that ethics must come before results?",
-        options: [
-          "Beecher's rule that an experiment cannot become ethical after the fact — ends never justify means",
-          "A lesson about baseball",
-          "A lesson about cooking",
-          "A lesson about car repair"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "McCarthy took Beecher's warning to heart: no matter how promising a new drug looks, the experiment testing it must be ethical from the very start — good results can never excuse bad methods.",
-        hint: "The passage repeats Beecher's rule about ethics coming first.",
-        explanation: "Beecher's principle became McCarthy's safeguard: ethics first, results second — an experiment can never become ethical after the fact."
-      }
-    ]
-  },
-  {
-    id: 'superbugs-ch6',
-    title: "Superbugs: Chapter 6 – Variables",
-    author: "Matt McCarthy",
-    coverEmoji: "🦠",
-    themeColor: "sky",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "With safeguards in place, McCarthy designs the trial itself — deciding exactly what to measure, choosing length of hospital stay as the key variable, and remembering the frightened patients the numbers represent.",
-    questions: [
-      {
-        id: 'sb6-1',
-        question: "What two things does McCarthy say doctors bring to the bedside?",
-        options: [
-          "Laptops and coffee",
-          "Compassion and science",
-          "Luck and speed",
-          "Money and fame"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "McCarthy writes that doctors bring two things to the bedside: compassion for the frightened patient in front of them, and the science needed to find a treatment that truly works.",
-        hint: "The passage names a caring feeling and a way of knowing.",
-        explanation: "Compassion and science — caring for the patient as a person while using rigorous science to test the drug."
-      },
-      {
         id: 'sb6-2',
         question: "What did McCarthy choose as the focal point — the key thing to measure — in his trial?",
         options: [
@@ -494,20 +385,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "McCarthy decided that length of stay would be the focal point of his trial — the main measurement that would drive every decision about whether the new drug was working.",
         hint: "The passage names the hospital measurement he chose as the trial's focus.",
         explanation: "Length of hospital stay was the trial's key variable: if the drug worked, patients would get better and go home sooner."
-      },
-      {
-        id: 'sb6-3',
-        question: "Why is length of hospital stay a good thing to measure?",
-        options: [
-          "Longer stays are always better",
-          "It tells you nothing about the patient",
-          "A shorter stay means the drug helped the patient recover faster and get home sooner",
-          "Hospitals like keeping beds full"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "If dalbavancin worked, patients would recover faster and leave the hospital sooner — so a shorter length of stay would be clear, real-world proof that the drug was helping people.",
-        hint: "The passage explains what a shorter stay would prove about the drug.",
-        explanation: "A shorter stay means faster recovery — a concrete, meaningful sign that the new antibiotic is doing its job."
       },
       {
         id: 'sb6-4',
@@ -689,34 +566,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Disease is the enemy. The reviewers' delays were frustrating, but everyone — doctors and reviewers alike — was fighting infections."
       },
       {
-        id: 'sb7-6',
-        question: "Why did the review board slow things down instead of rushing approval?",
-        options: [
-          "To annoy McCarthy",
-          "To save money on paper",
-          "To make sure the new drug would not endanger the patients who received it",
-          "To help a competing drug company"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "The board's job was not to be fast but to be careful: every demanded revision was meant to ensure the experimental drug would not put patients in danger.",
-        hint: "The passage says the board's priority was patient safety, not speed.",
-        explanation: "The board slowed the trial to protect patients — its duty is safety first, even when delay is agonizing."
-      },
-      {
-        id: 'sb7-7',
-        question: "What did revising the protocol teach McCarthy?",
-        options: [
-          "That paperwork is pointless",
-          "That regulatory review, though slow, guards patient safety",
-          "That he should ignore all rules",
-          "That trials never get approved"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Rewriting the protocol taught McCarthy a humbling lesson: the regulatory review he resented was actually a guardrail, catching safety problems he had missed and protecting future volunteers.",
-        hint: "The passage describes the review as a guardrail that caught problems.",
-        explanation: "McCarthy learned that the review process — painful as it was — caught real safety gaps and made the trial better."
-      },
-      {
         id: 'sb7-8',
         question: "Which old principle does McCarthy repeat in this chapter?",
         options: [
@@ -782,20 +631,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "McCarthy explains that antibiotic resistance comes with a fitness cost: when bacteria mutate into superbugs that antibiotics cannot kill, they give up something vital in return — becoming weaker in other ways.",
         hint: "The passage describes what bacteria sacrifice when they become resistant.",
         explanation: "Resistance isn't free for bacteria: mutating to survive antibiotics costs them something vital, which can make them weaker in other ways."
-      },
-      {
-        id: 'sb8-2',
-        question: "What alarming discovery had scientists made about resistance?",
-        options: [
-          "Resistance mechanisms already exist in nature for drugs that have not been invented yet",
-          "Bacteria can read books",
-          "Antibiotics never expire",
-          "All bacteria are friendly"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Scientists found something startling: out in nature, bacteria already carry resistance mechanisms against drugs humans have not even invented yet — evolution is always one step ahead.",
-        hint: "The passage says nature already holds defenses against future drugs.",
-        explanation: "Bacteria in nature already possess resistance tools against drugs we haven't invented — a sobering sign of how fast evolution moves."
       },
       {
         id: 'sb8-3',
@@ -882,20 +717,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Misuse gives bacteria repeated exposure to antibiotics, letting the resistant survivors multiply — evolution in action, driven by human carelessness."
       },
       {
-        id: 'sb8-9',
-        question: "After an antibiotic is approved, what must also happen?",
-        options: [
-          "It should be given to everyone immediately",
-          "It should be hidden away forever",
-          "It must be kept available to the people who truly need it",
-          "Its formula should be forgotten"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "McCarthy notes that approval is only half the battle: once an antibiotic is approved, the medical system must ensure it remains available to the people who need it most, rather than vanishing from shortages or high prices.",
-        hint: "The passage says approval alone is not enough — availability matters too.",
-        explanation: "Oversight doesn't end at approval: the drug must stay available and affordable for the patients who need it."
-      },
-      {
         id: 'sb8-10',
         question: "What did the 2008 financial crisis remind McCarthy of in the drug industry?",
         options: [
@@ -949,20 +770,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "\"Improvise, adapt, and overcome\" becomes his guide: when the system blocks him, he finds another path instead of giving up."
       },
       {
-        id: 'sb9-3',
-        question: "What does McCarthy do to prepare for tough questions about his trial?",
-        options: [
-          "He hides from the reviewers",
-          "He memorizes baseball statistics",
-          "He rehearses his explanations of why the drug should work",
-          "He writes a poem about antibiotics"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "McCarthy rehearses his pitch again and again, practicing how to explain clearly and convincingly why dalbavancin should work and why the trial deserves to move forward.",
-        hint: "The passage says he practices explaining the drug's promise.",
-        explanation: "He rehearses his explanations so that when reviewers or colleagues challenge the trial, he can answer with clarity and confidence."
-      },
-      {
         id: 'sb9-4',
         question: "What does Walsh keep telling McCarthy during the long wait?",
         options: [
@@ -975,20 +782,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "Whenever McCarthy despairs, Walsh steadies him with the same advice: stay focused and hang in there — the delays are painful, but quitting would abandon the patients waiting for help.",
         hint: "The passage quotes Walsh's encouragement to keep going.",
         explanation: "Walsh's steady message — stay focused and hang in there — keeps McCarthy from quitting during the bureaucratic slog."
-      },
-      {
-        id: 'sb9-5',
-        question: "Why does McCarthy rehearse his explanations so carefully?",
-        options: [
-          "So he can clearly convince reviewers and colleagues that the trial is safe and worthwhile",
-          "So he can win a debating trophy",
-          "So he can impress his neighbors",
-          "So he can avoid talking to patients"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "McCarthy knows that every committee and colleague will ask hard questions, so he rehearses until he can explain the trial's safety and value simply and persuasively.",
-        hint: "The passage says he prepares to explain the trial's safety and value.",
-        explanation: "Rehearsal is preparation: he must be able to convince skeptical reviewers that the trial protects patients and is worth running."
       },
       {
         id: 'sb9-6',
@@ -1100,20 +893,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Anne asks whether McCarthy can fix Ruth's trouble swallowing — a daughter's plea for help for her aging mother."
       },
       {
-        id: 'sb10-3',
-        question: "What does Anne say about Ruth's medical chart?",
-        options: [
-          "That it is perfectly complete",
-          "That much of Ruth's real story is missing from it",
-          "That it is written in another language",
-          "That she has never seen it"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Anne explains that the medical chart tells only a fraction of the truth — much of Ruth's life, her history, and who she really is never made it into the official record.",
-        hint: "The passage says the chart leaves out most of who Ruth is.",
-        explanation: "The chart is incomplete: it captures diagnoses but misses Ruth's remarkable life story — a reminder that patients are more than their records."
-      },
-      {
         id: 'sb10-4',
         question: "What childhood memory does Ruth still carry with her?",
         options: [
@@ -1140,20 +919,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "Sitting with the exhausted Ruth, McCarthy sees that informed consent is not a form to be signed but a real conversation — making sure a vulnerable patient truly understands and freely agrees.",
         hint: "The passage describes consent as a real conversation, not just paperwork.",
         explanation: "Ruth teaches him that informed consent is a human conversation with a tired, vulnerable person — understanding and free choice, not just ink on paper."
-      },
-      {
-        id: 'sb10-6',
-        question: "Why does McCarthy apologize to Ruth?",
-        options: [
-          "For being late to work",
-          "For losing her test results",
-          "For the unpleasant emergency-room experience she went through",
-          "For the hospital food"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "McCarthy apologizes to Ruth for what she endured in the emergency room — the long wait, the chaos, the indignity of being processed like a number instead of a person.",
-        hint: "The passage describes the difficult emergency-room visit he apologizes for.",
-        explanation: "He apologizes for the harsh emergency-room experience — owning the system's failures instead of pretending they didn't happen."
       },
       {
         id: 'sb10-7',
@@ -1266,20 +1031,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "George was sent to New Guinea for an eighteen-month tour of duty in the Pacific."
       },
       {
-        id: 'sb11-4',
-        question: "What was George's job during his tour in New Guinea?",
-        options: [
-          "He cooked meals for the troops",
-          "He repaired airplane engines",
-          "He served as an air observer, seated behind the pilot and searching for targets",
-          "He delivered mail between bases"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "George served as an air observer, seated behind a pilot in a small propeller plane, day after day searching for targets while dodging enemy dive-bombers.",
-        hint: "The passage describes his seat behind the pilot and what he looked for.",
-        explanation: "George was an air observer — he rode behind the pilot and scanned the ground and sky for targets."
-      },
-      {
         id: 'sb11-5',
         question: "What kind of plane did George fly in over New Guinea?",
         options: [
@@ -1336,20 +1087,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "The words guinea pig reminded George of being tested on — and of his wartime days in New Guinea."
       },
       {
-        id: 'sb11-9',
-        question: "What did George say when he handed the signed trial consent form back to McCarthy?",
-        options: [
-          "Happy to help, Doc",
-          "I need more time to think",
-          "This had better work",
-          "Do I get paid for this"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "George signed the consent form and handed it back with a cheerful remark, telling the doctor he was happy to help.",
-        hint: "The passage describes his cheerful, willing reply as he returned the form.",
-        explanation: "George was glad to volunteer, telling McCarthy he was happy to help."
-      },
-      {
         id: 'sb11-10',
         question: "What did George and Ruth have in common at the hospital?",
         options: [
@@ -1388,20 +1125,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "Just a few years after penicillin hit the market, it became obvious to physicians that they would need something else to treat patients with infections, so the hunt for a new antibiotic began.",
         hint: "The passage says doctors realized penicillin alone would not be enough.",
         explanation: "Doctors saw that they needed another infection-fighting drug, which launched the search that led to vancomycin."
-      },
-      {
-        id: 'sb12-2',
-        question: "Where did the dirt sample that led to vancomycin come from?",
-        options: [
-          "A backyard in Ohio",
-          "A beach in Florida",
-          "Borneo",
-          "A cave in France"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "A sample of dirt from Borneo was sent to a chemist at the Eli Lilly company, and buried within it was a microbe that made a powerful new substance.",
-        hint: "The passage names the faraway island where the dirt was collected.",
-        explanation: "The world-changing dirt came from Borneo, an island in Southeast Asia."
       },
       {
         id: 'sb12-3',
@@ -1502,45 +1225,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Erwin was given vancomycin — the brownish early form of the drug that earned the nickname Mississippi Mud."
       },
       {
-        id: 'sb12-10',
-        question: "After Erwin signed the trial consent form, what did he ask his companion?",
-        options: [
-          "How they should spend the money",
-          "Where the nearest library was",
-          "What time visiting hours ended",
-          "Whether it would rain tomorrow"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Erwin signed the paper and handed it back, then asked his companion how they should spend the money — a reminder that trial volunteers were paid for taking part.",
-        hint: "The passage shows he was already thinking about the payment volunteers receive.",
-        explanation: "Trial volunteers were paid, and Erwin was already planning how to spend the money — which made McCarthy uneasy about whether Erwin had taken the decision seriously."
-      }
-    ]
-  },
-  {
-    id: 'superbugs-ch13',
-    title: "Superbugs: Chapter 13 – Soren",
-    author: "Matt McCarthy",
-    coverEmoji: "🦠",
-    themeColor: "indigo",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "Soren, a young computer programmer whose surgery led to a painkiller addiction, considers joining the trial — raising hard questions about paying research volunteers.",
-    questions: [
-      {
-        id: 'sb13-1',
-        question: "What was Soren Gillickson's job?",
-        options: [
-          "Computer programmer",
-          "Firefighter",
-          "Taxi driver",
-          "Schoolteacher"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Soren Gillickson was a thirty-one-year-old computer programmer whose life changed after a car accident put him in the hospital.",
-        hint: "The passage names the technology job Soren did for a living.",
-        explanation: "Soren was a 31-year-old computer programmer."
-      },
-      {
         id: 'sb13-2',
         question: "How old was Soren when McCarthy met him?",
         options: [
@@ -1563,7 +1247,7 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
           "A broken arm from a bicycle fall",
           "An allergic reaction to peanuts"
         ],
-        correctAnswerIndex: 1,
+        correctAnswerIndex: 0,
         samplePassage: "Three years earlier, Soren had been in a car accident on East Fifty-Seventh Street and fractured his femur, and he was rushed to an emergency room where surgeons operated on his leg.",
         hint: "The passage describes the crash and the broken thigh bone.",
         explanation: "A car accident fractured Soren's femur — his thigh bone — and he needed surgery."
@@ -1653,31 +1337,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Surgeons had to wash out Soren's infected elbow in the operating room."
       },
       {
-        id: 'sb13-10',
-        question: "According to the chapter, where did Soren's addiction begin?",
-        options: [
-          "At a party with friends",
-          "In the hospital, with prescription painkillers after surgery",
-          "At his office desk",
-          "During a vacation abroad"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Soren's path to addiction began in a hospital: heavy doses of narcotics after his surgery transformed him from an ambitious young man into a reclusive addict.",
-        hint: "The passage traces his addiction back to the medicines given after his operation.",
-        explanation: "Soren's addiction started with the prescription painkillers he received in the hospital — a tragedy the chapter says medicine can never fully make up for."
-      }
-    ]
-  },
-  {
-    id: 'superbugs-ch14',
-    title: "Superbugs: Chapter 14 – Duty",
-    author: "Matt McCarthy",
-    coverEmoji: "🦠",
-    themeColor: "purple",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "Donny, a retired New York City firefighter exposed to poisons on 9/11, battles leukemia, a transplant complication, and a mysterious skin infection.",
-    questions: [
-      {
         id: 'sb14-1',
         question: "What was Donny Alexakis's job for twenty-two years?",
         options: [
@@ -1690,20 +1349,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "Donny Alexakis had spent twenty-two years as a New York City firefighter before retiring to the mountains of Kentucky.",
         hint: "The passage names the brave profession Donny did for over two decades.",
         explanation: "Donny served 22 years as a New York City firefighter before retiring."
-      },
-      {
-        id: 'sb14-2',
-        question: "Where was Donny on the morning of September 11, 2001?",
-        options: [
-          "Sitting on his deck in the mountains of Kentucky",
-          "Working at a firehouse in Manhattan",
-          "Visiting family in California",
-          "Shopping in downtown Brooklyn"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "When the towers were struck that Tuesday morning in September, Donny was sitting on his deck in the mountains of Kentucky, enjoying the first few months of retirement.",
-        hint: "The passage places him far from the city, on a mountain deck.",
-        explanation: "Donny had just retired and was on his Kentucky deck when the attacks happened — but he soon rushed to help with the rescue effort."
       },
       {
         id: 'sb14-3',
@@ -1804,45 +1449,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "After his transplant, Donny developed graft-versus-host disease, which caused the relentless itching."
       },
       {
-        id: 'sb14-10',
-        question: "What surprising thing did tests reveal about Donny's skin infection?",
-        options: [
-          "It was caused by a spider bite",
-          "It was caused by a fungus, not bacteria",
-          "It was completely imaginary",
-          "It was caused by cold weather"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Donny's skin infection had not been from bacteria after all — it was from a fungus, a twist that changed how his doctors thought about his case.",
-        hint: "The passage reveals the infection was not bacterial.",
-        explanation: "Tests showed a fungus, not bacteria, was behind Donny's skin infection — which is why the usual antibiotics were not the answer."
-      }
-    ]
-  },
-  {
-    id: 'superbugs-ch15',
-    title: "Superbugs: Chapter 15 – Remy",
-    author: "Matt McCarthy",
-    coverEmoji: "🦠",
-    themeColor: "rose",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "Remy, a teenage girl with leukemia and a dangerous fungal infection, fights for her life while her doctors search for a treatment that can save her.",
-    questions: [
-      {
-        id: 'sb15-1',
-        question: "What two illnesses was Remy fighting at the same time?",
-        options: [
-          "A fungal infection and acute leukemia",
-          "Asthma and diabetes",
-          "A broken leg and the flu",
-          "Chickenpox and strep throat"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Remy was the ailing daughter of the chapter title, a teenager who had contracted a fungal infection while also battling acute leukemia, just like Donny.",
-        hint: "The passage names the fungal infection and the blood cancer.",
-        explanation: "Remy was fighting both a dangerous fungal infection and acute leukemia — a cancer of the blood."
-      },
-      {
         id: 'sb15-2',
         question: "How many rounds of chemotherapy had Remy finished?",
         options: [
@@ -1897,20 +1503,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "The chapter explains that the aggressive treatments for her leukemia had weakened her immune defenses, leaving her open to the fungal attack.",
         hint: "The passage says the treatments hurt her body's ability to fight germs.",
         explanation: "Chemotherapy destroys cancer cells but also weakens the immune system, so Remy could barely fight off the fungus."
-      },
-      {
-        id: 'sb15-6',
-        question: "Who guided Remy's doctors from far away?",
-        options: [
-          "A famous TV doctor",
-          "Her school principal",
-          "Tom Walsh, who called in and told them how to proceed",
-          "A hospital janitor"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Tom Walsh called Remy's doctors from afar, instructed them on how to proceed, and asked them to keep him posted on her condition.",
-        hint: "The passage names McCarthy's mentor, who advised by phone.",
-        explanation: "Tom Walsh, the veteran infectious-disease expert, directed Remy's care by phone."
       },
       {
         id: 'sb15-7',
@@ -1980,20 +1572,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
     synopsis: "A look at bold new weapons against superbugs — treatments that harness the patient's own immune system, and a brand-new resistance enzyme called NDM-1.",
     questions: [
       {
-        id: 'sb16-1',
-        question: "What big question was this chapter trying to answer?",
-        options: [
-          "Why Remy's infection happened",
-          "How to build a hospital",
-          "Where to find the best pizza",
-          "When the trial would end"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "The chapter takes up the haunting question of why Remy's terrible infection happened, and explores a fundamental shift in how doctors think about fighting disease.",
-        hint: "The passage says the chapter asks why the infection struck Remy.",
-        explanation: "The chapter steps back to ask why Remy's infection happened — and finds an answer in a quiet revolution in medicine."
-      },
-      {
         id: 'sb16-2',
         question: "What does immunotherapy use to fight disease?",
         options: [
@@ -2020,20 +1598,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "The chapter points to Jimmy Carter, whose advanced melanoma was treated with immunotherapy in 2015, adding years to his life.",
         hint: "The passage names the former president whose cancer treatment made headlines.",
         explanation: "Jimmy Carter's melanoma treatment in 2015 showed the world that immunotherapy could add years to a patient's life."
-      },
-      {
-        id: 'sb16-4',
-        question: "What illness did Jimmy Carter have when he received immunotherapy?",
-        options: [
-          "A broken hip",
-          "Advanced melanoma, a serious skin cancer",
-          "The common cold",
-          "A toothache"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "In 2015, Carter was diagnosed with advanced melanoma, a dangerous skin cancer, and immunotherapy helped extend his life by years.",
-        hint: "The passage names the serious skin cancer he was diagnosed with.",
-        explanation: "Carter had advanced melanoma — a serious skin cancer — and immunotherapy gave him more years of life."
       },
       {
         id: 'sb16-5',
@@ -2130,34 +1694,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
     readingLevel: "Grades 6+ (Ages 11+)",
     synopsis: "As the trial drug's delivery day nears, McCarthy faces tense decisions about safety checks, side effects, and the gatekeepers who control new medicines.",
     questions: [
-      {
-        id: 'sb17-1',
-        question: "What big event was approaching in this chapter?",
-        options: [
-          "The hospital's birthday party",
-          "A holiday parade",
-          "The delivery date of the dalba trial drug",
-          "The start of summer vacation"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "As the delivery date for the dalba drug approached, word spread around NewYork-Presbyterian that a brand-new medicine was on its way.",
-        hint: "The passage says a new drug shipment was almost here.",
-        explanation: "The trial drug dalba was about to arrive at the hospital, and excitement — and anxiety — was building."
-      },
-      {
-        id: 'sb17-2',
-        question: "What happened around the hospital as the delivery date neared?",
-        options: [
-          "Word spread that a new drug was coming",
-          "Everyone went home early",
-          "The lights went out",
-          "The cafeteria closed"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "As the delivery date approached, word spread around the hospital that a new drug was coming, and curiosity rippled through the staff.",
-        hint: "The passage says news of the drug traveled fast.",
-        explanation: "Hospital staff buzzed with the news that an experimental new drug was about to arrive."
-      },
       {
         id: 'sb17-3',
         question: "What surprising fact did McCarthy note about his hospital's pharmacy?",
@@ -2394,60 +1930,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "The boy's innocent request to visit the vending machine underscored how young he was."
       },
       {
-        id: 'sb18-9',
-        question: "What sad thought crossed McCarthy's mind as he watched the boy?",
-        options: [
-          "That the boy needed a haircut",
-          "That the boy was hungry",
-          "That the boy might grow up without his mother",
-          "That the boy disliked hospitals"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "McCarthy struggled to stay composed as he imagined the boy growing up without his mother, and he had to wipe his eyes.",
-        hint: "The passage describes McCarthy picturing the boy's future without Piper.",
-        explanation: "McCarthy pictured the little boy growing up motherless — and had to wipe away tears."
-      },
-      {
-        id: 'sb18-10',
-        question: "What did Tom ask McCarthy about to lighten the mood?",
-        options: [
-          "The weather in Chicago",
-          "The miniature Chincoteague ponies of coastal Maryland",
-          "His favorite baseball team",
-          "A funny movie"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Trying to lift McCarthy's spirits, Tom launched into one of his mini-lectures about the miniature Chincoteague ponies of coastal Maryland, and McCarthy laughed for real.",
-        hint: "The passage names the tiny horses Tom talked about.",
-        explanation: "Tom's goofy lecture about tiny wild ponies finally made the grief-stricken McCarthy laugh."
-      }
-    ]
-  },
-
-  {
-    id: 'superbugs-ch19',
-    title: "Superbugs: Chapter 19 – Garden State",
-    author: "Matt McCarthy",
-    coverEmoji: "🦠",
-    themeColor: "indigo",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "While the new antifungal crawls through committee, McCarthy and Tom Walsh race to New Jersey to meet Sylvia, a physician at the drug company, and build a lightning-fast plan to get the medicine to Candida auris patients.",
-    questions: [
-      {
-        id: 'sb19-1',
-        question: "While the antifungal study was moving through committee, what were Tom and McCarthy busy doing?",
-        options: [
-          "Finding other ways to get the drug to the growing number of New York patients with Candida auris",
-          "Writing a report about the hospital's budget",
-          "Training new nurses for the emergency room",
-          "Closing down the hospital's research labs"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "While the antifungal study was winding its way through committee, Tom and McCarthy were busy devising other ways to get the drug to the expanding group of New York patients infected with Candida auris.",
-        hint: "The passage says what the two men were working on while the official study was still in committee.",
-        explanation: "They did not want to wait on paperwork while more and more patients in New York were catching the new fungus."
-      },
-      {
         id: 'sb19-2',
         question: "Where was the dangerous fungus Candida auris first discovered?",
         options: [
@@ -2530,20 +2012,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "The chapter notes that most physicians had never even heard of Candida auris, which made identifying the infection quickly all the more urgent.",
         hint: "The passage says the fungus was unfamiliar to most physicians.",
         explanation: "Because the fungus was so new, most doctors did not know it existed — a dangerous gap the team wanted to close."
-      },
-      {
-        id: 'sb19-8',
-        question: "What did Tom promise about his phone?",
-        options: [
-          "He was getting a new number",
-          "He only answered on weekends",
-          "It was always on",
-          "He had lost it in Jersey City"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Tom promised the group that his phone was always on, and Sylvia chuckled that she knew all about his phone, since the two had worked together for years.",
-        hint: "The passage states Tom's promise about being reachable.",
-        explanation: "Tom wanted the team to know he could be reached at any hour if a patient needed the drug."
       },
       {
         id: 'sb19-9',
@@ -2641,20 +2109,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "A great drug does no good if it costs so much that hospitals cannot afford to give it to patients."
       },
       {
-        id: 'sb20-5',
-        question: "What did McCarthy say his hospital would do if cefiderocol cost too much?",
-        options: [
-          "Buy it anyway",
-          "Not use it",
-          "Give it only to doctors",
-          "Hide it in the basement"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "McCarthy told the group that if the price climbed too high, his hospital simply would not use the drug, no matter how well it worked.",
-        hint: "The passage states the hospital's blunt decision about an overpriced drug.",
-        explanation: "Hospitals have limited budgets, so McCarthy drew a clear line on price."
-      },
-      {
         id: 'sb20-6',
         question: "Who do experts usually ask to stop drug companies from hiking prices?",
         options: [
@@ -2711,31 +2165,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Exciting as the new antibiotics were, the secret lysin work at Rockefeller University impressed McCarthy even more."
       },
       {
-        id: 'sb20-10',
-        question: "Why were the three new antibiotics 'reason enough to celebrate'?",
-        options: [
-          "They were free for everyone",
-          "They came in candy flavors",
-          "They were brand-new weapons against drug-resistant infections",
-          "They never needed a prescription"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "After the meeting, McCarthy celebrated the arrival of lefamulin, vaborbactam, and cefiderocol — three brand-new antibiotics to aim at infections that older drugs could no longer beat.",
-        hint: "The passage explains why new antibiotics felt like a victory.",
-        explanation: "New antibiotics are rare, so three at once felt like a real win in the race against superbugs."
-      }
-    ]
-  },
-  {
-    id: 'superbugs-ch21',
-    title: "Superbugs: Chapter 21 – The Rockefellers",
-    author: "Matt McCarthy",
-    coverEmoji: "🦠",
-    themeColor: "rose",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "The story of the family behind Rockefeller University: a snake-oil-salesman father, an oil fortune, and the philanthropy that built one of the world's great medical research institutes.",
-    questions: [
-      {
         id: 'sb21-1',
         question: "What was William Rockefeller Sr. — John D. Rockefeller's father — like?",
         options: [
@@ -2748,20 +2177,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "The chapter opens with William Rockefeller Sr., a huckster and peddler of bogus medications who occasionally pretended to be disabled to manipulate his customers.",
         hint: "The passage describes the dishonest medicine salesman.",
         explanation: "John D. Rockefeller's father sold fake cures and used tricks to fool buyers — a sharp contrast with his son's later generosity."
-      },
-      {
-        id: 'sb21-2',
-        question: "How did the Rockefeller fortune end up advancing medicine?",
-        options: [
-          "Through philanthropy — giving money to medical research",
-          "By building shopping malls",
-          "By selling more oil",
-          "By opening restaurants"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "The chapter explains that the family's lasting medical impact came through something more tangible: philanthropy, the giving of great sums to support research.",
-        hint: "The passage names the generous giving behind the medical progress.",
-        explanation: "Rockefeller money funded laboratories and scientists, turning oil wealth into medical breakthroughs."
       },
       {
         id: 'sb21-3',
@@ -2862,31 +2277,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Faking a disability was one of the huckster's tricks for winning over buyers of his fake cures."
       },
       {
-        id: 'sb21-10',
-        question: "How far was the East River campus from John D. Rockefeller's New York City home?",
-        options: [
-          "Across the country",
-          "On another continent",
-          "Just a few miles",
-          "In the same building"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "The campus sat just a few miles from his New York City home, which makes his single visit all the more surprising.",
-        hint: "The passage gives the short distance he rarely traveled.",
-        explanation: "The institute he funded so generously was practically in his backyard, yet he visited only once."
-      }
-    ]
-  },
-  {
-    id: 'superbugs-ch22',
-    title: "Superbugs: Chapter 22 – Lysin",
-    author: "Matt McCarthy",
-    coverEmoji: "🦠",
-    themeColor: "amber",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "McCarthy meets Alex Chapman, whose unusual job is studying the bacteria in people's intestines, and admits he doubts that lysins — a hyped-up new idea — could really work.",
-    questions: [
-      {
         id: 'sb22-1',
         question: "What unusual thing does Alex Chapman study?",
         options: [
@@ -2927,34 +2317,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "The study focused on the intestinal bacteria of patients such as Remy and Donny, who have leukemia or have received a stem cell transplant.",
         hint: "The passage names two patients with serious blood conditions.",
         explanation: "The government hoped Chapman could learn why transplant and leukemia patients pick up superbug infections."
-      },
-      {
-        id: 'sb22-4',
-        question: "What does the chapter say about collecting feces for science?",
-        options: [
-          "It is the most popular job in the hospital",
-          "It requires no training at all",
-          "It isn't as glamorous as it sounds",
-          "It was banned by the government"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "The chapter admits that collecting feces isn't as glamorous as it sounds, but adds that a growing number of scientists think Chapman is onto something big.",
-        hint: "The passage comments on the job's lack of glamour.",
-        explanation: "Nobody dreams of handling stool samples, but Chapman's colleagues believed the science could be important."
-      },
-      {
-        id: 'sb22-5',
-        question: "What award had Chapman received?",
-        options: [
-          "A gold medal in swimming",
-          "A Young Investigator award",
-          "A prize for best haircut",
-          "A trophy for bowling"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Chapman had received a Young Investigator award, a sign that the scientific world was taking his unusual research seriously.",
-        hint: "The passage names the early-career honor Chapman earned.",
-        explanation: "The award showed that other scientists respected his gut-bacteria research."
       },
       {
         id: 'sb22-6',
@@ -3038,20 +2400,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
     synopsis: "A visit to Vincent Fischetti's Rockefeller laboratory changes everything: McCarthy watches bacteria explode and learns how lysins, enzymes from bacteria-killing viruses, might become the next great weapon.",
     questions: [
       {
-        id: 'sb23-1',
-        question: "How long had Vincent Fischetti been doing research at Rockefeller?",
-        options: [
-          "Nearly 50 years",
-          "About two weeks",
-          "Exactly one year",
-          "Three days"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Fischetti had been researching at Rockefeller for nearly fifty years when he invited McCarthy to visit his laboratory.",
-        hint: "The passage gives the veteran scientist's decades of service.",
-        explanation: "Fischetti was a true veteran — half a century of research at one of the world's top institutes."
-      },
-      {
         id: 'sb23-2',
         question: "What did Fischetti invite McCarthy to do?",
         options: [
@@ -3106,20 +2454,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "After Fischetti purified, cloned, and analyzed lysins, a company called ContraFect bought the rights to develop them.",
         hint: "The passage names the company's deal for the lysin discoveries.",
         explanation: "ContraFect licensed the lysin technology, hoping to turn the lab discovery into real medicines."
-      },
-      {
-        id: 'sb23-6',
-        question: "What did a single dose of lysin do in Fischetti's experiment?",
-        options: [
-          "Put the mice to sleep",
-          "Made the mice run faster",
-          "Protected mice exposed to ten million strep bacteria",
-          "Turned the mice green"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Fischetti showed that a single dose of lysin could protect mice that had been exposed to ten million strep bacteria.",
-        hint: "The passage gives the huge number of germs the mice survived.",
-        explanation: "One dose shielded the mice from an enormous dose of strep — a stunning result."
       },
       {
         id: 'sb23-7',
@@ -3245,20 +2579,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Ordinary anthrax comes from hides or wool; this case pointed to something deliberately sent."
       },
       {
-        id: 'sb24-5',
-        question: "What alarming symptom appeared on an infant's left arm?",
-        options: [
-          "A glowing tattoo",
-          "A spray of freckles",
-          "A rapidly spreading dark rash",
-          "A coat of fur"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Soon after, health officials learned of a dark rash spreading rapidly on an infant's left arm — another possible anthrax case.",
-        hint: "The passage describes the fast-moving mark on the baby's arm.",
-        explanation: "The spreading dark sore was a classic sign of skin anthrax, and it terrified health officials."
-      },
-      {
         id: 'sb24-6',
         question: "Who did investigators believe was behind the 2001 anthrax attacks?",
         options: [
@@ -3315,31 +2635,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "A Nature cover meant the whole scientific world noticed the anthrax-fighting lysin."
       },
       {
-        id: 'sb24-10',
-        question: "What frustrated McCarthy about the anthrax lysin years later?",
-        options: [
-          "It was too colorful",
-          "The research paper was more than fifteen years old, yet the treatment still was not available to patients",
-          "It only worked on Tuesdays",
-          "It was written in invisible ink"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "McCarthy was frustrated that the article was more than fifteen years old, yet the lysin treatment was still not available to patients or even in clinical trials.",
-        hint: "The passage notes the long wait with no patient access.",
-        explanation: "A brilliant discovery had sat on the shelf for over fifteen years while patients still needed help."
-      }
-    ]
-  },
-  {
-    id: 'superbugs-ch25',
-    title: "Superbugs: Chapter 25 – Delivery",
-    author: "Matt McCarthy",
-    coverEmoji: "🦠",
-    themeColor: "indigo",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "With the trial finally about to begin, McCarthy imagines the conversations ahead: a 9/11 firefighter struggling to breathe and a last-resort antifungal plan for his Candida auris patient.",
-    questions: [
-      {
         id: 'sb25-1',
         question: "What does McCarthy do at the very start of the chapter?",
         options: [
@@ -3366,20 +2661,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "McCarthy told Tom Walsh that he was giving the Candida auris patient micafungin for now, though both men knew it would soon stop working.",
         hint: "The passage names the temporary antifungal.",
         explanation: "Micafungin was a stopgap — the fungus would soon outsmart it."
-      },
-      {
-        id: 'sb25-3',
-        question: "What did McCarthy plan to use when micafungin stopped working?",
-        options: [
-          "Chicken soup",
-          "A heating pad",
-          "The new antifungal drug made by Scynexis",
-          "Extra blankets"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "When micafungin failed, McCarthy was prepared to give the new antifungal drug, the one made by Scynexis.",
-        hint: "The passage names the company behind the backup drug.",
-        explanation: "The Scynexis antifungal was the next hope once the old drug gave out."
       },
       {
         id: 'sb25-4',
@@ -3436,20 +2717,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "After half a year of observing patients such as Ruth and George and Erwin and Donny, McCarthy writes, it was finally time to get started.",
         hint: "The passage gives the months of preparation before the trial.",
         explanation: "Six months of careful watching had prepared McCarthy to finally launch the trial."
-      },
-      {
-        id: 'sb25-8',
-        question: "What did both McCarthy and Tom know about micafungin?",
-        options: [
-          "It would soon stop working",
-          "It tasted like candy",
-          "It was free forever",
-          "It could cure any disease"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Both men knew that the antifungal drug would soon stop working, which was why McCarthy was already planning to switch to the new antifungal.",
-        hint: "The passage states the shared expectation about the drug's failure.",
-        explanation: "Fungi evolve resistance, so the doctors knew micafungin was only a temporary shield."
       },
       {
         id: 'sb25-9',
@@ -3519,20 +2786,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Years of trouble had left her leg badly scarred, with a deep purple wound at its center."
       },
       {
-        id: 'sb26-3',
-        question: "Which movie did Meghan compare her leg to?",
-        options: [
-          "A cartoon about puppies",
-          "Alien",
-          "A musical about dancing",
-          "A comedy about clowns"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Meghan asked McCarthy if he had ever seen the movie Alien, because, she said, that's what her leg looked like.",
-        hint: "The passage names the scary sci-fi film.",
-        explanation: "The wound was so strange and frightening that it reminded her of the monster movie."
-      },
-      {
         id: 'sb26-4',
         question: "What did Meghan do while describing her leg?",
         options: [
@@ -3587,20 +2840,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "McCarthy had to tell Meghan that they were going to help her, but it wouldn't be with antibiotics and it wouldn't be with dalba — she was the wrong patient for the trial.",
         hint: "The passage states the two treatments that were ruled out.",
         explanation: "Her wound was not the kind of bacterial infection dalba could fix, so McCarthy apologized for wasting her time."
-      },
-      {
-        id: 'sb26-8',
-        question: "After giving Meghan the news, what did McCarthy do?",
-        options: [
-          "Threw a party",
-          "Went for a swim",
-          "Apologized for wasting her time",
-          "Took a photograph"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "After telling Meghan she was the wrong patient for the trial, McCarthy apologized for wasting her time.",
-        hint: "The passage describes his sincere apology.",
-        explanation: "McCarthy felt terrible that Meghan had come in hoping for help the trial could not give."
       },
       {
         id: 'sb26-9',
@@ -3685,20 +2924,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "His motto was about the whistle blowing and everybody going — a team-first rule from his days as a cop."
       },
       {
-        id: 'sb27-4',
-        question: "What did Louis's motto say about how he worked?",
-        options: [
-          "He liked to work alone",
-          "When the call came, everyone acted together right away",
-          "He never hurried",
-          "He only worked at night"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Louis lived by the motto that when the whistle blows, everybody goes — when the call came, the whole team moved together without hesitation.",
-        hint: "The passage explains the motto means the whole team moves together.",
-        explanation: "The motto meant teamwork and instant action: when the call came, everybody went."
-      },
-      {
         id: 'sb27-5',
         question: "What did Louis ask the doctor for instead of a quick discharge?",
         options: [
@@ -3711,20 +2936,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "Louis told the doctor he did not want a quick discharge from the hospital. He wanted a real tune-up so that he could walk again.",
         hint: "The passage says what Louis wanted instead of leaving quickly.",
         explanation: "Louis wanted a tune-up, not a quick discharge — his goal was to walk again."
-      },
-      {
-        id: 'sb27-6',
-        question: "Why didn't Louis want a quick discharge from the hospital?",
-        options: [
-          "He liked the hospital food",
-          "He was afraid of going outside",
-          "He wanted to get truly better and walk again, not just leave fast",
-          "He wanted to watch television"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Louis told the doctor he needed a tune-up, not a quick discharge. What mattered to him was being able to walk again, not getting out of the hospital as fast as possible.",
-        hint: "The passage contrasts leaving fast with his real goal.",
-        explanation: "Louis cared about truly healing — walking again — more than leaving the hospital quickly."
       },
       {
         id: 'sb27-7',
@@ -3822,20 +3033,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "In an open-label trial, patients know they are getting the experimental drug."
       },
       {
-        id: 'sb28-3',
-        question: "What did McCarthy discover about enrolling patients?",
-        options: [
-          "There were mounting obstacles, even though the study was open-label",
-          "Patients lined up around the block",
-          "Enrollment took only one day",
-          "No rules applied to the trial at all"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "McCarthy discovered mounting obstacles to enrolling patients, even though his was an open-label study in which patients knew exactly what experimental drug they were receiving.",
-        hint: "The passage says obstacles kept mounting despite the open design.",
-        explanation: "Even with an open-label design, signing patients up was full of obstacles."
-      },
-      {
         id: 'sb28-4',
         question: "Who was Jackson?",
         options: [
@@ -3862,20 +3059,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "McCarthy realized he needed to think of Jackson as something other than a mechanic — as a whole person with a life beyond his job and his infection.",
         hint: "The passage says McCarthy wanted to see the whole person.",
         explanation: "McCarthy wanted to see Jackson as a complete person, not just a job title or a medical case."
-      },
-      {
-        id: 'sb28-6',
-        question: "When Jackson quietly asked, You think?, what was he looking for?",
-        options: [
-          "A new car",
-          "Directions to the exit",
-          "Hope and reassurance from his doctor",
-          "A different doctor"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Frightened by his infection, Jackson quietly asked his doctor a small, hopeful question — looking for reassurance that he would be okay.",
-        hint: "The passage describes a frightened patient seeking comfort.",
-        explanation: "Jackson was scared and searching for reassurance that he could recover."
       },
       {
         id: 'sb28-7',
@@ -3987,20 +3170,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "He asked whether McCarthy would give the drug to his own mother."
       },
       {
-        id: 'sb29-4',
-        question: "How did McCarthy answer the patient's question?",
-        options: [
-          "No, he would not",
-          "Yes, he would",
-          "He refused to answer",
-          "He changed the subject"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Caught off guard by the question, McCarthy paused and then answered honestly: yes, he would give the drug to his own mother.",
-        hint: "The passage gives McCarthy's honest one-word answer.",
-        explanation: "McCarthy answered yes — he believed in the drug enough for his own family."
-      },
-      {
         id: 'sb29-5',
         question: "Had anyone at the hospital received dalbavancin before this first patient?",
         options: [
@@ -4027,20 +3196,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "Mark said his illness felt like drowning in quicksand — stuck, sinking, and unable to climb out on his own.",
         hint: "The passage compares his illness to sinking in something thick.",
         explanation: "He said it felt like drowning in quicksand — trapped with no way out."
-      },
-      {
-        id: 'sb29-7',
-        question: "What frightened Mark during the night?",
-        options: [
-          "He was afraid of the dark hallway",
-          "He heard strange music",
-          "He woke up gasping, afraid he could not breathe",
-          "He lost his slippers"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Mark told the doctor about frightening nights when he woke up gasping and scared, afraid that he could not catch his breath.",
-        hint: "The passage describes scary nights and trouble breathing.",
-        explanation: "He woke in the night gasping and frightened about his breathing."
       },
       {
         id: 'sb29-8',
@@ -4124,20 +3279,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Her earlier treatments had repeatedly failed."
       },
       {
-        id: 'sb30-3',
-        question: "How did Alicia describe her situation?",
-        options: [
-          "She was still here, but still hurting",
-          "She felt perfect",
-          "She had given up completely",
-          "She felt nothing at all"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Alicia said that was what happened every time, but she was still here — and still hurting.",
-        hint: "The passage pairs her endurance with her ongoing pain.",
-        explanation: "She was still fighting, but still in pain."
-      },
-      {
         id: 'sb30-4',
         question: "Why was Alicia upset with a doctor she had seen?",
         options: [
@@ -4178,20 +3319,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "The family brought a binder holding a nine-page letter Alicia's father had written — pages full of his thoughts about his daughter.",
         hint: "The passage describes the binder's contents and length.",
         explanation: "The binder held her father's nine-page letter."
-      },
-      {
-        id: 'sb30-7',
-        question: "Who wrote the nine-page letter?",
-        options: [
-          "Alicia's teacher",
-          "Dr. McCarthy",
-          "Alicia's father",
-          "A stranger"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "The nine-page letter in the binder was written by Alicia's father, who had poured his heart into it.",
-        hint: "The passage names the letter's author.",
-        explanation: "Alicia's father wrote the letter."
       },
       {
         id: 'sb30-8',
@@ -4275,20 +3402,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Sick people still have jobs and bills — health decisions affect their livelihoods."
       },
       {
-        id: 'sb31-3',
-        question: "How did Gerard feel about joining the trial?",
-        options: [
-          "He was bored by the idea",
-          "He found it kind of exciting",
-          "He was angry about it",
-          "He fell asleep"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "Despite his worries, Gerard admitted that joining the trial felt kind of exciting to him — a chance to try something new.",
-        hint: "The passage gives his surprising reaction.",
-        explanation: "Gerard found the idea of joining the trial kind of exciting."
-      },
-      {
         id: 'sb31-4',
         question: "Why did McCarthy tell a patient, I just can't?",
         options: [
@@ -4315,20 +3428,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "McCarthy believed that excluding certain patients would do a disservice, because medical research needs many kinds of people to be fair and useful.",
         hint: "The passage explains why leaving people out hurts the research.",
         explanation: "He felt excluding patients would be a disservice — trials need diverse participants."
-      },
-      {
-        id: 'sb31-6',
-        question: "What did McCarthy realize about trust between doctor and patient?",
-        options: [
-          "Patients never need to trust doctors",
-          "Paperwork could replace trust",
-          "All his paperwork was pointless if the patient would not follow his advice — they had to work as partners",
-          "Doctors should never explain anything"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "McCarthy realized he could sift through hundreds of pages of documents, but it was pointless if the patient was not willing to follow his advice — doctor and patient had to trust each other as partners.",
-        hint: "The passage links the paperwork to the need for partnership.",
-        explanation: "Without mutual trust, even the best paperwork couldn't make treatment work."
       },
       {
         id: 'sb31-7',
@@ -4412,20 +3511,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "He quoted Sun Tzu: the battle is won before it is fought."
       },
       {
-        id: 'sb32-2',
-        question: "What did the saying mean for the trial?",
-        options: [
-          "Careful preparation and planning decide success before the work even begins",
-          "Battles should be avoided",
-          "Doctors should never plan ahead",
-          "Winning does not matter"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "For the trial team, the saying meant that careful preparation and planning would decide their success long before the first patient was treated.",
-        hint: "The passage applies the saying to planning the trial.",
-        explanation: "Success comes from preparation — the groundwork decides the outcome."
-      },
-      {
         id: 'sb32-3',
         question: "Who was Tom Walsh?",
         options: [
@@ -4466,20 +3551,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "The lab scientists were no longer seen as hidden helpers in the back room — they had become respected friends and true partners in the fight.",
         hint: "The passage describes their new status as friends and partners.",
         explanation: "The backroom boys became valued friends and collaborators."
-      },
-      {
-        id: 'sb32-6',
-        question: "What did Word is getting out mean?",
-        options: [
-          "The trial was cancelled",
-          "A secret was leaked to newspapers",
-          "More doctors were hearing about dalba and asking about it",
-          "The doctors lost their voices"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Word was getting out about dalba — more and more doctors were hearing about the new treatment and asking how their patients might try it.",
-        hint: "The passage explains what news was spreading and to whom.",
-        explanation: "News of dalba was spreading, and curious doctors were asking about it."
       },
       {
         id: 'sb32-7',
@@ -4591,20 +3662,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Better, faster diagnosis and smarter antibiotic use mattered even more."
       },
       {
-        id: 'sb33-4',
-        question: "Which benefits did McCarthy say better diagnosis would bring?",
-        options: [
-          "Make the hospital famous on television",
-          "Save lives, slow the rise of superbugs, and save the hospital money",
-          "Replace every doctor with a robot",
-          "End all disease forever"
-        ],
-        correctAnswerIndex: 1,
-        samplePassage: "McCarthy explained that better diagnosis would save lives, help prevent new superbugs from emerging, and save the hospital money.",
-        hint: "The passage lists three benefits: lives, superbugs, and money.",
-        explanation: "Better diagnosis saves lives, slows superbugs, and saves money."
-      },
-      {
         id: 'sb33-5',
         question: "What was the team trying to do for patients with dangerous infections?",
         options: [
@@ -4661,20 +3718,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Dalba patients left sooner: about 3 days versus almost 5 with usual care."
       },
       {
-        id: 'sb33-9',
-        question: "After seeing the trial results, what did the hospital vote to do?",
-        options: [
-          "Ban all new medicines",
-          "Close the emergency room",
-          "Fire the doctors",
-          "Add dalbavancin to the medicines it keeps in stock"
-        ],
-        correctAnswerIndex: 3,
-        samplePassage: "After the trial showed shorter stays and better care, the hospital voted to add dalbavancin to its formulary — the list of medicines it keeps in stock.",
-        hint: "The passage describes the hospital's vote about the drug.",
-        explanation: "The hospital voted to stock dalbavancin for future patients."
-      },
-      {
         id: 'sb33-10',
         question: "Why do so few companies invest in developing new antibiotics?",
         options: [
@@ -4700,20 +3743,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
     readingLevel: "Grades 6+ (Ages 11+)",
     synopsis: "A young mother is fighting a drug-resistant infection that no existing drug can beat, so Dr. McCarthy goes hunting for brand-new antibiotics. He discovers a scientist who uses computers to search soil DNA for hidden germ-killing molecules.",
     questions: [
-      {
-        id: 'sb34-1',
-        question: "What serious infection does the young mother in this chapter have?",
-        options: [
-          "VRE, a drug-resistant germ, in her blood",
-          "A skin rash from an allergy",
-          "Pneumonia from a bad cold",
-          "A stomach bug from spoiled food"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "The chapter opens with a troubling case: a young mother in the hospital has VRE, a drug-resistant germ, in her blood, and no existing drug has been found that can help her.",
-        hint: "The passage names the drug-resistant germ, shortened to three capital letters, found in her blood.",
-        explanation: "The young mother has VRE (vancomycin-resistant Enterococcus) in her blood. Her case shows why finding new antibiotics is so urgent."
-      },
       {
         id: 'sb34-2',
         question: "While hunting for treatments, whose study does Dr. McCarthy stumble upon?",
@@ -4797,20 +3826,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "When malacidins were tested on rats with MRSA skin infections, the animals showed no side effects, which suggested the compound might one day be safe to test in people.",
         hint: "The passage says the animals showed no harmful reactions.",
         explanation: "The rats experienced no side effects — a promising sign that malacidins might be safe enough to test in humans someday."
-      },
-      {
-        id: 'sb34-8',
-        question: "According to the book, how were malacidins discovered?",
-        options: [
-          "By pure lucky accident",
-          "By a single scientist working alone",
-          "By copying an ancient recipe",
-          "By teamwork, with help from everyday citizens"
-        ],
-        correctAnswerIndex: 3,
-        samplePassage: "The book stresses that malacidins were not the product of lucky chance but of a team effort, produced by and for average citizens, the way science should be.",
-        hint: "The passage says the discovery came from teamwork and ordinary people, not luck.",
-        explanation: "McCarthy writes that the malacidins came from a team effort involving everyday citizens — science done by and for regular people, not just a lucky accident."
       },
       {
         id: 'sb34-9',
@@ -4906,34 +3921,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "He tells Clara honestly that his hospital does not stock this drug and that he would be the first doctor there ever to use it.",
         hint: "The passage says the hospital does not have the drug and he would be its first user.",
         explanation: "McCarthy is upfront: the hospital doesn't carry dalbavancin, and he would be the first to ever use it — which is why Clara's careful questions matter so much."
-      },
-      {
-        id: 'sb35-5',
-        question: "When Clara seems unsure, what does McCarthy offer to do?",
-        options: [
-          "Leave and come back later — or never come back, if she prefers",
-          "Read the consent form aloud for her",
-          "Bring in another doctor",
-          "Ask her to sign the form right away"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Sensing her hesitation, McCarthy offers to give her time to think, to come back another day, or simply never to return if that is what she wants.",
-        hint: "The passage says he offers to walk out and even stay away for good.",
-        explanation: "McCarthy doesn't pressure Clara. He offers to leave, return later, or not come back at all — the choice is entirely hers."
-      },
-      {
-        id: 'sb35-6',
-        question: "How does the conversation with Clara go?",
-        options: [
-          "She signs up immediately with a big smile",
-          "She asks no questions at all",
-          "She stays guarded, and his answers do not reassure her",
-          "She thanks him and signs up on the spot"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Looking back, McCarthy admits he never got past Clara's tough exterior, and his answers to her sharp questions did little to put her at ease.",
-        hint: "The passage says she stayed hard to read and his answers did not comfort her.",
-        explanation: "Clara remains guarded and unconvinced. McCarthy feels he failed to answer her important questions well, and the visit lingers in his mind."
       },
       {
         id: 'sb35-7',
@@ -5115,45 +4102,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Good teaching goes both ways: the student's question sends the teacher off to learn more, launching the next chapter's investigation."
       },
       {
-        id: 'sb36-9',
-        question: "Why do venture capitalists come up in the ethics discussion?",
-        options: [
-          "Because turning a lab discovery into a real drug is difficult and expensive",
-          "Because they discovered the new drugs",
-          "Because they treat patients",
-          "Because they work for free"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "The class talks about venture capitalists — investors — because carrying a new molecule from the laboratory to patients is a long, costly, difficult road.",
-        hint: "The passage links investors to the hard, pricey journey from lab to patient.",
-        explanation: "New antibiotics need huge investments to survive years of testing, so the class debates the money side: who pays, who profits, and whether patients come first."
-      },
-      {
-        id: 'sb36-10',
-        question: "What does this chapter show about Dr. McCarthy?",
-        options: [
-          "He knows everything already",
-          "He dislikes teaching",
-          "He is a teacher who learns from his students' questions",
-          "He only lectures and never listens"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "The chapter shows McCarthy in the classroom, guiding an ethics debate — and then acting on a student's question by calling a scientist himself.",
-        hint: "The passage shows him teaching and then following up on a student's idea.",
-        explanation: "The chapter reveals McCarthy as a teacher: he leads the ethics discussion, but he's also humble enough to chase down answers his students inspire."
-      }
-    ]
-  },
-  {
-    id: 'superbugs-ch37',
-    title: "Superbugs: Chapter 37 – Searching",
-    author: "Matt McCarthy",
-    coverEmoji: "🦠",
-    themeColor: "indigo",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "Dr. McCarthy investigates teixobactin, a new antibiotic found in a Maine meadow, and the scientist who discovered it, Kim Lewis. The chapter explores a clever soil gadget called the iChip and the bottlenecks that slow new drugs down.",
-    questions: [
-      {
         id: 'sb37-1',
         question: "How does the chapter begin?",
         options: [
@@ -5208,20 +4156,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "Lewis gave the newly discovered bacterium a scientific name: Eleftheria terrae.",
         hint: "The passage gives the two-word Latin name Lewis chose.",
         explanation: "Lewis named the bacterium Eleftheria terrae — a brand-new species that makes the promising antibiotic teixobactin."
-      },
-      {
-        id: 'sb37-5',
-        question: "What is the iChip?",
-        options: [
-          "A small plastic device with tiny holes used to grow soil bacteria",
-          "A new kind of microscope",
-          "A robot that digs soil",
-          "A special lab dish"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "The iChip is essentially a small piece of plastic full of little holes. Lewis dips it in a soup of bacteria, covers it with special membranes, and puts it back into the environment.",
-        hint: "The passage describes a plastic tool with holes that is dipped in bacteria.",
-        explanation: "The iChip is a simple plastic gadget with tiny holes. It lets scientists grow finicky soil bacteria by returning them to their natural home."
       },
       {
         id: 'sb37-6',
@@ -5280,45 +4214,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "The chapter ends on hope: beneath our feet lie countless molecules that could cure disease — we just have to keep searching."
       },
       {
-        id: 'sb37-10',
-        question: "What is the main message of this chapter's title, 'Searching'?",
-        options: [
-          "Scientists should stop looking for new drugs",
-          "All the good antibiotics have been found",
-          "The hunt for new antibiotics must continue",
-          "Only Maine soil is useful"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "From the Maine meadow to the iChip to the bottlenecks, the chapter is one long argument for never stopping the search for new antibiotics.",
-        hint: "The passage says the chapter urges us to keep up the hunt.",
-        explanation: "'Searching' captures the chapter's spirit: scientists like Lewis keep hunting through soil for new medicines, and the rest of us must support that search."
-      }
-    ]
-  },
-  {
-    id: 'superbugs-ch38',
-    title: "Superbugs: Chapter 38 – Anna",
-    author: "Matt McCarthy",
-    coverEmoji: "🦠",
-    themeColor: "purple",
-    readingLevel: "Grades 6+ (Ages 11+)",
-    synopsis: "Over lunch, Tom Walsh tells Dr. McCarthy about Anna, a young patient with a spinal infection caused by a fungus. Against the odds, Anna survives surgery and a stroke and walks out of the hospital holding her father's hand.",
-    questions: [
-      {
-        id: 'sb38-1',
-        question: "How does the chapter open?",
-        options: [
-          "With Tom Walsh eating a salad and telling a story",
-          "With Tom reading a chart",
-          "With McCarthy visiting Anna",
-          "With a phone call from Dr. Levy"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "The chapter begins simply: Tom Walsh is eating a salad when he starts telling McCarthy about a remarkable patient named Anna.",
-        hint: "The passage mentions Tom's lunch and his storytelling.",
-        explanation: "The whole chapter is Tom's story, told over a salad — a quiet conversation between the two doctors about a patient who beat the odds."
-      },
-      {
         id: 'sb38-2',
         question: "What kind of infection did Anna have?",
         options: [
@@ -5373,20 +4268,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "When doctors examined Anna's scalp, they found several abscesses — painful pockets of infection that needed surgical treatment.",
         hint: "The passage says they found pockets of infection in her scalp.",
         explanation: "Surgeons found multiple abscesses in Anna's scalp — dangerous pockets of infection that had to be carefully removed."
-      },
-      {
-        id: 'sb38-6',
-        question: "What germ caused Anna's abscesses?",
-        options: [
-          "Staph bacteria",
-          "A skin virus",
-          "A fungus called Aspergillus",
-          "An ear infection germ"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "The infected material turned out to be caused by Aspergillus, a fungus — a reminder that superbugs aren't only bacteria.",
-        hint: "The passage names a fungus starting with the letter A.",
-        explanation: "Anna's abscesses were caused by Aspergillus, a fungus. Fungal infections can be just as dangerous as bacterial ones and even harder to treat."
       },
       {
         id: 'sb38-7',
@@ -5512,34 +4393,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Before joining any trial, patients read and sign a consent form. Jennifer studies hers closely — and asks a question McCarthy never expected."
       },
       {
-        id: 'sb39-5',
-        question: "What is Jennifer's biggest worry?",
-        options: [
-          "Protecting her students from catching the infection",
-          "The cost of the medicine",
-          "Needles and shots",
-          "Missing work"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Scanning the form, Jennifer says what she is really wondering is what she can do to protect her class — her students come first.",
-        hint: "The passage says her main concern is keeping her class safe.",
-        explanation: "Like any good teacher, Jennifer worries less about herself and more about her students: how can she keep her class safe from her infection?"
-      },
-      {
-        id: 'sb39-6',
-        question: "What does Jennifer bring to her follow-up visit?",
-        options: [
-          "A box of chocolates",
-          "Flowers for the nurses",
-          "A big smile and a thank-you card from her class",
-          "Her medical chart"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "At her follow-up, Jennifer arrives with a big smile and a card signed by her class, eager to show McCarthy how well she has healed.",
-        hint: "The passage mentions her big smile and a card from her students.",
-        explanation: "Jennifer returns happy and healed, carrying a thank-you card from her students — the 'reward' of the chapter title."
-      },
-      {
         id: 'sb39-7',
         question: "What had happened to Jennifer's rash?",
         options: [
@@ -5621,20 +4474,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         explanation: "Bill Morris is McCarthy's father-in-law — the father of his wife, Heather. His illness makes the antibiotic crisis personal for McCarthy."
       },
       {
-        id: 'sb40-2',
-        question: "Where and when was Bill born?",
-        options: [
-          "In Brooklyn in 1950",
-          "In Chicago in 1960",
-          "In Washington Heights, Manhattan, just after World War II",
-          "In Boston in 1940"
-        ],
-        correctAnswerIndex: 2,
-        samplePassage: "Bill Morris lived a New York life: he was born just after World War II on the northern tip of Manhattan, in Washington Heights.",
-        hint: "The passage names a Manhattan neighborhood and the postwar years.",
-        explanation: "Bill was born in Washington Heights, Manhattan, shortly after World War II — a true New Yorker from the start."
-      },
-      {
         id: 'sb40-3',
         question: "Which jobs did Bill hold during his life?",
         options: [
@@ -5661,20 +4500,6 @@ export const SUPERBUGS_CHAPTERS: Book[] = [
         samplePassage: "Bill married Harrel, another teacher, and together they raised two children — including Heather, McCarthy's wife.",
         hint: "The passage says she is Bill's wife and a fellow teacher.",
         explanation: "Harrel is Bill's wife and McCarthy's mother-in-law. Like Bill, she was a teacher."
-      },
-      {
-        id: 'sb40-5',
-        question: "What happy trip had Bill taken before he got sick?",
-        options: [
-          "A trip to Tuscany",
-          "A trip to Florida",
-          "A trip to California",
-          "A trip to visit family in Ohio"
-        ],
-        correctAnswerIndex: 0,
-        samplePassage: "Not long before his illness, Bill had enjoyed a trip to Tuscany — a bright memory the family holds onto during the hard months that follow.",
-        hint: "The passage names a beautiful region in Italy.",
-        explanation: "Bill had recently traveled to Tuscany, Italy — a happy memory that contrasts with the frightening medical battle ahead."
       },
       {
         id: 'sb40-6',
