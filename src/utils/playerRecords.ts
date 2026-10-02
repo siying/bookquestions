@@ -61,6 +61,8 @@ export function normalizeName(name: string): string {
 
 /**
  * Find the player with this name (case-insensitive) or create one.
+ * Uses a deterministic document ID from the normalized name, so no read
+ * is needed — works even when Firestore reads are admin-restricted.
  * Returns null when cloud sync is unavailable — the quiz still works.
  */
 export async function getOrCreatePlayer(name: string): Promise<Player | null> {
@@ -68,33 +70,30 @@ export async function getOrCreatePlayer(name: string): Promise<Player | null> {
   const clean = name.trim();
   if (!db || !clean) return null;
   const nameLower = normalizeName(clean);
+  // Deterministic ID: sanitized normalized name. Firestore IDs can't contain
+  // '/', and we keep it short and URL-safe.
+  const safeId = nameLower.replace(/[^a-z0-9]+/g, '_').slice(0, 60) || 'player';
+  const playerId = `p_${safeId}`;
+  const ref = doc(collection(db, PLAYERS_COLLECTION), playerId);
   try {
-    const players = collection(db, PLAYERS_COLLECTION);
-    const snap = await getDocs(
-      query(players, where('nameLower', '==', nameLower), limit(1))
-    );
-    if (!snap.empty) {
-      const found = snap.docs[0];
-      try {
-        await updateDoc(found.ref, { lastPlayedAt: serverTimestamp() });
-      } catch {
-        // non-fatal
-      }
-      const data = found.data();
-      return { id: found.id, name: (data.name as string) || clean };
+    // Try updating lastPlayedAt — succeeds if the player already exists.
+    await updateDoc(ref, { lastPlayedAt: serverTimestamp() });
+    return { id: playerId, name: clean };
+  } catch {
+    // Doesn't exist yet — create it.
+    try {
+      await setDoc(ref, {
+        name: clean,
+        nameLower,
+        createdAt: serverTimestamp(),
+        lastPlayedAt: serverTimestamp(),
+      });
+      return { id: playerId, name: clean };
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error('[bookquiz] getOrCreatePlayer failed:', err);
+      return null;
     }
-    const ref = doc(players);
-    await setDoc(ref, {
-      name: clean,
-      nameLower,
-      createdAt: serverTimestamp(),
-      lastPlayedAt: serverTimestamp(),
-    });
-    return { id: ref.id, name: clean };
-  } catch (err) {
-    // eslint-disable-next-line no-console
-    console.error('[bookquiz] getOrCreatePlayer failed:', err);
-    return null;
   }
 }
 
