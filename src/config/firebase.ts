@@ -1,5 +1,6 @@
 import type { FirebaseApp } from 'firebase/app';
 import type { Firestore } from 'firebase/firestore';
+import type { Auth, User } from 'firebase/auth';
 
 // Firebase web config for the BookQuiz cloud records.
 // projectId is fixed; the apiKey is a public browser key (restricted by
@@ -9,10 +10,12 @@ import type { Firestore } from 'firebase/firestore';
 const firebaseConfig = {
   apiKey: 'AIzaSyDEcFNL5nvaYjLzFj-8beb06AOYi09ZyO4',
   projectId: 'mathpractice-siying-2026',
+  authDomain: 'mathpractice-siying-2026.firebaseapp.com',
 };
 
 let app: FirebaseApp | null = null;
 let db: Firestore | null = null;
+let auth: Auth | null = null;
 let warned = false;
 
 /** Sync check: is a real API key configured? (no Firebase code loaded) */
@@ -60,4 +63,37 @@ export async function getDb(): Promise<Firestore | null> {
     console.error('[bookquiz] Failed to init Firebase:', err);
     return null;
   }
+}
+
+/**
+ * Firebase Auth instance, or null when cloud sync is not configured.
+ * Loaded lazily; only used by the admin page.
+ */
+export async function getAuth(): Promise<Auth | null> {
+  if (!isCloudConfigured()) {
+    warnOnce();
+    return null;
+  }
+  try {
+    // Ensure app is initialized
+    await getDb();
+    if (!auth && app) {
+      const { getAuth: getFirebaseAuth } = await import('firebase/auth');
+      auth = getFirebaseAuth(app);
+    }
+    return auth;
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('[bookquiz] Failed to init Firebase Auth:', err);
+    return null;
+  }
+}
+
+/** Admin email addresses allowed to view the answer records. */
+export const ADMIN_EMAILS = ['dong.sy@gmail.com'];
+
+/** Check if a Firebase user is an authorized admin. */
+export function isAdminUser(user: User | null): boolean {
+  if (!user || !user.email) return false;
+  return ADMIN_EMAILS.includes(user.email.toLowerCase());
 }
