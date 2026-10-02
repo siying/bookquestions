@@ -137,7 +137,7 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
   const cloud = isCloudConfigured();
   const isAdmin = isAdminUser(user);
 
-  // Watch Firebase Auth state
+  // Watch Firebase Auth state + handle redirect result (mobile Safari blocks popups)
   useEffect(() => {
     if (!cloud) {
       setAuthChecking(false);
@@ -149,7 +149,22 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
         setAuthChecking(false);
         return;
       }
-      import('firebase/auth').then(({ onAuthStateChanged }) => {
+      import('firebase/auth').then(({ onAuthStateChanged, getRedirectResult }) => {
+        // Check if we're returning from a Google redirect sign-in
+        getRedirectResult(auth)
+          .then((result) => {
+            if (result?.user) {
+              setUser(result.user);
+            }
+          })
+          .catch((err) => {
+            // eslint-disable-next-line no-console
+            console.error('[bookquiz] Redirect sign-in error:', err);
+            setError('Sign-in failed. Please try again.');
+          })
+          .finally(() => {
+            setAuthChecking(false);
+          });
         unsub = onAuthStateChanged(auth, (u) => {
           setUser(u);
           setAuthChecking(false);
@@ -167,14 +182,15 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
     try {
       const auth = await getAuth();
       if (!auth) throw new Error('Auth not available');
-      const { GoogleAuthProvider, signInWithPopup } = await import('firebase/auth');
+      const { GoogleAuthProvider, signInWithRedirect } = await import('firebase/auth');
       const provider = new GoogleAuthProvider();
-      await signInWithPopup(auth, provider);
+      // Redirect (not popup) — popups are blocked on mobile Safari
+      await signInWithRedirect(auth, provider);
+      // Page will redirect to Google and back; no finally needed
     } catch (err) {
       // eslint-disable-next-line no-console
       console.error(err);
       setError('Sign-in failed. Please try again.');
-    } finally {
       setSigningIn(false);
     }
   };
@@ -225,6 +241,54 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
 
   return (
     <div className="max-w-3xl mx-auto px-4 pt-8 pb-16">
+      {/* Sign-in status at the very top */}
+      {cloud && !authChecking && !user && (
+        <div className="mb-6 flex items-center justify-between gap-3 bg-white/70 rounded-2xl border border-indigo-100 px-4 py-3">
+          <span className="text-sm text-slate-500">
+            Grown-ups: sign in to see answer records
+          </span>
+          <button
+            onClick={handleSignIn}
+            disabled={signingIn}
+            className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white font-bold px-5 py-2.5 rounded-xl transition-colors shrink-0"
+          >
+            <LogIn size={16} />
+            {signingIn ? 'Signing in…' : 'Sign in with Google'}
+          </button>
+        </div>
+      )}
+
+      {cloud && !authChecking && user && !isAdmin && (
+        <div className="mb-6 flex items-center justify-between gap-3 bg-rose-50 rounded-2xl border border-rose-100 px-4 py-3">
+          <span className="text-sm text-slate-500 truncate">
+            <ShieldAlert size={14} className="inline mr-1 text-rose-400" />
+            {user.email} is not authorized
+          </span>
+          <button
+            onClick={handleSignOut}
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-500 hover:text-indigo-700 transition-colors shrink-0"
+          >
+            <LogOut size={15} />
+            Sign out
+          </button>
+        </div>
+      )}
+
+      {cloud && !authChecking && isAdmin && (
+        <div className="mb-6 flex items-center justify-between bg-white/60 rounded-2xl border border-indigo-100 px-4 py-2.5">
+          <span className="text-sm text-slate-500 truncate">
+            Signed in as <span className="font-semibold text-slate-700">{user?.email}</span>
+          </span>
+          <button
+            onClick={handleSignOut}
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-500 hover:text-indigo-700 transition-colors shrink-0 ml-3"
+          >
+            <LogOut size={15} />
+            Sign out
+          </button>
+        </div>
+      )}
+
       <button
         onClick={() => (selected ? setSelected(null) : onBack())}
         className="mb-6 inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-500 hover:text-indigo-700 transition-colors"
@@ -243,60 +307,9 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
           : 'Pick a name to see every quiz they answered.'}
       </p>
 
-      {/* Google sign-in gate for grown-ups */}
       {cloud && authChecking && (
         <div className="text-center text-slate-400 py-12">
           Checking sign-in…
-        </div>
-      )}
-
-      {cloud && !authChecking && !user && (
-        <div className="text-center bg-white/70 rounded-2xl border border-indigo-100 p-10">
-          <LogIn size={32} className="mx-auto text-indigo-300 mb-3" />
-          <p className="font-semibold text-slate-600 mb-1">Grown-ups sign in</p>
-          <p className="text-sm text-slate-400 mb-5">
-            Sign in with your Google account to see the answer records.
-          </p>
-          <button
-            onClick={handleSignIn}
-            disabled={signingIn}
-            className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white font-bold px-6 py-3 rounded-2xl transition-colors"
-          >
-            <LogIn size={18} />
-            {signingIn ? 'Signing in…' : 'Sign in with Google'}
-          </button>
-        </div>
-      )}
-
-      {cloud && !authChecking && user && !isAdmin && (
-        <div className="text-center bg-white/70 rounded-2xl border border-rose-100 p-10">
-          <ShieldAlert size={32} className="mx-auto text-rose-300 mb-3" />
-          <p className="font-semibold text-slate-600 mb-1">Not authorized</p>
-          <p className="text-sm text-slate-400 mb-5">
-            {user.email} is not on the admin list for these records.
-          </p>
-          <button
-            onClick={handleSignOut}
-            className="inline-flex items-center gap-2 text-sm font-semibold text-indigo-500 hover:text-indigo-700 transition-colors"
-          >
-            <LogOut size={16} />
-            Sign out
-          </button>
-        </div>
-      )}
-
-      {cloud && !authChecking && isAdmin && (
-        <div className="mb-6 flex items-center justify-between bg-white/60 rounded-2xl border border-indigo-100 px-4 py-2.5">
-          <span className="text-sm text-slate-500 truncate">
-            Signed in as <span className="font-semibold text-slate-700">{user?.email}</span>
-          </span>
-          <button
-            onClick={handleSignOut}
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-500 hover:text-indigo-700 transition-colors shrink-0 ml-3"
-          >
-            <LogOut size={15} />
-            Sign out
-          </button>
         </div>
       )}
 
