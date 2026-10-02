@@ -11,8 +11,12 @@ import {
   MinusCircle,
   CloudOff,
   BookOpen,
+  LogIn,
+  LogOut,
+  ShieldAlert,
 } from 'lucide-react';
-import { isCloudConfigured } from '../config/firebase';
+import type { User } from 'firebase/auth';
+import { isCloudConfigured, getAuth, isAdminUser } from '../config/firebase';
 import {
   listPlayers,
   getPlayerResults,
@@ -127,10 +131,72 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
   const [selected, setSelected] = useState<PlayerSummary | null>(null);
   const [results, setResults] = useState<QuizResultRecord[] | null>(null);
   const [error, setError] = useState('');
+  const [user, setUser] = useState<User | null>(null);
+  const [authChecking, setAuthChecking] = useState(true);
+  const [signingIn, setSigningIn] = useState(false);
   const cloud = isCloudConfigured();
+  const isAdmin = isAdminUser(user);
+
+  // Watch Firebase Auth state
+  useEffect(() => {
+    if (!cloud) {
+      setAuthChecking(false);
+      return;
+    }
+    let unsub: (() => void) | null = null;
+    getAuth().then((auth) => {
+      if (!auth) {
+        setAuthChecking(false);
+        return;
+      }
+      import('firebase/auth').then(({ onAuthStateChanged }) => {
+        unsub = onAuthStateChanged(auth, (u) => {
+          setUser(u);
+          setAuthChecking(false);
+        });
+      });
+    });
+    return () => {
+      if (unsub) unsub();
+    };
+  }, [cloud]);
+
+  const handleSignIn = async () => {
+    setSigningIn(true);
+    setError('');
+    try {
+      const auth = await getAuth();
+      if (!auth) throw new Error('Auth not available');
+      const { GoogleAuthProvider, signInWithPopup } = await import('firebase/auth');
+      const provider = new GoogleAuthProvider();
+      await signInWithPopup(auth, provider);
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error(err);
+      setError('Sign-in failed. Please try again.');
+    } finally {
+      setSigningIn(false);
+    }
+  };
+
+  const handleSignOut = async () => {
+    try {
+      const auth = await getAuth();
+      if (auth) {
+        const { signOut } = await import('firebase/auth');
+        await signOut(auth);
+      }
+      setUser(null);
+      setPlayers(null);
+      setSelected(null);
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error(err);
+    }
+  };
 
   useEffect(() => {
-    if (!cloud) return;
+    if (!cloud || !isAdmin) return;
     listPlayers()
       .then(setPlayers)
       .catch((err) => {
@@ -139,7 +205,7 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
         setError('Could not load the record book. Check your connection.');
         setPlayers([]);
       });
-  }, [cloud]);
+  }, [cloud, isAdmin]);
 
   useEffect(() => {
     if (!selected) {
@@ -177,6 +243,63 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
           : 'Pick a name to see every quiz they answered.'}
       </p>
 
+      {/* Google sign-in gate for grown-ups */}
+      {cloud && authChecking && (
+        <div className="text-center text-slate-400 py-12">
+          Checking sign-in…
+        </div>
+      )}
+
+      {cloud && !authChecking && !user && (
+        <div className="text-center bg-white/70 rounded-2xl border border-indigo-100 p-10">
+          <LogIn size={32} className="mx-auto text-indigo-300 mb-3" />
+          <p className="font-semibold text-slate-600 mb-1">Grown-ups sign in</p>
+          <p className="text-sm text-slate-400 mb-5">
+            Sign in with your Google account to see the answer records.
+          </p>
+          <button
+            onClick={handleSignIn}
+            disabled={signingIn}
+            className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white font-bold px-6 py-3 rounded-2xl transition-colors"
+          >
+            <LogIn size={18} />
+            {signingIn ? 'Signing in…' : 'Sign in with Google'}
+          </button>
+        </div>
+      )}
+
+      {cloud && !authChecking && user && !isAdmin && (
+        <div className="text-center bg-white/70 rounded-2xl border border-rose-100 p-10">
+          <ShieldAlert size={32} className="mx-auto text-rose-300 mb-3" />
+          <p className="font-semibold text-slate-600 mb-1">Not authorized</p>
+          <p className="text-sm text-slate-400 mb-5">
+            {user.email} is not on the admin list for these records.
+          </p>
+          <button
+            onClick={handleSignOut}
+            className="inline-flex items-center gap-2 text-sm font-semibold text-indigo-500 hover:text-indigo-700 transition-colors"
+          >
+            <LogOut size={16} />
+            Sign out
+          </button>
+        </div>
+      )}
+
+      {cloud && !authChecking && isAdmin && (
+        <div className="mb-6 flex items-center justify-between bg-white/60 rounded-2xl border border-indigo-100 px-4 py-2.5">
+          <span className="text-sm text-slate-500 truncate">
+            Signed in as <span className="font-semibold text-slate-700">{user?.email}</span>
+          </span>
+          <button
+            onClick={handleSignOut}
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-500 hover:text-indigo-700 transition-colors shrink-0 ml-3"
+          >
+            <LogOut size={15} />
+            Sign out
+          </button>
+        </div>
+      )}
+
       {!cloud && (
         <div className="bg-amber-50 border border-amber-200 rounded-2xl p-5 text-sm text-amber-800 flex items-start gap-2.5">
           <CloudOff size={18} className="shrink-0 mt-0.5" />
@@ -188,19 +311,19 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
         </div>
       )}
 
-      {cloud && error && (
+      {cloud && isAdmin && error && (
         <div className="bg-rose-50 border border-rose-200 rounded-2xl p-4 text-sm text-rose-700 mb-4">
           {error}
         </div>
       )}
 
-      {cloud && !selected && players === null && !error && (
+      {cloud && isAdmin && !selected && players === null && !error && (
         <div className="text-center text-slate-400 py-12">
           Loading the record book…
         </div>
       )}
 
-      {cloud && !selected && players !== null && players.length === 0 && !error && (
+      {cloud && isAdmin && !selected && players !== null && players.length === 0 && !error && (
         <div className="text-center bg-white/70 rounded-2xl border border-indigo-100 p-10">
           <Users size={32} className="mx-auto text-indigo-300 mb-3" />
           <p className="font-semibold text-slate-600">No answers recorded yet.</p>
@@ -210,7 +333,7 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
         </div>
       )}
 
-      {cloud && !selected && players !== null && players.length > 0 && (
+      {cloud && isAdmin && !selected && players !== null && players.length > 0 && (
         <div className="space-y-3">
           {players.map((p) => (
             <button
@@ -232,11 +355,11 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
         </div>
       )}
 
-      {cloud && selected && results === null && (
+      {cloud && isAdmin && selected && results === null && (
         <div className="text-center text-slate-400 py-12">Loading history…</div>
       )}
 
-      {cloud && selected && results !== null && (
+      {cloud && isAdmin && selected && results !== null && (
         <div className="space-y-3">
           {results.length === 0 && (
             <p className="text-center text-slate-400 py-8">
