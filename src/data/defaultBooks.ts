@@ -938,6 +938,157 @@ export const CLASSIC_BOOKS: Book[] = [
         explanation: "Realizing the absurdity of the courtroom, Alice declares that the court is merely a deck of ordinary playing cards. The cards flutter into the air, and Alice wakes up on the riverbank to find dead leaves drifting over her face."
       }
     ]
+  },
+  {
+    id: 'fox-and-rabbit',
+    title: 'Fox & Rabbit',
+    author: 'Beth Ferry',
+    coverEmoji: '🦊',
+    themeColor: 'orange',
+    readingLevel: 'Grades 1 - 4 (Ages 6-9)',
+    synopsis: 'A full-color graphic novel about easygoing Fox and anxious Rabbit — total opposites who make the perfect pair. Across five funny stories they visit a fair, brave the beach, hunt for treasure, plant a garden, and open a lemonade stand, discovering the simple magic of true friendship.',
+    questions: [
+      {
+        id: 'fr-1',
+        question: 'At the beach, Rabbit is scared to go into the water — he keeps worrying about crabs, whales, and even a singing shark! What does Fox do?',
+        options: [
+          'Fox laughs at Rabbit and swims off to have fun by himself.',
+          'Fox stays patient, reassures Rabbit, and gently coaxes him into the water little by little.',
+          'Fox tells Rabbit he is not allowed to be scared and must jump in right away.',
+          'Fox leaves Rabbit on the sand and finds someone braver to play with.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'At the beach, Rabbit invents one worry after another — “I feel a crab!” “I see a whale!” “I hear a shark!” Fox calmly answers each one (“There are no crabs… That’s just Sparrow fighting with some sea gulls”) and stays beside Rabbit all afternoon until they watch the sunset and find a message in a bottle together.',
+        hint: 'Notice that Fox never makes fun of Rabbit’s worries — he stays beside him the whole afternoon.',
+        explanation: 'A good friend doesn’t mock fear or run off. Fox is patient, answers each worry calmly, and encourages Rabbit step by step until Rabbit is brave enough to enjoy the water.'
+      },
+      {
+        id: 'fr-2',
+        question: 'How can Fox tell that Rabbit is feeling scared at the beach, even though Rabbit never says the words “I’m scared”?',
+        options: [
+          'Rabbit is laughing louder than usual.',
+          'Rabbit asks Fox to race him into the deep water.',
+          'Rabbit builds a giant sandcastle all by himself.',
+          'Rabbit keeps imagining scary things in the water — crabs, whales, and sharks.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Rabbit never says “I’m scared.” Instead his fear comes out as wild imagining: “I feel a crab!” “I see a whale!” “I hear a shark!” “It’s a singing shark!” Fox hears what’s underneath the silly words.',
+        hint: 'Worried words are a clue — what is Rabbit’s imagination doing?',
+        explanation: 'Feelings don’t always come out as “I feel scared.” Rabbit’s wild worries about crabs, whales, and singing sharks are his fear talking. Noticing clues like this is called reading a friend’s feelings.'
+      },
+      {
+        id: 'fr-3',
+        question: 'The fair turns out to be the “UN-FAIR” fair — the games are so hard that it’s almost impossible to win a prize. What do Fox and Rabbit do?',
+        options: [
+          'They keep playing together and have a wonderful day anyway — being together is the real prize.',
+          'They get angry, knock over the game booths, and demand their money back.',
+          'Fox blames Rabbit for losing and says he will go to fairs alone from now on.',
+          'They sit in a corner and pout until someone gives them a prize for free.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'The pair soon notice the fair is the UN-FAIR fair — it isn’t easy to WIN a game and get a prize. They play on regardless, enjoying themselves more often than not, and by the end of the day they’ve won Fred the stuffed lion and a beach ball.',
+        hint: 'Think about what mattered more to them at the end of the day — the prizes or the day itself?',
+        explanation: 'Good sports don’t let losing ruin the day or the friendship. Fox and Rabbit enjoy every game together, and the shared laughter matters more than any stuffed prize.'
+      },
+      {
+        id: 'fr-4',
+        question: 'The first adventure starts with cloud gazing — one cloud looks like cotton candy, which gives them the idea to visit the fair nearby. What friending skill does this show?',
+        options: [
+          'Always sticking to the plan and never changing your mind.',
+          'Only doing activities you already know you like.',
+          'Saying yes to a friend’s idea and trying something new together, even if it wasn’t planned.',
+          'Letting your friend do all the deciding while you just follow silently.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'The first story opens with quiet cloud gazing. One cloud reminds them of COTTON CANDY — which makes them notice the fair that just happens to be close by. On a whim, off they go, and the day becomes an adventure.',
+        hint: 'The fair wasn’t in their plans — what did they do when the idea popped up?',
+        explanation: 'Great friends stay open. When a fun idea pops up, saying “let’s try it!” — like visiting the fair on a whim — turns an ordinary day into an adventure. That’s how they discovered cotton candy.'
+      },
+      {
+        id: 'fr-5',
+        question: 'On the way to Surprise Island, Fox and Rabbit bicker about whether the surprise will be a good surprise or a bad surprise (a “zinger”). Why is this kind of bickering OK between friends?',
+        options: [
+          'Because the one who argues loudest always gets to be right.',
+          'Because it’s playful — they’re teasing, not trying to hurt each other’s feelings.',
+          'Because bickering means they are not really friends anymore.',
+          'Because Rabbit always gives in so Fox wins every argument.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Following the treasure map to Surprise Island, the two fall into a friendly bicker about whether it will be a good surprise or a bad surprise — bad surprises are “zingers.” They disagree the whole way there and still have a grand time.',
+        hint: 'Listen to the tone — are they trying to wound each other, or just having fun disagreeing?',
+        explanation: 'Friends can disagree and tease each other playfully. The difference between friendly bickering and a real fight is simple: nobody’s feelings get hurt, and they’re still laughing together at the end.'
+      },
+      {
+        id: 'fr-6',
+        question: 'After finding a message in a bottle at the beach, Fox and Rabbit decide to follow the treasure map to Surprise Island. What makes this good teamwork?',
+        options: [
+          'Fox reads the map alone so Rabbit doesn’t slow him down.',
+          'Rabbit decides everything and Fox just carries the snacks.',
+          'They race to the island to see who gets there first.',
+          'They make the plan together, share the excitement, and set off as a team.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'At the end of their long beach day, they discover a message in a bottle — a treasure map! The next story is the adventure of following it to Surprise Island, an expedition they choose and enjoy together.',
+        hint: 'Who decided to go on the treasure hunt — one of them, or both of them?',
+        explanation: 'Good communication means making plans together. Neither friend bosses the other around — they share the idea, agree on the adventure, and enjoy every step side by side.'
+      },
+      {
+        id: 'fr-7',
+        question: 'Fox and Rabbit plant the seeds they found on Surprise Island. Gardening is slow, dirty, hard work (hence the “groaning”!). What does doing it together teach us about friendship?',
+        options: [
+          'Friends stick with the boring, hard parts together instead of leaving all the work to one person.',
+          'If a job is no fun, a good friend does it all for you while you nap.',
+          'Friends should only do easy, fun things and skip anything that makes them groan.',
+          'The friend who complains the least gets to keep everything that grows.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'In “Gardening, Growing & Groaning,” the two plant the seeds that were the surprise on Surprise Island. It’s sweaty, slow work — they groan through it together — and there’s a surprise waiting at the very end.',
+        hint: 'The title itself says “groaning” — but do they quit, or keep digging side by side?',
+        explanation: 'Real friendship isn’t only fun games — it’s also sharing the dull, tough jobs. Sticking with it together, groans and all, is what makes the garden (and the friendship) grow.'
+      },
+      {
+        id: 'fr-8',
+        question: 'One of the planted seeds grows into a lemon tree — sour lemons, not sweet fruit! What do Fox and Rabbit do?',
+        options: [
+          'They cry about the lemons and never garden again.',
+          'They throw the lemons away and blame each other for planting the wrong seeds.',
+          'They squeeze the lemons, make lemonade together, and open a lemonade stand to share it.',
+          'Fox eats all the lemons himself to prove he is the toughest.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'The final story’s seedling turns out to be a LEMON. And when life gives you lemons, you make lemonade — so naturally, Fox and Rabbit squeeze, stir, and open a lemonade stand together.',
+        hint: 'Remember the saying: when life gives you lemons… what do these two friends make?',
+        explanation: 'Disappointments happen — even to best friends. Instead of sulking or blaming, Fox and Rabbit turn the sour surprise into something sweet they can share. That’s resilience plus teamwork.'
+      },
+      {
+        id: 'fr-9',
+        question: 'Fox is easygoing and Rabbit is anxious — they seem like total opposites. What is the book’s big lesson about different personalities in a friendship?',
+        options: [
+          'Opposites can never really be friends, so they should find friends exactly like themselves.',
+          'Friends don’t have to be alike — accepting each other’s differences is what makes the pair perfect.',
+          'Rabbit should stop being anxious so he can be more like Fox.',
+          'Fox should stop being easygoing so he matches Rabbit’s worries.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Easygoing Fox and anxious Rabbit seem like total opposites. But, somehow, they make the perfect pair! Across every story, Fox’s calm steadies Rabbit’s worries, and Rabbit’s careful heart keeps Fox grounded.',
+        hint: 'The book says they “seem like total opposites. But, somehow, they make the perfect pair!” — what makes it work?',
+        explanation: 'The best friendships aren’t between identical people. Fox’s calm steadies Rabbit’s worries, and Rabbit’s care keeps Fox grounded. Accepting differences — not fixing them — is the secret.'
+      },
+      {
+        id: 'fr-10',
+        question: 'Across all five stories, Fox and Rabbit face fears like heights, swimming, and even poisonous frogs. What helps them face these fears?',
+        options: [
+          'They pretend fears don’t exist and never talk about them.',
+          'They avoid anything scary and stay home instead.',
+          'Fox faces every fear alone to show off how brave he is.',
+          'They face fears together — having a friend beside you makes scary things feel possible.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'On this first adventure, the pair discover new favorite things like sunsets, dandelions, and cotton candy — and face new fears like heights, swimming, and (poisonous!) frogs. Thankfully, there’s nothing Fox and Rabbit can’t do together!',
+        hint: 'What is the one thing that is true in every story — the fair, the beach, the island, the garden?',
+        explanation: 'Courage is easier with company. Whether it’s deep water or a dark swamp, knowing a friend is right beside you turns “I can’t” into “we can.” That’s the simple magic of true friendship.'
+      }
+    ]
   }
 ];
 
