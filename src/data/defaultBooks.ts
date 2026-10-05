@@ -1089,6 +1089,157 @@ export const CLASSIC_BOOKS: Book[] = [
         explanation: 'Courage is easier with company. Whether it’s deep water or a dark swamp, knowing a friend is right beside you turns “I can’t” into “we can.” That’s the simple magic of true friendship.'
       }
     ]
+  },
+  {
+    id: 'fox-and-rabbit-make-believe',
+    title: 'Fox & Rabbit: Make Believe',
+    author: 'Beth Ferry',
+    coverEmoji: '🦉',
+    themeColor: 'teal',
+    readingLevel: 'Grades 1 - 4 (Ages 6-9)',
+    synopsis: 'The second Fox & Rabbit graphic novel celebrates the magic of making believe — and making new friends. When imaginative Owl joins the circle, Fox must learn that friendship only grows bigger. Five funny stories, from ice cream to a corn maze to pumpkin carving.',
+    questions: [
+      {
+        id: 'mb-1',
+        question: 'When Owl becomes friends with Rabbit, Fox worries there might not be “enough friendship to go around.” What does Fox learn by the end?',
+        options: [
+          'That he should tell Rabbit to stop being friends with Owl.',
+          'That friendship isn’t like a pie — welcoming Owl doesn’t make his friendship with Rabbit any smaller.',
+          'That he should find a different best friend who has no other friends.',
+          'That feeling jealous means Rabbit was never really his friend.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Fox and Rabbit are the very best of friends — they do everything together. But when they meet a new friend, Owl, Fox isn’t so sure if there’s enough friendship to go around. Soon, Fox learns that it’s easy to be friends with Rabbit and Owl.',
+        hint: 'Think about a pie: when you share it, there’s less for you. Is friendship like that?',
+        explanation: 'Friendship isn’t a pie — it doesn’t get smaller when shared. Welcoming a new friend makes the circle bigger, not anyone’s piece smaller. Jealousy is a normal feeling, and it fades once you see there’s room for everyone.'
+      },
+      {
+        id: 'mb-2',
+        question: 'What do Fox and Rabbit do when they meet Owl, the new friend with the wonderful imagination?',
+        options: [
+          'They ignore Owl and hope he goes away.',
+          'They tell Owl he can only watch, not play.',
+          'They make Owl pass a difficult test before he can join.',
+          'They welcome Owl, and soon discover how much fun his big imagination is.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Fox and Rabbit meet Owl, a new friend with a wonderful imagination. Instead of shutting him out, they let him into their games — and together the three of them sail the high seas, get swallowed by a whale, and defeat evil woodchucks.',
+        hint: 'What happens after Owl joins — do the adventures get smaller or bigger?',
+        explanation: 'Welcoming a new friend takes courage, but it pays off: Owl’s imagination makes every game bigger and better. Including others is how friendships — and adventures — grow.'
+      },
+      {
+        id: 'mb-3',
+        question: 'On the playground, the three friends sail the high seas, get swallowed by a whale, and defeat evil woodchucks — all without ever leaving the playground! What makes their pretend play work so well?',
+        options: [
+          'They build on one another’s ideas and imagine together instead of arguing about whose story to play.',
+          'Fox decides the whole story alone while the others just watch quietly.',
+          'They take turns ruining one another’s ideas.',
+          'Only Owl is allowed to imagine, since the games were his idea.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Exploring the depths of Owl’s big imagination, the trio sail the high seas, get swallowed by a whale, and defeat evil woodchucks — all from the comfort of the playground. Every adventure is built together, idea upon idea.',
+        hint: 'In the best pretend games, do players say “no, my way!” or “yes, and then…”?',
+        explanation: 'Great pretend play runs on cooperation: each friend adds to the story instead of fighting over it. Saying “yes, and…” to one another’s ideas is what turns a playground into an ocean.'
+      },
+      {
+        id: 'mb-4',
+        question: 'Flush with their lemonade-stand earnings from the first book, Fox and Rabbit could have spent the money only on themselves. What do they do instead?',
+        options: [
+          'They hide the money so nobody else gets any.',
+          'They spend it all on themselves and brag about it.',
+          'They treat themselves AND their friends to ice cream.',
+          'They argue about who earned more and split up the coins.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Flush with their lemonade-stand earnings, Fox and Rabbit start their summer by treating themselves — and their friends — to ice cream. The whole circle gets a scoop.',
+        hint: 'Who gets ice cream in the first story — just Fox and Rabbit, or more friends too?',
+        explanation: 'Good friends share their good fortune. Spending the lemonade money on ice cream for everyone turns a treat into a celebration — generosity is what makes friends want to stick around.'
+      },
+      {
+        id: 'mb-5',
+        question: 'After the bubble-gum blowing contest ends in disaster, Fox needs a trip to the hairdresser and ends up with a truly bad haircut. How do good friends act when a friend feels embarrassed?',
+        options: [
+          'They laugh at him and take photos to show everyone at school.',
+          'They are kind about it and don’t tease him over something he already feels bad about.',
+          'They pretend they don’t know him until his fur grows back.',
+          'They tell him he deserved it for chewing so much gum.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'The bubble-gum blowing contest goes wrong — disastrously wrong for Fox’s fur — and ends with an emergency haircut that leaves Fox embarrassed. His friends don’t make it worse; they stick by him through the bad haircut, just as they share the good things like ice cream.',
+        hint: 'When you feel embarrassed, does teasing make it better or worse?',
+        explanation: 'Everyone has embarrassing moments. A good friend doesn’t pile on with teasing when someone already feels bad — kindness when a friend is down is what trust is built on.'
+      },
+      {
+        id: 'mb-6',
+        question: 'Fox enters the bubble-blowing contest full of confidence, and it ends with gum tangled through his fur — a total disaster! What’s the good-sport way to handle it?',
+        options: [
+          'Blame Rabbit for handing him the gum.',
+          'Throw a tantrum and ruin everyone else’s fun too.',
+          'Swear never to try anything new ever again.',
+          'Laugh it off, clean up, and try again another day.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'The bubble-blowing contest is a fiasco for Fox — gum everywhere, fur ruined, haircut required. But the day goes on: there are playground adventures, a corn maze, and pumpkins waiting. One disaster doesn’t end the summer.',
+        hint: 'After the gum disaster, does Fox’s summer end — or do the adventures keep coming?',
+        explanation: 'Being a good sport means handling a flop with grace: no blaming, no tantrums. Laugh, clean up, and keep going — resilience turns a disaster into just a funny story later.'
+      },
+      {
+        id: 'mb-7',
+        question: 'Fox, Rabbit, and Owl get lost in a twisty corn maze. What helps them find their way out?',
+        options: [
+          'They stay calm, stick together, and work as a team instead of blaming one another.',
+          'They each run in different directions, screaming.',
+          'Fox blames Owl for getting them lost in the first place.',
+          'They sit down in the corn and wait for someone else to rescue them.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'In one story the friends wander into a corn maze and lose their way among the tall stalks. Nobody panics alone and nobody points fingers — they puzzle it out together and escape as a team.',
+        hint: 'When you’re lost, does blaming each other help you find the exit?',
+        explanation: 'Teamwork matters most when things go wrong. Staying calm, sticking together, and solving the problem as a team beats panic and blame every time — in a corn maze and everywhere else.'
+      },
+      {
+        id: 'mb-8',
+        question: 'Turtle is so slow that he usually misses out on most of the action. How do the friends treat Turtle?',
+        options: [
+          'They leave without him, since he’s too slow to be fun.',
+          'They make fun of him for always arriving last.',
+          'They keep including him anyway — a good friend is worth waiting for.',
+          'They tell him he’s not invited to adventures anymore.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Turtle tends to miss everything due to chronic tardiness, yet he keeps showing up in the friends’ circle — at the ice cream outing, around the playground, and at the pumpkin carving. Nobody leaves him behind for being slow.',
+        hint: 'Is Turtle ever kicked out of the group for being late?',
+        explanation: 'Friends come at different speeds. Patient friends don’t ditch someone for being slow — they save Turtle a seat and a scoop. Inclusion means everyone belongs, even if they arrive last.'
+      },
+      {
+        id: 'mb-9',
+        question: 'Sparrow loves to eat — he’s hungry in every single story! How do the friends handle Sparrow’s enormous appetite?',
+        options: [
+          'They hide all the food whenever Sparrow comes around.',
+          'They tell Sparrow he’s not welcome at picnics anymore.',
+          'They scold him for eating too much.',
+          'They accept him as he is and share their snacks.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Ever-hungry Sparrow pops up in story after story, always ready for a bite. The friends never shame him for it — from the ice cream outing to the pumpkin party, there’s always room (and food) for Sparrow.',
+        hint: 'Do the friends ever try to change Sparrow, or do they just make room for him?',
+        explanation: 'Every friend has quirks. Good friends don’t shame or exclude someone for being themselves — they accept Sparrow’s appetite the way they accept Turtle’s slowness, with room at the table.'
+      },
+      {
+        id: 'mb-10',
+        question: 'The book ends with the whole gang carving jack-o-lanterns together as summer turns to fall. Why is this the perfect ending for a book about friendship?',
+        options: [
+          'Because pumpkin carving is a competition, and winning is what matters.',
+          'Because it shows the whole circle of friends — old and new — enjoying something together.',
+          'Because it proves Fox and Rabbit don’t need anyone else.',
+          'Because Halloween candy is the true meaning of friendship.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'The final story is an idyllic afternoon carving pumpkins — Fox, Rabbit, Owl, Sparrow, Turtle, all together as the season turns to fall. The circle that started as two now holds everyone.',
+        hint: 'Who is at the pumpkin carving — just Fox and Rabbit, or the whole gang?',
+        explanation: 'The pumpkin party shows how far the friendship has grown: from two friends to a whole circle, old and new alike. Celebrating together is the reward for every lesson — welcoming, sharing, and sticking together.'
+      }
+    ]
   }
 ];
 
