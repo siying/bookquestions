@@ -1091,6 +1091,157 @@ export const CLASSIC_BOOKS: Book[] = [
     ]
   },
   {
+    id: 'fox-and-rabbit-cues',
+    title: 'Fox & Rabbit — Social Cues',
+    author: 'Beth Ferry',
+    coverEmoji: '👀',
+    themeColor: 'lime',
+    readingLevel: 'Grades 1 - 4 (Ages 6-9)',
+    synopsis: 'A companion quiz for Fox & Rabbit (Book 1) that tests whether readers catch the subtle social cues — trust read in patience, comfort in silence, playful vs. real fights, and kindness in small moments.',
+    questions: [
+      {
+        id: 'fr2-1',
+        question: 'At the beach, Rabbit keeps telling Fox his worries — crabs, whales, singing sharks. How does Rabbit know it’s safe to keep sharing them?',
+        options: [
+          'Fox promises him a prize for every worry he shares.',
+          'Fox answers every single worry calmly — no sighing, no eye-rolling, no walking away.',
+          'Fox tells him worries are silly and he should stop.',
+          'Rabbit doesn’t know; he’s just hoping for the best.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Worry after worry pours out of Rabbit — crabs, whales, a singing shark. Fox never sighs, never rolls his eyes, never wanders off. He just keeps answering, calm as the water, until Rabbit dares to splash in.',
+        hint: 'Don’t listen to promises — watch what Fox DOES, worry after worry.',
+        explanation: 'Trust is read in consistent behavior, not words. Fox’s steady patience — no sighs, no eye-rolls, no walking away — is the cue that tells Rabbit (and the reader) this is a safe friend for scary feelings.'
+      },
+      {
+        id: 'fr2-2',
+        question: 'Fox and Rabbit notice the fair games are almost impossible to win — it’s the “UN-FAIR” fair. What’s the socially smart thing they do?',
+        options: [
+          'Accuse the booth workers of cheating at the top of their lungs.',
+          'Keep spending all their money trying to beat the rigged games.',
+          'Storm off in a huff and ruin the whole day.',
+          'Notice the games are unfair, stop chasing prizes, and enjoy the day together anyway.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'It dawns on the pair that the fair is the UN-FAIR fair — winning is nearly impossible. They don’t throw a fit or empty their pockets fighting it; they simply change what the day is about: each other.',
+        hint: 'When the game can’t be won, what’s the smartest move — fight the game, or change the goal?',
+        explanation: 'Reading a situation accurately is a social superpower. They spot the rigged games, let go of the prizes, and choose the real win: a fun day together. Smart readers notice when to stop playing someone else’s game.'
+      },
+      {
+        id: 'fr2-3',
+        question: 'The book opens with Fox and Rabbit cloud gazing quietly together, hardly saying a word. What does comfortable silence tell you about a friendship?',
+        options: [
+          'That they’re so at ease they don’t need constant talking to have fun together.',
+          'That they’re bored with each other already.',
+          'That they’ve permanently run out of things to say.',
+          'That one of them is secretly angry at the other.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'The first story opens in easy quiet: two friends on their backs, watching clouds drift, one reminding them of cotton candy. No chatter, no awkwardness — just shared sky.',
+        hint: 'Think of your own closest friend: is every happy moment full of talking?',
+        explanation: 'Silence is a cue too. Comfortable quiet — no fidgeting, no tension — signals deep ease. Friends who can simply be together without performing are showing the strongest bond of all.'
+      },
+      {
+        id: 'fr2-4',
+        question: 'After a whole day at the UN-FAIR fair, they finally win Fred the stuffed lion. What would show the subtlest kindness in that moment?',
+        options: [
+          'Grabbing Fred and sprinting away before anyone can ask.',
+          'Arguing loudly about who tried harder at the games.',
+          'Offering Fred to the other first, without being asked.',
+          'Leaving Fred at the booth because sharing is too hard.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'By day’s end, against all odds, they’ve won Fred the stuffed lion — one prize, two friends, after hours of losing together.',
+        hint: 'The kindest moves are the ones nobody demands. What could one friend simply OFFER?',
+        explanation: 'The subtlest generosity needs no prompting: offering the prize first, freely. Readers who catch this cue understand that in strong friendships, giving feels as good as getting — no scoreboard required.'
+      },
+      {
+        id: 'fr2-5',
+        question: 'At sunset they find a message in a bottle. How can you tell they’re both equally thrilled, even before anyone speaks?',
+        options: [
+          'They immediately start arguing about who spotted it first.',
+          'They both lean in close with wide eyes — bodies show excitement before words do.',
+          'One of them wanders off, uninterested.',
+          'You can’t tell; excitement is completely invisible.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'The bottle glints in the sunset. In the same instant both friends lean in, eyes wide, breath held — a shared gasp before a single word is spoken.',
+        hint: 'Freeze the frame: what are their BODIES doing in that first second?',
+        explanation: 'Big feelings arrive in the body first: leaning in, wide eyes, held breath. When both friends show the same cues at the same moment, you’re witnessing shared wonder — the sparkle before the adventure.'
+      },
+      {
+        id: 'fr2-6',
+        question: 'On the way to Surprise Island they bicker about good surprises versus bad “zingers.” How do you know it’s playful teasing, not a real fight?',
+        options: [
+          'Someone cries and storms off into the swamp.',
+          'They stop speaking to each other for the rest of the day.',
+          'One of them hurls the treasure map into the water.',
+          'They’re giggling between arguments, and nobody’s feelings get hurt.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: '“Good surprise!” “Bad surprise — a ZINGER!” Back and forth they go all the way to Surprise Island — but the arguing comes with giggles, and when the island appears, they race ashore side by side.',
+        hint: 'Real fights leave marks. What’s missing here that a real fight would have?',
+        explanation: 'Tone is the tell: giggles between jabs, no tears, no storming off, still side by side at the end. Playful bickering has a lightness real conflict never does — learning the difference is a lifelong social skill.'
+      },
+      {
+        id: 'fr2-7',
+        question: 'Planting the seeds, they groan the whole time — yet they keep digging. What does groaning-while-continuing tell you?',
+        options: [
+          'That complaining isn’t the same as quitting — they’re committed even while grumbling.',
+          'That they secretly hate each other.',
+          'That gardening was a terrible idea they deeply regret.',
+          'That they’ll never actually finish the garden.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: '“Gardening, Growing & Groaning” — the title says it all. They moan over every shovelful… and plant every single seed. The groans never once turn into goodbyes.',
+        hint: 'Watch their FEET, not their mouths: do the feet stop?',
+        explanation: 'Grumbling while continuing is one of friendship’s funniest honest cues: the mouth complains, but the hands keep working. Commitment isn’t the absence of groaning — it’s groaning and digging anyway, together.'
+      },
+      {
+        id: 'fr2-8',
+        question: 'When the seedling turns out to be a sour lemon tree instead of sweet fruit, there’s a beat of disappointment. What cue shows they’re already bouncing back?',
+        options: [
+          'They cry about the lemons for a full hour.',
+          'They blame each other for planting the wrong seed.',
+          'Someone grins and says “lemonade!” — disappointment flips into a plan almost instantly.',
+          'They chop the lemon tree down in a rage.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'A lemon. A sour, pucker-faced lemon — not the sweet surprise they’d imagined. The droop lasts about three seconds. Then a grin spreads: “LEMONADE!” And just like that, the disappointment becomes a stand.',
+        hint: 'How LONG does the disappointment last? What replaces it?',
+        explanation: 'Resilience has a tell: the speed of the pivot. A three-second droop followed by a grin and a plan shows disappointment processed, not buried. Readers who catch the quick grin are watching emotional agility in action.'
+      },
+      {
+        id: 'fr2-9',
+        question: 'At the fair they win a beach ball. During the game, how would a socially sharp player know it’s someone else’s turn?',
+        options: [
+          'Wait until someone yells at you to share.',
+          'Notice who hasn’t had the ball in a while and pass it their way — without being asked.',
+          'Keep the ball until you’re personally bored of it.',
+          'Only pass to whoever shouts the loudest.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'The beach ball arcs between them in the sunshine — and the game stays fun because the ball keeps moving. Nobody has to demand a turn; the turns just… come.',
+        hint: 'The best sharers don’t wait to be asked. What are they quietly tracking?',
+        explanation: 'Turn-taking is a tracking skill: noticing who’s been waiting, who hasn’t touched the ball, and passing before anyone asks. The cue is in the counting — socially sharp players keep score so nobody else has to.'
+      },
+      {
+        id: 'fr2-10',
+        question: 'The beach day ends with both friends quietly watching the sunset. What does sharing a quiet, beautiful moment tell you?',
+        options: [
+          'That they’re simply too tired to talk.',
+          'That the day was actually boring.',
+          'That they have nothing left to say to each other.',
+          'That some of the best friendship moments need no words at all — being present together is enough.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'The long beach day closes the way it should: two friends side by side, watching the sun melt into the water. No jokes, no plans — just shared sky and shared quiet.',
+        hint: 'Remember the book’s opening — cloud gazing. How does the day END?',
+        explanation: 'The sunset mirrors the opening clouds: the book begins and ends in comfortable shared quiet. That framing is the author’s biggest cue — presence itself, simply being there together, is the heart of the friendship.'
+      }
+    ]
+  },
+  {
     id: 'fox-and-rabbit-make-believe',
     title: 'Fox & Rabbit: Make Believe',
     author: 'Beth Ferry',
@@ -1238,6 +1389,157 @@ export const CLASSIC_BOOKS: Book[] = [
         samplePassage: 'The final story is an idyllic afternoon carving pumpkins — Fox, Rabbit, Owl, Sparrow, Turtle, all together as the season turns to fall. The circle that started as two now holds everyone.',
         hint: 'Who is at the pumpkin carving — just Fox and Rabbit, or the whole gang?',
         explanation: 'The pumpkin party shows how far the friendship has grown: from two friends to a whole circle, old and new alike. Celebrating together is the reward for every lesson — welcoming, sharing, and sticking together.'
+      }
+    ]
+  },
+  {
+    id: 'fox-and-rabbit-make-believe-cues',
+    title: 'Fox & Rabbit: Make Believe — Social Cues',
+    author: 'Beth Ferry',
+    coverEmoji: '🔍',
+    themeColor: 'cyan',
+    readingLevel: 'Grades 1 - 4 (Ages 6-9)',
+    synopsis: 'A companion quiz for Fox & Rabbit: Make Believe that tests whether readers catch the subtle social cues — unspoken jealousy, masked embarrassment, quiet disappointment, and the difference between laughing with and laughing at.',
+    questions: [
+      {
+        id: 'mb2-1',
+        question: 'Fox never actually says the words “I’m jealous” when Owl joins the group. How can a careful reader tell that’s what he’s feeling?',
+        options: [
+          'Fox tells Owl to go away and never come back.',
+          'Fox goes quiet, forces a smile, and hovers close to Rabbit — his behavior shows the feeling his words don’t say.',
+          'Fox writes an angry letter about Owl.',
+          'You can’t tell at all; feelings are completely invisible.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'When Owl joins the circle, Fox never announces “I’m jealous.” Instead he changes: he goes quieter than usual, his smiles look forced, and he sticks extra close to Rabbit — as if guarding a treasure.',
+        hint: 'If the words don’t say it, where else can feelings show up?',
+        explanation: 'Feelings leak through behavior. Going quiet, forcing smiles, and hovering close are classic signs of jealousy. Reading social cues means noticing what bodies and behavior say when words stay silent.'
+      },
+      {
+        id: 'mb2-2',
+        question: 'Imagine you’re Owl, joining two best friends who already share a hundred inside jokes. How might Owl be feeling at first, even while smiling?',
+        options: [
+          'Completely relaxed, as if he’s known them for years.',
+          'Angry at Fox and Rabbit for being friends before he arrived.',
+          'Bored — new groups are never interesting.',
+          'A little nervous and left-out, hoping they’ll really let him in.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Owl arrives full of imagination and big smiles — but he’s stepping into an established duo where Fox and Rabbit already do everything together, and Fox isn’t sure about sharing at first.',
+        hint: 'Think about the first day at a new school: you smile, but what’s happening underneath?',
+        explanation: 'This is perspective-taking: imagining life in someone else’s paws. Being the new kid feels wobbly even behind a smile. Noticing that helps you welcome newcomers with extra kindness.'
+      },
+      {
+        id: 'mb2-3',
+        question: 'After the disastrous haircut, Fox insists he’s “totally fine” — but is he? What cue tells the real story?',
+        options: [
+          'His drooping ears and the way he avoids mirrors say otherwise — bodies tell the truth when words don’t.',
+          'He throws a party to celebrate the wonderful haircut.',
+          'He immediately asks for an even shorter haircut.',
+          'Words are always true, so he must be perfectly fine.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'The emergency haircut leaves Fox looking nothing like himself. “Totally fine!” he declares — while his ears droop, he dodges every mirror, and his usual bounce is gone.',
+        hint: 'Compare what Fox SAYS with what Fox’s BODY does. Which one do you trust?',
+        explanation: 'People often mask embarrassment with brave words. The subtle cue is the mismatch: drooping ears and mirror-dodging reveal the real feeling. Trust body language when words and bodies disagree.'
+      },
+      {
+        id: 'mb2-4',
+        question: 'Sparrow swoops in and eats half the picnic snacks every single time. Is Sparrow being rude?',
+        options: [
+          'Yes — eating a lot always means someone is rude.',
+          'Yes, and the friends should ban him from picnics.',
+          'Not really — that’s just Sparrow being Sparrow, and the friends know his heart is kind.',
+          'Yes, so they should hide all the food whenever he appears.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Ever-hungry Sparrow appears in story after story, always ready for a bite. Nobody scolds him or hides the snacks — from the ice cream outing to the pumpkin party, there’s always room (and food) for Sparrow.',
+        hint: 'Do the friends treat Sparrow like a villain — or like family?',
+        explanation: 'Reading people means separating intent from impact. Sparrow isn’t trying to be rude; big appetite is simply who he is. Knowing someone’s kind heart lets you read their behavior generously instead of judging it.'
+      },
+      {
+        id: 'mb2-5',
+        question: 'Turtle arrives at the pumpkin-carving party after most pumpkins are already carved. He smiles and says “looks fun!” — but what might he be feeling underneath?',
+        options: [
+          'Pure joy — latecomers never feel bad about missing out.',
+          'A twinge of disappointment at missing the fun, hidden under a brave smile.',
+          'Burning anger at his friends for starting without him.',
+          'Nothing at all — turtles don’t have feelings.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Chronically tardy Turtle hurries in to find the pumpkin table nearly finished — jack-o-lanterns grinning everywhere. “Looks fun!” he says brightly, a little too brightly, eyeing the one uncarved pumpkin left.',
+        hint: 'When have YOU smiled while feeling a little sad inside? What did that feel like?',
+        explanation: 'Quiet disappointment often hides behind a brave smile — especially for someone who’s used to arriving late. A socially sharp reader catches it, and a kind friend responds by saving Turtle a pumpkin and a seat.'
+      },
+      {
+        id: 'mb2-6',
+        question: 'Before the bubble-blowing contest, Fox brags loudly about how he’ll blow the biggest bubble ever. What is Fox really doing?',
+        options: [
+          'Lying to everyone on purpose.',
+          'Being mean to the other contestants.',
+          'Cheating at the contest before it starts.',
+          'Showing off because he wants admiration — bragging often covers up nerves.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Fox struts into the bubble-blowing contest announcing his coming victory to anyone who’ll listen — the loudest bragger on the playground. Minutes later, gum is tangled through his fur.',
+        hint: 'Why do people brag the loudest right before something hard? What might they be feeling?',
+        explanation: 'Bragging is often a mask for nerves or a bid for admiration, not true confidence. Reading that cue keeps you from being annoyed — and reminds you that the bragger might need encouragement, not an audience.'
+      },
+      {
+        id: 'mb2-7',
+        question: 'Lost in the corn maze, Owl points left and declares “I’m SURE it’s this way!” — but he’s wrong. What’s the respectful way to disagree?',
+        options: [
+          '“Let’s check together — we can try your way first, then mine if it dead-ends.”',
+          '“You’re wrong, dummy. Follow me.”',
+          'Silently follow even though you know it’s wrong, then say “I told you so.”',
+          'Refuse to move another step until Owl admits he’s lost.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Deep in the corn maze, Owl points left with total confidence — and total wrongness. The moment hangs there: someone has to disagree with the friend who just led them astray.',
+        hint: 'Which answer disagrees with the IDEA while still respecting the PERSON?',
+        explanation: 'Disagreeing respectfully is a core social skill: challenge the idea (“let’s check together”) without attacking the person. Mockery, silent score-keeping, and ultimatums all poison teamwork; curiosity saves it.'
+      },
+      {
+        id: 'mb2-8',
+        question: 'At the ice cream store, Rabbit lets Fox pick his flavor first, even though Rabbit already knows exactly what he wants. What does this small moment show?',
+        options: [
+          'Rabbit doesn’t actually like ice cream at all.',
+          'Rabbit is afraid of Fox.',
+          'Rabbit is being considerate — small kindnesses are how friends show love.',
+          'Rabbit forgot what his favorite flavor is.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'At the ice cream store, Rabbit already knows his order by heart — yet he waves Fox ahead: “You first.” It’s a tiny moment, easy to miss between the sprinkles and the scoops.',
+        hint: 'Big speeches aren’t the only way to show love. Where else can it hide?',
+        explanation: 'Love often hides in small, easy-to-miss choices: letting a friend go first, saving the last bite, remembering a favorite flavor. Socially sharp readers collect these tiny kindnesses — they’re the real story of a friendship.'
+      },
+      {
+        id: 'mb2-9',
+        question: 'After Fox’s bad haircut, the friends laugh together about the bubble-gum disaster. What’s the difference between this laughter and mean teasing?',
+        options: [
+          'There is no difference — all laughing is mean.',
+          'They’re laughing WITH Fox at the silly situation, not AT him — and Fox is laughing too.',
+          'It’s only okay because Fox has a bad haircut.',
+          'Mean teasing is fine as long as everyone can hear it.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'In the haircut’s aftermath, the whole group ends up giggling about the great gum catastrophe — and Fox, ears still drooping, giggles along with them. Nobody is the butt of the joke; the situation is.',
+        hint: 'Here’s the test: is the person being laughed about laughing too?',
+        explanation: 'The subtle cue is inclusion: laughing WITH means the person is in on the joke and smiling too; laughing AT means someone is the target and hurting. Check who’s laughing — it tells you everything.'
+      },
+      {
+        id: 'mb2-10',
+        question: 'During the whale adventure, how can you tell the pretend game is working for everyone — not just one person bossing the story?',
+        options: [
+          'One person does all the talking while the others just watch.',
+          'Someone cries and quits the game halfway through.',
+          'Owl decides everything because the game was his idea.',
+          'Everyone adds ideas, everyone gets a part, and nobody is left out of the fun.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'The high-seas adventure works because it’s built together: Owl dreams up the whale, Fox steers the ship, Rabbit spots the woodchucks — every friend shapes the story, and every friend gets a starring moment.',
+        hint: 'In a healthy game, does the fun belong to one captain or the whole crew?',
+        explanation: 'Reading the room in group play means checking participation: balanced ideas, shared starring roles, nobody sidelined. When everyone’s fingerprints are on the fun, the game is healthy — that’s the cue.'
       }
     ]
   }
