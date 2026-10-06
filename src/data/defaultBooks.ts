@@ -1542,6 +1542,157 @@ export const CLASSIC_BOOKS: Book[] = [
         explanation: 'Reading the room in group play means checking participation: balanced ideas, shared starring roles, nobody sidelined. When everyone’s fingerprints are on the fun, the game is healthy — that’s the cue.'
       }
     ]
+  },
+  {
+    id: 'wimpy-kid-double-down-cues',
+    title: 'Diary of a Wimpy Kid: Double Down — Social Cues',
+    author: 'Jeff Kinney',
+    coverEmoji: '🎬',
+    themeColor: 'red',
+    readingLevel: 'Grades 3 - 7 (Ages 8-12)',
+    synopsis: 'A social-cues quiz for Diary of a Wimpy Kid: Double Down (Book 11) — reading fame-changed friends, masked fears, what parents are really upset about, and knowing when to quit a collapsing plan.',
+    questions: [
+      {
+        id: 'dd2-1',
+        question: 'After the tree rescue, Rowley does TV interviews and never once mentions Greg — even though Greg’s movie plan is what made him famous. What does this tell a careful reader about Rowley right now?',
+        options: [
+          'Rowley is just too shy to talk on camera.',
+          'Fame has gone to Rowley’s head — he’s acting like the world revolves around him and forgetting who helped him get there.',
+          'Rowley has completely forgotten who Greg is.',
+          'Rowley is being humble on purpose.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'The fire-department rescue lands Rowley on the local news, then talk shows — he even skips school for interviews. Greg watches every one, waiting to hear his name. It never comes.',
+        hint: 'Watch what success DOES to Rowley’s behavior — who does he remember, and who does he forget?',
+        explanation: 'Success changes how people act, and the cue is in what they forget. Rowley skipping school for talk shows and never crediting Greg shows fame has gone to his head. Noticing when a friend’s success rewrites the friendship is a sharp social read.'
+      },
+      {
+        id: 'dd2-2',
+        question: 'Susan keeps arranging playdates with Maddox, a boy whose house has no TV, no video games, no electronics at all. What is Susan REALLY hoping will happen?',
+        options: [
+          'That Maddox will teach Greg to build giant Lego cities.',
+          'That Greg will finally win the candy corn prize.',
+          'That the two moms can enjoy coffee together in town.',
+          'That Maddox will be a “good influence” and pull Greg away from screens.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Susan is disappointed that Greg spent her book-fair money on junk instead of books, and she’s convinced he has “hidden talents” being wasted on video games. So she befriends Maddox’s mom and engineers playdate after playdate.',
+        hint: 'What has Susan been complaining about? Match the playdates to the complaint.',
+        explanation: 'Adults often act on hopes they don’t state outright. Susan never says “I’m using Maddox to fix you” — but the pattern (complaints about screens + a screen-free role model + repeated playdates) reveals the real agenda. Reading the pattern behind the action is the cue.'
+      },
+      {
+        id: 'dd2-3',
+        question: 'Greg is convinced his whole life is a reality show and everyone around him is an actor — he even thinks Manny was “brought in” as a new star to replace him. What does this theory reveal about how Greg sees other people?',
+        options: [
+          'He sees them as supporting characters in HIS story, not as people with their own lives.',
+          'He deeply respects everyone’s privacy and inner life.',
+          'He secretly wants to become a television director.',
+          'Nothing at all — it’s just a joke he doesn’t really believe.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Greg lays out his grand theory: Rodrick, Manny, everyone — all actors and robots in a show about HIM. Manny isn’t a little brother; he’s a replacement star. Even Nana is watching from heaven like an audience member.',
+        hint: 'In Greg’s theory, whose story is the only one that matters?',
+        explanation: 'How someone describes others reveals how they see them. Casting everyone as actors in your show means you’re not really seeing them as people with their own stories. Spotting self-centered framing — in Greg or in real life — is a key social cue.'
+      },
+      {
+        id: 'dd2-4',
+        question: 'When Greg shows Maddox a computer game, Maddox — who has never seen one before — goes absolutely wild. Should Greg conclude that Maddox is badly behaved?',
+        options: [
+          'Yes — going wild always means bad behavior.',
+          'Yes, and Greg should make sure they never meet again.',
+          'No — Maddox has never encountered a video game; his reaction is pure novelty, not naughtiness.',
+          'Yes — which proves Susan’s role-model plan worked perfectly.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'At the first playdate, Greg fires up a computer game and Maddox loses his mind with excitement — the kid has no TV, no games, no electronics at home. It’s all brand new to him.',
+        hint: 'Before judging the reaction, ask: what is Maddox’s NORMAL? Has he ever seen this before?',
+        explanation: 'Behavior means different things in different contexts. Maddox isn’t misbehaving — he’s experiencing something for the first time. The cue is to check someone’s background before judging their reaction; novelty looks a lot like naughtiness if you skip that step.'
+      },
+      {
+        id: 'dd2-5',
+        question: 'At Maddox’s house, Maddox shows off his giant Lego city but only lets Greg use the leftover bricks — then accuses Greg of stealing when a brick gets stuck in Greg’s arm. What cue tells you Maddox doesn’t really want to share?',
+        options: [
+          'Maddox’s house is old-fashioned and has no electronics.',
+          'He guards the good pieces, offers only scraps, and assumes the worst the instant something goes wrong.',
+          'He invited Greg over in the first place.',
+          'Greg’s arm is simply too small for Lego bricks.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Maddox unveils a glorious Lego city — then hands Greg the sad leftover pile. When a brick wedges painfully in Greg’s arm, Maddox doesn’t ask if he’s okay; he accuses Greg of stealing and kicks him out.',
+        hint: 'Forget the invitation. Watch the SHARING: who gets the good pieces, and what happens at the first accident?',
+        explanation: 'Real generosity shows in the details: which pieces you’re offered, and whether accidents get compassion or accusations. Guarding the good stuff plus instant blame is the classic cue of someone who invited you over but never intended to share.'
+      },
+      {
+        id: 'dd2-6',
+        question: 'After the witch decoration shrieks and the shelf crashes down, Rowley sprints outside, climbs a tree in a towel, babbles nonsense, and refuses to come down. How does Greg know Rowley is truly terrified — not just acting?',
+        options: [
+          'Rowley is secretly a brilliant actor.',
+          'Rowley planned the whole scene for the news cameras.',
+          'Rowley is laughing the entire time.',
+          'Rowley won’t respond to reason, won’t come down even for Greg, and babbles — real panic doesn’t take direction.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'The electronic witch screams, the storage unit collapses, and Rowley bolts — out of the house, up the tree, babbling. Greg tries talking, then tries knocking him down with tennis balls. Rowley only climbs higher.',
+        hint: 'Actors take direction. What does Rowley do when Greg tries to direct him?',
+        explanation: 'Real fear has tells that acting doesn’t: unresponsiveness to reason, escalating instead of calming, babbling. When someone can’t be talked or coaxed down, you’re seeing genuine panic — and the kind response is comfort, not tennis balls.'
+      },
+      {
+        id: 'dd2-7',
+        question: 'Greg is mid-swing with a tennis racket, trying to knock Rowley out of the tree, when Dad’s car pulls into the driveway. How does Greg know he’s in enormous trouble before Dad says a single word?',
+        options: [
+          'Dad’s thunderous face, the slammed car door, and the frozen silence say everything — you can read trouble before anyone speaks.',
+          'Dad waves hello cheerfully and asks to join in.',
+          'Dad grabs a racket to help knock Rowley down.',
+          'Greg doesn’t know; he assumes Dad will find it hilarious.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Frank Heffley arrives home to a tableau: the yard in chaos, a shelf’s worth of Halloween decorations everywhere, Rowley treed in a towel, Greg armed with a tennis racket — and a news crew filming it all.',
+        hint: 'Close your eyes and picture Dad’s face in that driveway. What does it say?',
+        explanation: 'Some of the fastest social reading we do is on a parent’s face: the set jaw, the slammed door, the silence before the storm. Greg doesn’t need words to know. Learning to read that early-warning face is a survival skill every kid develops.'
+      },
+      {
+        id: 'dd2-8',
+        question: 'Susan is furious about the movie disaster — but is it really about the mess in the furnace room? What is she actually upset about?',
+        options: [
+          'The geese eating all the gummy worms.',
+          'The cost of the wasted tennis balls.',
+          'Greg filmed OVER the tape of Manny’s first steps — an irreplaceable memory is gone forever.',
+          'The news crew parking their van on the lawn.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'The camera Greg and Rowley used belonged to Susan and Frank — and the “blank” tape they recorded their worm movie onto already held something: Manny’s first steps. Susan’s fury isn’t about clutter; it’s about what can never be re-recorded.',
+        hint: 'Mess can be cleaned up. What did Greg destroy that CAN’T be cleaned up?',
+        explanation: 'Anger is often about the deeper loss, not the surface mess. Susan’s real grief is the erased first-steps tape — a memory no chore can restore. The cue: when someone’s reaction seems bigger than the situation, look for the irreplaceable thing underneath.'
+      },
+      {
+        id: 'dd2-9',
+        question: 'Greg brags about reading the Spineticklers horror books — then has nightmares, including one where he grows a tail and everyone’s jealous of it. What cue reveals the books actually scare him?',
+        options: [
+          'He reads them twice as fast as normal books.',
+          'He boasts about them by day but has bad dreams by night — the nightmares expose what the bragging hides.',
+          'He recommends them enthusiastically to Rowley.',
+          'He writes a fan letter to the author, I.M. Spooky.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'After Susan makes him trade his book-fair junk for actual books, Greg picks the Spineticklers horror series and talks big about them. Then the dreams start — vivid, ridiculous, unmistakably scared dreams.',
+        hint: 'Compare daytime Greg with nighttime Greg. Which one is performing?',
+        explanation: 'Bragging is often a mask, and the mask slips when we sleep. Daytime boasts versus nighttime nightmares is the classic mismatch cue: what someone claims to handle versus what their dreams say they can’t. Trust the dreams.'
+      },
+      {
+        id: 'dd2-10',
+        question: 'Under the kitchen table, with geese pecking at the windows and Rowley panicking, Greg’s brilliant movie plan has completely collapsed. What’s the cue that it’s time to abandon the plan?',
+        options: [
+          'Keep filming no matter what — a real director never abandons a plan.',
+          'Blame Rowley for everything going wrong.',
+          'Pretend the geese aren’t there and stick to the script.',
+          'When your plan has trapped you in your own house and terrified your friend, the plan — not the friend — is the problem.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Greg and Rowley crouch under the kitchen table, plotting their next move while angry geese patrol outside. The “masterpiece” is in ruins — and Rowley is coming apart.',
+        hint: 'Who is the plan serving right now — and who is it hurting?',
+        explanation: 'Knowing when to quit is a social skill, not a failure. The cue is the cost: when the plan endangers people and the friendship, doubling down is the real mistake. Smart readers — and smart friends — recognize when the plan has become the villain.'
+      }
+    ]
   }
 ];
 
