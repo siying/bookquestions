@@ -1237,145 +1237,145 @@ export const MTH_BOOKS_11_TO_20: Book[] = [
     questions: [
       {
         id: 'mth19-1',
-        question: "Where does the magic tree house take Jack, Annie, and Teddy on their third gift quest?",
+        question: "Where does the magic tree house take Jack, Annie, and Teddy on this adventure?",
         options: [
-          "A lush, wild jungle forest in India",
-          "The outback of Australia",
+          "The wild jungles of India",
+          "The Australian Outback",
           "The mountains of Tibet",
-          "The Nile delta in Egypt"
+          "The Nile Delta in Egypt"
         ],
         correctAnswerIndex: 0,
-        samplePassage: "“Dense banyan trees with tangled hanging vines filled the window. Monkeys chattered in the humid air, and the scent of wild jasmine and damp earth filled the tree house. ‘India!’ Jack read from his guidebook. ‘A tropical forest in Asia, home of peacocks, cobras, and Bengal tigers!’”",
-        hint: "What Asian country with banyan trees and Bengal tigers did they visit?",
-        explanation: "They traveled to the wild jungles of India, home to peacocks, elephants, and Bengal tigers."
+        samplePassage: "Through the tree house window they saw dense banyan trees with tangled hanging vines. Monkeys chattered in the humid air, and the scent of jasmine drifted on the warm breeze. Jack checked his guidebook: India — land of peacocks, cobras, and Bengal tigers.",
+        hint: "Which Asian country has banyan trees, langur monkeys, and Bengal tigers?",
+        explanation: "The tree house takes them to the wild jungles of India."
       },
       {
         id: 'mth19-2',
-        question: "What enormous wild mammal with large ears and a trunk do Jack and Annie climb onto to cross a rushing river?",
+        question: "How do Jack and Annie get across the rushing river?",
         options: [
-          "A wild water buffalo",
-          "A black rhinoceros",
-          "An Indian elephant",
-          "A giant river ox"
+          "They swim across holding onto vines",
+          "They build a raft from bamboo",
+          "They climb onto a gentle Indian elephant that carries them across",
+          "They swing across on hanging vines"
         ],
         correctAnswerIndex: 2,
-        samplePassage: "“Crashing through the bamboo was a magnificent Indian elephant. It knelt gently in the shallow river. ‘Climb onto her neck!’ Annie called, scrambling up. Jack settled behind her, and the gentle giant carried them effortlessly across the swirling river current to the other bank.”",
-        hint: "What large animal with a trunk knelt down and gave them a ride across the river?",
-        explanation: "A gentle Indian elephant let them climb onto its neck and carried them safely across the rushing river."
+        samplePassage: "An Indian elephant crashed through the bamboo and knelt in the shallow river. Annie scrambled onto its neck, Jack climbed up behind her, and the gentle giant carried them through the swirling current to the far bank.",
+        hint: "What huge, trunked animal knelt down to give them a ride?",
+        explanation: "A gentle Indian elephant carries them across the rushing river on its neck."
       },
       {
         id: 'mth19-3',
-        question: "What giant constrictor snake coils around a banyan tree branch directly above Jack's head?",
+        question: "What animal is trapped at the bottom of the poachers' deep pit?",
         options: [
-          "A King Cobra",
-          "An Indian rock python",
-          "A black mamba",
-          "A green tree viper"
+          "A spotted leopard",
+          "A Bengal tiger with orange fur and black stripes",
+          "A wild boar",
+          "A giant python"
         ],
         correctAnswerIndex: 1,
-        samplePassage: "“Jack looked up into the leafy banyan branches. Hanging only inches above his cap was the thick, patterned body of an enormous snake! It flicked a black tongue and stared with cold, unblinking eyes. ‘A python!’ Jack choked out, freezing in his tracks.”",
-        hint: "What thick constrictor snake was coiled in the banyan branches?",
-        explanation: "An enormous Indian rock python was coiled among the banyan vines right above them."
+        samplePassage: "At the bottom of the pit, under a cover of logs, paced an enormous cat with blazing orange fur and bold black stripes. It roared with fury and pain — a Bengal tiger, caught in a poacher's trap.",
+        hint: "What orange-and-black striped big cat was pacing at the bottom of the pit?",
+        explanation: "A Bengal tiger is trapped in the poachers' deep pit."
       },
       {
         id: 'mth19-4',
-        question: "Who are the noisy gray monkeys with black faces who throw figs and tease Jack and Annie in the trees?",
+        question: "How do Jack and Annie help the trapped tiger escape?",
         options: [
-          "Howler monkeys",
-          "Chimpanzees",
-          "Baboons",
-          "Langur monkeys"
+          "They dig a tunnel with sticks",
+          "They pull it up with a rope of vines",
+          "They distract it with meat while it climbs",
+          "They slide a fallen tree trunk into the pit as a ramp for it to climb"
         ],
         correctAnswerIndex: 3,
-        samplePassage: "“A troop of gray monkeys with long tails and black faces leaped through the canopy, screeching and tossing wild figs at Jack’s glasses. ‘Langur monkeys,’ Jack read from his book. ‘Sacred in many parts of India, known for their cleverness and agility.’”",
-        hint: "What gray monkeys with black faces starting with 'L' threw figs at them?",
-        explanation: "They encountered a troop of langur monkeys—acrobatic gray monkeys with black faces native to the forests of India."
+        samplePassage: "Annie insisted they had to help. Together they pushed a fallen tree trunk over the edge of the pit. It slid down at an angle, and the tiger stepped onto it and bounded up into the daylight.",
+        hint: "What did they slide into the pit so the tiger could climb out?",
+        explanation: "They slide a fallen tree trunk into the pit, making a ramp the tiger climbs to freedom."
       },
       {
         id: 'mth19-5',
-        question: "Who is the peaceful, blind hermit living in a simple forest hut who offers them tea and wisdom?",
+        question: "What third gift for breaking Teddy's spell does the hermit Kahill give them?",
         options: [
-          "Kahill",
-          "Gandhi",
-          "Ravi",
-          "Arjun"
+          "A carved wooden flute",
+          "A brass elephant bell",
+          "A glowing white lotus flower that never wilts",
+          "A tiger-claw amulet"
         ],
-        correctAnswerIndex: 0,
-        samplePassage: "“Sitting peacefully in a small thatched hut was a blind hermit with a serene smile, wearing a white cotton dhoti. ‘Welcome, children,’ he said, pouring warm spiced tea into clay bowls. ‘I am Kahill. Though my eyes see only darkness, my heart hears every breath of the forest.’”",
-        hint: "What was the name of the blind hermit living in the forest hut?",
-        explanation: "They were welcomed by Kahill, a gentle and wise blind hermit who lived in harmony with the jungle animals."
+        correctAnswerIndex: 2,
+        samplePassage: "From a bowl of pure spring water, Kahill lifted a delicate white lotus. 'Take this gift of peace and purity,' he said. 'A lotus blooms untainted even in muddy waters.' Annie tucked it safely into Jack's backpack.",
+        hint: "What pure white flower did Kahill lift from the spring water?",
+        explanation: "Kahill gives them a never-wilting lotus flower — the third gift needed to break Teddy's spell."
       },
       {
         id: 'mth19-6',
-        question: "What apex predator with orange and black stripes is trapped in a deep pit trap dug by poachers?",
+        question: "What is the main idea of the tiger rescue adventure?",
         options: [
-          "A clouded leopard",
-          "A spotted leopard",
-          "A majestic Bengal Tiger",
-          "A wild golden jackal"
+          "Wild animals should always be avoided",
+          "Helping others takes courage, even when you are scared",
+          "Tigers make good pets if you are kind",
+          "Poachers are stronger than children"
         ],
-        correctAnswerIndex: 2,
-        samplePassage: "“At the bottom of a deep pit trapped under logs was an enormous cat with blazing orange fur, bold black stripes, and burning emerald eyes. It paced back and forth, roaring with fury and pain. ‘A tiger!’ Annie gasped. ‘A real Bengal tiger, trapped in a poacher’s pit!’”",
-        hint: "What big cat with orange fur and black stripes was trapped in the pit?",
-        explanation: "A magnificent Bengal tiger was trapped in a deep pit dug by poachers, roaring for help."
+        correctAnswerIndex: 1,
+        samplePassage: "Jack's hands shook as they pushed the trunk toward the pit — the tiger's roars were terrifying. But Annie whispered, 'He needs us.' They helped anyway, scared and all.",
+        hint: "Were they brave because they felt no fear — or brave while feeling afraid?",
+        explanation: "The main idea: real courage means helping others even when you are frightened."
       },
       {
         id: 'mth19-7',
-        question: "How do Jack and Annie bravely rescue the ferocious tiger from the pit?",
+        question: "Kahill is blind, yet he moves through the jungle peacefully and wisely. What big lesson does he teach Jack and Annie?",
         options: [
-          "They dig an escape tunnel with shovels.",
-          "They push a fallen tree trunk down into the pit so the tiger can climb up.",
-          "They pull the tiger up with a vine rope.",
-          "They feed the tiger meat until it falls asleep."
+          "The jungle is too dangerous for children",
+          "Magic is stronger than wisdom",
+          "Only hermits understand animals",
+          "You can 'see' with your heart — wisdom and peace matter more than eyesight"
         ],
-        correctAnswerIndex: 1,
-        samplePassage: "“‘We have to help him!’ Annie insisted. Jack and Annie grabbed the thick trunk of a fallen sapling and pushed it over the edge. It slid down into the pit at an angle. The tiger paused, stepped onto the trunk, and bounded up into the daylight with a majestic leap!”",
-        hint: "What fallen tree trunk did they slide into the pit for the tiger to climb?",
-        explanation: "They slid a sturdy fallen tree trunk into the pit, creating a ramp that allowed the tiger to climb to freedom."
+        correctAnswerIndex: 3,
+        samplePassage: "'Though my eyes see only darkness,' Kahill told them, pouring spiced tea, 'my heart hears every breath of the forest.' He knew each animal's mood and each bird's warning without ever seeing them.",
+        hint: "What does Kahill understand deeply despite not being able to see?",
+        explanation: "Kahill teaches that true sight comes from the heart — wisdom, calm, and living in peace with nature matter more than eyesight."
       },
       {
         id: 'mth19-8',
-        question: "What does the grateful Bengal tiger do after climbing out of the pit?",
+        question: "After climbing out, the tiger pauses, looks Jack and Annie in the eye, makes a soft chuffing sound, and pads away without harming them. What can you infer from this?",
         options: [
-          "It follows them all the way back to the tree house like a pet.",
-          "It chases them up a tall banyan tree.",
-          "It roars and charges into the river.",
-          "It pauses, looks Jack and Annie in the eye with gratitude, and pads silently into the jungle without harming them."
+          "The tiger is too tired to hunt",
+          "The tiger is afraid of children",
+          "The tiger wants them to follow it",
+          "The tiger understands they helped it and shows gratitude instead of attacking"
         ],
         correctAnswerIndex: 3,
-        samplePassage: "“The giant tiger landed on the jungle grass only feet away from Jack and Annie. Jack held his breath, terrified. But the tiger didn't pounce. It looked into their eyes, gave a soft chuffing sound of gratitude, turned gracefully, and disappeared like a golden ghost into the twilight shadows.”",
-        hint: "What friendly sound did the tiger make before slipping peacefully into the forest?",
-        explanation: "The tiger looked at Jack and Annie, made a gentle chuff of gratitude, and slipped quietly away into the forest without harming them."
+        samplePassage: "The great cat landed just feet away. Jack froze, certain it would pounce. Instead the tiger held their gaze, gave a low, gentle chuff, and melted into the twilight like a golden ghost.",
+        hint: "It had every chance to attack — but didn't. What does its choice tell you?",
+        explanation: "You can infer the tiger recognized its rescuers: instead of attacking, it shows gratitude and leaves peacefully."
       },
       {
         id: 'mth19-9',
-        question: "What national bird of India with iridescent blue-green feathers and a majestic tail do they admire?",
+        question: "When the freed tiger vanishes into the twilight 'like a golden ghost,' how does the moment feel?",
         options: [
-          "The Kingfisher",
-          "The Indian Peacock",
-          "The Golden Eagle",
-          "The Flamingo"
+          "Magical and peaceful, full of wonder",
+          "Silly and lighthearted, like a joke",
+          "Dark and hopeless, full of dread",
+          "Boring and ordinary"
         ],
-        correctAnswerIndex: 1,
-        samplePassage: "“Perched on a mossy branch, a magnificent bird fanned out a giant tail of emerald, turquoise, and gold feathers dotted with purple eyespots. It let out a loud, proud cry. ‘An Indian peacock!’ said Jack. ‘The national bird of India!’”",
-        hint: "What bird with an emerald tail covered in eyespots is the national bird of India?",
-        explanation: "They admired an Indian peacock with its stunning fan of iridescent green and gold tail feathers."
+        correctAnswerIndex: 0,
+        samplePassage: "Twilight purpled the jungle as the tiger's striped coat glowed gold one last time — then it was gone, leaving only the whisper of leaves. Jack and Annie stood breathless in the hush.",
+        hint: "Think about the words 'golden ghost' and 'twilight' — what feeling do they create?",
+        explanation: "The tone is magical and peaceful — a moment of wonder as the grateful tiger melts into the twilight."
       },
       {
         id: 'mth19-10',
-        question: "What third magical gift from their quest do Jack and Annie receive from the hermit Kahill?",
+        question: "When Annie sees the trapped tiger and insists, 'We have to help him!' even though it is dangerous, what does this show about her?",
         options: [
-          "A carved wooden flute",
-          "A small brass elephant bell",
-          "A fragrant lotus flower that never wilts",
-          "A tiger claw amulet"
+          "She is reckless and never thinks",
+          "She is brave and compassionate — she acts on empathy even when scared",
+          "She only cares about completing the quest",
+          "She is afraid of the dark jungle"
         ],
-        correctAnswerIndex: 2,
-        samplePassage: "“Kahill reached into a bowl of pure spring water and lifted out a delicate, glowing white lotus flower. ‘Take this gift of peace and purity,’ the blind hermit said gently. ‘A lotus blooms untainted even in muddy waters.’ Annie placed the lotus in Jack’s backpack beside the feather.”",
-        hint: "What delicate white flower blooming in pure water was the third gift for Teddy?",
-        explanation: "The blind hermit Kahill gave them a pristine lotus flower—the third special gift needed to break the spell on Teddy."
+        correctAnswerIndex: 1,
+        samplePassage: "The tiger's roars shook the leaves. Jack wanted to run. But Annie stepped closer to the pit's edge. 'We have to help him!' she said, her voice steady despite her trembling hands.",
+        hint: "Her hands tremble — but what does she DO anyway?",
+        explanation: "It shows Annie is brave and compassionate: she feels fear but lets empathy decide her actions."
       }
-    ]
+]
   },
 
   // 20. Dingoes at Dinnertime
@@ -1390,144 +1390,144 @@ export const MTH_BOOKS_11_TO_20: Book[] = [
     questions: [
       {
         id: 'mth20-1',
-        question: "What unique continent and biome do Jack, Annie, and Teddy visit in Book #20?",
+        question: "Where does the magic tree house take Jack, Annie, and Teddy in this adventure?",
         options: [
-          "The African Kalahari Desert",
-          "The Australian Outback with red sand and eucalyptus trees",
-          "The South American Pampas",
-          "The Alaskan wilderness"
+          "The African savanna",
+          "The Australian Outback, with red sand and eucalyptus trees",
+          "The South American rainforest",
+          "The frozen Arctic tundra"
         ],
         correctAnswerIndex: 1,
-        samplePassage: "“The tree house landed in a strange gum tree with peeling silvery bark. Outside stretched a vast wilderness of rich red dirt, strange spiky bushes, and giant sandstone boulders under a blazing sun. ‘Australia!’ Jack read. ‘The Australian Outback, the arid red heart of the continent!’”",
-        hint: "What continent known for red dirt and eucalyptus trees did they land on?",
-        explanation: "They were transported to the Australian Outback, the vast, red-earthed wilderness in the heart of Australia."
+        samplePassage: "Outside stretched a vast wilderness of rich red dirt, spiky bushes, and giant sandstone boulders under a blazing sun. Gum trees with peeling silvery bark dotted the land. 'Australia!' Jack read. 'The Outback!'",
+        hint: "Which continent is famous for red dirt, kangaroos, and eucalyptus trees?",
+        explanation: "They travel to the Australian Outback."
       },
       {
         id: 'mth20-2',
-        question: "What iconic Australian marsupial with powerful hind legs and a pouch bounds across the red dirt?",
+        question: "What wild animals stalk the mother kangaroo and her baby?",
         options: [
-          "A platypus",
-          "A koala",
-          "A wombat",
-          "A red kangaroo"
+          "Gray wolves",
+          "Coyotes",
+          "Wild Australian dingoes with sandy-golden coats",
+          "African wild dogs"
         ],
-        correctAnswerIndex: 3,
-        samplePassage: "“BOING! BOING! Leaping over the saltbush was a tall animal with reddish-brown fur, huge ears, and massive muscular hind legs. It bounded twenty feet in a single leap, balancing with its thick tail. ‘A red kangaroo!’ Jack whispered in delight.”",
-        hint: "What animal bounded twenty feet in a single leap across the red dirt?",
-        explanation: "A red kangaroo leaped across the Outback, using its muscular tail and legs to bound effortlessly."
+        correctAnswerIndex: 2,
+        samplePassage: "Through the dry grass prowled lean wild dogs with sandy-golden coats and pointed ears, circling the mother kangaroo and eyeing her joey. 'Dingoes!' Jack gasped. 'Wild dogs of Australia!'",
+        hint: "What golden wild dogs give this book its title?",
+        explanation: "A pack of wild dingoes stalks the mother kangaroo and her joey."
       },
       {
         id: 'mth20-3',
-        question: "What is a baby kangaroo called when it rides in its mother's pouch?",
+        question: "How does Annie keep the baby joey safe while they flee the brushfire?",
         options: [
-          "A joey",
-          "A pup",
-          "A calf",
-          "A kit"
+          "She tucks the joey into Jack's backpack, using it like a kangaroo pouch",
+          "She carries the joey on her shoulders",
+          "She hides the joey in a hollow log",
+          "She wraps the joey in her jacket and leaves it behind a rock"
         ],
         correctAnswerIndex: 0,
-        samplePassage: "“Peeking out from a furry pouch on the mother kangaroo’s stomach was a tiny, adorable face with huge brown eyes and twitching ears. ‘A baby kangaroo is called a joey!’ Jack read. ‘It stays inside its mother’s pouch for months drinking milk until it can hop on its own.’”",
-        hint: "What is the four-letter name for a baby kangaroo?",
-        explanation: "A baby kangaroo is called a joey. It lives and nurses inside its mother's pouch until it is strong enough to hop on its own."
+        samplePassage: "The joey was too small to outrun the flames. Annie scooped him up and slid him into Jack's open backpack. The little joey poked his head out, warm and snug — just like in his mother's pouch.",
+        hint: "What did Annie turn into a pretend kangaroo pouch?",
+        explanation: "Annie tucks the joey into Jack's backpack, which works like a mother's pouch."
       },
       {
         id: 'mth20-4',
-        question: "What pack of wild golden dogs stalks the mother kangaroo and her baby?",
+        question: "Where do Jack, Annie, Teddy, and the animals shelter from the wildfire?",
         options: [
-          "Coyotes",
-          "African wild dogs",
-          "Wild Australian Dingoes",
-          "Gray wolves"
+          "At the top of a fire lookout tower",
+          "In a deep river swimming hole",
+          "Inside an abandoned mining shed",
+          "In a cool cave beneath a giant sandstone rock"
         ],
-        correctAnswerIndex: 2,
-        samplePassage: "“Prowling through the dry grass was a pack of lean, wild dogs with sandy-golden coats, bushy tails, and pointed ears. They barked sharply and began circling the mother kangaroo. ‘Dingoes!’ Jack gasped, checking his book. ‘Wild native dogs of Australia!’”",
-        hint: "What wild golden dogs of Australia gave the book its title?",
-        explanation: "A pack of wild Australian dingoes circled the mother kangaroo, looking for an opportunity to hunt."
+        correctAnswerIndex: 3,
+        samplePassage: "Teddy barked and raced toward a massive red sandstone boulder. Beneath it lay a cool, sheltered cave. They all scrambled inside as sparks and smoke swirled past the entrance.",
+        hint: "What cool, rocky shelter did Teddy lead them to?",
+        explanation: "They shelter in a cool cave beneath a giant sandstone rock, safe from flames and sparks."
       },
       {
         id: 'mth20-5',
-        question: "What cute, sleepy tree-dwelling marsupial do Jack and Annie rescue from a eucalyptus tree?",
+        question: "What happens when Teddy receives the fourth and final gift?",
         options: [
-          "A tree kangaroo",
-          "A fluffy gray koala bear",
-          "A sugar glider",
-          "A Tasmanian devil"
+          "He learns to speak like a human",
+          "He grows golden wings and flies",
+          "He transforms back into a boy — a young magician's apprentice from Camelot",
+          "He becomes the king of the tree house"
         ],
-        correctAnswerIndex: 1,
-        samplePassage: "“Curled up in the fork of a eucalyptus gum tree was a round, fuzzy gray creature with large furry ears and a leathery black nose. It chewed lazily on a green eucalyptus leaf. ‘A koala!’ Annie squealed. ‘He looks like a little teddy bear!’”",
-        hint: "What round gray creature with large furry ears eats eucalyptus leaves?",
-        explanation: "They met a sleepy, fuzzy koala munching on eucalyptus leaves in a gum tree."
+        correctAnswerIndex: 2,
+        samplePassage: "Golden sparks burst through the tree house! The little terrier stretched taller and taller — and where the puppy had been stood a boy in a velvet tunic. 'I am Teddy!' he cheered. 'A wizard's apprentice from Camelot! You broke my spell!'",
+        hint: "Who was Teddy before he was turned into a puppy?",
+        explanation: "The spell breaks and Teddy transforms back into a boy — a magician's apprentice from Camelot."
       },
       {
         id: 'mth20-6',
-        question: "What catastrophic natural disaster suddenly sweeps across the dry Outback brush?",
+        question: "What is the main idea of the baby joey's rescue?",
         options: [
-          "A massive sandstorm that buries the trees",
-          "A flash flood of muddy river water",
-          "A sudden blizzard of freezing hail",
-          "A fast-moving Australian wildfire (brushfire) with roaring flames and black smoke"
+          "Wildfires are impossible to escape",
+          "Protecting small, helpless creatures is worth brave risks",
+          "Kangaroos should avoid dingoes forever",
+          "Backpacks are better than pouches"
         ],
-        correctAnswerIndex: 3,
-        samplePassage: "“Crackling sounds erupted in the distance. The sky filled with thick gray smoke and the smell of burning gum trees. Leaping across the dry scrub in walls of orange fire was a terrifying bushfire! ‘A wildfire!’ Jack yelled in terror. ‘The dry brush is burning fast!’”",
-        hint: "What disaster with roaring flames and smoke raced across the dry grass?",
-        explanation: "A raging Australian wildfire (brushfire) swept through the dry grass and eucalyptus trees, threatening the wildlife."
+        correctAnswerIndex: 1,
+        samplePassage: "Flames roared closer, but Annie didn't hesitate — she scooped up the trembling joey first and figured out the escape second. The smallest life in the Outback mattered as much as her own.",
+        hint: "What mattered more to Annie: her own safety, or the tiny joey's?",
+        explanation: "The main idea: the helpless deserve our bravest protection — Annie risks herself to save the tiny joey."
       },
       {
         id: 'mth20-7',
-        question: "How does Annie protect the stranded baby joey during their escape from the brushfire?",
+        question: "Across all four gifts of the quest, what is this whole adventure mostly about?",
         options: [
-          "She tucks the baby joey safely into Jack's backpack like an artificial pouch.",
-          "She carries the joey on her head.",
-          "She wraps the joey in eucalyptus bark.",
-          "She puts the joey inside a hollow log."
+          "Collecting souvenirs from around the world",
+          "Proving that magic is real",
+          "Learning the names of wild animals",
+          "How courage and kindness can break even a powerful spell"
         ],
-        correctAnswerIndex: 0,
-        samplePassage: "“The baby joey was too small and weak to outrun the flames. Annie gently scooped up the little creature and slid him snugly into Jack’s open backpack. The joey poked his sweet head out, safe and warm just like inside his mother’s pouch. ‘Let’s run!’ shouted Annie.”",
-        hint: "What item carried on Jack's back served as a safe pouch for the joey?",
-        explanation: "Annie placed the baby joey securely into Jack's backpack, using it like a kangaroo pouch to carry the joey safely away from the fire."
+        correctAnswerIndex: 3,
+        samplePassage: "Four gifts, four dangers, four rescues — a ship's bell, an eagle feather, a lotus, an Outback painting. Each one was earned by helping someone. And when the fourth was given freely, golden light shattered the enchantment.",
+        hint: "How did they EARN each gift — by taking, or by helping?",
+        explanation: "The main idea: courage and kindness are the real magic — helping others is what finally breaks Teddy's spell."
       },
       {
         id: 'mth20-8',
-        question: "Where do Jack, Annie, and the animals take refuge from the wildfire flames?",
+        question: "Why does Annie's backpack plan calm the frightened joey?",
         options: [
-          "On top of a high steel fire tower",
-          "In a deep swimming hole in the river",
-          "Inside a cool, deep cave beneath a giant sandstone rock formation",
-          "Inside an abandoned mining shed"
+          "Because the dark, snug backpack feels like his mother's pouch",
+          "Because the joey likes the smell of books",
+          "Because backpacks are warmer than pouches",
+          "Because the joey is too tired to notice"
         ],
-        correctAnswerIndex: 2,
-        samplePassage: "“Teddy barked and ran toward a massive red sandstone boulder. Beneath the stone was a cool, sheltered cave with high stone ceilings. Jack, Annie, the joey, and the koala all scrambled inside the cave, safe from the heat and flying sparks of the fire outside.”",
-        hint: "What cool shelter beneath a giant red rock protected them from the fire?",
-        explanation: "They took shelter inside a cool, rocky cave beneath a giant sandstone rock where the flames could not reach them."
+        correctAnswerIndex: 0,
+        samplePassage: "The moment Annie slid him into the backpack, the joey stopped trembling. He nestled down, poked his head out, and sighed — the same cozy position he'd known all his life.",
+        hint: "What has the joey known 'all his life' that the backpack copies?",
+        explanation: "You can infer the snug, dark backpack mimics his mother's pouch — so the joey feels safe instead of scared."
       },
       {
         id: 'mth20-9',
-        question: "What Indigenous Australian creation myth about bringing rain do they discover painted on the cave wall?",
+        question: "When golden sparks fill the tree house and Teddy becomes a boy, how does the moment feel?",
         options: [
-          "The Rainbow Serpent who brings life-giving rain and rivers to the land",
-          "The Sun God riding an emu",
-          "The Great Crocodile who created the ocean",
-          "The Eagle of the morning star"
+          "Gloomy and frightening",
+          "Quiet and sleepy",
+          "Confusing and sad",
+          "Triumphant and joyful, like a celebration"
         ],
-        correctAnswerIndex: 0,
-        samplePassage: "“Painted in white dot-patterns on the red cave wall was an enormous curving serpent with shimmering rainbow scales. ‘The Rainbow Serpent,’ Jack read. ‘In Australian Aboriginal Dreamtime mythology, the Rainbow Serpent brings life-giving rain to quench wildfires and fill the waterholes.’”",
-        hint: "What mythical serpent associated with rain and rainbows was painted on the cave wall?",
-        explanation: "They saw a Dreamtime painting of the Rainbow Serpent, the sacred creator spirit in Aboriginal mythology that brings life-giving rains."
+        correctAnswerIndex: 3,
+        samplePassage: "Light exploded like a hundred birthdays at once. Teddy laughed — a real boy's laugh! Jack and Annie cheered so loudly the tree house seemed to dance.",
+        hint: "Think of the words 'cheered,' 'laughed,' and 'golden sparks' — what feeling do they build?",
+        explanation: "The tone is triumphant and joyful — the magical payoff of everything they've worked for."
       },
       {
         id: 'mth20-10',
-        question: "What final miracle occurs when Teddy receives his fourth gift and breaks his enchantment?",
+        question: "Even with dingoes circling and fire approaching, Jack keeps stopping to read his guidebook about Australia and the Rainbow Serpent. What does this show about him?",
         options: [
-          "Teddy gains the ability to talk like a human.",
-          "Teddy turns into a golden flying puppy.",
-          "Teddy is crowned King of the Tree House.",
-          "Teddy transforms back into a young boy named Teddy, a magician's apprentice from Camelot!"
+          "He is careless and easily distracted",
+          "He is curious and thoughtful — he learns first so he can act wisely",
+          "He is afraid to make decisions",
+          "He cares more about books than his friends"
         ],
-        correctAnswerIndex: 3,
-        samplePassage: "“With all four gifts gathered—the ship’s gift, eagle feather, lotus, and Outback painting—a dazzling burst of golden sparks filled the tree house! The little terrier began to change, growing taller... and standing before Jack and Annie was a handsome young boy in a velvet tunic! ‘I am Teddy!’ he cheered. ‘A wizard’s apprentice from Camelot! You broke my spell!’”",
-        hint: "Who did Teddy the puppy transform into when all four gifts were gathered?",
-        explanation: "With all four gifts gathered, the enchantment was shattered, and Teddy revealed his true identity as a young magician's apprentice from Camelot!"
+        correctAnswerIndex: 1,
+        samplePassage: "As smoke thickened, Jack flipped frantically through his book. 'The Rainbow Serpent brings rain!' he shouted. 'Aboriginal stories say it quenches wildfires!' His reading pointed them to the cave paintings — and hope.",
+        hint: "Does his reading slow them down, or does it SAVE them?",
+        explanation: "It shows Jack is curious and thoughtful: he gathers knowledge first, and that learning helps them survive."
       }
-    ]
+]
   }
 ];
