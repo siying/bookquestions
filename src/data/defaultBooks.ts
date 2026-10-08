@@ -1693,6 +1693,185 @@ export const CLASSIC_BOOKS: Book[] = [
         explanation: 'Knowing when to quit is a social skill, not a failure. The cue is the cost: when the plan endangers people and the friendship, doubling down is the real mistake. Smart readers — and smart friends — recognize when the plan has become the villain.'
       }
     ]
+  },
+  {
+    id: 'rowley-jefferson-awesome-friendly-adventure',
+    title: "Rowley Jefferson's Awesome Friendly Adventure",
+    author: 'Jeff Kinney',
+    coverEmoji: '🐉',
+    themeColor: 'blue',
+    readingLevel: 'Grades 3 - 7 (Ages 8-12)',
+    synopsis: "Rowley Jefferson writes his own fantasy adventure — Roland and Garg the Barbarian's quest to save Roland's mom from the White Warlock — while Greg critiques every chapter. A quiz about social cues: handling criticism, showing respect, and the kindness of heroes.",
+    questions: [
+      {
+        id: 'rja-1',
+        question: 'Who are the two heroes of Rowley’s adventure story, and what is their quest?',
+        options: [
+          'Sherlock Holmes and Stephen, solving mysteries',
+          'Roland and Garg the Barbarian, questing to save Roland’s mom from the White Warlock',
+          'Santa and the One-Eyed Wizard, delivering presents',
+          'Christoph and Shae’Vana, trying to break a curse'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Rowley’s story opens with two friends leaving their safe village: Roland, a kind young hero, and Garg the Barbarian, his big best friend. Their mission: rescue Roland’s mother from the evil White Warlock.',
+        hint: 'Which pair leaves their village to rescue a mom?',
+        explanation: 'The heroes are Roland and his best friend Garg the Barbarian, on a quest to save Roland’s mother from the White Warlock.'
+      },
+      {
+        id: 'rja-2',
+        question: 'Who does the White Warlock turn out to be?',
+        options: [
+          'Greg wearing a disguise',
+          'Roland’s long-lost father',
+          'The One-Eyed Wizard’s best friend',
+          'Santa Claus — and the One-Eyed Wizard is his jealous brother'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'At the climax, the terrifying White Warlock laughs “ho ho ho” — and Roland realizes the truth: it’s Santa Claus! The One-Eyed Wizard is Santa’s brother, who tricked Roland into helping him take revenge.',
+        hint: 'What does “ho ho ho” make you think of?',
+        explanation: 'The White Warlock is Santa Claus; the One-Eyed Wizard is Santa’s brother, jealous over getting Flag Day while Santa got Christmas.'
+      },
+      {
+        id: 'rja-3',
+        question: 'After each chapter, Greg tells Rowley everything he did wrong. How can Rowley tell this feedback isn’t really meant to help the story?',
+        options: [
+          'Greg’s notes are all about making things “cooler” and more marketable — never about the story’s heart',
+          'Greg writes his notes in messy handwriting',
+          'Greg uses too many big words',
+          'Greg never actually reads the chapters'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'After every chapter, Greg lists everything Rowley did “wrong” — more fights, scarier monsters, cooler names. Rowley notices the notes never mention the story’s heart, only how to sell it.',
+        hint: 'Is Greg trying to improve the story — or sell it?',
+        explanation: 'Helpful feedback cares about the story itself; Greg’s notes only chase what’s “cool” and sellable — that’s the cue it isn’t really help.'
+      },
+      {
+        id: 'rja-4',
+        question: 'When Roland calls Christoph “this guy,” Shae’Vana insists he has a name. What is she teaching?',
+        options: [
+          'That werewolves are too dangerous for the team',
+          'That nicknames are more fun than real names',
+          'That using someone’s real name shows respect — “this guy” shrinks a person into a thing',
+          'That she enjoys correcting people'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Roland suggests leaving the cursed vampire behind, calling him “this guy.” Shae’Vana stops him cold: the vampire has a NAME — Christoph.',
+        hint: 'How does it feel to be called “this guy” instead of your name?',
+        explanation: 'Names carry respect. Shae’Vana’s cue: calling someone “this guy” erases them; using their name honors them.'
+      },
+      {
+        id: 'rja-5',
+        question: 'Greg keeps pushing Rowley to make the story bloodthirstier, but Rowley keeps writing his own way. What does this show about handling criticism?',
+        options: [
+          'You should always obey your critics',
+          'You can hear feedback without letting it bulldoze your own voice',
+          'Critics are always right about stories',
+          'Rowley should quit writing'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Chapter after chapter, Greg demands more battles and plot twists. Rowley listens politely — then keeps writing his own gentle, kind story anyway.',
+        hint: 'Does Rowley stop writing — or stop being himself?',
+        explanation: 'Rowley models healthy criticism-skills: listen politely, then protect your own voice. Feedback is advice, not orders.'
+      },
+      {
+        id: 'rja-6',
+        question: 'Greg loves the Christmas chapter and tries to trademark the word “kind.” What does this reveal about how Greg sees the story?',
+        options: [
+          'He has finally fallen in love with the story',
+          'He is being generous with his business ideas',
+          'He deeply understands Rowley’s message',
+          'He sees the story as a product to sell, not a story to love'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Greg adores the Christmas ending — because holiday books sell — and immediately tries to trademark the word “kind.” Rowley just shrugs; he never wanted to sell anything.',
+        hint: 'Is Greg excited about the meaning — or the money?',
+        explanation: 'Greg’s excitement is commercial, not heartfelt — he values the story’s price tag over its message. Reading motives is a key social cue.'
+      },
+      {
+        id: 'rja-7',
+        question: 'After the wizard apologizes, Roland invites him and Righty to live with his family. What does this show?',
+        options: [
+          'True forgiveness can turn even enemies into family',
+          'Roland’s house is enormous',
+          'Wizards make the best roommates',
+          'Roland forgot all the bad things the wizard did'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'The defeated One-Eyed Wizard apologizes for being a jerk. Roland doesn’t just forgive him — he invites the wizard AND Righty to come live with his family.',
+        hint: 'Is forgiveness just saying “it’s okay” — or is it this?',
+        explanation: 'Roland shows forgiveness in action: not just pardoning the wizard, but welcoming him home. Kindness includes the reformed.'
+      },
+      {
+        id: 'rja-8',
+        question: 'Rowley doesn’t care about getting published — he just wants his dad to read the story aloud at bedtime. What does this teach about creating things?',
+        options: [
+          'Publishing books is bad',
+          'Only bedtime stories are worth writing',
+          'The best reason to create is love — for the joy of it and the people you love, not for fame',
+          'Fathers are the only good readers'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Rowley says he doesn’t care about publishing or trademarks. He wrote the book for himself and his parents — all he wants is for his dad to read it aloud as a bedtime story, voices and all.',
+        hint: 'Who is Rowley writing FOR?',
+        explanation: 'Rowley creates from love, not ambition — the healthiest motive. His audience of three (himself, Mom, Dad) is plenty.'
+      },
+      {
+        id: 'rja-9',
+        question: 'The One-Eyed Wizard got Flag Day while his brother Santa got Christmas — and has been bitter ever since. What can you infer about his real motive?',
+        options: [
+          'He hates flags',
+          'Sibling jealousy — he feels overlooked and less celebrated than his brother',
+          'He wants to become the new Santa',
+          'He is afraid of snow and winter'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'The One-Eyed Wizard got Flag Day while his brother Santa got Christmas — and he’s been bitter ever since, tricking Roland into helping him take revenge.',
+        hint: 'How would YOU feel if your brother got Christmas and you got Flag Day?',
+        explanation: 'You can infer the motive is jealousy: being the less-celebrated brother curdled into revenge. Unspoken hurt feelings often drive bad behavior.'
+      },
+      {
+        id: 'rja-10',
+        question: 'The book ends with Santa giving presents, the wizard apologizing, and everyone celebrating Christmas together at Roland’s home. How does the ending feel?',
+        options: [
+          'Scary and dark',
+          'Sad and lonely',
+          'Confusing and strange',
+          'Warm and joyful — everyone forgiven, everyone together'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Santa hands out presents, the wizard apologizes, Shae’Vana and Christoph ride off together, and everyone celebrates Christmas at Roland’s home — the best Christmas ever.',
+        hint: 'Presents, apologies, couples, Christmas dinner — what feeling adds up?',
+        explanation: 'The tone is warm and joyful: forgiveness all around, everyone together — the cozy glow of a happy ending.'
+      },
+      {
+        id: 'rja-11',
+        question: 'Santa names him “Roland the Kind.” What does this say about what kind of hero Roland is?',
+        options: [
+          'His greatest power is kindness — he wins by caring, not by being the toughest fighter',
+          'He is the best-looking hero',
+          'He was only kind one time',
+          'Kindness is literally his only ability'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'For his final gift, Santa doesn’t give Roland gold or a sword. He gives him a title: “Roland the Kind.”',
+        hint: 'Of all titles — “the Strong,” “the Brave” — Santa chose “the Kind.” Why?',
+        explanation: 'It defines his heroism: Roland’s strength IS his kindness. The book argues caring beats conquering.'
+      },
+      {
+        id: 'rja-12',
+        question: 'The heroes go on a “quest” to save Roland’s mom. What does the word “quest” mean?',
+        options: [
+          'A quick trip to the store',
+          'A fight with a monster',
+          'A long, adventurous journey to accomplish something important',
+          'A magical spell'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Roland and Garg leave their village on a “quest” — a long, dangerous journey to rescue Roland’s mother from the White Warlock.',
+        hint: 'Think of knights in old tales — what were their quests?',
+        explanation: '“Quest” means a long, adventurous journey undertaken to achieve something important — like rescuing Roland’s mom.'
+      }
+    ]
   }
 ];
 
