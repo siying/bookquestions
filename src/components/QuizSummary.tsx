@@ -29,6 +29,7 @@ export const QuizSummary: React.FC<QuizSummaryProps> = ({
   onChooseAnotherBook,
 }) => {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+  const [expandAll, setExpandAll] = useState(false);
 
   // Calculate scores
   let correctFirstTry = 0;
@@ -87,7 +88,18 @@ export const QuizSummary: React.FC<QuizSummaryProps> = ({
   }
 
   const toggleExpand = (idx: number) => {
-    setExpandedIndex(expandedIndex === idx ? null : idx);
+    if (expandAll) {
+      // When everything is expanded, tapping one row collapses back to single-row mode
+      setExpandAll(false);
+      setExpandedIndex(null);
+    } else {
+      setExpandedIndex(expandedIndex === idx ? null : idx);
+    }
+  };
+
+  const toggleExpandAll = () => {
+    setExpandAll(!expandAll);
+    setExpandedIndex(null);
   };
 
   return (
@@ -187,18 +199,27 @@ export const QuizSummary: React.FC<QuizSummaryProps> = ({
 
       {/* Review Section */}
       <div className="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-indigo-100">
-        <h2 className="text-xl font-black text-slate-900 mb-1 flex items-center gap-2">
-          <BookMarked className="w-5 h-5 text-indigo-600" />
-          Review What You Learned
-        </h2>
+        <div className="flex items-start justify-between gap-3 mb-1">
+          <h2 className="text-xl font-black text-slate-900 flex items-center gap-2">
+            <BookMarked className="w-5 h-5 text-indigo-600" />
+            Review What You Learned
+          </h2>
+          <button
+            onClick={toggleExpandAll}
+            className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold rounded-xl active:scale-95 transition-all text-xs"
+          >
+            {expandAll ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+            {expandAll ? 'Collapse all' : 'Expand all'}
+          </button>
+        </div>
         <p className="text-xs text-slate-500 mb-6">
-          Click any question below to view the book excerpt and the full explanation.
+          Click any question below to view the book excerpt and the full explanation — or expand them all at once for review.
         </p>
 
         <div className="space-y-3">
           {book.questions.map((q, idx) => {
             const st = questionStates[idx];
-            const isExpanded = expandedIndex === idx;
+            const isExpanded = expandAll || expandedIndex === idx;
 
             return (
               <div
@@ -213,7 +234,7 @@ export const QuizSummary: React.FC<QuizSummaryProps> = ({
                     <span className="shrink-0 font-bold text-xs text-slate-400 w-6">
                       #{idx + 1}
                     </span>
-                    <span className="text-xs sm:text-sm font-bold text-slate-800 truncate">
+                    <span className="text-xs sm:text-sm font-bold text-slate-800">
                       {q.question}
                     </span>
                   </div>
