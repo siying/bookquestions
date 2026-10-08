@@ -1544,6 +1544,157 @@ export const CLASSIC_BOOKS: Book[] = [
     ]
   },
   {
+    id: 'fox-rabbit-celebrate',
+    title: 'Fox & Rabbit: Celebrate',
+    author: 'Beth Ferry',
+    coverEmoji: '🍕',
+    themeColor: 'pink',
+    readingLevel: 'Grades 1 - 4 (Ages 6-9)',
+    synopsis: 'The third Fox & Rabbit graphic novel: five funny stories about Sparrow’s birthday, the world’s biggest pizza, and a lonely Dragon who has never had a friend. A celebration of courage, kindness, and including everyone.',
+    questions: [
+      {
+        id: 'frc-1',
+        question: 'What are Fox and Rabbit making for Sparrow’s birthday?',
+        options: [
+          'The world’s biggest birthday cake',
+          'The world’s biggest pizza — with Owl’s help',
+          'A giant ice cream sundae',
+          'A tower of pancakes'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Sparrow loves food, so Fox and Rabbit team up with Owl to create the world’s biggest pizza for Sparrow’s birthday — a humongous, cheesy masterpiece.',
+        hint: 'What food does the whole plan revolve around — and who helps make it?',
+        explanation: 'They make the world’s biggest pizza for Sparrow’s birthday, teaming up with Owl to pull it off.'
+      },
+      {
+        id: 'frc-2',
+        question: 'What problem stops them from finishing the giant pizza?',
+        options: [
+          'They run out of cheese',
+          'Sparrow decides he doesn’t like pizza',
+          'Dragon eats all the dough',
+          'They don’t have the world’s biggest oven to bake it in'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'The giant pizza is built — but then the friends stare at each other. Their oven is far too small. “We don’t have the world’s biggest oven!” Rabbit groans.',
+        hint: 'The pizza is huge — what does a huge pizza need that they don’t have?',
+        explanation: 'They have no oven big enough to bake the world’s biggest pizza — so they must find another way.'
+      },
+      {
+        id: 'frc-3',
+        question: 'In the first story, what does Fox try to do for the other animals?',
+        options: [
+          'Fix their household problems',
+          'Teach them all to read',
+          'Build them a playground',
+          'Cook dinner for the whole woods'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Before the birthday plans begin, Fox hurries from burrow to burrow with a toolbox, trying to fix everyone’s household problems — a wobbly chair here, a leaky roof there.',
+        hint: 'What is Fox carrying from burrow to burrow?',
+        explanation: 'Fox tries to fix the other animals’ household problems — his good intentions kick off the book.'
+      },
+      {
+        id: 'frc-4',
+        question: 'Fox and Rabbit have never met Dragon, and they worry Dragon might like eating foxes and rabbits more than pizza. They go ask for help anyway. What does this show?',
+        options: [
+          'They are not afraid of anything at all',
+          'They don’t care about staying safe',
+          'Real courage means feeling scared and going anyway — especially to befriend someone new',
+          'Dragons are never dangerous'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: '“Dragon hopefully likes to eat pizza, not foxes or rabbits…” Fox gulps. Rabbit squeezes his paw. “Together?” “Together.” And off they go to meet Dragon.',
+        hint: 'Are they unafraid — or afraid but going together?',
+        explanation: 'They feel the fear and go anyway, together. That’s real courage — and it’s how new friendships begin.'
+      },
+      {
+        id: 'frc-5',
+        question: 'Dragon has never had a friend and never been to a birthday party. What do Fox and Rabbit do?',
+        options: [
+          'They invite Dragon to join the party and become friends',
+          'They feel sorry for Dragon but leave him alone',
+          'They decide Dragon is too different to join in',
+          'They ask Dragon to stay hidden while the party happens'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Dragon shuffles shyly. “I’ve never had a friend. I’ve never been to a birthday party.” Fox grins wide. “Then this will be your first of both!”',
+        hint: 'Do they protect the party FROM Dragon — or share it WITH him?',
+        explanation: 'They don’t just accept Dragon’s help — they include him fully: first friend, first party. Including the left-out is the whole point.'
+      },
+      {
+        id: 'frc-6',
+        question: 'When the giant pizza can’t be baked, Fox and Rabbit don’t give up — they ask Dragon for help. What’s the social skill here?',
+        options: [
+          'Never start anything you can’t finish all by yourself',
+          'Asking for help is smart and brave, not weak',
+          'Only Dragons are worth asking for help',
+          'Big problems should just be abandoned'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'No oven, no pizza — disaster! But instead of quitting, Fox and Rabbit think of someone who could help: Dragon. Asking feels scary, but they do it anyway.',
+        hint: 'Is asking for help giving up — or is it a strategy?',
+        explanation: 'Asking for help is a strength, not a weakness. Smart friends don’t quit at the hard part — they recruit help.'
+      },
+      {
+        id: 'frc-7',
+        question: 'Fox tries to fix everyone’s household problems — and some fixes go hilariously wrong! What’s the kind-but-wise lesson about helping?',
+        options: [
+          'Never help anyone, ever',
+          'Only help your very best friends',
+          'Helping means doing absolutely everything yourself',
+          'Good intentions matter — but good helping means checking what someone actually needs first'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Fox means well with every repair — but a “fixed” chair wobbles worse than before! Rabbit gently suggests: maybe ask what each friend actually needs before hammering away.',
+        hint: 'Is the problem that Fox cares — or that he didn’t ask first?',
+        explanation: 'Caring isn’t the problem; bulldozing is. The wise way to help: ask what’s actually needed before jumping in with the toolbox.'
+      },
+      {
+        id: 'frc-8',
+        question: 'This adventure “celebrates the ways in which differences can bring friends together.” What does Dragon add to the group?',
+        options: [
+          'Nothing — the friends were perfectly fine without him',
+          'Only a way to bake the pizza',
+          'A brand-new friend with his own special gifts — differences make the circle richer',
+          'Trouble for everyone at the party'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'By the party’s end, Dragon isn’t just the oven-solver — he’s laughing, dancing, and belonging. The group is bigger, warmer, and more wonderful with him in it.',
+        hint: 'Is Dragon just useful — or is he family now?',
+        explanation: 'Dragon brings more than help: a whole new friend. Differences don’t divide the circle — they enrich it.'
+      },
+      {
+        id: 'frc-9',
+        question: 'Dragon has “never had a friend or been to a birthday party.” What can you infer about why Dragon stayed away from everyone?',
+        options: [
+          'Dragons simply hate parties',
+          'Dragon was probably lonely and unsure he’d be welcome — hiding felt safer than risking rejection',
+          'Dragon was far too busy to make friends',
+          'The other animals had banned Dragon'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Dragon lives apart from everyone, never visiting, never invited. When Fox and Rabbit finally knock, Dragon’s eyes go wide — as if no one has ever knocked before.',
+        hint: 'If no one has ever knocked on your door, would you feel confident knocking on theirs?',
+        explanation: 'You can infer Dragon stayed away from loneliness and fear of rejection — not from dislike. Being unwelcomed teaches you to stop trying, until someone kind knocks.'
+      },
+      {
+        id: 'frc-10',
+        question: 'The book ends with a humongous pizza and a fun party with all the animals of the woods — Dragon included. How does it feel?',
+        options: [
+          'Scary and tense',
+          'Sad and quiet',
+          'Boring and ordinary',
+          'Warm and joyful — everyone together, everyone belonging'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Pizza for everyone! The whole woods gathers — Sparrow, Owl, Fox, Rabbit, and Dragon right in the middle of it all, grinning. No one is left out.',
+        hint: 'A giant pizza, all your friends, nobody left out — what feeling fits?',
+        explanation: 'The tone is warm and joyful: the glow of a true celebration, where everyone belongs.'
+      }
+    ]
+  },
+  {
     id: 'wimpy-kid-double-down-cues',
     title: 'Diary of a Wimpy Kid: Double Down — Social Cues',
     author: 'Jeff Kinney',
