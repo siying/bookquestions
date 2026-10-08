@@ -2627,7 +2627,611 @@ export const CLASSIC_BOOKS: Book[] = [
         explanation: 'Amara’s independence — playing alone, loving snakes, smuggling one in a cooler — is established through narrated behavior and dialogue, making her the book’s most sharply defined character.'
       }
     ]
-  }
+  },
+  {
+    id: 'smile-raina-telgemeier',
+    title: 'Smile',
+    author: 'Raina Telgemeier',
+    coverEmoji: '😁',
+    themeColor: 'sky',
+    readingLevel: 'Grades 3 - 7 (Ages 8-12)',
+    synopsis: 'Raina Telgemeier’s graphic memoir: one fall knocks out her two front teeth and starts years of braces, surgery, and headgear. A quiz on dialogue, story events, main ideas, tone, inference, and character.',
+    questions: [
+      {
+        id: 'sml-1',
+        question: 'How does Raina injure her two front teeth?',
+        options: [
+          'She trips and falls one night after her Girl Scouts meeting',
+          'She crashes her bike into a parked car',
+          'She gets hit by a baseball at practice',
+          'She falls off the school stage steps'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'One night after Girl Scouts, Raina trips and falls, severely injuring her two front teeth — adult teeth that won’t grow back.',
+        hint: 'What was she doing just before the fall?',
+        explanation: 'The accident happens right after her Girl Scouts meeting — the narration states it plainly, setting off the whole dental saga.'
+      },
+      {
+        id: 'sml-2',
+        question: 'Who performs Raina’s emergency dental surgery?',
+        options: [
+          'Dr. Miller, the school nurse',
+          'Dr. Chen, a family friend',
+          'Dr. Golden, her orthodontist',
+          'Dr. Smith, the hospital surgeon'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Her mother rushes her to Dr. Golden, who operates to keep the damaged teeth from falling out completely.',
+        hint: 'Which doctor already knows her teeth?',
+        explanation: 'Dr. Golden — her orthodontist — handles the emergency surgery. The name comes from the text, not the pictures.'
+      },
+      {
+        id: 'sml-3',
+        question: 'Which embarrassing appliance must Raina wear at night?',
+        options: [
+          'A full-face hockey mask',
+          'Painful headgear for her braces',
+          'A neck brace for her spine',
+          'A sleep mask for her eyes'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'To move her front teeth down, Raina must wear painful headgear — but only at night, so classmates won’t see.',
+        hint: 'What would be hardest to hide at a sleepover?',
+        explanation: 'The headgear — worn only at night out of embarrassment — is a word-level detail about her vanity and suffering.'
+      },
+      {
+        id: 'sml-4',
+        question: 'What does Raina’s retainer have attached to it?',
+        options: [
+          'A tiny built-in flashlight',
+          'A miniature music player',
+          'A small lucky charm',
+          'Fake teeth to fill the gaps'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'At one stage she wears a retainer with fake teeth attached to hide the gaps in her smile.',
+        hint: 'What problem would fake teeth solve?',
+        explanation: 'The retainer’s attached fake teeth are described in narration — another humiliating stop on the dental journey.'
+      },
+      {
+        id: 'sml-5',
+        question: 'What is the main lesson of Smile?',
+        options: [
+          'Confidence comes from accepting yourself as you are',
+          'Braces are the only way to become popular',
+          'The best plan is to avoid dentists entirely',
+          'Every middle-school crush ends in disaster'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'After years of dental work, shifting friendships, and boy confusion, Raina finds her artistic voice and learns what true friendship means — and finally smiles.',
+        hint: 'Does her smile at the end come from perfect teeth?',
+        explanation: 'Her final smile is about self-acceptance, not perfect teeth — the book’s message, earned across years of story.'
+      },
+      {
+        id: 'sml-6',
+        question: 'What does Raina learn about friendship?',
+        options: [
+          'Popular friends are always loyal',
+          'Keep friends even when they mock you',
+          'True friends accept you and don’t tear you down',
+          'Friendship matters less than dental work'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Karin and Nicole’s mean jokes — “cool just isn’t the word to describe you” — teach Raina the difference between real friends and cruel ones.',
+        hint: 'How do her true friends treat her by the end?',
+        explanation: 'The cruel jokes, quoted in dialogue, become the measuring stick: real friends don’t mock you.'
+      },
+      {
+        id: 'sml-7',
+        question: 'Why do Karin and Nicole’s mean jokes hurt Raina so deeply?',
+        options: [
+          'They steal her lunch money daily',
+          'She already feels insecure about her teeth and braces',
+          'They spread rumors to her teachers',
+          'They break her retainer on purpose'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Already self-conscious about her braces and afraid of looking like a “dork,” Raina is an easy target for her friends’ jokes.',
+        hint: 'What was she worried about before they spoke?',
+        explanation: 'The jokes land because they strike her existing insecurity — the reader infers the connection from her described self-consciousness.'
+      },
+      {
+        id: 'sml-8',
+        question: 'What does Raina’s mom buying her videogames and piercings show?',
+        options: [
+          'Her mom wants her to skip school more often',
+          'Her mom believes videogames can fix teeth',
+          'Her mom is competing with other parents',
+          'Her mom sees her pain and wants to comfort her'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'As the dental saga drags on, her mother consoles her with videogames and lets her get ear piercings for her 12th birthday.',
+        hint: 'When do parents give comfort gifts?',
+        explanation: 'The gifts are consolation, not solutions — the reader infers a mother’s empathy from her actions in the text.'
+      },
+      {
+        id: 'sml-9',
+        question: 'How would you describe the tone of Smile?',
+        options: [
+          'Funny and heartfelt through embarrassing setbacks',
+          'Dark and terrifying throughout',
+          'Cold and completely humorless',
+          'Angry and bitter from start to finish'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Dental disasters, earthquakes, and boy confusion are told with humor and warmth — painful but never hopeless.',
+        hint: 'Do you laugh while reading, or shiver?',
+        explanation: 'The tone stays warm and funny even through suffering — felt in the narration’s voice, not the art.'
+      },
+      {
+        id: 'sml-10',
+        question: 'Which trait best describes Raina?',
+        options: [
+          'Quits the moment things get difficult',
+          'Keeps going despite years of painful setbacks',
+          'Treats everyone around her with cruelty',
+          'Avoids trying anything unfamiliar or new'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Through on-again-off-again braces, surgeries, headgear, and shifting friendships, Raina persists from middle school to high school.',
+        hint: 'How many years does her dental journey last?',
+        explanation: 'Years of setbacks met with persistence — the narration’s long arc marks her as resilient.'
+      }
+    ]
+  },
+  {
+    id: 'guts-raina-telgemeier',
+    title: 'Guts',
+    author: 'Raina Telgemeier',
+    coverEmoji: '🤢',
+    themeColor: 'emerald',
+    readingLevel: 'Grades 3 - 7 (Ages 8-12)',
+    synopsis: 'Fourth-grade Raina’s stomach flu turns into overwhelming anxiety about vomiting, food, and school. A quiz on dialogue, story events, main ideas, tone, inference, and character.',
+    questions: [
+      {
+        id: 'gut-1',
+        question: 'What triggers Raina’s anxiety in fourth grade?',
+        options: [
+          'A scary movie about ghosts',
+          'A stomach flu that makes her vomit all night',
+          'A failed math test at school',
+          'A fight with her best friend'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'After her little sister brings home a stomach flu, Raina wakes up vomiting in the middle of the night — and the fear never quite leaves.',
+        hint: 'What happens the night everything starts?',
+        explanation: 'The all-night vomiting episode is the stated origin of her anxiety — given in narration.'
+      },
+      {
+        id: 'gut-2',
+        question: 'What is the name of Raina’s fear of vomiting?',
+        options: [
+          'Arachnophobia, fear of spiders',
+          'Claustrophobia, fear of tight spaces',
+          'Acrophobia, fear of heights',
+          'Emetophobia, fear of vomiting'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Her dread of throwing up again grows into emetophobia — a real, named phobia.',
+        hint: 'Which option names a fear of vomiting?',
+        explanation: 'The clinical name is stated in the text — a vocabulary detail from the words.'
+      },
+      {
+        id: 'gut-3',
+        question: 'How does Raina’s anxiety change her daily habits?',
+        options: [
+          'She starts missing school and limiting what she eats',
+          'She joins three new sports teams',
+          'She sleeps over at friends’ houses nightly',
+          'She volunteers for every class presentation'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'As the phobia worsens, she misses school, restricts her food, and develops compulsive self-soothing behaviors.',
+        hint: 'Does anxiety make her do more, or less?',
+        explanation: 'The narration lists the shrinking of her life — school, food, rituals — in words.'
+      },
+      {
+        id: 'gut-4',
+        question: 'Who does Raina’s family take her to see for help?',
+        options: [
+          'A stomach surgeon for an operation',
+          'A nutritionist for a strict diet',
+          'A therapist who teaches coping techniques',
+          'A tutor for her school subjects'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Her parents bring her to a therapist, who guides her through grounding techniques and deep-breathing exercises.',
+        hint: 'Who helps with feelings rather than surgery?',
+        explanation: 'The therapist and the coping techniques are introduced through dialogue and narration.'
+      },
+      {
+        id: 'gut-5',
+        question: 'What is the main message of Guts?',
+        options: [
+          'Anxiety is common and manageable — talking about it helps',
+          'The only cure for fear is avoiding school',
+          'Stomachaches are never related to feelings',
+          'Therapy is something to be ashamed of'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Raina learns her stomach troubles are tied to worry, finds coping tools in therapy, and discovers she’s far from alone.',
+        hint: 'Does hiding her feelings help her?',
+        explanation: 'The book’s message — anxiety shared is anxiety lessened — unfolds through her therapy journey in the text.'
+      },
+      {
+        id: 'gut-6',
+        question: 'What does Raina learn about sharing her struggles?',
+        options: [
+          'Keep every worry completely secret',
+          'Only adults are allowed to feel anxious',
+          'Opening up shows her she’s not alone in it',
+          'Friends will mock any honest confession'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'By year’s end she shares her coping techniques with her class and admits seeing a therapist — learning it’s more common than she thought.',
+        hint: 'What happens when she finally tells people?',
+        explanation: 'Her confession is met with recognition, not ridicule — the payoff stated in narration and dialogue.'
+      },
+      {
+        id: 'gut-7',
+        question: 'Why does a classmate being teased for throwing up upset Raina so much?',
+        options: [
+          'The classmate is her worst enemy',
+          'It mirrors her own deepest fear happening in public',
+          'She finds the teasing funny',
+          'She wants to join in the teasing'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'When a boy is mocked for vomiting at school, Raina — already terrified of the same thing — spirals further.',
+        hint: 'What is she most afraid of others seeing?',
+        explanation: 'The reader connects her reaction to her phobia — an inference from her described panic, not a stated reason.'
+      },
+      {
+        id: 'gut-8',
+        question: 'Why does Raina finally tell her friends she sees a therapist?',
+        options: [
+          'Her therapist orders her to confess',
+          'She wants to impress the mean girl',
+          'Her parents offer her a reward',
+          'She learns it’s more common than she thought'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Admitting therapy to friends goes better than expected — she discovers many others share the experience.',
+        hint: 'What reduces shame fastest?',
+        explanation: 'Her courage follows the realization she’s not alone — inferred from the positive reception described in the text.'
+      },
+      {
+        id: 'gut-9',
+        question: 'How would you describe the tone of Guts?',
+        options: [
+          'Honest and funny about a serious topic',
+          'Gloomy with no humor at all',
+          'Silly with no real meaning',
+          'Preachy and scolding throughout'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Panic attacks drawn in swirling green sit beside bodily-function jokes — anxiety taken seriously, farts still funny.',
+        hint: 'Can a book be serious and funny at once?',
+        explanation: 'The tone holds both registers at once — felt in the narration’s honest voice, not just the art.'
+      },
+      {
+        id: 'gut-10',
+        question: 'Which trait best describes Raina in Guts?',
+        options: [
+          'Carefree and untroubled by anything',
+          'Brave for facing her fears and asking for help',
+          'Mean to everyone around her',
+          'Indifferent to her own health'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'She sticks with therapy, practices the techniques, and eventually teaches them to her class.',
+        hint: 'Is asking for help easy or hard?',
+        explanation: 'Persisting with therapy and sharing the tools marks her bravery — shown through narrated actions.'
+      }
+    ]
+  },
+  {
+    id: 'drama-raina-telgemeier',
+    title: 'Drama',
+    author: 'Raina Telgemeier',
+    coverEmoji: '🎭',
+    themeColor: 'rose',
+    readingLevel: 'Grades 3 - 7 (Ages 8-12)',
+    synopsis: 'Callie can’t sing, so she designs the set for her middle school’s Moon Over Mississippi — amid crushes, crew chaos, and ticket troubles. A quiz on dialogue, story events, main ideas, tone, inference, and character.',
+    questions: [
+      {
+        id: 'drm-1',
+        question: 'What is Callie’s role in the school production?',
+        options: [
+          'Lead actress in the musical',
+          'Director of the entire show',
+          'Set designer for the stage crew',
+          'Ticket seller at the door'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Callie loves theater but can’t sing, so she serves as set designer for Eucalyptus Middle School’s stage crew.',
+        hint: 'What can she do if she can’t carry a tune?',
+        explanation: 'Her backstage role is stated outright — the book celebrates the crew, not just the cast.'
+      },
+      {
+        id: 'drm-2',
+        question: 'What musical is the school performing?',
+        options: [
+          'Moon Over Mississippi, a Civil War-era romance',
+          'Starlight Express, a futuristic adventure',
+          'Cats on Broadway, a feline fantasy',
+          'Pirates of the Cafeteria, a comedy'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Teacher Mr. Madera and stage manager Loren announce the spring musical: the Civil War-era romance Moon Over Mississippi.',
+        hint: 'Which title sounds like a 19th-century love story?',
+        explanation: 'The show’s title and era are announced in dialogue at the crew meeting.'
+      },
+      {
+        id: 'drm-3',
+        question: 'Which ambitious props does Callie plan for the set?',
+        options: [
+          'A working waterfall and live horses',
+          'A cannon that fires and a leaf-shaking magnolia',
+          'A flying carpet and a dragon',
+          'A roller coaster and fireworks'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Callie pitches a prop cannon that can actually fire and a magnolia tree that shakes leaves during the romantic climax.',
+        hint: 'Which props fit a Civil War romance?',
+        explanation: 'The cannon and magnolia — her Broadway-scale dreams on a middle-school budget — are described in the text.'
+      },
+      {
+        id: 'drm-4',
+        question: 'Who are the twin brothers that join the production?',
+        options: [
+          'Greg and Matt Solano',
+          'Carlos and José Rivera',
+          'Sam and Dean Winchester',
+          'Justin and Jesse Mendocino'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Identical twins Justin and Jesse Mendocino arrive — Justin eager to audition, Jesse too shy.',
+        hint: 'Which pair are newcomers, not Callie’s old friends?',
+        explanation: 'The twins’ names and contrasting personalities are introduced in narration and dialogue.'
+      },
+      {
+        id: 'drm-5',
+        question: 'What is the main lesson of Drama?',
+        options: [
+          'Behind-the-scenes work matters as much as the spotlight',
+          'Only lead actors deserve any credit',
+          'Crushes should drive every decision',
+          'Quitting solves all backstage problems'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Callie’s set, built on a middle-school budget with a struggling crew, helps make opening night a success.',
+        hint: 'Who builds the world the actors perform in?',
+        explanation: 'The book’s thesis — crew work is real work — is proven by the successful show described in the text.'
+      },
+      {
+        id: 'drm-6',
+        question: 'What does Callie learn about her crushes?',
+        options: [
+          'First crushes are always perfect',
+          'Friends’ dating advice never helps',
+          'Feelings are complicated and worth understanding honestly',
+          'Twins are always interchangeable'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Her kiss with Greg fizzles when she learns about Bonnie; her feelings for the twins tangle and clarify across the production.',
+        hint: 'Does her love life go smoothly?',
+        explanation: 'The romantic mess resolves into self-knowledge — a coming-of-age arc told through dialogue and events.'
+      },
+      {
+        id: 'drm-7',
+        question: 'Why does Callie support Justin when he says he is gay?',
+        options: [
+          'She wants him to date her friend',
+          'She values him as a friend beyond any crush',
+          'She hopes it improves ticket sales',
+          'She is afraid of his brother'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Though surprised, Callie hugs Justin and stands by him after his revelation.',
+        hint: 'Does her support depend on romance?',
+        explanation: 'Her hug and acceptance — described in the text — show friendship outweighing any romantic disappointment.'
+      },
+      {
+        id: 'drm-8',
+        question: 'Why does Jesse join the stage crew instead of auditioning?',
+        options: [
+          'He hates music of all kinds',
+          'He is grounded by his father',
+          'He wants to avoid his brother',
+          'He is too shy and nervous to perform onstage'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Introverted Jesse is too nervous to audition, so Callie convinces him to join the stage crew instead.',
+        hint: 'What stops him at the audition door?',
+        explanation: 'His shyness is stated in narration — and the crew becomes his way to belong.'
+      },
+      {
+        id: 'drm-9',
+        question: 'How would you describe the tone of Drama?',
+        options: [
+          'Lighthearted and enthusiastic about theater and friendship',
+          'Dark and frightening throughout',
+          'Sad with no hopeful moments',
+          'Boring and uneventful'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Set-building chaos, backstage crushes, and crew squabbles play out with warmth and humor.',
+        hint: 'Does the book love theater, or mock it?',
+        explanation: 'The affectionate, upbeat tone comes through the narration’s enthusiasm for the production.'
+      },
+      {
+        id: 'drm-10',
+        question: 'Which trait best describes Callie?',
+        options: [
+          'Lazy and uninvolved backstage',
+          'Passionate and hardworking behind the scenes',
+          'Rude to everyone on the crew',
+          'Afraid of any responsibility'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Despite no carpentry skills, low ticket sales, and crew friction, Callie pours herself into a Broadway-worthy set.',
+        hint: 'Who stays late to build the cannon?',
+        explanation: 'Her dedication despite every obstacle — narrated across the book — defines her character.'
+      }
+    ]
+  },
+  {
+    id: 'ghosts-raina-telgemeier',
+    title: 'Ghosts',
+    author: 'Raina Telgemeier',
+    coverEmoji: '🌙',
+    themeColor: 'indigo',
+    readingLevel: 'Grades 3 - 7 (Ages 8-12)',
+    synopsis: 'Cat’s family moves to Bahía de la Luna for her sick sister Maya — a town full of ghosts and Day of the Dead traditions. A quiz on dialogue, story events, main ideas, tone, inference, and character.',
+    questions: [
+      {
+        id: 'gho-1',
+        question: 'Why does Cat’s family move to Bahía de la Luna?',
+        options: [
+          'Her dad gets a job as a ghost hunter',
+          'The sea air may help Maya’s cystic fibrosis',
+          'They win a free beach house',
+          'Cat is accepted to a surf school'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'The family leaves Southern California for the Northern California coast, hoping the cool, salty air will help Maya’s lungs.',
+        hint: 'Whose health drives the move?',
+        explanation: 'The medical reason for the move is stated in narration — the story’s entire premise.'
+      },
+      {
+        id: 'gho-2',
+        question: 'What illness does Maya have?',
+        options: [
+          'A broken arm that won’t heal',
+          'Severe allergies to peanuts',
+          'Chronic ear infections',
+          'Cystic fibrosis, a breathing condition'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Maya has had cystic fibrosis since birth — a degenerative condition affecting her lungs and breathing.',
+        hint: 'Which condition affects breathing?',
+        explanation: 'The diagnosis is named in the text — essential context for every risk Maya takes.'
+      },
+      {
+        id: 'gho-3',
+        question: 'Who gives the sisters a ghost tour of the town?',
+        options: [
+          'Carlos Calaveras, their new neighbor',
+          'Mr. Madera, the school teacher',
+          'Uncle José, the bus driver',
+          'Ry, the class president'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Neighbor boy Carlos Calaveras takes Cat and Maya on a ghost tour, explaining the town’s Día de los Muertos traditions.',
+        hint: 'Who first tells them about the ghosts?',
+        explanation: 'Carlos — part guide, part catalyst — is introduced by name in the text.'
+      },
+      {
+        id: 'gho-4',
+        question: 'What happens when Maya drops her drink near the ghosts?',
+        options: [
+          'The ghosts throw a party for her',
+          'The ghosts politely clean it up',
+          'The ghosts panic and Maya has a coughing fit',
+          'The ghosts vanish forever'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'When Maya abruptly drops her drink, the ghosts turn frantic — and Maya, straining to breathe, falls into a coughing fit and is hospitalized.',
+        hint: 'Is the encounter calm or chaotic?',
+        explanation: 'The frightening turn is narrated beat by beat — the moment Cat’s fear hardens.'
+      },
+      {
+        id: 'gho-5',
+        question: 'What is the main lesson of Ghosts?',
+        options: [
+          'Facing fears for family can turn terror into connection',
+          'Moving to a new town always fails',
+          'Ghosts should be avoided at all costs',
+          'Sisters can never understand each other'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Cat starts terrified of the ghosts but, for Maya’s sake — and her own — learns their meaning by Día de los Muertos.',
+        hint: 'How does Cat feel about ghosts at the end?',
+        explanation: 'Her arc from terror to acceptance — told through narrated events — is the book’s lesson.'
+      },
+      {
+        id: 'gho-6',
+        question: 'What does Cat learn about her heritage?',
+        options: [
+          'Heritage is embarrassing and best hidden',
+          'Only one parent’s culture counts',
+          'Embracing her Mexican roots brings belonging and strength',
+          'Traditions are meaningless for kids'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Her mother regrets turning from her Mexican heritage; Cat learns she was named for La Catrina — and the sisters embrace the traditions.',
+        hint: 'What does the ofrenda scene show?',
+        explanation: 'The heritage theme resolves in dialogue and ritual — described in words, from her name’s origin to the foods by the ofrenda.'
+      },
+      {
+        id: 'gho-7',
+        question: 'Why does Cat blame Carlos after Maya’s hospitalization?',
+        options: [
+          'Carlos steals her Halloween candy',
+          'She needs someone to blame for her fear and guilt',
+          'Carlos asks her to leave town',
+          'Carlos spreads rumors at school'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Cat grows antagonistic toward Carlos, blaming him for the accident — even as she also blames herself.',
+        hint: 'Is Carlos truly at fault, or is blame easier than fear?',
+        explanation: 'The text shows her lashing out; the reader infers blame as her shield against guilt and helplessness.'
+      },
+      {
+        id: 'gho-8',
+        question: 'Why is Maya drawn to the ghosts while Cat fears them?',
+        options: [
+          'Maya cannot see the ghosts at all',
+          'Maya is bribed with candy',
+          'Maya wants to scare her sister',
+          'Maya senses wonder where Cat senses danger'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'The ghosts fascinate Maya and she fascinates them — while Cat wants only to get them both back to safety.',
+        hint: 'Do the sisters react the same way?',
+        explanation: 'Their opposite reactions — stated side by side in narration — reveal their contrasting relationships with mortality.'
+      },
+      {
+        id: 'gho-9',
+        question: 'How would you describe the tone of Ghosts?',
+        options: [
+          'Spooky yet warm — scares wrapped in family love',
+          'Pure horror with no heart',
+          'A dry history textbook',
+          'Mean-spirited and cruel'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Real ghosts, a sister’s fragile lungs, and Day of the Dead magic balance chills with deep family tenderness.',
+        hint: 'Does the book feel cold, or loving?',
+        explanation: 'The warmth-inside-spookiness tone is carried by the narration’s tender handling of fear.'
+      },
+      {
+        id: 'gho-10',
+        question: 'Which trait best describes Cat?',
+        options: [
+          'Carefree and reckless with Maya’s health',
+          'Protective — she puts Maya’s safety above her own comfort',
+          'Indifferent to her family’s move',
+          'Obsessed with becoming popular'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Cat follows Maya into danger to keep her safe, confronts her own terror of ghosts, and sets fear aside for her sister’s sake.',
+        hint: 'Whose needs come first for Cat?',
+        explanation: 'Every hard choice Cat makes prioritizes Maya — the narrated pattern of a protector.'
+      }
+    ]
+  },
 ];
 
 
