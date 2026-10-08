@@ -2025,72 +2025,72 @@ export const CLASSIC_BOOKS: Book[] = [
     ]
   },
   {
-    id: 'rowley-jefferson-awesome-friendly-spooky-stories',
-    title: "Rowley Jefferson's Awesome Friendly Spooky Stories",
+    id: 'rowley-jefferson-spooky-stories-the-changing',
+    title: "Rowley Jefferson's Awesome Friendly Spooky Stories: The Changing",
     author: 'Jeff Kinney',
-    coverEmoji: '🎃',
-    themeColor: 'purple',
+    coverEmoji: '🐺',
+    themeColor: 'amber',
     readingLevel: 'Grades 3 - 7 (Ages 8-12)',
-    synopsis: "Rowley Jefferson's own collection of spooky tales — a werewolf boy, a prankster ghost, and a haunted friendship. A text-focused quiz on the first three stories (The Changing, The Prankster, Ghost Friend): details, main ideas, tone, inference, and character, all answerable from the words alone.",
+    synopsis: 'Rowan is turning into a werewolf — just like his parents. Should he hide who he is, or be his true self? A text-focused quiz: details, main ideas, tone, inference, and character, all answerable from the words alone.',
     questions: [
       {
-        id: 'rss-1',
-        question: 'What is the very first strange thing Rowan notices happening to his body?',
+        id: 'rsc-1',
+        question: 'Why does Rowan get bullied at school at the start of the story?',
         options: [
-          'A single tiny hair sprouting under his armpit',
-          'His teeth growing into sharp fangs overnight',
-          'His voice changing into a wolf’s howl',
-          'His eyes glowing yellow in the dark'
+          'Because he plays with toys at school',
+          'Because he refuses to do his homework',
+          'Because he tells scary stories to little kids',
+          'Because he is the new kid in class'
         ],
         correctAnswerIndex: 0,
-        samplePassage: 'Before the full transformation, Rowan spots one small hair under his arm and even thinks about borrowing his mother’s tweezers — then hair suddenly spreads across his whole body.',
-        hint: 'What does he notice before the big change — something small enough to pluck?',
-        explanation: 'The text names the single armpit hair as the first sign, before the rapid sprouting. Pictures might show a hairy boy, but only the words tell you the change started with one tiny hair.'
+        samplePassage: 'Rowan often plays with his toys at school, and the other kids bully him for it.',
+        hint: 'What does Rowan do that the other kids think is babyish?',
+        explanation: 'The text says Rowan’s toy-playing at school is what draws the bullying — a detail given in the narration, not the pictures.'
       },
       {
-        id: 'rss-2',
-        question: 'When Jasper tries to play a prank on Joris the baker, what shocking thing happens?',
+        id: 'rsc-2',
+        question: 'What is the very first strange thing Rowan notices happening to his body?',
         options: [
-          'Joris catches him and bans him from the bakery forever',
-          'All the donuts on the platter turn to stone',
-          'His hand passes straight through Joris’s donut platter',
-          'Joris laughs and decides to join in on the prank'
+          'His teeth growing into sharp fangs overnight',
+          'His voice changing into a wolf’s howl',
+          'A single tiny hair sprouting under his armpit',
+          'His eyes glowing yellow in the dark'
         ],
         correctAnswerIndex: 2,
-        samplePassage: 'Jasper reaches for the baker’s donut platter to start his prank — and his hand goes right through it, as if neither his hand nor the platter is really there.',
-        hint: 'What can’t a ghost touch?',
-        explanation: 'The narration says his hand went through the platter — the moment Jasper (and the reader) realizes he may not be alive. No picture is needed; the words describe exactly what his hand does.'
+        samplePassage: 'Rowan feels something unusual under his armpit and discovers a single tiny hair — before the change speeds up.',
+        hint: 'What does he notice before the big change — something small enough to pluck?',
+        explanation: 'The narration names the single armpit hair as the first sign. An illustration might show a hairy boy, but only the words tell you it started with one tiny hair.'
       },
       {
-        id: 'rss-3',
-        question: 'Jasper sneaks into his own funeral to see what is going on. What does he find inside the coffin?',
+        id: 'rsc-3',
+        question: 'When Rowan finds the strange hair, what does he think about using to remove it?',
         options: [
-          'His own body, lying peacefully asleep',
-          'Nothing at all — the coffin is completely empty',
-          'A mirror showing that he has no reflection',
-          'A farewell letter from the preacher'
+          'His father’s razor',
+          'His mother’s tweezers',
+          'A pair of school scissors',
+          'A piece of tape'
         ],
         correctAnswerIndex: 1,
-        samplePassage: 'Jasper follows the mourners inside and looks into the coffin expecting to see himself — but there is no body in it at all. The whole town staged the funeral with technology and bluffing to prank him back.',
-        hint: 'If the town is pranking him, would they put a real body in the coffin?',
-        explanation: 'The text reveals the coffin is empty and the funeral was faked with technology and bluffing — the town’s revenge prank on the prankster.'
+        samplePassage: 'After school, Rowan considers using his mother’s tweezers on the hair — but before he can, hair rapidly sprouts across his whole body.',
+        hint: 'Whose tweezers does he think of borrowing?',
+        explanation: 'The text specifically mentions his mother’s tweezers — a small word-level detail you would miss if you only looked at the pictures.'
       },
       {
-        id: 'rss-4',
-        question: 'How does the ghost Gabe make Rusty fail his Spanish test?',
+        id: 'rsc-4',
+        question: 'When Rowan’s parents come into his room, what surprising truth do they reveal?',
         options: [
-          'He hides Rusty’s test paper so Rusty cannot finish',
-          'He erases Rusty’s correct answers while the teacher is not looking',
-          'He scares the teacher into canceling the test',
-          'He whispers the wrong answers to Rusty during the test'
+          'Rowan was adopted by wolves as a baby',
+          'The family is moving to a new town',
+          'Rowan is allergic to moonlight',
+          'He is evolving into a werewolf — just like them'
         ],
         correctAnswerIndex: 3,
-        samplePassage: 'Gabe follows Rusty to school and keeps making noise while Rusty works. During the Spanish test, Gabe feeds him incorrect answers, and Rusty flunks.',
-        hint: 'Gabe doesn’t touch the paper — what does he do with his voice?',
-        explanation: 'The story says Gabe gives Rusty the wrong answers during the test. It’s a spoken, word-based detail — you learn it from the narration, not from any drawing.'
+        samplePassage: 'Rowan’s parents enter his room and explain that he is starting to evolve into a werewolf, just like they are.',
+        hint: 'Why would his parents understand exactly what is happening to him?',
+        explanation: 'The parents’ spoken revelation — that they are werewolves too — comes through dialogue, not illustration.'
       },
       {
-        id: 'rss-5',
+        id: 'rsc-5',
         question: 'What is the main lesson of “The Changing”?',
         options: [
           'Be your true self openly — hiding who you are helps no one, and Rowan’s courage even inspires his parents',
@@ -2099,69 +2099,371 @@ export const CLASSIC_BOOKS: Book[] = [
           'Bullies always win, so it is better to join them'
         ],
         correctAnswerIndex: 0,
-        samplePassage: 'Rowan’s parents tell him to conceal his werewolf self because ignorant people hate those who are different. But Rowan chooses to attend school as his true self, nobody dares bother him, and his parents find the courage to do the same.',
+        samplePassage: 'Rowan’s parents urge him to conceal his werewolf self, but he chooses to attend school as his true self. Nobody dares bother him — and his parents find the courage to do the same.',
         hint: 'What changes for the parents by the end — and what caused it?',
-        explanation: 'Rowan’s decision to stop hiding changes everything: he is accepted, and his parents follow his example. The story’s point is that living openly as yourself is better than hiding — a message carried entirely by the characters’ choices and words.'
+        explanation: 'Rowan’s decision to stop hiding changes everything, and his parents follow his example. The message — that living openly beats hiding — is carried by the characters’ choices and words.'
       },
       {
-        id: 'rss-6',
-        question: 'What does “Ghost Friend” mainly teach about friendship?',
+        id: 'rsc-6',
+        question: 'What does the ending of the story suggest about courage?',
         options: [
-          'You should never study for tests if your friend wants to play',
-          'Ghosts make the best study partners',
-          'A true friend would never guilt-trip you into ruining your sleep, grades, and future',
-          'The only way to keep a friendship alive is to never let go, no matter the cost'
+          'Courage means never feeling afraid',
+          'Courage only matters if you win a fight',
+          'One person’s courage can inspire others to be brave too',
+          'Courage is pointless because nothing ever changes'
         ],
         correctAnswerIndex: 2,
-        samplePassage: 'After Gabe’s death, Rusty lets the ghost stay out of loyalty — but Gabe distracts him from studying and sleep, makes him flunk, and guilt-trips him whenever Rusty has had enough, wrecking Rusty’s grades and future chances.',
-        hint: 'Look at what the friendship costs Rusty — is that what good friends do?',
-        explanation: 'Gabe uses guilt to keep Rusty from setting boundaries, and Rusty’s life falls apart. The story warns that loyalty to someone who harms you isn’t friendship — the lesson lives in Gabe’s manipulative words and their consequences.'
+        samplePassage: 'After Rowan attends school as his true self without interference, his parents are inspired to stop hiding as well — and everybody else just has to deal with it.',
+        hint: 'Who copies Rowan’s bravery at the end?',
+        explanation: 'The ending shows courage spreading: Rowan’s boldness gives his parents boldness. That second big idea — bravery is contagious — is told through what the characters do, not what they look like.'
       },
       {
-        id: 'rss-7',
-        question: 'Why does Jasper dive off the lighthouse at the end of “The Prankster”?',
-        options: [
-          'He wants to prove he is the bravest person in the seaside village',
-          'He is trying to escape from the angry villagers',
-          'He wants to rescue Joris the baker from drowning',
-          'He believes the preacher’s lie that everyone died in a meteor strike, so he thinks he is a ghost who can fly'
-        ],
-        correctAnswerIndex: 3,
-        samplePassage: 'After the fake funeral is exposed, the preacher claims it was a double prank — that everyone really did perish in a meteor strike the day before. Jasper believes him completely.',
-        hint: 'Who does Jasper trust in that moment — and what does that person tell him?',
-        explanation: 'Jasper trusts the preacher’s lie about the meteor, concluding he must be a ghost and therefore able to fly. The reader has to infer his reasoning from what he was told and what he does — the text never says “Jasper thought ghosts can fly,” but his fatal dive only makes sense if he believed it.'
-      },
-      {
-        id: 'rss-8',
-        question: 'Why do Rowan’s parents tell him to keep his werewolf self hidden from the world?',
+        id: 'rsc-7',
+        question: 'Why do Rowan’s parents tell him to keep his werewolf self hidden?',
         options: [
           'They are embarrassed by the way he looks',
-          'They are afraid that ignorant people who hate anyone different will hurt him',
-          'They want him to keep it secret so he can play pranks on people',
+          'They fear that ignorant people who hate anyone different will hurt him',
+          'They want him to keep it secret so he can play pranks',
           'His school has a strict rule against werewolves'
         ],
         correctAnswerIndex: 1,
-        samplePassage: 'Rowan’s parents explain that he could live a normal life if he conceals who he is, because there are ignorant people who hate others who are different.',
+        samplePassage: 'Rowan’s parents assure him he could live normally if he conceals who he is, because there are ignorant people who hate others who are different.',
         hint: 'What reason do the parents themselves give — in their own words?',
-        explanation: 'The parents state their reason outright: fear of prejudiced people. It’s a spoken reason in the dialogue — you can only learn it from the text, and it sets up the story’s central conflict with Rowan’s belief in being his true self.'
+        explanation: 'The parents state their reason outright: fear of prejudiced people. It’s a spoken reason in the dialogue, and it creates the story’s central conflict with Rowan’s belief in being his true self.'
       },
       {
-        id: 'rss-9',
-        question: 'Which best describes the tone of Rowley’s spooky stories?',
+        id: 'rsc-8',
+        question: 'When Rowan shows up to school as his true werewolf self, why does nobody dare interfere with him?',
         options: [
-          'Scary situations told in a funny, lighthearted way — comically terrifying',
+          'The teachers lock all the bullies in detention',
+          'Everyone suddenly becomes his best friend',
+          'He threatens to bite anyone who comes near',
+          'His confidence takes the bullies’ power away — there is nothing left for them to pick on'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Rowan decides to attend school as his true self, and nobody dares to interfere with him.',
+        hint: 'What do bullies need from their victim — and what does Rowan refuse to give them?',
+        explanation: 'The text only says nobody dared interfere; the reader must infer why. Bullies feed on fear and shame, and Rowan — openly himself and unafraid — gives them nothing to attack. His confidence is the shield, and you figure that out from the words.'
+      },
+      {
+        id: 'rsc-9',
+        question: 'Which best describes the tone of “The Changing”?',
+        options: [
+          'A scary situation told with humor and heart — frightening but funny and warm',
           'Pure, serious horror with no jokes at all',
-          'Sad and depressing from beginning to end',
-          'Angry and preachy, like a lecture'
+          'Sad and hopeless from beginning to end',
+          'Angry and scolding, like a lecture'
         ],
         correctAnswerIndex: 0,
-        samplePassage: 'Rowley’s tales feature zombies, vampires, and ghosts, but the scares come wrapped in jokes — the stories are described as comically terrifying, the kind that might leave you laughing.',
-        hint: 'Do these stories want you screaming, laughing, or both?',
-        explanation: 'The tone mixes frights with humor — spooky setups played for laughs. You feel it in the narration’s playful voice, not in the illustrations: the words treat even death and ghosts as material for jokes.'
+        samplePassage: 'A boy turning into a werewolf sounds terrifying, but the story plays it with jokes and ends warmly — with the whole family being themselves and everyone else just having to deal with it.',
+        hint: 'Does the ending feel scary, or happy?',
+        explanation: 'The tone mixes a spooky premise with humor and a warm ending. You feel it in the narration’s playful voice and the upbeat resolution — not in the illustrations.'
       },
       {
-        id: 'rss-10',
-        question: 'Which trait best describes Gabe after he becomes a ghost?',
+        id: 'rsc-10',
+        question: 'Which trait best describes Rowan?',
+        options: [
+          'Cruel and bullying',
+          'Brave and true to himself, even when the people he loves tell him to hide',
+          'Lazy and uninterested in everything',
+          'Sneaky and dishonest'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Though bullied for his toys and warned by his parents to conceal who he is, Rowan chooses to attend school openly as himself — and inspires his parents to do the same.',
+        hint: 'What does Rowan do that takes the most guts in the story?',
+        explanation: 'Rowan defies both bullies and his parents’ fears to live openly. That pattern of brave choices — described in the narration — marks him as courageous and authentic.'
+      }
+    ]
+  },
+  {
+    id: 'rowley-jefferson-spooky-stories-the-prankster',
+    title: "Rowley Jefferson's Awesome Friendly Spooky Stories: The Prankster",
+    author: 'Jeff Kinney',
+    coverEmoji: '🃏',
+    themeColor: 'lime',
+    readingLevel: 'Grades 3 - 7 (Ages 8-12)',
+    synopsis: 'Jasper the prankster wakes up invisible, crashes his own funeral, and falls for one final prank. A text-focused quiz on the story’s ironic twists: details, main ideas, tone, inference, and character, all answerable from the words alone.',
+    questions: [
+      {
+        id: 'rsp-1',
+        question: 'Where does Jasper live, and what is he famous for?',
+        options: [
+          'A mountain cabin; he is famous for his cooking',
+          'A seaside village; he loves pulling pranks',
+          'A big city; he is famous for his magic shows',
+          'A desert town; he is famous for racing'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Jasper lives in a seaside village, where everyone knows him as the boy who loves pulling pranks.',
+        hint: 'What does Jasper love to do more than anything?',
+        explanation: 'The opening narration establishes both the seaside setting and Jasper’s prankster reputation in words.'
+      },
+      {
+        id: 'rsp-2',
+        question: 'When Jasper tries to prank Joris the baker, what shocking thing happens?',
+        options: [
+          'Joris catches him and bans him from the bakery',
+          'All the donuts on the platter turn to stone',
+          'His hand passes straight through the donut platter',
+          'Joris laughs and joins in on the prank'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Jasper reaches for Joris the baker’s donut platter — and his hand goes right through it, as if neither his hand nor the platter is really there.',
+        hint: 'What can’t a ghost touch?',
+        explanation: 'The narration describes his hand passing through the platter — the moment Jasper realizes he may not be alive. The words tell you exactly what happens.'
+      },
+      {
+        id: 'rsp-3',
+        question: 'Besides being ignored by the villagers, what other frightening sign does Jasper notice about himself?',
+        options: [
+          'He no longer has a reflection',
+          'He cannot remember his own name',
+          'All his clothes have turned white',
+          'He cannot speak anymore'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'After the villagers ignore him and his hand passes through the platter, Jasper realizes he doesn’t have a reflection anymore.',
+        hint: 'What do ghosts traditionally lack in mirrors?',
+        explanation: 'The lost reflection is stated in the narration — a classic textual clue that Jasper might be dead.'
+      },
+      {
+        id: 'rsp-4',
+        question: 'When Jasper sneaks into his own funeral, what does he find inside the coffin?',
+        options: [
+          'His own body, lying peacefully asleep',
+          'A mirror showing his missing reflection',
+          'A farewell letter from the preacher',
+          'Nothing at all — the coffin is completely empty'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Jasper follows the mourners inside and looks into the coffin — but there is no body in it at all. The entire town staged the funeral, using technology and bluffing, to prank him back.',
+        hint: 'If the town is pranking him, would they put a real body in the coffin?',
+        explanation: 'The text reveals the empty coffin and the town’s use of technology and bluffing — the revenge prank on the prankster, explained in words.'
+      },
+      {
+        id: 'rsp-5',
+        question: 'What is the main ironic twist of “The Prankster”?',
+        options: [
+          'The town’s biggest prankster gets pranked by the entire town',
+          'Jasper’s pranks finally make everyone love him',
+          'The baker’s donuts turn out to be magical',
+          'Jasper becomes the town’s new preacher'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Jasper, who loves tricking everyone, becomes the victim of the town’s biggest trick — a fully staged funeral built with technology and bluffing.',
+        hint: 'Who ends up fooling whom?',
+        explanation: 'The story’s central irony — the prankster out-pranked — is a plot-level idea you grasp from following the events in the text.'
+      },
+      {
+        id: 'rsp-6',
+        question: 'What warning does the story’s ending carry about pranks and lies?',
+        options: [
+          'Pranks are always harmless fun',
+          'Lying is fine as long as it’s funny',
+          'Jokes and lies can have real, deadly consequences when they go too far',
+          'Only preachers are allowed to lie'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'The town’s revenge prank escalates when the preacher lies about a meteor strike — and Jasper, believing the lie, dives off a lighthouse to his death.',
+        hint: 'Does anyone laugh at the very end of this story?',
+        explanation: 'What began as jokes ends in a real death. The story warns — through its grim outcome, not its pictures — that pranks and lies can spiral beyond anyone’s control.'
+      },
+      {
+        id: 'rsp-7',
+        question: 'Why does the whole town go to the trouble of faking Jasper’s funeral with technology and bluffing?',
+        options: [
+          'They want Jasper to move away from the village',
+          'They want to prank the prankster back and teach him what it feels like',
+          'They are rehearsing for a real funeral',
+          'They hope Jasper will become a ghost hunter'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'The town uses technology and bluffing to stage an elaborate fake funeral — the one prank big enough to fool their master prankster.',
+        hint: 'How do you think the villagers feel after years of Jasper’s pranks?',
+        explanation: 'The text never states the town’s motive outright, but the scale of the trick — every villager cooperating — lets the reader infer it’s payback: a lesson in how it feels to be on the receiving end.'
+      },
+      {
+        id: 'rsp-8',
+        question: 'Why does Jasper believe the preacher’s lie about the meteor strike?',
+        options: [
+          'He has always wanted to believe in meteors',
+          'The preacher shows him photographs of the meteor',
+          'Joris the baker confirms the story',
+          'He is already shaken from the fake funeral and the strange signs, so he trusts what he’s told'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'After a morning of being ignored, passing through objects, losing his reflection, and attending his own empty-coffin funeral, Jasper hears the preacher’s claim that everyone perished in a meteor strike yesterday — and believes him completely.',
+        hint: 'What has Jasper been through in the hours before the preacher speaks?',
+        explanation: 'Nothing in the text says “Jasper was gullible.” The reader must infer it: after hours of impossible experiences, his judgment is shattered, so he swallows the meteor lie whole — and it kills him.'
+      },
+      {
+        id: 'rsp-9',
+        question: 'How would you describe the tone of “The Prankster”?',
+        options: [
+          'Darkly comic — funny tricks building to a grim, shocking ending',
+          'Sweet and heartwarming throughout',
+          'Completely serious with no humor at all',
+          'Boring and uneventful'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'The story opens with lighthearted pranks and an elaborate town-wide joke, then takes a sudden dark turn when Jasper dives off the lighthouse believing he can fly.',
+        hint: 'Is the ending as funny as the beginning?',
+        explanation: 'The tone shifts from playful to chilling — a dark comedy. You sense that shift in the narration’s turn from mischief to fatal consequences, not in any single picture.'
+      },
+      {
+        id: 'rsp-10',
+        question: 'Which trait best describes Jasper?',
+        options: [
+          'Cautious and careful',
+          'Quiet and shy',
+          'Mischievous but gullible — he loves tricking others yet falls for the biggest trick of all',
+          'Wise and thoughtful'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Jasper the village prankster is clever enough to fool everyone for years — but gullible enough to believe the preacher’s meteor lie and dive off a lighthouse.',
+        hint: 'Compare how Jasper treats others with how the ending treats him.',
+        explanation: 'Jasper’s defining contrast — trickster yet easily tricked — emerges from his actions across the story. The narration shows both sides; no illustration could capture that irony.'
+      }
+    ]
+  },
+  {
+    id: 'rowley-jefferson-spooky-stories-ghost-friend',
+    title: "Rowley Jefferson's Awesome Friendly Spooky Stories: Ghost Friend",
+    author: 'Jeff Kinney',
+    coverEmoji: '👻',
+    themeColor: 'purple',
+    readingLevel: 'Grades 3 - 7 (Ages 8-12)',
+    synopsis: 'Rusty’s best friend Gabe comes back as a ghost — and wrecks his life. A text-focused quiz about friendship, boundaries, and guilt trips: details, main ideas, tone, inference, and character, all answerable from the words alone.',
+    questions: [
+      {
+        id: 'rsg-1',
+        question: 'What were Rusty and Gabe like as friends before Gabe died?',
+        options: [
+          'They secretly hated each other',
+          'They had just met a week earlier',
+          'Best friends who always hung out, even though they sometimes irritated each other',
+          'Rivals competing for the same prize'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Rusty and Gabe are best friends who always hang out — even if they sometimes find each other irritating.',
+        hint: 'Were they close, or were they enemies?',
+        explanation: 'The narration establishes their close-but-imperfect friendship in words — the foundation everything else builds on.'
+      },
+      {
+        id: 'rsg-2',
+        question: 'What happens to Gabe, and when does he come back?',
+        options: [
+          'He dies, then returns as a ghost one night',
+          'He moves away, then returns for a visit',
+          'He gets lost, then is found a week later',
+          'He falls asleep for a hundred years, then wakes up'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'One day Gabe dies, leaving Rusty heartbroken — until one night he returns as a ghost.',
+        hint: 'In what form does Gabe return?',
+        explanation: 'The text states Gabe’s death and ghostly return directly — the story’s whole premise, given in narration.'
+      },
+      {
+        id: 'rsg-3',
+        question: 'How does Gabe cause Rusty to fail his Spanish test?',
+        options: [
+          'He hides Rusty’s test paper',
+          'He erases Rusty’s correct answers',
+          'He scares the teacher into canceling the test',
+          'He gives Rusty the wrong answers during the test'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Gabe follows Rusty to school, making noises and distracting him during work. During the Spanish test, Gabe provides the wrong answers, and Rusty flunks.',
+        hint: 'Gabe doesn’t touch the paper — what does he do with his voice?',
+        explanation: 'The sabotage is verbal — wrong answers given during the test. It’s a word-based detail from the narration.'
+      },
+      {
+        id: 'rsg-4',
+        question: 'What happens to Rusty as Gabe keeps haunting him?',
+        options: [
+          'He becomes stronger and healthier',
+          'He becomes sleep-deprived and cranky',
+          'He becomes famous at school',
+          'He learns to speak Spanish fluently'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Gabe keeps distracting Rusty from studying and sleep, until Rusty becomes sleep-deprived and cranky.',
+        hint: 'What does losing sleep do to a person?',
+        explanation: 'The narration tracks Rusty’s decline in words — exhausted, cranky, failing — showing the ghost’s true cost.'
+      },
+      {
+        id: 'rsg-5',
+        question: 'What does “Ghost Friend” mainly teach about friendship?',
+        options: [
+          'A true friend would never guilt-trip you into ruining your sleep, grades, and future',
+          'You should never study for tests',
+          'Ghosts make the best study partners',
+          'Never let go of a friendship, no matter the cost'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Out of loyalty Rusty lets Gabe stay — but Gabe distracts him from studying and sleep, sabotages his test, and guilt-trips him whenever Rusty has had enough, wrecking Rusty’s grades and future chances.',
+        hint: 'Look at what the friendship costs Rusty — is that what good friends do?',
+        explanation: 'Gabe uses guilt to block Rusty’s boundaries while Rusty’s life falls apart. The lesson — loyalty to someone who harms you isn’t friendship — lives in Gabe’s manipulative words and their consequences.'
+      },
+      {
+        id: 'rsg-6',
+        question: 'What does the story suggest about holding on versus letting go?',
+        options: [
+          'Holding on to someone is always right',
+          'Letting go means you never cared',
+          'Sometimes letting go is healthier than holding on — clinging to Gabe costs Rusty his future',
+          'Ghosts should never be allowed to leave'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Rusty’s refusal to let Gabe go — reinforced by Gabe’s guilt trips — ruins his grades and any potential future opportunities he could have had.',
+        hint: 'What does holding on cost Rusty by the end?',
+        explanation: 'The story’s second lesson is about release: Rusty’s grip on the past destroys his future. That idea unfolds through narrated consequences, not images.'
+      },
+      {
+        id: 'rsg-7',
+        question: 'Why does Rusty let Gabe stay even though he is miserable?',
+        options: [
+          'He is afraid Gabe will haunt someone else',
+          'Loyalty and guilt — Gabe guilt-trips him whenever he tries to set boundaries',
+          'The teacher orders him to keep Gabe',
+          'He thinks Gabe will help him study'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'After becoming sleep-deprived and cranky, Rusty has had enough — but Gabe guilt-trips him into letting him stay.',
+        hint: 'What weapon does Gabe use when Rusty tries to say no?',
+        explanation: 'The text shows Gabe deploying guilt whenever Rusty resists. The reader infers Rusty’s trap: love plus guilt makes “no” feel impossible — a dynamic built from dialogue and narration.'
+      },
+      {
+        id: 'rsg-8',
+        question: 'What does Gabe’s behavior as a ghost reveal about what matters most to him?',
+        options: [
+          'Rusty’s happiness and success',
+          'Making new ghost friends',
+          'Apologizing for dying',
+          'His own company — keeping Rusty around matters more to him than Rusty’s well-being'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Gabe distracts Rusty from studying and sleep, follows him to school making noises, sabotages his test, and guilt-trips him into staying — while Rusty’s grades and future crumble.',
+        hint: 'Does Gabe ever sacrifice anything for Rusty?',
+        explanation: 'Gabe never puts Rusty first; every action serves Gabe’s desire for company. The reader infers his selfishness from the pattern of narrated behavior — caring friends don’t cost you your future.'
+      },
+      {
+        id: 'rsg-9',
+        question: 'How would you describe the tone of “Ghost Friend”?',
+        options: [
+          'Spooky but funny, with a serious message underneath — scares and jokes carrying a real warning',
+          'Pure horror with no humor at all',
+          'A cheerful comedy with no sad moments',
+          'A dry instruction manual'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'A ghost disrupting school and tests is played for laughs — but Rusty’s failing grades and wrecked future give the story a genuinely serious edge.',
+        hint: 'Are you supposed to laugh, worry, or a bit of both?',
+        explanation: 'Like the rest of Rowley’s collection it’s comically terrifying, but this story’s humor carries a cautionary weight you feel in the narration’s turn from pranks to consequences.'
+      },
+      {
+        id: 'rsg-10',
+        question: 'Which trait best describes Gabe as a ghost?',
         options: [
           'Selfless and encouraging',
           'Shy and quiet',
@@ -2171,11 +2473,163 @@ export const CLASSIC_BOOKS: Book[] = [
         correctAnswerIndex: 2,
         samplePassage: 'Instead of watching over his friend, ghost Gabe distracts Rusty from studying and sleep, sabotages his Spanish test, and guilt-trips him whenever Rusty tries to set boundaries.',
         hint: 'Does Gabe ever put Rusty’s needs before his own?',
-        explanation: 'Gabe repeatedly chooses his own company over Rusty’s well-being and uses guilt as a weapon. That pattern of behavior — described in the narration, not drawn — marks him as selfish and manipulative rather than a caring friend.'
+        explanation: 'Gabe repeatedly chooses his own company over Rusty’s well-being and uses guilt as a weapon. That narrated pattern marks him as selfish and manipulative, not a caring friend.'
+      }
+    ]
+  },
+  {
+    id: 'sisters-raina-telgemeier',
+    title: 'Sisters',
+    author: 'Raina Telgemeier',
+    coverEmoji: '🚐',
+    themeColor: 'teal',
+    readingLevel: 'Grades 3 - 7 (Ages 8-12)',
+    synopsis: 'Raina Telgemeier’s graphic novel about a road trip from San Francisco to Colorado with her cranky younger sister Amara. A quiz on dialogue, story events, main ideas, tone, inference, and character.',
+    questions: [
+      {
+        id: 'sis-1',
+        question: 'Where does the family’s road trip go?',
+        options: [
+          'From New York to Florida to visit the beach',
+          'From San Francisco to Colorado for a family reunion',
+          'From Texas to Canada to see snow',
+          'Around the block to the grocery store'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Raina, her mom, Amara, and little brother Will drive from their home in San Francisco to a family reunion in Colorado, while their dad plans to fly out later.',
+        hint: 'Which two states does the trip connect?',
+        explanation: 'The route — San Francisco to Colorado — is stated in the narration and captions, the frame for the whole book.'
+      },
+      {
+        id: 'sis-2',
+        question: 'While packing, what does Raina secretly do about the colored pencils?',
+        options: [
+          'She yells at Amara to get out and lies that she isn’t packing them — but secretly packs them anyway',
+          'She gives them all to Amara as a gift',
+          'She throws them away',
+          'She hides them in the car engine'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Amara asks Raina if she’s packing colored pencils. Raina screams at her to get out of her room and claims she isn’t packing them — but secretly, she is.',
+        hint: 'What does Raina say versus what does she do?',
+        explanation: 'The gap between Raina’s shouted words and her secret action is pure text — dialogue plus narration — and it shows she cares more than she admits.'
+      },
+      {
+        id: 'sis-3',
+        question: 'What does Amara secretly bring along in a cooler?',
+        options: [
+          'A birthday cake',
+          'Raina’s diary',
+          'A bag of goldfish crackers',
+          'A pet snake'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Without telling anyone, Amara brings her pet snake along in a cooler.',
+        hint: 'What kind of animal is Amara fascinated by?',
+        explanation: 'The smuggled snake — revealed in narration and dialogue — sets up the book’s biggest road-trip disaster.'
+      },
+      {
+        id: 'sis-4',
+        question: 'What happens to Amara’s snake during the car ride?',
+        options: [
+          'It learns to drive the car',
+          'It is adopted by the cousins',
+          'It gets loose in the car and ends up living in the seats',
+          'It flies out the window'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'The snake gets loose in the car and ends up living in the seats — which terrifies Raina, who hates snakes because of an incident in her past.',
+        hint: 'Where would a loose snake be the worst possible place in a car?',
+        explanation: 'The escaped snake living in the seats is narrated as the trip’s chaos peak — a plot event carried by words and dialogue.'
+      },
+      {
+        id: 'sis-5',
+        question: 'What is the main lesson Raina learns about sisters?',
+        options: [
+          'A sister can be completely different from what you expected — and that’s not so bad after all',
+          'Sisters should always agree on everything',
+          'It’s better to be an only child',
+          'Younger sisters are always wrong'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Raina dreamed of a perfect little sister, but Amara is cranky, independent, and nothing like the fantasy. Through the road trip’s crises, Raina comes to see that having a sister — even a very different one — is maybe not so bad.',
+        hint: 'Does Amara ever become the sister Raina dreamed of?',
+        explanation: 'Amara never transforms into the dream sister; instead Raina’s expectations change. That shift — from wishing for a different sister to accepting the real one — is the book’s heart, told through narration and dialogue.'
+      },
+      {
+        id: 'sis-6',
+        question: 'What does the car breaking down in the middle of nowhere lead to?',
+        options: [
+          'The family gives up and walks home',
+          'The parents buy a brand-new car on the spot',
+          'Raina and Amara finally have a heart-to-heart and realize they do care about each other',
+          'Nothing — they just wait silently'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'When the car breaks down with no help in sight, the stranded family must confront their issues. Raina and Amara finally express their frustrations and fears, realizing that despite their differences, they care about each other.',
+        hint: 'What can only happen when there’s nowhere to run?',
+        explanation: 'The breakdown forces the conversation they’ve avoided the whole trip. The crisis-becomes-closeness structure is the book’s second big idea, delivered through their spoken heart-to-heart.'
+      },
+      {
+        id: 'sis-7',
+        question: 'Why does Raina lie about the colored pencils but pack them anyway?',
+        options: [
+          'She plans to sell them in Colorado',
+          'She cares about Amara more than her angry words admit — pride won’t let her say so out loud',
+          'She forgot she lied',
+          'Her mom forces her to pack them'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Raina screams at Amara to get out and denies packing the colored pencils — yet secretly packs them.',
+        hint: 'Do people’s actions sometimes tell the truth their words won’t?',
+        explanation: 'The text never explains the lie directly. The reader must infer it from the contradiction: her actions betray affection her pride won’t voice — a classic tell-the-truth-through-behavior inference, readable only in the words.'
+      },
+      {
+        id: 'sis-8',
+        question: 'On the way home, Amara asks their mom why she didn’t kiss Dad at the airport. What does this question reveal?',
+        options: [
+          'Amara has forgotten who her dad is',
+          'Amara wants a kiss too',
+          'The mom is a bad driver',
+          'The kids notice more about their parents’ problems than the adults realize'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Amara asks why Mom didn’t kiss Dad goodbye at the airport — and Mom admits the parents need time away from each other that summer.',
+        hint: 'What has Amara been quietly observing?',
+        explanation: 'Amara’s innocent question exposes what the kids have sensed all along: the strained marriage. The reader infers that children absorb far more than adults assume — from one line of dialogue.'
+      },
+      {
+        id: 'sis-9',
+        question: 'How would you describe the tone of Sisters?',
+        options: [
+          'Funny and heartfelt — humor mixed with real family emotion',
+          'Scary and horrifying',
+          'Cold and boring',
+          'Angry from start to finish'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Telgemeier uses her signature humor — bickering, mishaps, the snake in the seats — alongside genuinely moving moments like the sisters’ heart-to-heart and the parents’ quiet strain.',
+        hint: 'Do you laugh, feel sad, or both while reading?',
+        explanation: 'The tone blends comedy with heart, carried by witty dialogue and honest narration — you feel both the jokes and the ache in the words.'
+      },
+      {
+        id: 'sis-10',
+        question: 'Which trait best describes Amara?',
+        options: [
+          'Obedient and eager to please',
+          'Shy and invisible',
+          'Fiercely independent and sharp-edged — she does her own thing, from playing alone to smuggling a snake',
+          'Always cheerful and easygoing'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Amara is cranky and grouchy as a baby, preferring to play by herself; as she grows she stays introverted and strong-willed, fascinated by animals and unafraid to do things her own way.',
+        hint: 'Does Amara ever do what others expect of her?',
+        explanation: 'Amara’s independence — playing alone, loving snakes, smuggling one in a cooler — is established through narrated behavior and dialogue, making her the book’s most sharply defined character.'
       }
     ]
   }
 ];
+
 
 export const DEFAULT_BOOKS: Book[] = [
   ...MAGIC_TREE_HOUSE_BOOKS,
