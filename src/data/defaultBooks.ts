@@ -2023,6 +2023,157 @@ export const CLASSIC_BOOKS: Book[] = [
         explanation: '“Quest” means a long, adventurous journey undertaken to achieve something important — like rescuing Roland’s mom.'
       }
     ]
+  },
+  {
+    id: 'rowley-jefferson-awesome-friendly-spooky-stories',
+    title: "Rowley Jefferson's Awesome Friendly Spooky Stories",
+    author: 'Jeff Kinney',
+    coverEmoji: '🎃',
+    themeColor: 'purple',
+    readingLevel: 'Grades 3 - 7 (Ages 8-12)',
+    synopsis: "Rowley Jefferson's own collection of spooky tales — a werewolf boy, a prankster ghost, and a haunted friendship. A text-focused quiz on the first three stories (The Changing, The Prankster, Ghost Friend): details, main ideas, tone, inference, and character, all answerable from the words alone.",
+    questions: [
+      {
+        id: 'rss-1',
+        question: 'What is the very first strange thing Rowan notices happening to his body?',
+        options: [
+          'A single tiny hair sprouting under his armpit',
+          'His teeth growing into sharp fangs overnight',
+          'His voice changing into a wolf’s howl',
+          'His eyes glowing yellow in the dark'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Before the full transformation, Rowan spots one small hair under his arm and even thinks about borrowing his mother’s tweezers — then hair suddenly spreads across his whole body.',
+        hint: 'What does he notice before the big change — something small enough to pluck?',
+        explanation: 'The text names the single armpit hair as the first sign, before the rapid sprouting. Pictures might show a hairy boy, but only the words tell you the change started with one tiny hair.'
+      },
+      {
+        id: 'rss-2',
+        question: 'When Jasper tries to play a prank on Joris the baker, what shocking thing happens?',
+        options: [
+          'Joris catches him and bans him from the bakery forever',
+          'All the donuts on the platter turn to stone',
+          'His hand passes straight through Joris’s donut platter',
+          'Joris laughs and decides to join in on the prank'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Jasper reaches for the baker’s donut platter to start his prank — and his hand goes right through it, as if neither his hand nor the platter is really there.',
+        hint: 'What can’t a ghost touch?',
+        explanation: 'The narration says his hand went through the platter — the moment Jasper (and the reader) realizes he may not be alive. No picture is needed; the words describe exactly what his hand does.'
+      },
+      {
+        id: 'rss-3',
+        question: 'Jasper sneaks into his own funeral to see what is going on. What does he find inside the coffin?',
+        options: [
+          'His own body, lying peacefully asleep',
+          'Nothing at all — the coffin is completely empty',
+          'A mirror showing that he has no reflection',
+          'A farewell letter from the preacher'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Jasper follows the mourners inside and looks into the coffin expecting to see himself — but there is no body in it at all. The whole town staged the funeral with technology and bluffing to prank him back.',
+        hint: 'If the town is pranking him, would they put a real body in the coffin?',
+        explanation: 'The text reveals the coffin is empty and the funeral was faked with technology and bluffing — the town’s revenge prank on the prankster.'
+      },
+      {
+        id: 'rss-4',
+        question: 'How does the ghost Gabe make Rusty fail his Spanish test?',
+        options: [
+          'He hides Rusty’s test paper so Rusty cannot finish',
+          'He erases Rusty’s correct answers while the teacher is not looking',
+          'He scares the teacher into canceling the test',
+          'He whispers the wrong answers to Rusty during the test'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Gabe follows Rusty to school and keeps making noise while Rusty works. During the Spanish test, Gabe feeds him incorrect answers, and Rusty flunks.',
+        hint: 'Gabe doesn’t touch the paper — what does he do with his voice?',
+        explanation: 'The story says Gabe gives Rusty the wrong answers during the test. It’s a spoken, word-based detail — you learn it from the narration, not from any drawing.'
+      },
+      {
+        id: 'rss-5',
+        question: 'What is the main lesson of “The Changing”?',
+        options: [
+          'Be your true self openly — hiding who you are helps no one, and Rowan’s courage even inspires his parents',
+          'Always obey your parents, even when you disagree with them',
+          'Werewolves should never go to school with normal kids',
+          'Bullies always win, so it is better to join them'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Rowan’s parents tell him to conceal his werewolf self because ignorant people hate those who are different. But Rowan chooses to attend school as his true self, nobody dares bother him, and his parents find the courage to do the same.',
+        hint: 'What changes for the parents by the end — and what caused it?',
+        explanation: 'Rowan’s decision to stop hiding changes everything: he is accepted, and his parents follow his example. The story’s point is that living openly as yourself is better than hiding — a message carried entirely by the characters’ choices and words.'
+      },
+      {
+        id: 'rss-6',
+        question: 'What does “Ghost Friend” mainly teach about friendship?',
+        options: [
+          'You should never study for tests if your friend wants to play',
+          'Ghosts make the best study partners',
+          'A true friend would never guilt-trip you into ruining your sleep, grades, and future',
+          'The only way to keep a friendship alive is to never let go, no matter the cost'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'After Gabe’s death, Rusty lets the ghost stay out of loyalty — but Gabe distracts him from studying and sleep, makes him flunk, and guilt-trips him whenever Rusty has had enough, wrecking Rusty’s grades and future chances.',
+        hint: 'Look at what the friendship costs Rusty — is that what good friends do?',
+        explanation: 'Gabe uses guilt to keep Rusty from setting boundaries, and Rusty’s life falls apart. The story warns that loyalty to someone who harms you isn’t friendship — the lesson lives in Gabe’s manipulative words and their consequences.'
+      },
+      {
+        id: 'rss-7',
+        question: 'Why does Jasper dive off the lighthouse at the end of “The Prankster”?',
+        options: [
+          'He wants to prove he is the bravest person in the seaside village',
+          'He is trying to escape from the angry villagers',
+          'He wants to rescue Joris the baker from drowning',
+          'He believes the preacher’s lie that everyone died in a meteor strike, so he thinks he is a ghost who can fly'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'After the fake funeral is exposed, the preacher claims it was a double prank — that everyone really did perish in a meteor strike the day before. Jasper believes him completely.',
+        hint: 'Who does Jasper trust in that moment — and what does that person tell him?',
+        explanation: 'Jasper trusts the preacher’s lie about the meteor, concluding he must be a ghost and therefore able to fly. The reader has to infer his reasoning from what he was told and what he does — the text never says “Jasper thought ghosts can fly,” but his fatal dive only makes sense if he believed it.'
+      },
+      {
+        id: 'rss-8',
+        question: 'Why do Rowan’s parents tell him to keep his werewolf self hidden from the world?',
+        options: [
+          'They are embarrassed by the way he looks',
+          'They are afraid that ignorant people who hate anyone different will hurt him',
+          'They want him to keep it secret so he can play pranks on people',
+          'His school has a strict rule against werewolves'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Rowan’s parents explain that he could live a normal life if he conceals who he is, because there are ignorant people who hate others who are different.',
+        hint: 'What reason do the parents themselves give — in their own words?',
+        explanation: 'The parents state their reason outright: fear of prejudiced people. It’s a spoken reason in the dialogue — you can only learn it from the text, and it sets up the story’s central conflict with Rowan’s belief in being his true self.'
+      },
+      {
+        id: 'rss-9',
+        question: 'Which best describes the tone of Rowley’s spooky stories?',
+        options: [
+          'Scary situations told in a funny, lighthearted way — comically terrifying',
+          'Pure, serious horror with no jokes at all',
+          'Sad and depressing from beginning to end',
+          'Angry and preachy, like a lecture'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Rowley’s tales feature zombies, vampires, and ghosts, but the scares come wrapped in jokes — the stories are described as comically terrifying, the kind that might leave you laughing.',
+        hint: 'Do these stories want you screaming, laughing, or both?',
+        explanation: 'The tone mixes frights with humor — spooky setups played for laughs. You feel it in the narration’s playful voice, not in the illustrations: the words treat even death and ghosts as material for jokes.'
+      },
+      {
+        id: 'rss-10',
+        question: 'Which trait best describes Gabe after he becomes a ghost?',
+        options: [
+          'Selfless and encouraging',
+          'Shy and quiet',
+          'Selfish and manipulative — he guilt-trips Rusty to get his way while Rusty’s life falls apart',
+          'Brave and protective'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Instead of watching over his friend, ghost Gabe distracts Rusty from studying and sleep, sabotages his Spanish test, and guilt-trips him whenever Rusty tries to set boundaries.',
+        hint: 'Does Gabe ever put Rusty’s needs before his own?',
+        explanation: 'Gabe repeatedly chooses his own company over Rusty’s well-being and uses guilt as a weapon. That pattern of behavior — described in the narration, not drawn — marks him as selfish and manipulative rather than a caring friend.'
+      }
+    ]
   }
 ];
 
