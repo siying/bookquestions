@@ -47,6 +47,9 @@ export const App: React.FC = () => {
   // main page (navigation is state-based, not URL-based). If a sign-in was
   // in progress, reopen the admin view so the pending redirect result is
   // processed and the sign-in completes instead of silently dropping.
+  // (Without this, the login appears to succeed at Google but the app
+  //  returns to the main page signed out, and the next visit asks to
+  //  log in again.)
   useEffect(() => {
     try {
       if (sessionStorage.getItem('bookquiz:returnToAdmin') === '1') {
