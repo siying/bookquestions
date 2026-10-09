@@ -90,7 +90,7 @@ export async function getAuth(): Promise<Auth | null> {
 }
 
 /** Admin email addresses allowed to view the answer records. */
-export const ADMIN_EMAILS = ['dong.sy@gmail.com'];
+export const ADMIN_EMAILS = ['dong.sy@gmail.com', 'siying.dong@gmail.com'];
 
 /** Check if a Firebase user is an authorized admin. */
 export function isAdminUser(user: User | null): boolean {

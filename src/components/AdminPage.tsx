@@ -14,8 +14,9 @@ import {
   LogIn,
   LogOut,
   ShieldAlert,
+  ChevronRight,
 } from 'lucide-react';
-import type { User } from 'firebase/auth';
+import type { User, Auth, GoogleAuthProvider } from 'firebase/auth';
 import { isCloudConfigured, getAuth, isAdminUser } from '../config/firebase';
 import {
   listPlayers,
@@ -137,40 +138,56 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
   const cloud = isCloudConfigured();
   const isAdmin = isAdminUser(user);
 
-  // Watch Firebase Auth state + handle redirect result (mobile Safari blocks popups)
+  // Pre-warmed auth instances so signInWithPopup executes synchronously on user tap
+  const authRef = React.useRef<Auth | null>(null);
+  const providerRef = React.useRef<GoogleAuthProvider | null>(null);
+  const popupFnRef = React.useRef<((auth: Auth, provider: any) => Promise<any>) | null>(null);
+  const redirectFnRef = React.useRef<((auth: Auth, provider: any) => Promise<any>) | null>(null);
+
+  // Watch Firebase Auth state + pre-warm auth and check redirect result
   useEffect(() => {
     if (!cloud) {
       setAuthChecking(false);
       return;
     }
     let unsub: (() => void) | null = null;
-    getAuth().then((auth) => {
-      if (!auth) {
+    getAuth().then(async (authInstance) => {
+      if (!authInstance) {
         setAuthChecking(false);
         return;
       }
-      import('firebase/auth').then(({ onAuthStateChanged, getRedirectResult }) => {
-        // Check if we're returning from a Google redirect sign-in
-        getRedirectResult(auth)
-          .then((result) => {
-            if (result?.user) {
-              setUser(result.user);
-            }
-          })
-          .catch((err) => {
-            // eslint-disable-next-line no-console
-            console.error('[bookquiz] Redirect sign-in error:', err);
-            setError('Sign-in failed. Please try again.');
-          })
-          .finally(() => {
-            setAuthChecking(false);
-          });
-        unsub = onAuthStateChanged(auth, (u) => {
+      authRef.current = authInstance;
+      try {
+        const authMod = await import('firebase/auth');
+        const provider = new authMod.GoogleAuthProvider();
+        provider.setCustomParameters({ prompt: 'select_account' });
+        providerRef.current = provider;
+        popupFnRef.current = authMod.signInWithPopup;
+        redirectFnRef.current = authMod.signInWithRedirect;
+
+        // Check if returning from a redirect sign-in
+        try {
+          const result = await authMod.getRedirectResult(authInstance);
+          if (result?.user) {
+            setUser(result.user);
+          }
+        } catch (err: any) {
+          // eslint-disable-next-line no-console
+          console.error('[bookquiz] Redirect check error:', err);
+        }
+
+        unsub = authMod.onAuthStateChanged(authInstance, (u) => {
           setUser(u);
           setAuthChecking(false);
         });
-      });
+      } catch (err) {
+        // eslint-disable-next-line no-console
+        console.error('[bookquiz] Auth module load error:', err);
+      } finally {
+        setAuthChecking(false);
+      }
     });
+
     return () => {
       if (unsub) unsub();
     };
@@ -179,34 +196,54 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
   const handleSignIn = async () => {
     setSigningIn(true);
     setError('');
+
     try {
-      const auth = await getAuth();
-      if (!auth) throw new Error('Auth not available');
-      const { GoogleAuthProvider, signInWithRedirect } = await import('firebase/auth');
-      const provider = new GoogleAuthProvider();
-      // Remember to reopen the admin view after Google redirects back:
-      // the app has no URL routing (the admin page is React state), so a
-      // fresh page load would otherwise land on the main page and the
-      // pending sign-in result would never be processed.
-      try {
-        sessionStorage.setItem('bookquiz:returnToAdmin', '1');
-      } catch {
-        // ignore storage failures
+      let auth = authRef.current;
+      let popupFn = popupFnRef.current;
+      let redirectFn = redirectFnRef.current;
+      let provider = providerRef.current;
+
+      if (!auth || !popupFn || !redirectFn || !provider) {
+        auth = await getAuth();
+        if (!auth) throw new Error('Auth not available');
+        const authMod = await import('firebase/auth');
+        provider = new authMod.GoogleAuthProvider();
+        provider.setCustomParameters({ prompt: 'select_account' });
+        popupFn = authMod.signInWithPopup;
+        redirectFn = authMod.signInWithRedirect;
       }
-      // Redirect (not popup) — popups are blocked on mobile Safari
-      await signInWithRedirect(auth, provider);
-      // Page will redirect to Google and back; no finally needed
-    } catch (err) {
+
+      // Try popup first — works seamlessly across domains without third-party cookie restrictions
+      try {
+        const res = await popupFn(auth, provider);
+        if (res?.user) {
+          setUser(res.user);
+        }
+      } catch (popupErr: any) {
+        if (popupErr?.code === 'auth/popup-closed-by-user') {
+          return;
+        }
+        if (
+          popupErr?.code === 'auth/popup-blocked' ||
+          popupErr?.code === 'auth/cancelled-popup-request'
+        ) {
+          // Browser strictly blocked popups — fallback to redirect
+          try {
+            sessionStorage.setItem('bookquiz:returnToAdmin', '1');
+          } catch {
+            // ignore
+          }
+          await redirectFn(auth, provider);
+          return;
+        }
+        throw popupErr;
+      }
+    } catch (err: any) {
       // eslint-disable-next-line no-console
-      console.error(err);
-      setError('Sign-in failed. Please try again.');
+      console.error('[bookquiz] Sign-in error:', err);
+      setError(`Sign-in failed: ${err.message || 'Please try again.'}`);
+    } finally {
       setSigningIn(false);
-      // The redirect never started, so don't reopen the admin view later.
-      try {
-        sessionStorage.removeItem('bookquiz:returnToAdmin');
-      } catch {
-        // ignore storage failures
-      }
     }
   };
 
@@ -367,17 +404,22 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
             <button
               key={p.id}
               onClick={() => setSelected(p)}
-              className="w-full bg-white/80 hover:bg-white rounded-2xl border border-indigo-100 shadow-sm px-5 py-4 flex items-center justify-between gap-3 transition-all text-left"
+              className="w-full bg-white/80 hover:bg-white rounded-2xl border border-indigo-100 hover:border-indigo-300 shadow-sm px-5 py-4 flex items-center justify-between gap-3 transition-all text-left group"
             >
               <div>
-                <div className="font-extrabold text-slate-800 text-lg">{p.name}</div>
+                <div className="font-extrabold text-slate-800 text-lg group-hover:text-indigo-600 transition-colors">
+                  {p.name}
+                </div>
                 <div className="text-xs text-slate-400">
                   Last played {formatDate(p.lastPlayedAt)}
                 </div>
               </div>
-              <span className="shrink-0 text-sm font-bold text-indigo-600 bg-indigo-50 rounded-full px-3 py-1.5">
-                {p.quizCount} {p.quizCount === 1 ? 'quiz' : 'quizzes'}
-              </span>
+              <div className="flex items-center gap-2 shrink-0">
+                <span className="text-sm font-bold text-indigo-600 bg-indigo-50 rounded-full px-3 py-1.5">
+                  {p.quizCount} {p.quizCount === 1 ? 'quiz' : 'quizzes'}
+                </span>
+                <ChevronRight size={18} className="text-slate-400 group-hover:text-indigo-600 group-hover:translate-x-0.5 transition-all" />
+              </div>
             </button>
           ))}
         </div>
