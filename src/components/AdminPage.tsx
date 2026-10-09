@@ -184,6 +184,15 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
       if (!auth) throw new Error('Auth not available');
       const { GoogleAuthProvider, signInWithRedirect } = await import('firebase/auth');
       const provider = new GoogleAuthProvider();
+      // Remember to reopen the admin view after Google redirects back:
+      // the app has no URL routing (the admin page is React state), so a
+      // fresh page load would otherwise land on the main page and the
+      // pending sign-in result would never be processed.
+      try {
+        sessionStorage.setItem('bookquiz:returnToAdmin', '1');
+      } catch {
+        // ignore storage failures
+      }
       // Redirect (not popup) — popups are blocked on mobile Safari
       await signInWithRedirect(auth, provider);
       // Page will redirect to Google and back; no finally needed
