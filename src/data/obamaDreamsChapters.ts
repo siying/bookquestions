@@ -2064,5 +2064,240 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "Barack wept at the graves, finally feeling connected to his father and grandfather — and as rain fell, Bernard arrived with an umbrella, closing the circle of the journey."
       }
     ]
+  },
+  {
+    id: 'obama-dreams-first-half',
+    title: "Dreams from My Father: First Half (Ch. 1–9)",
+    author: "Barack Obama",
+    coverEmoji: "🌴",
+    themeColor: "green",
+    readingLevel: "Grades 6+ (Ages 11+)",
+    synopsis: "Chapters 1–9: from the midnight phone call about his father's death, through a childhood split between Hawaii and Indonesia, to the decision to become a Chicago community organizer.",
+    questions: [
+      {
+        id: 'odh-1',
+        question: "How does Chapter 1 begin?",
+        options: [
+          "With Barack graduating from Columbia University",
+          "With a late-night phone call telling him his father has died in a car crash in Kenya",
+          "With his first day as a community organizer in Chicago",
+          "With a letter from his mother in Indonesia"
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "The memoir opens at Columbia University, where 21-year-old Barack gets a late-night call from his aunt in Nairobi: his father — the man he barely knew — has been killed in a car accident.",
+        hint: "What news could only arrive by phone, in the middle of the night?",
+        explanation: "Chapter 1 opens with the midnight call about his father's fatal car crash in Kenya — the event that launches his search for who his father was."
+      },
+      {
+        id: 'odh-2',
+        question: "In Indonesia, what did Barack's mother make him do before school each morning?",
+        options: [
+          "Run three miles with Lolo",
+          "Feed the chickens and sweep the yard",
+          "Memorize Indonesian poems",
+          "Wake before dawn for English lessons from a correspondence course"
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "In their Jakarta home, Ann woke young Barack in the dark hours before Indonesian school for English lessons ordered from America — grammar and writing, day after day.",
+        hint: "What subject would an American mother insist on, far from America?",
+        explanation: "Ann woke him before dawn for English correspondence lessons — her fierce insistence that he keep up his American education."
+      },
+      {
+        id: 'odh-3',
+        question: "During his father's month-long Christmas visit, what joyful gift did they share right before he left?",
+        options: [
+          "Two records of African music and a dance lesson, laughing together",
+          "A set of law books for college",
+          "A camera and a photo album",
+          "A watch engraved with his name"
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "Before flying home, his father pulled out two records of African music, showed ten-year-old Barack the steps, and the two of them danced around the apartment, laughing with joy.",
+        hint: "What gift isn't a thing at all — but a moment?",
+        explanation: "The visit's brightest memory: African records and a joyful dance lesson just before his father left — a rare moment of pure delight between them."
+      },
+      {
+        id: 'odh-4',
+        question: "Who was Frank?",
+        options: [
+          "Barack's Punahou basketball coach",
+          "A Kenyan uncle who visited Hawaii",
+          "A Black poet and friend of Gramps's who talked bluntly with Barack about race",
+          "The owner of the barbershop in Chicago"
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "At Gramps's poker table sat Frank — a Black poet, once well-known, who spoke to the teenage Barack with unsparing honesty about what it meant to be Black in America.",
+        hint: "Which adult at the poker table gave him the hardest truths?",
+        explanation: "Frank was a Black poet and Gramps's friend whose frank talk about race — including his warning about the 'price of admission' — deeply shaped teenage Barack."
+      },
+      {
+        id: 'odh-5',
+        question: "After college, what did Barack give up to become a community organizer?",
+        options: [
+          "A scholarship to law school",
+          "A well-paying corporate consulting job in New York",
+          "A coaching position at Punahou",
+          "An internship with a Chicago newspaper"
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "With a Columbia degree and a comfortable research job at a consulting firm, Barack felt hollow — the only Black man at his level, writing reports nobody read. He quit to organize in Chicago.",
+        hint: "What comfortable thing did he walk away from?",
+        explanation: "He quit a well-paying New York consulting job — choosing uncertain, low-paid organizing work over comfort."
+      },
+      {
+        id: 'odh-6',
+        question: "What two unpleasant neighbors sat beside the Altgeld Gardens housing project?",
+        options: [
+          "A prison and a bus depot",
+          "A factory and a railroad yard",
+          "A dump for old cars and a power plant",
+          "A landfill and a sewage treatment plant"
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "Altgeld Gardens sat cut off from the city, with a stinking landfill on one side and a sewage treatment plant on the other — the city's unwanted things piled around its poorest people.",
+        hint: "What does a city put next to the people it ignores?",
+        explanation: "The project was flanked by a landfill and a sewage treatment plant — a physical map of how forgotten the residents were."
+      },
+      {
+        id: 'odh-7',
+        question: "What is the main idea of Barack's Indonesia years?",
+        options: [
+          "Even in poverty, his mother's discipline and Lolo's example taught him resilience, pride, and the value of learning",
+          "Indonesia was a vacation from real life",
+          "He learned that America was perfect",
+          "Poverty made education pointless"
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "Jakarta was poor and strange — new foods, new language, power cuts. But through it, Ann's dawn lessons and Lolo's calm strength gave him an anchor: work hard, stand tall, keep learning.",
+        hint: "What did he TAKE from Indonesia, rather than just survive?",
+        explanation: "The main idea: hardship plus a mother's discipline forged resilience — Indonesia taught him pride and the habit of learning against the odds."
+      },
+      {
+        id: 'odh-8',
+        question: "At Punahou, Barack was 'Barry' to his schoolmates, the grandson of Kansas transplants, and the son of a Kenyan father he'd barely met. What is the main idea of these chapters?",
+        options: [
+          "Hawaii had no racial problems at all",
+          "Basketball solves identity questions",
+          "He lived between two worlds and had to piece together an identity of his own",
+          "He decided to forget his father's side entirely"
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "At school he was Barry, cracking jokes; at home he studied the absent Kenyan father in photographs; with Ray and Frank he confronted what being Black meant. No single world quite contained him.",
+        hint: "Was he fully at home in any one of his worlds?",
+        explanation: "The main idea: a boy split between worlds — white grandparents, Black father, island home — had to assemble his own identity from the pieces."
+      },
+      {
+        id: 'odh-9',
+        question: "In Chicago, Barack's job was to interview residents about their 'self-interest' and help them organize. What is the main idea of this work?",
+        options: [
+          "The organizer should make all the decisions for residents",
+          "Lasting change comes from people's own power — the organizer's job is to help them find it",
+          "Poor neighborhoods can't be helped",
+          "Change comes only from politicians"
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "Marty taught him the rule: don't bring your own agenda — ask people what they care about, what keeps them up at night, and help them turn that caring into action.",
+        hint: "Who does the changing — Barack, or the residents?",
+        explanation: "The main idea: organizing isn't rescuing people; it's helping them discover and wield their own collective power."
+      },
+      {
+        id: 'odh-10',
+        question: "Barack barely knew his father — yet his death shook him deeply. What can you infer?",
+        options: [
+          "He was faking his grief",
+          "He felt guilty about something specific",
+          "He only cared about an inheritance",
+          "You can grieve the relationship you never got to have — the father you wished you'd known"
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "He had spent about a month with the man, total, across his whole life. Yet the call left him hollow for weeks — mourning not memories, but possibilities.",
+        hint: "Can you miss something you never had?",
+        explanation: "You can infer he mourned possibilities, not memories — the conversations they'd never have, the guidance he'd never get. Absence can ache as much as loss."
+      },
+      {
+        id: 'odh-11',
+        question: "Gramps loved him, Frank warned him, Ray was angry, his mother believed in him. Each adult offered a different map of race in America. What can you infer Barack had to do?",
+        options: [
+          "Draw his own map — no single adult's view fit his whole life",
+          "Pick whichever adult shouted the loudest",
+          "Ignore all of them completely",
+          "Move to a place with no racial issues"
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "Frank's warnings, Gramps's stories, Ray's fury, Ann's optimism — each true in part, none complete. The teenager listened to all of them and trusted none of them entirely.",
+        hint: "If four maps disagree, what does the traveler do?",
+        explanation: "You can infer he had to synthesize: take each adult's partial truth and draw his own map — the beginning of thinking for himself."
+      },
+      {
+        id: 'odh-12',
+        question: "He quit the consulting job though it paid well and his loans were real. What can you infer about what he valued?",
+        options: [
+          "He didn't understand money",
+          "He wanted to become famous quickly",
+          "He valued purpose over paycheck — comfort felt empty without meaning",
+          "He was fired and is hiding it"
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "The salary was good, the office gleamed — and he felt like a ghost in it. He traded the gleaming office for uncertain, low-paid work in Chicago's poorest neighborhoods — and felt, for the first time, awake.",
+        hint: "Which made him feel alive — the office, or the organizing?",
+        explanation: "You can infer purpose outranked pay: the comfortable job left him hollow, while the hard, poorly paid work felt like waking up."
+      },
+      {
+        id: 'odh-13',
+        question: "The father's visit ends with records, dancing, and laughter — and then a goodbye at the airport. How does this part feel?",
+        options: [
+          "Purely joyful",
+          "Bittersweet — joy shadowed by the knowledge that it won't last",
+          "Angry and bitter",
+          "Cold and detached"
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "They danced and laughed — and days later he watched his father walk away through the airport, already becoming a photograph again.",
+        hint: "Laughter, then a goodbye — what do you call that mix?",
+        explanation: "The tone is bittersweet: genuine joy lit from within by the ache of parting — happiness you can already feel ending."
+      },
+      {
+        id: 'odh-14',
+        question: "After months of tiny meetings and setbacks, the Altgeld campaign wins real commitments — a job center, a sense that the forgotten are seen. How does it feel?",
+        options: [
+          "Triumphant and easy",
+          "Hopeless",
+          "Boring and flat",
+          "Hopeful but clear-eyed — progress is real, slow, and hard-won"
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "Twenty people at a street corner became hundreds at a hearing; a promise was extracted, then another. Nothing was fixed — but for the first time, the residents had made the city listen.",
+        hint: "Is this a fairy-tale ending or something grittier?",
+        explanation: "The tone is hopeful but clear-eyed: victories are real yet partial, won inch by inch — the honest feel of organizing."
+      },
+      {
+        id: 'odh-15',
+        question: "In Jakarta, Ann woke her son before dawn for English lessons, day after day, for years. What does this show about her?",
+        options: [
+          "A fierce, disciplined love — she believed education was his way up and refused to let distance steal it",
+          "She was cruel and controlling",
+          "She didn't trust Indonesian schools at all",
+          "She wanted him to become a teacher"
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "At an hour when the house was still dark, Ann shook him awake: English grammar, writing exercises — her conviction that her son's mind was his fortune, enforced with an alarm clock.",
+        hint: "Who wakes a child before dawn for grammar — and why?",
+        explanation: "It shows Ann's fierce, disciplined love: she treated his education as non-negotiable, and backed that belief with years of early-morning lessons."
+      },
+      {
+        id: 'odh-16',
+        question: "At Occidental, Barack spoke at a rally against apartheid. What does 'apartheid' mean?",
+        options: [
+          "A South African festival",
+          "A type of protest march",
+          "South Africa's former system of racial segregation and white-minority rule",
+          "A student club at Occidental"
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "The rally demanded the college sell its investments in South Africa, where apartheid — rule by the white minority over the Black majority — oppressed millions.",
+        hint: "What was the rally AGAINST?",
+        explanation: "'Apartheid' was South Africa's system of racial segregation: laws enforcing white-minority rule over the Black majority — the injustice the rally protested."
+      }
+    ]
   }
 ];
