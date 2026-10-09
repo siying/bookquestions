@@ -201,6 +201,12 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
       console.error(err);
       setError('Sign-in failed. Please try again.');
       setSigningIn(false);
+      // The redirect never started, so don't reopen the admin view later.
+      try {
+        sessionStorage.removeItem('bookquiz:returnToAdmin');
+      } catch {
+        // ignore storage failures
+      }
     }
   };
 
