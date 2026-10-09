@@ -2534,5 +2534,240 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         explanation: "'Self-interest' means what people genuinely care about — the motivations that can move them to act together."
       }
     ]
+  },
+  {
+    id: 'obama-dreams-first-half-set3',
+    title: "Dreams from My Father: First Half — Set 3",
+    author: "Barack Obama",
+    coverEmoji: "🌻",
+    themeColor: "stone",
+    readingLevel: "Grades 6+ (Ages 11+)",
+    synopsis: "Chapters 1–9, third question set: more new angles on the early years, Punahou, college, and Chicago — with no em-dash or length cues in the options.",
+    questions: [
+      {
+        id: 'odk-1',
+        question: "How old was Barack when his father left Hawaii to study at Harvard?",
+        options: [
+          "He was ten years old",
+          "He was just two years old",
+          "He was already eighteen years old",
+          "He was twenty-two years old"
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "Barack Sr. won a scholarship to Harvard and left the islands when his son was still a toddler, just two years old.",
+        hint: "How old is 'still a toddler'?",
+        explanation: "His father left for Harvard when Barack was just two years old."
+      },
+      {
+        id: 'odk-2',
+        question: "What were the scars on Lolo's leg from?",
+        options: [
+          "A bad bicycle crash when he was a boy",
+          "An old boxing match back in Jakarta",
+          "A cooking accident in their kitchen",
+          "Leeches during his army days in New Guinea"
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "Lolo showed Barack the pitted scars on his leg: leeches, from his army days in the jungles of New Guinea.",
+        hint: "What jungle creature leaves pitted scars?",
+        explanation: "The scars came from leeches during Lolo's army service in New Guinea."
+      },
+      {
+        id: 'odk-3',
+        question: "Which unusual foods did Barack try while living in Indonesia?",
+        options: [
+          "Dog meat, snake meat, and roasted grasshopper",
+          "Shark fin soup with bird's nest soup",
+          "Fried scorpions and chocolate ants",
+          "Raw fish, sea urchin, and octopus"
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "Jakarta dinner tables surprised him: dog meat, snake meat, even roasted grasshopper, all eaten without fuss.",
+        hint: "Which list sounds like a Jakarta market?",
+        explanation: "In Indonesia he tried dog meat, snake meat, and roasted grasshopper."
+      },
+      {
+        id: 'odk-4',
+        question: "Who was Ray?",
+        options: [
+          "Barack's basketball coach at Punahou Academy",
+          "A Kenyan uncle visiting Hawaii for the summer",
+          "An L.A. senior who knew the Black party scene",
+          "The friendly barber at Smitty's shop in Chicago"
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "Ray was a senior from Los Angeles, cool and confident, who introduced the younger Barack to the Black parties on the island.",
+        hint: "Who opened the door to the Black party scene?",
+        explanation: "Ray was an older student from Los Angeles who introduced Barack to Black parties."
+      },
+      {
+        id: 'odk-5',
+        question: "What did the short letter from Barack's father invite him to do?",
+        options: [
+          "Move back to Hawaii to live with Gramps",
+          "Visit Kenya so he could know his people",
+          "Apply to Harvard University next year",
+          "Write back soon with all of his school grades"
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "A short letter arrived from his father: come visit Kenya, so that you may know your people.",
+        hint: "What invitation points toward Kenya?",
+        explanation: "His father's letter invited him to visit Kenya and know his people."
+      },
+      {
+        id: 'odk-6',
+        question: "Where did Marty take Barack on his first day in Chicago?",
+        options: [
+          "To the Field Museum of Natural History",
+          "To Smitty's Barbershop on the South Side",
+          "To a church basement meeting room",
+          "To the old Wisconsin Steel plant"
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "On day one, Marty drove him past the rusting gates of the old Wisconsin Steel plant, where thousands had once worked.",
+        hint: "Where would an organizer start on the South Side?",
+        explanation: "Marty's first stop was the shuttered Wisconsin Steel plant."
+      },
+      {
+        id: 'odk-7',
+        question: "What did Frank warn was the 'real price of admission' to success in America?",
+        options: [
+          "Giving up on being Black to fit the white world's terms",
+          "Paying full college tuition out of pocket for four straight years",
+          "Moving far away from home and never coming back",
+          "Learning to play poker really well"
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "Frank's warning was blunt: the white world would accept him, but the admission price was surrendering his Blackness.",
+        hint: "What would success cost him, in Frank's view?",
+        explanation: "The main idea: Frank warned that white America's acceptance would cost Barack his Black identity."
+      },
+      {
+        id: 'odk-8',
+        question: "Marty's first stop was the shuttered Wisconsin Steel plant, its furnaces cold. What is the main idea?",
+        options: [
+          "The mills closed because the workers stopped trying hard enough",
+          "Chicago's South Side never had any real industry",
+          "Abandoned by industry, these communities had to rebuild from the wreckage",
+          "Empty factories are best turned into museums"
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "The mills that had fed whole neighborhoods stood silent and rusting. Organizing, Barack saw, would begin in the wreckage of abandoned industry.",
+        hint: "What happens to a neighborhood when its industry dies?",
+        explanation: "The main idea: industry abandoned these communities, and organizing had to begin in the wreckage."
+      },
+      {
+        id: 'odk-9',
+        question: "After mocking Tim for 'talking like Beaver Cleaver,' Barack later felt ashamed of himself. What is the main idea?",
+        options: [
+          "Teasing people is just harmless fun",
+          "Real growth means judging yourself, not others",
+          "Old TV shows are always worth mocking",
+          "Tim deserved every bit of the mocking"
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "He had mocked Tim to sound Blacker, then caught his own cruelty: the judgment he aimed outward belonged turned inward.",
+        hint: "Where should judgment point?",
+        explanation: "The main idea: real growth means turning judgment inward instead of policing others."
+      },
+      {
+        id: 'odk-10',
+        question: "Malcolm X once wished his white blood could be 'expunged.' Why did this trouble Barack?",
+        options: [
+          "Malcolm X had all the answers on identity",
+          "He agreed with every word Malcolm wrote",
+          "He decided to stop reading about race entirely",
+          "He could not cut out half of himself"
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "Malcolm's wish to purge his white blood haunted Barack, who knew no surgery could remove half of who he was.",
+        hint: "Can a person surgically remove half their heritage?",
+        explanation: "You can infer he saw the impossibility: no one can cut out half of themselves."
+      },
+      {
+        id: 'odk-11',
+        question: "Some Altgeld women suspected Marty of pushing a secret agenda with the job bank money. What can you infer?",
+        options: [
+          "Trust had to be earned, and outsiders faced suspicion",
+          "Marty was secretly stealing the job bank money for himself",
+          "The women simply disliked all organizers",
+          "The job bank was overflowing with extra money"
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "The women had seen promises evaporate before; a young organizer with foundation money looked, to them, like another scheme.",
+        hint: "Why would poor residents distrust a newcomer with money?",
+        explanation: "You can infer trust had to be earned; burned before, the residents suspected every newcomer."
+      },
+      {
+        id: 'odk-12',
+        question: "At the consulting firm, Barack was the only Black employee at his level, and it embarrassed him. What can you infer he felt?",
+        options: [
+          "He felt proud to stand out from the crowd",
+          "He wished more Black colleagues were hired",
+          "He felt alone at the top",
+          "He planned to sue the company soon"
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "Alone at his level, he felt both stared at and unseen, a symbol to the firm and a stranger to himself.",
+        hint: "What does it feel like to be the only one?",
+        explanation: "You can infer he felt tokenized: alone at the top, visible yet unseen."
+      },
+      {
+        id: 'odk-13',
+        question: "At eleven, Barack was fascinated by the shrunken heads at Chicago's Field Museum. How does this memory feel?",
+        options: [
+          "Dark, scary, and upsetting",
+          "Full of wonder",
+          "Bored and restless",
+          "Sad and lonely"
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "He pressed his nose to the glass case, thrilled by the tiny shrunken heads, begging Gramps for the story behind each one.",
+        hint: "What does an eleven-year-old feel at a museum of wonders?",
+        explanation: "The tone is full of wonder: a child's delighted curiosity."
+      },
+      {
+        id: 'odk-14',
+        question: "Barack wrote to civil rights organizations asking for organizing work. No one wrote back. How does this moment feel?",
+        options: [
+          "Bitter and defeated",
+          "Famous and celebrated",
+          "Relaxed, carefree, and confident about the future",
+          "Lonely but quietly determined"
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "Letter after letter went out to civil rights groups and Black officials. The mailbox stayed empty, week after week.",
+        hint: "What does silence teach a job seeker?",
+        explanation: "The tone is lonely but quietly determined: silence, met with persistence."
+      },
+      {
+        id: 'odk-15',
+        question: "Ann was afraid Barack would become like Gramps, who never went to college. What does this show about her?",
+        options: [
+          "She feared he would drift, like Gramps",
+          "She wanted him to become a wealthy banker",
+          "She feared he would move to Kenya",
+          "She wanted him to play more sports"
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "Ann had watched her own father drift through jobs, never finishing college, and she was determined her son would not drift too.",
+        hint: "What future was she trying to prevent?",
+        explanation: "It shows Ann's fierce protectiveness: she saw education as the guardrail against drifting."
+      },
+      {
+        id: 'odk-16',
+        question: "In every home Barack visited, church bulletins offered what he called 'collective redemption.' What does 'collective redemption' mean?",
+        options: [
+          "Personal wealth and individual success",
+          "Winning an election",
+          "Renewal found together, as a community",
+          "The church bulletins handed out every Sunday"
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "In home after home, the church bulletin promised that faith could lift the whole community together, not just single souls.",
+        hint: "Who gets redeemed: one person, or everyone together?",
+        explanation: "'Collective redemption' means hope and renewal found together, as a community."
+      }
+    ]
   }
 ];
