@@ -43,6 +43,21 @@ export const App: React.FC = () => {
   // Admin view
   const [showAdmin, setShowAdmin] = useState(false);
 
+  // After a Google redirect sign-in, the browser reloads the app at the
+  // main page (navigation is state-based, not URL-based). If a sign-in was
+  // in progress, reopen the admin view so the pending redirect result is
+  // processed and the sign-in completes instead of silently dropping.
+  useEffect(() => {
+    try {
+      if (sessionStorage.getItem('bookquiz:returnToAdmin') === '1') {
+        sessionStorage.removeItem('bookquiz:returnToAdmin');
+        setShowAdmin(true);
+      }
+    } catch {
+      // ignore storage failures
+    }
+  }, []);
+
   // Guards the Firestore save so one completion writes exactly one record
   const savedAttemptRef = useRef<string | null>(null);
   const attemptRef = useRef(0);
