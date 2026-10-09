@@ -2078,10 +2078,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-1',
         question: "How does Chapter 1 begin?",
         options: [
-          "With Barack graduating from Columbia University",
-          "With a late-night phone call telling him his father has died in a car crash in Kenya",
-          "With his first day as a community organizer in Chicago",
-          "With a letter from his mother in Indonesia"
+          "With Barack's graduation ceremony at Columbia University",
+          "With a late-night call: his father was killed in Kenya",
+          "With his first day working as a Chicago community organizer",
+          "With a long letter from his mother in Indonesia",
         ],
         correctAnswerIndex: 1,
         samplePassage: "The memoir opens at Columbia University, where 21-year-old Barack gets a late-night call from his aunt in Nairobi: his father — the man he barely knew — has been killed in a car accident.",
@@ -2092,10 +2092,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-2',
         question: "In Indonesia, what did Barack's mother make him do before school each morning?",
         options: [
-          "Run three miles with Lolo",
-          "Feed the chickens and sweep the yard",
-          "Memorize Indonesian poems",
-          "Wake before dawn for English lessons from a correspondence course"
+          "With Lolo, run three miles before breakfast each day",
+          "Feed the chickens and sweep the whole yard clean",
+          "Memorize long Indonesian poems by heart every day",
+          "Wake before dawn for English correspondence lessons",
         ],
         correctAnswerIndex: 3,
         samplePassage: "In their Jakarta home, Ann woke young Barack in the dark hours before Indonesian school for English lessons ordered from America — grammar and writing, day after day.",
@@ -2106,10 +2106,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-3',
         question: "During his father's month-long Christmas visit, what joyful gift did they share right before he left?",
         options: [
-          "Two records of African music and a dance lesson, laughing together",
-          "A set of law books for college",
-          "A camera and a photo album",
-          "A watch engraved with his name"
+          "Two African records and a dance lesson, laughing together",
+          "A heavy set of law books to prepare him for college",
+          "A camera plus a photo album of the whole visit",
+          "A wristwatch engraved with his name on the back",
         ],
         correctAnswerIndex: 0,
         samplePassage: "Before flying home, his father pulled out two records of African music, showed ten-year-old Barack the steps, and the two of them danced around the apartment, laughing with joy.",
@@ -2120,10 +2120,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-4',
         question: "Who was Frank?",
         options: [
-          "Barack's Punahou basketball coach",
-          "A Kenyan uncle who visited Hawaii",
-          "A Black poet and friend of Gramps's who talked bluntly with Barack about race",
-          "The owner of the barbershop in Chicago"
+          "Barack's basketball coach back at Punahou",
+          "A Kenyan uncle who came to visit Hawaii once",
+          "A Black poet and Gramps's friend, blunt about race",
+          "The friendly owner of the Chicago barbershop on the South Side",
         ],
         correctAnswerIndex: 2,
         samplePassage: "At Gramps's poker table sat Frank — a Black poet, once well-known, who spoke to the teenage Barack with unsparing honesty about what it meant to be Black in America.",
@@ -2134,10 +2134,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-5',
         question: "After college, what did Barack give up to become a community organizer?",
         options: [
-          "A scholarship to law school",
-          "A well-paying corporate consulting job in New York",
-          "A coaching position at Punahou",
-          "An internship with a Chicago newspaper"
+          "A full scholarship to attend law school",
+          "A well-paying consulting job",
+          "A coaching position back at Punahou",
+          "An internship with a Chicago newspaper",
         ],
         correctAnswerIndex: 1,
         samplePassage: "With a Columbia degree and a comfortable research job at a consulting firm, Barack felt hollow — the only Black man at his level, writing reports nobody read. He quit to organize in Chicago.",
@@ -2148,10 +2148,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-6',
         question: "What two unpleasant neighbors sat beside the Altgeld Gardens housing project?",
         options: [
-          "A prison and a bus depot",
-          "A factory and a railroad yard",
-          "A dump for old cars and a power plant",
-          "A landfill and a sewage treatment plant"
+          "A crowded prison and a noisy bus depot",
+          "A shuttered factory beside a railroad yard",
+          "A junkyard for old cars and a power plant",
+          "A landfill and a sewage treatment plant",
         ],
         correctAnswerIndex: 3,
         samplePassage: "Altgeld Gardens sat cut off from the city, with a stinking landfill on one side and a sewage treatment plant on the other — the city's unwanted things piled around its poorest people.",
@@ -2162,10 +2162,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-7',
         question: "What is the main idea of Barack's Indonesia years?",
         options: [
-          "Even in poverty, his mother's discipline and Lolo's example taught him resilience, pride, and the value of learning",
-          "Indonesia was a vacation from real life",
-          "He learned that America was perfect",
-          "Poverty made education pointless"
+          "Hardship plus his mother's discipline taught him resilience, love of learning",
+          "Wealth and comfort are what children need most to grow up strong",
+          "Living abroad taught him his American identity did not matter at all",
+          "Poverty taught him that schooling was a complete waste of time",
         ],
         correctAnswerIndex: 0,
         samplePassage: "Jakarta was poor and strange — new foods, new language, power cuts. But through it, Ann's dawn lessons and Lolo's calm strength gave him an anchor: work hard, stand tall, keep learning.",
@@ -2176,10 +2176,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-8',
         question: "At Punahou, Barack was 'Barry' to his schoolmates, the grandson of Kansas transplants, and the son of a Kenyan father he'd barely met. What is the main idea of these chapters?",
         options: [
-          "Hawaii had no racial problems at all",
-          "Basketball solves identity questions",
-          "He lived between two worlds and had to piece together an identity of his own",
-          "He decided to forget his father's side entirely"
+          "Hawaii had no racial divisions at all",
+          "Basketball alone answered his identity questions",
+          "He lived between two worlds and forged his own identity",
+          "He chose to forget his Kenyan father's side completely",
         ],
         correctAnswerIndex: 2,
         samplePassage: "At school he was Barry, cracking jokes; at home he studied the absent Kenyan father in photographs; with Ray and Frank he confronted what being Black meant. No single world quite contained him.",
@@ -2190,10 +2190,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-9',
         question: "In Chicago, Barack's job was to interview residents about their 'self-interest' and help them organize. What is the main idea of this work?",
         options: [
-          "The organizer should make all the decisions for residents",
-          "Lasting change comes from people's own power — the organizer's job is to help them find it",
-          "Poor neighborhoods can't be helped",
-          "Change comes only from politicians"
+          "The organizer should make every decision for residents",
+          "Lasting change comes from people's own power",
+          "Poor neighborhoods are beyond anyone's help",
+          "Only politicians and officials can create change",
         ],
         correctAnswerIndex: 1,
         samplePassage: "Marty taught him the rule: don't bring your own agenda — ask people what they care about, what keeps them up at night, and help them turn that caring into action.",
@@ -2204,10 +2204,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-10',
         question: "Barack barely knew his father — yet his death shook him deeply. What can you infer?",
         options: [
-          "He was faking his grief",
-          "He felt guilty about something specific",
-          "He only cared about an inheritance",
-          "You can grieve the relationship you never got to have — the father you wished you'd known"
+          "He was only pretending to feel sad about it",
+          "He felt guilty about one specific thing he did",
+          "He cared mostly about an inheritance",
+          "You can grieve a relationship you never got to have",
         ],
         correctAnswerIndex: 3,
         samplePassage: "He had spent about a month with the man, total, across his whole life. Yet the call left him hollow for weeks — mourning not memories, but possibilities.",
@@ -2218,10 +2218,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-11',
         question: "Gramps loved him, Frank warned him, Ray was angry, his mother believed in him. Each adult offered a different map of race in America. What can you infer Barack had to do?",
         options: [
-          "Draw his own map — no single adult's view fit his whole life",
-          "Pick whichever adult shouted the loudest",
-          "Ignore all of them completely",
-          "Move to a place with no racial issues"
+          "Draw his own map — no single view fit his whole life",
+          "Follow whichever adult spoke the loudest and never doubt them",
+          "Reject every adult's view completely",
+          "Move somewhere far away without any racial conflict at all",
         ],
         correctAnswerIndex: 0,
         samplePassage: "Frank's warnings, Gramps's stories, Ray's fury, Ann's optimism — each true in part, none complete. The teenager listened to all of them and trusted none of them entirely.",
@@ -2232,10 +2232,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-12',
         question: "He quit the consulting job though it paid well and his loans were real. What can you infer about what he valued?",
         options: [
-          "He didn't understand money",
-          "He wanted to become famous quickly",
-          "He valued purpose over paycheck — comfort felt empty without meaning",
-          "He was fired and is hiding it"
+          "He never really understood how money worked at all",
+          "He was chasing fame and success as quickly as possible",
+          "He valued purpose over paycheck — comfort without meaning felt empty",
+          "He had been fired from the job and was covering it up",
         ],
         correctAnswerIndex: 2,
         samplePassage: "The salary was good, the office gleamed — and he felt like a ghost in it. He traded the gleaming office for uncertain, low-paid work in Chicago's poorest neighborhoods — and felt, for the first time, awake.",
@@ -2246,10 +2246,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-13',
         question: "The father's visit ends with records, dancing, and laughter — and then a goodbye at the airport. How does this part feel?",
         options: [
-          "Purely joyful",
-          "Bittersweet — joy shadowed by the knowledge that it won't last",
-          "Angry and bitter",
-          "Cold and detached"
+          "Completely joyful from start to finish",
+          "Bittersweet — joy mixed with a goodbye",
+          "Angry and bitter throughout the whole visit",
+          "Cold, distant, and detached throughout",
         ],
         correctAnswerIndex: 1,
         samplePassage: "They danced and laughed — and days later he watched his father walk away through the airport, already becoming a photograph again.",
@@ -2260,10 +2260,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-14',
         question: "After months of tiny meetings and setbacks, the Altgeld campaign wins real commitments — a job center, a sense that the forgotten are seen. How does it feel?",
         options: [
-          "Triumphant and easy",
-          "Hopeless",
-          "Boring and flat",
-          "Hopeful but clear-eyed — progress is real, slow, and hard-won"
+          "Like a total and effortless triumph for everyone involved",
+          "Hopeless and defeated from start to end",
+          "Flat, boring, and completely uneventful throughout",
+          "Hopeful but clear-eyed about slow, hard-won progress",
         ],
         correctAnswerIndex: 3,
         samplePassage: "Twenty people at a street corner became hundreds at a hearing; a promise was extracted, then another. Nothing was fixed — but for the first time, the residents had made the city listen.",
@@ -2274,10 +2274,10 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-15',
         question: "In Jakarta, Ann woke her son before dawn for English lessons, day after day, for years. What does this show about her?",
         options: [
-          "A fierce, disciplined love — she believed education was his way up and refused to let distance steal it",
-          "She was cruel and controlling",
-          "She didn't trust Indonesian schools at all",
-          "She wanted him to become a teacher"
+          "Fierce, disciplined love for her son",
+          "A cold, controlling cruelty toward her son",
+          "A total distrust of Indonesian schools",
+          "A secret plan to make him become a teacher",
         ],
         correctAnswerIndex: 0,
         samplePassage: "At an hour when the house was still dark, Ann shook him awake: English grammar, writing exercises — her conviction that her son's mind was his fortune, enforced with an alarm clock.",
@@ -2288,15 +2288,250 @@ export const OBAMA_DREAMS_CHAPTERS: Book[] = [
         id: 'odh-16',
         question: "At Occidental, Barack spoke at a rally against apartheid. What does 'apartheid' mean?",
         options: [
-          "A South African festival",
-          "A type of protest march",
-          "South Africa's former system of racial segregation and white-minority rule",
-          "A student club at Occidental"
+          "A famous South African harvest festival with dancing",
+          "A style of protest march used by college students",
+          "South Africa's old system of racial segregation",
+          "A student club at Occidental College",
         ],
         correctAnswerIndex: 2,
         samplePassage: "The rally demanded the college sell its investments in South Africa, where apartheid — rule by the white minority over the Black majority — oppressed millions.",
         hint: "What was the rally AGAINST?",
         explanation: "'Apartheid' was South Africa's system of racial segregation: laws enforcing white-minority rule over the Black majority — the injustice the rally protested."
+      }
+    ]
+  },
+  {
+    id: 'obama-dreams-first-half-set2',
+    title: "Dreams from My Father: First Half — Set 2",
+    author: "Barack Obama",
+    coverEmoji: "🌅",
+    themeColor: "yellow",
+    readingLevel: "Grades 6+ (Ages 11+)",
+    synopsis: "Chapters 1–9, second question set: new angles on the midnight phone call, Hawaii and Indonesia, Punahou, college, and the Chicago organizing years.",
+    questions: [
+      {
+        id: 'odj-1',
+        question: "Where and when was Barack Obama born?",
+        options: [
+          "In Nairobi, Kenya, in 1961",
+          "In Chicago, Illinois, in 1963",
+          "In Honolulu, Hawaii, in 1961",
+          "In Jakarta, Indonesia, in 1962",
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "He was born in Honolulu, Hawaii, in 1961 — to Ann Dunham, a white woman from Kansas, and Barack Obama Sr., a Kenyan student.",
+        hint: "Which island city — and which year?",
+        explanation: "Barack Obama was born in Honolulu, Hawaii, in 1961."
+      },
+      {
+        id: 'odj-2',
+        question: "What nicknames did Barack use for his grandparents, Stanley and Madelyn Dunham?",
+        options: [
+          "Gramps and Toot",
+          "Pops and Nana, as most kids say",
+          "Gram and Granddad",
+          "Chief and Mama",
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "He grew up calling his grandparents Gramps and Toot — Stanley, the storyteller, and Madelyn, the bank vice president who held the family together.",
+        hint: "Which pair sounds like a jazz duo?",
+        explanation: "His grandparents were Gramps (Stanley) and Toot (Madelyn)."
+      },
+      {
+        id: 'odj-3',
+        question: "What name did Barack go by at Punahou?",
+        options: [
+          "Rocky",
+          "Barack",
+          "Barry Obama Jr.",
+          "Barry",
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "At Punahou Academy, the island's prestigious private school, everyone knew him as Barry — an easy, breezy name that fit right in.",
+        hint: "Which name helped him blend in?",
+        explanation: "At Punahou he went by 'Barry' — the name he'd later set aside in New York."
+      },
+      {
+        id: 'odj-4',
+        question: "Where did Barack spend his first night in Manhattan?",
+        options: [
+          "In a luxury hotel near the Columbia campus",
+          "In an alley — no one answered the door",
+          "In a Columbia dorm room on the first night",
+          "At his sister Auma's apartment in the city",
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "He arrived in New York with big plans and nowhere to sleep — the friend-of-a-friend never answered, so his first Manhattan night was spent in an alley.",
+        hint: "What happens when the door never opens?",
+        explanation: "His first night in Manhattan was spent in an alley after no one answered the door."
+      },
+      {
+        id: 'odj-5',
+        question: "What three changes did Barack make to clean up his life in New York?",
+        options: [
+          "He gave up drugs entirely, started running daily, and started a journal",
+          "He moved to Harlem, bought a used car, and got a dog",
+          "He quit school, joined a band, and traveled Europe",
+          "He changed his college major, dyed his hair, and took up chess",
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "In New York he drew a hard line: no more drugs, daily runs through the city, and a journal to think on paper — small disciplines, kept fiercely.",
+        hint: "Body, mind, and record — what three habits?",
+        explanation: "He gave up drugs, started running, and started a journal — rebuilding himself through daily discipline."
+      },
+      {
+        id: 'odj-6',
+        question: "At Smitty's Barbershop, who did the men talk about affectionately, like a relative?",
+        options: [
+          "Martin Luther King Jr., the civil rights leader",
+          "Marty Kaufman, the community organizer",
+          "Frank Marshall Davis, the poet from Hawaii",
+          "Harold Washington, Chicago's first Black mayor",
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "In the barbershop, the men spoke of Harold Washington — Chicago's first Black mayor, newly elected — with the warmth people reserve for family.",
+        hint: "Which Chicago first made the barbershop proud?",
+        explanation: "They spoke lovingly of Harold Washington, Chicago's recently elected first Black mayor."
+      },
+      {
+        id: 'odj-7',
+        question: "In Chicago, Barack concluded that something caused more harm than poor self-esteem. What was it?",
+        options: [
+          "Bad schools",
+          "Poverty itself",
+          "Too much television",
+          "A lack of confidence",
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "He had arrived thinking the problem was how people saw themselves. He left knowing the deeper wound: poverty — the empty fridge, the closed mill — did more damage than any inner doubt.",
+        hint: "What's harder to fix with a pep talk — feelings or empty pockets?",
+        explanation: "The main idea: poverty itself — not poor self-esteem — was the deeper harm. Material conditions, not just mindset."
+      },
+      {
+        id: 'odj-8',
+        question: "For months, Barack's main job was just visiting residents and asking what they cared about. What is the main idea?",
+        options: [
+          "Talking with residents is a complete waste of organizing time",
+          "Residents should simply be told what to care about",
+          "Listen first — you must understand people before you can help them",
+          "Organizers do their very best work entirely alone",
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "Before any rally or campaign, there were a hundred living-room conversations — Marty insisted: find out what keeps people up at night before asking them to act.",
+        hint: "What comes before leading?",
+        explanation: "The main idea: listening comes first. You can't help people until you understand what they actually care about."
+      },
+      {
+        id: 'odj-9',
+        question: "No more drugs, daily running, a journal — kept for years. What is the main idea of this chapter of his life?",
+        options: [
+          "Big change starts with small, daily disciplines",
+          "Sheer willpower alone is enough to fix everything in life",
+          "New York City cures all of your bad habits quickly",
+          "Journals matter more than friends ever could",
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "No single dramatic rescue — just a run every morning, a blank page every night, and one temptation refused at a time, until the old life loosened its grip.",
+        hint: "Was it one big moment or a thousand small ones?",
+        explanation: "The main idea: transformation came not from one grand gesture but from small disciplines repeated daily."
+      },
+      {
+        id: 'odj-10',
+        question: "When other kids teased him and Coretta — the only other Black student — Barack shouted at her and pushed her. What can you infer?",
+        options: [
+          "He had always personally disliked Coretta and resented her",
+          "He was trying to show off his physical strength to everyone",
+          "He wanted to impress the teachers who were watching nearby",
+          "Performing for the teasers — turning his shame onto someone like him",
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "The teasing stung, and instead of facing the teasers, he lashed out at Coretta — the one person who shared his position — then felt sick about it after.",
+        hint: "Who was he really trying to impress — and at whose expense?",
+        explanation: "You can infer he was performing for the teasers' approval, deflecting shame onto Coretta — and his later sickness about it shows he knew exactly what he'd done."
+      },
+      {
+        id: 'odj-11',
+        question: "In New York he introduced himself as 'Barack, not Barry.' What can you infer?",
+        options: [
+          "He had simply forgotten the nickname everyone had always used",
+          "Reclaiming his African name — and the identity Barry hid",
+          "He wanted to confuse all of his new friends",
+          "Barry was actually somebody else's name entirely",
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "'Barry' had been the easy island name, the blend-in name. In New York he let it go: 'Barack' — his father's name, his real name — said out loud on purpose.",
+        hint: "What does dropping a nickname signal?",
+        explanation: "You can infer the name change was an identity claim: shedding the blend-in 'Barry' to carry his father's African name openly."
+      },
+      {
+        id: 'odj-12',
+        question: "When Barack brought his white friends Jeff and Scott to Ray's party, they grew self-conscious and left after an hour. What can you infer?",
+        options: [
+          "The party itself was boring and dull for everyone who was there",
+          "Jeff and Scott were simply rude and unfriendly people",
+          "They felt what he often felt — the only one of your kind",
+          "Ray had asked the two of them to leave the party early",
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "The only white faces in a room full of Black kids, Jeff and Scott wilted within the hour — a small, sharp mirror of Barack's own daily experience in reverse.",
+        hint: "What was new for them but routine for him?",
+        explanation: "You can infer they experienced a taste of his world: the discomfort of being the visible outsider — a mirror held up for one evening."
+      },
+      {
+        id: 'odj-13',
+        question: "Learning his brother David died, Barack writes that he wondered who he was if he did not cry. How does this moment feel?",
+        options: [
+          "Numb and searching — grief mixed with guilt",
+          "Joyful and relieved to finally hear the sad news",
+          "Furious and vengeful toward everyone",
+          "Bored and completely indifferent",
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: "The news of David's death landed flat — no tears came, and their absence frightened him more than the loss itself. What kind of man feels nothing?",
+        hint: "Is he grieving David, or grieving his own numbness?",
+        explanation: "The tone is numb and searching: the shock isn't just the death, but his own flat response — grief turned inward as self-questioning."
+      },
+      {
+        id: 'odj-14',
+        question: "A family sacrificed everything for their son's education — and he was diagnosed with schizophrenia and could not work. How does this story feel?",
+        options: [
+          "Triumphant and victorious for the whole family",
+          "Funny and lighthearted",
+          "Hopeful and uplifting",
+          "Heartbreaking — a family's sacrifice met by life's unfairness",
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: "Every penny, every hope poured into the boy's schooling — and illness took it all anyway. Barack listened, and had nothing wise to say back.",
+        hint: "What do you feel when sacrifice meets senseless loss?",
+        explanation: "The tone is heartbreaking: a family's total sacrifice met by random cruelty — the unfairness organizers can't organize away."
+      },
+      {
+        id: 'odj-15',
+        question: "As winter set in, Marty encouraged Barack to take time off and build a life outside of work. What does this show about Marty?",
+        options: [
+          "He was lazy and careless about the entire mission's goals",
+          "He mentored the whole person, not just the worker",
+          "He secretly wanted Barack to quit the work entirely",
+          "He didn't trust Barack's work or judgment at all",
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: "Marty saw the exhaustion and ordered rest: get a life, see friends, be a person — the work would still be there, and it needed whole people.",
+        hint: "Is rest the enemy of the mission — or part of it?",
+        explanation: "It shows Marty as a true mentor: he cared about Barack the person, not just the organizer — understanding that burned-out people can't sustain the work."
+      },
+      {
+        id: 'odj-16',
+        question: "Marty sent Barack out to learn residents' 'self-interest.' What does 'self-interest' mean here?",
+        options: [
+          "Selfishness, greed, and looking out only for yourself",
+          "The amount of money in a bank account",
+          "What people truly care about and act on",
+          "The extra interest paid back on a loan",
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: "'Find their self-interest,' Marty taught — not selfishness, but the deep cares that move people: their kids' safety, a steady job, dignity.",
+        hint: "What makes a tired person show up to a meeting?",
+        explanation: "'Self-interest' means what people genuinely care about — the motivations that can move them to act together."
       }
     ]
   }
