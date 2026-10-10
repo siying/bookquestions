@@ -1846,6 +1846,157 @@ export const CLASSIC_BOOKS: Book[] = [
     ]
   },
   {
+    id: 'wimpy-kid-old-school-social',
+    title: 'Diary of a Wimpy Kid: Old School — Social Cues',
+    author: 'Jeff Kinney',
+    coverEmoji: '🚜',
+    themeColor: 'green',
+    readingLevel: 'Grades 3 - 7 (Ages 8-12)',
+    synopsis: 'A social-cues quiz for Diary of a Wimpy Kid: Old School (Book 10) — owning mistakes instead of blaming others, trusting teammates, handling embarrassment, calming scared friends, and seeing parents as people.',
+    questions: [
+      {
+        id: 'wos-1',
+        question: 'When the adults catch Greg and Frew at the park, Greg blames Billy, the teen doing community service. What does this show about Greg in that moment?',
+        options: [
+          'He is carefully working out who is really at fault.',
+          'He is scared to tell the truth, so he lets someone else take the fall for him.',
+          'He is trying to shield Frew from getting in trouble.',
+          'He is being completely fair to everyone there.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'At the park cleanup, Greg ducks out with Frew. When the adults track them down, Greg points the finger at Billy, the teen doing community service nearby.',
+        hint: 'When the adults arrive, who does Greg blame — and who should own the choice to sneak off?',
+        explanation: 'Blaming someone else to dodge trouble is a social fail: it trades a moment of comfort for someone else’s unfair punishment. Owning your part — even when it is scary — is what keeps trust intact.'
+      },
+      {
+        id: 'wos-2',
+        question: 'During a teambuilding trust fall, a bigger kid named Jeffrey is on the catching team. What is the socially smart way for Greg to act?',
+        options: [
+          'Refuse to fall, claiming the team cannot be trusted to catch him.',
+          'Make jokes about Jeffrey to get laughs first.',
+          'Trust the team and fall like everyone else does.',
+          'Only fall when the smaller kids are catching.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'At Hardscrabble Farms the kids do teambuilding exercises, including a trust fall where classmates must catch whoever falls.',
+        hint: 'What does a good teammate do when it is his turn — trust the team, or judge the catchers first?',
+        explanation: 'Trust goes both ways: you cannot ask teammates to catch you while refusing to believe in them. Giving every catcher the same fair chance is how teams are built.'
+      },
+      {
+        id: 'wos-3',
+        question: 'Greg is annoyed to have Mr. Jefferson, Rowley’s dad, as his bunkmate and chaperone. What is the most mature way to handle that embarrassment?',
+        options: [
+          'Accept it politely, since he gave up his own week to help out.',
+          'Complain loudly until they switch his cabin.',
+          'Pretend Mr. Jefferson is invisible all week.',
+          'Tell Rowley his dad is ruining the trip.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Greg is stuck sharing a cabin — and a bunk — with Mr. Jefferson, Rowley’s dad, who is chaperoning the trip.',
+        hint: 'Mr. Jefferson gave up his own week to chaperone. How should Greg treat that?',
+        explanation: 'Embarrassment fades, but how you treat volunteers sticks. Mr. Jefferson gave up his week to help; meeting that with politeness instead of complaints is the grown-up move.'
+      },
+      {
+        id: 'wos-4',
+        question: 'Rowley and Mr. Jefferson get poison ivy and have to go home early. Greg is disappointed. What is the kindest response?',
+        options: [
+          'Tell Rowley the trip is ruined now.',
+          'Act like he never cared Rowley was there.',
+          'Blame Rowley for touching the poison ivy.',
+          'Wish Rowley a fast recovery and make the best of the days left.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Mr. Jefferson and Rowley both break out in poison ivy and have to leave Hardscrabble Farms early, leaving Greg behind.',
+        hint: 'Rowley did not choose to leave. What would a good friend say at goodbye?',
+        explanation: 'Disappointment is normal when a friend has to leave, but a good friend does not punish the person leaving. Wishing Rowley well and making the best of what is left shows real friendship.'
+      },
+      {
+        id: 'wos-5',
+        question: 'The Silas Scratch legend has the whole cabin scared at night. What actually helps frightened friends?',
+        options: [
+          'Stay calm, point out it is only a story, and steer everyone toward a calmer topic.',
+          'Add even scarier details to the legend to make story time more exciting for all.',
+          'Tease anyone who admits they are scared.',
+          'Insist on sleeping outside alone all night just to prove to everyone that you are the bravest.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'The kids whisper about Silas Scratch, a crazed farmer said to haunt the woods, and the whole cabin is too scared to sleep.',
+        hint: 'Fear spreads fast in a group. What calms frightened friends — and what makes it worse?',
+        explanation: 'When friends are scared, adding fuel to the fear or mocking them only makes it worse. Staying calm, naming the story as just a story, and redirecting the group is real leadership.'
+      },
+      {
+        id: 'wos-6',
+        question: 'Greg signs up for Homework Buddies and gets paired with Frew, a third grader. What is the respectful way to treat a younger buddy?',
+        options: [
+          'Let Frew do all of Greg’s homework for him.',
+          'Brag to his friends that he found a little kid to do his homework for him.',
+          'Be patient and kind, remembering Frew is younger and looking up to him.',
+          'Ignore Frew unless there is homework to copy.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Greg joins Homework Buddies hoping for an easy time, and gets paired with Frew, a much younger third grader.',
+        hint: 'Frew is younger and looks up to the older kids. What does he deserve from a buddy?',
+        explanation: 'Using a younger buddy as a shortcut teaches nothing and models the worst. Patience and kindness toward someone smaller — especially one who looks up to you — is the whole point of being a buddy.'
+      },
+      {
+        id: 'wos-7',
+        question: 'Greg and Rowley run a lemonade stand together. What keeps a partnership like that fair?',
+        options: [
+          'Greg takes the money since it was his idea.',
+          'Rowley does all the work while Greg takes breaks.',
+          'They split the jobs and share what they earn.',
+          'Whoever complains loudest gets the bigger share.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Greg and Rowley set up a lemonade stand together to make some money before the electronics-free weekend.',
+        hint: 'Two partners, one stand. What keeps it fair for both?',
+        explanation: 'Partnerships run on fairness: split the work, share the reward. Grabbing the money, dumping the work, or letting the loudest complainer win all rot a friendship from the inside.'
+      },
+      {
+        id: 'wos-8',
+        question: 'The whole town agrees to go electronics-free for the weekend, but Greg hates the idea. What is the socially mature response?',
+        options: [
+          'Sneak his electronics and use them in secret while pretending to participate.',
+          'Go along with it even though it is hard, instead of spoiling it for others.',
+          'Complain nonstop until his mom cancels it.',
+          'Mock the neighbors who are trying their best.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Greg’s mom’s petition works: the whole town agrees to switch off electronics for the weekend, and Greg is miserable about it.',
+        hint: 'Everyone agreed to this together. What does Greg owe the group?',
+        explanation: 'Being part of a group sometimes means going along with what the group chose, even when you hate it. Sneaking, endless complaining, or mocking others just spoils it for everyone — adapting is the mature play.'
+      },
+      {
+        id: 'wos-9',
+        question: 'Greg discovers his dad’s secret shed in the woods — with running water and a real shower — and learns Frank invented Silas Scratch to keep kids away. What does this teach Greg about his dad?',
+        options: [
+          'Frank was once a farm kid too, with secrets of his own.',
+          'Frank never tells the truth about anything and cannot be trusted at all.',
+          'Frank built the whole shed just to play an elaborate trick on Greg.',
+          'Frank is too old to understand camping.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Deep in the woods, Greg finds a hidden shed with running water and a real shower — his dad’s secret hideout from when Frank was a farm kid himself.',
+        hint: 'Frank was once a kid at this very farm. What does that change about how Greg sees him?',
+        explanation: 'Parents were kids once, with their own secrets and hideouts. Realizing Frank invented Silas Scratch to protect his shed — not to be mean — helps Greg see his dad as a whole person, which is the root of empathy.'
+      },
+      {
+        id: 'wos-10',
+        question: 'By the end, Greg respects the kids who do hard farm work every day. What social lesson is he learning?',
+        options: [
+          'Farm work is only for other people and is never worth anyone’s respect.',
+          'Complaining loudly about a hard job somehow makes the job easier.',
+          'Modern life has no value at all and everyone should live on farms.',
+          'Appreciating work you do not have to do builds empathy for others.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'After a week of chores with no tech and no junk food, Greg comes to respect the kids who do this kind of hard work every day.',
+        hint: 'Greg did not have to do farm work forever — but some kids do. What is he learning to feel?',
+        explanation: 'You do not have to love hard work to respect the people who do it. Noticing work you are spared from — and feeling grateful instead of superior — is empathy in action.'
+      }
+    ]
+  },
+  {
     id: 'rowley-jefferson-awesome-friendly-adventure',
     title: "Rowley Jefferson's Awesome Friendly Adventure",
     author: 'Jeff Kinney',
