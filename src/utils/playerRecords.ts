@@ -1,14 +1,21 @@
 import {
   collection,
   doc,
+  getCountFromServer,
   getDocs,
   limit,
   orderBy,
   query,
   serverTimestamp,
   setDoc,
+  startAfter,
   updateDoc,
   where,
+} from 'firebase/firestore';
+import type {
+  DocumentData,
+  QueryConstraint,
+  QueryDocumentSnapshot,
 } from 'firebase/firestore';
 import { Book, QuestionState } from '../types/quiz';
 import { getDb } from '../config/firebase';
@@ -174,33 +181,115 @@ export async function listPlayers(): Promise<PlayerSummary[]> {
       limit(100)
     )
   );
-  const players: PlayerSummary[] = [];
-  for (const d of snap.docs) {
-    const data = d.data();
-    let quizCount = 0;
-    try {
-      const rs = await getDocs(
-        query(
-          collection(db, RESULTS_COLLECTION),
-          where('playerId', '==', d.id),
-          limit(500)
-        )
-      );
-      quizCount = rs.size;
-    } catch {
-      quizCount = 0;
-    }
-    players.push({
-      id: d.id,
-      name: (data.name as string) || 'Unnamed',
-      quizCount,
-      lastPlayedAt: data.lastPlayedAt,
-    });
-  }
-  return players;
+  // Count each player's quizzes server-side (no document downloads) and in
+  // parallel. The old code downloaded every result document per player,
+  // one player at a time.
+  const summaries = await Promise.all(
+    snap.docs.map(async (d) => {
+      const data = d.data();
+      let quizCount = 0;
+      try {
+        const countSnap = await getCountFromServer(
+          query(
+            collection(db, RESULTS_COLLECTION),
+            where('playerId', '==', d.id)
+          )
+        );
+        quizCount = countSnap.data().count;
+      } catch {
+        quizCount = 0;
+      }
+      return {
+        id: d.id,
+        name: (data.name as string) || 'Unnamed',
+        quizCount,
+        lastPlayedAt: data.lastPlayedAt,
+      };
+    })
+  );
+  return summaries;
 }
 
-/** One player's quiz history, newest first. */
+/** Opaque pagination cursor for player history. */
+export type ResultsCursor = QueryDocumentSnapshot<DocumentData> | null;
+
+export interface ResultsPage {
+  results: QuizResultRecord[];
+  /** Pass back to get the next page; null when there are no more pages. */
+  cursor: ResultsCursor;
+  /** True when the fast indexed query was unavailable (index not created yet). */
+  needsIndex: boolean;
+}
+
+const RESULTS_PAGE_SIZE = 25;
+
+function toQuizResultRecord(
+  d: QueryDocumentSnapshot<DocumentData>
+): QuizResultRecord {
+  const data = d.data();
+  return {
+    id: d.id,
+    playerId: data.playerId as string,
+    playerName: data.playerName as string,
+    bookId: data.bookId as string,
+    bookTitle: data.bookTitle as string,
+    totalQuestions: data.totalQuestions as number,
+    correctFirstTry: data.correctFirstTry as number,
+    correctSecondTry: data.correctSecondTry as number,
+    missed: data.missed as number,
+    scorePercent: data.scorePercent as number,
+    goldStars: data.goldStars as number,
+    silverStars: data.silverStars as number,
+    answers: (data.answers as AnswerDetail[]) || [],
+    startedAt: data.startedAt,
+    completedAt: data.completedAt,
+  };
+}
+
+/**
+ * One player's quiz history, newest first, one page at a time.
+ * Uses a server-side sort (needs the composite index
+ * bq_results(playerId ASC, completedAt DESC)); if the index hasn't been
+ * created yet, falls back to the old full-fetch behavior so the page
+ * keeps working, just slower.
+ */
+export async function getPlayerResultsPage(
+  playerId: string,
+  cursor: ResultsCursor = null
+): Promise<ResultsPage> {
+  const db = await getDb();
+  if (!db) return { results: [], cursor: null, needsIndex: false };
+  try {
+    const constraints: QueryConstraint[] = [
+      where('playerId', '==', playerId),
+      orderBy('completedAt', 'desc'),
+    ];
+    if (cursor) constraints.push(startAfter(cursor));
+    // Fetch one extra to know whether another page exists.
+    constraints.push(limit(RESULTS_PAGE_SIZE + 1));
+    const snap = await getDocs(
+      query(collection(db, RESULTS_COLLECTION), ...constraints)
+    );
+    const docs = snap.docs;
+    const hasMore = docs.length > RESULTS_PAGE_SIZE;
+    const pageDocs = hasMore ? docs.slice(0, RESULTS_PAGE_SIZE) : docs;
+    return {
+      results: pageDocs.map(toQuizResultRecord),
+      cursor: hasMore ? pageDocs[pageDocs.length - 1] : null,
+      needsIndex: false,
+    };
+  } catch (err) {
+    if ((err as { code?: string })?.code === 'failed-precondition') {
+      // Composite index not created yet — fall back to fetching everything
+      // and sorting on the device (slow, but correct).
+      const all = await getPlayerResults(playerId);
+      return { results: all, cursor: null, needsIndex: true };
+    }
+    throw err;
+  }
+}
+
+/** One player's full quiz history, newest first (fallback path — prefer getPlayerResultsPage). */
 export async function getPlayerResults(
   playerId: string
 ): Promise<QuizResultRecord[]> {
@@ -223,26 +312,7 @@ export async function getPlayerResults(
     return 0;
   };
   return snap.docs
-    .map((d) => {
-      const data = d.data();
-      return {
-        id: d.id,
-        playerId: data.playerId as string,
-        playerName: data.playerName as string,
-        bookId: data.bookId as string,
-        bookTitle: data.bookTitle as string,
-        totalQuestions: data.totalQuestions as number,
-        correctFirstTry: data.correctFirstTry as number,
-        correctSecondTry: data.correctSecondTry as number,
-        missed: data.missed as number,
-        scorePercent: data.scorePercent as number,
-        goldStars: data.goldStars as number,
-        silverStars: data.silverStars as number,
-        answers: (data.answers as AnswerDetail[]) || [],
-        startedAt: data.startedAt,
-        completedAt: data.completedAt,
-      };
-    })
+    .map(toQuizResultRecord)
     .sort((a, b) => toMillis(b.completedAt) - toMillis(a.completedAt));
 }
 
