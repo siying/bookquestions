@@ -20,9 +20,10 @@ import type { User, Auth, GoogleAuthProvider } from 'firebase/auth';
 import { isCloudConfigured, getAuth, isAdminUser } from '../config/firebase';
 import {
   listPlayers,
-  getPlayerResults,
+  getPlayerResultsPage,
   PlayerSummary,
   QuizResultRecord,
+  ResultsCursor,
 } from '../utils/playerRecords';
 
 function formatDate(value: unknown): string {
@@ -131,6 +132,9 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
   const [players, setPlayers] = useState<PlayerSummary[] | null>(null);
   const [selected, setSelected] = useState<PlayerSummary | null>(null);
   const [results, setResults] = useState<QuizResultRecord[] | null>(null);
+  const [resultsCursor, setResultsCursor] = useState<ResultsCursor>(null);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [needsIndex, setNeedsIndex] = useState(false);
   const [error, setError] = useState('');
   const [user, setUser] = useState<User | null>(null);
   const [authChecking, setAuthChecking] = useState(true);
@@ -281,8 +285,14 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
       return;
     }
     setResults(null);
-    getPlayerResults(selected.id)
-      .then(setResults)
+    setResultsCursor(null);
+    setNeedsIndex(false);
+    getPlayerResultsPage(selected.id)
+      .then((page) => {
+        setResults(page.results);
+        setResultsCursor(page.cursor);
+        setNeedsIndex(page.needsIndex);
+      })
       .catch((err) => {
         // eslint-disable-next-line no-console
         console.error(err);
@@ -290,6 +300,22 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
         setResults([]);
       });
   }, [selected]);
+
+  const handleShowMore = () => {
+    if (!selected || !resultsCursor || loadingMore) return;
+    setLoadingMore(true);
+    getPlayerResultsPage(selected.id, resultsCursor)
+      .then((page) => {
+        setResults((prev) => [...(prev ?? []), ...page.results]);
+        setResultsCursor(page.cursor);
+      })
+      .catch((err) => {
+        // eslint-disable-next-line no-console
+        console.error(err);
+        setError('Could not load more history.');
+      })
+      .finally(() => setLoadingMore(false));
+  };
 
   return (
     <div className="max-w-3xl mx-auto px-4 pt-8 pb-16">
@@ -431,6 +457,23 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
 
       {cloud && isAdmin && selected && results !== null && (
         <div className="space-y-3">
+          {needsIndex && (
+            <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 text-sm text-amber-800">
+              History is loading in compatibility mode. To speed it up, create
+              this index once in the{' '}
+              <a
+                href="https://console.firebase.google.com/project/mathpractice-siying-2026/firestore/indexes"
+                target="_blank"
+                rel="noreferrer"
+                className="font-semibold underline"
+              >
+                Firebase console
+              </a>
+              : collection <span className="font-mono">bq_results</span>, fields{' '}
+              <span className="font-mono">playerId</span> Ascending +{' '}
+              <span className="font-mono">completedAt</span> Descending.
+            </div>
+          )}
           {results.length === 0 && (
             <p className="text-center text-slate-400 py-8">
               No completed quizzes for {selected.name} yet.
@@ -439,6 +482,17 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onBack }) => {
           {results.map((r) => (
             <ResultDetail key={r.id} result={r} />
           ))}
+          {resultsCursor && (
+            <div className="text-center pt-2">
+              <button
+                onClick={handleShowMore}
+                disabled={loadingMore}
+                className="inline-flex items-center gap-2 bg-white/80 hover:bg-white disabled:opacity-50 border border-indigo-100 text-indigo-600 font-bold px-6 py-2.5 rounded-xl transition-colors"
+              >
+                {loadingMore ? 'Loading…' : 'Show more'}
+              </button>
+            </div>
+          )}
         </div>
       )}
     </div>
