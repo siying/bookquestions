@@ -1997,6 +1997,157 @@ export const CLASSIC_BOOKS: Book[] = [
     ]
   },
   {
+    id: 'howls-moving-castle-movie',
+    title: 'Howl’s Moving Castle (Movie)',
+    author: 'Hayao Miyazaki',
+    coverEmoji: '🏰',
+    themeColor: 'sky',
+    readingLevel: 'Grades 1 - 4 (Ages 6-9)',
+    synopsis: 'A gentle comprehension quiz for the Studio Ghibli film — who Sophie is, the Witch’s curse, the walking castle, Calcifer’s secret, and how courage breaks the spell.',
+    questions: [
+      {
+        id: 'hmc-1',
+        question: 'Who is the main girl in the story?',
+        options: [
+          'Sophie, a girl who makes hats.',
+          'The Witch of the Waste.',
+          'Madame Suliman.',
+          'A queen from a far land.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Sophie works in her family’s hat shop, trimming hats and talking to them like friends.',
+        hint: 'What does Sophie make all day in her shop?',
+        explanation: 'Sophie is a hat maker. She loves her hats so much she talks to them!'
+      },
+      {
+        id: 'hmc-2',
+        question: 'What does the Witch of the Waste do to Sophie?',
+        options: [
+          'She gives Sophie a new hat.',
+          'She turns Sophie into an old woman.',
+          'She takes Sophie home.',
+          'She sings Sophie a song.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'The Witch of the Waste is jealous of Sophie and puts a spell on her. When Sophie looks in the mirror, an old woman looks back.',
+        hint: 'Look in the mirror — who does Sophie see after the Witch’s spell?',
+        explanation: 'The Witch’s curse turns young Sophie into an old woman. That is why she runs away.'
+      },
+      {
+        id: 'hmc-3',
+        question: 'Why does Sophie run away from home?',
+        options: [
+          'She wants to find a brand-new hat shop in the next town.',
+          'She wants to visit the king.',
+          'She likes walking in the rain.',
+          'She is sad to be old and hides from her family.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Sophie does not want her mother and sister to see her like this, so she packs a bag and slips out at dawn.',
+        hint: 'How would you feel if you suddenly looked very old? Where would you go?',
+        explanation: 'Sophie feels sad and embarrassed, so she hides from her family. Running away is what starts her big adventure.'
+      },
+      {
+        id: 'hmc-4',
+        question: 'What is strange about Howl’s castle?',
+        options: [
+          'It can walk around on long legs.',
+          'It is made of candy.',
+          'It can fly high in the sky like a big bird.',
+          'It is under the sea.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Through the hills comes a tall black castle, stomping along on four long legs, puffing smoke.',
+        hint: 'What does the castle walk on?',
+        explanation: 'Howl’s castle is not an ordinary house — it walks around on long legs!'
+      },
+      {
+        id: 'hmc-5',
+        question: 'Who lives in the moving castle?',
+        options: [
+          'Three kings and a queen.',
+          'Only the Witch of the Waste.',
+          'Howl, Calcifer, and Markl.',
+          'A giant and a dragon.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Inside live Howl the wizard, Calcifer the talking fire, and Markl, a small boy who helps with magic.',
+        hint: 'A wizard, a fire demon, and a little boy — which three is it?',
+        explanation: 'Howl, Calcifer, and Markl share the castle. Sophie soon joins them as the cleaning lady.'
+      },
+      {
+        id: 'hmc-6',
+        question: 'What job does Sophie do in the castle?',
+        options: [
+          'She cooks big feasts.',
+          'She stands guard at the front door all day.',
+          'She cleans the whole castle.',
+          'She sings songs.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Sophie grabs a broom and scrubs the dusty castle from top to bottom, bossing everyone around as she cleans.',
+        hint: 'Sophie picks up a broom. What is she doing?',
+        explanation: 'Sophie becomes the castle’s cleaning lady. She loves things neat and tidy!'
+      },
+      {
+        id: 'hmc-7',
+        question: 'What secret does Calcifer the fire demon hold?',
+        options: [
+          'He is secretly a tiny dragon hiding in the fireplace.',
+          'He keeps Howl’s heart burning inside him.',
+          'He can turn into a cat.',
+          'He likes cold ice cream.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'Calcifer whispers his secret: long ago he made a deal with Howl and caught Howl’s heart, and that is what keeps him burning.',
+        hint: 'What is Calcifer holding that keeps his fire alive?',
+        explanation: 'Calcifer holds Howl’s heart — that is the secret deal between them, and why the castle can move.'
+      },
+      {
+        id: 'hmc-8',
+        question: 'Why does Howl not want to see Madame Suliman?',
+        options: [
+          'She will take his hats.',
+          'She will sing loudly.',
+          'She will steal his castle.',
+          'She will make him fight in the war, and he is scared.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Madame Suliman orders all wizards to fight in the war. Howl turns green and hides — he does not want to fight.',
+        hint: 'What does Madame Suliman want Howl to do?',
+        explanation: 'Howl is a powerful wizard, but he is scared of the war. He would rather run than fight.'
+      },
+      {
+        id: 'hmc-9',
+        question: 'Who is Turnip Head, the walking scarecrow, really?',
+        options: [
+          'A farmer who lost his farm.',
+          'Howl’s lost brother.',
+          'A prince under a spell.',
+          'A talking pumpkin.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'The hopping scarecrow Sophie befriended bows, and in a swirl of magic he turns into Prince Justin of the neighboring land.',
+        hint: 'Under the sticks and turnip, who was hiding?',
+        explanation: 'Turnip Head was a cursed prince all along! He goes home to stop the war.'
+      },
+      {
+        id: 'hmc-10',
+        question: 'How does Sophie help Howl at the end?',
+        options: [
+          'She gives his heart back to him.',
+          'She builds him a brand-new castle with tall towers.',
+          'She sings until he wakes up.',
+          'She hides him in the forest.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'Sophie takes Howl’s glowing heart and gently places it back in his chest. Howl wakes up, young and smiling.',
+        hint: 'What does Sophie put back inside Howl?',
+        explanation: 'Sophie returns Howl’s heart, which breaks the spell. Howl wakes up, and they fly away together.'
+      }
+    ]
+  },
+  {
     id: 'rowley-jefferson-awesome-friendly-adventure',
     title: "Rowley Jefferson's Awesome Friendly Adventure",
     author: 'Jeff Kinney',
