@@ -2148,6 +2148,157 @@ export const CLASSIC_BOOKS: Book[] = [
     ]
   },
   {
+    id: 'howls-moving-castle-deeper',
+    title: 'Howl’s Moving Castle — Going Deeper',
+    author: 'Hayao Miyazaki',
+    coverEmoji: '🔥',
+    themeColor: 'orange',
+    readingLevel: 'Grades 1 - 4 (Ages 6-9)',
+    synopsis: 'A second set for the Studio Ghibli film that goes deeper — why Sophie’s face changes, what courage really means, kindness to enemies, and how love breaks the spell.',
+    questions: [
+      {
+        id: 'hmc2-1',
+        question: 'Sometimes Sophie looks young again for a moment. When does that happen?',
+        options: [
+          'When she feels brave and sure of herself.',
+          'When she eats cake.',
+          'When it rains.',
+          'When she is asleep and dreaming of hats.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'When Sophie stands up to Madame Suliman to protect Howl, her face grows young and smooth — but when she doubts herself, the wrinkles come back.',
+        hint: 'Watch Sophie’s face when she is being brave. What happens?',
+        explanation: 'Sophie’s looks follow her heart. When she feels brave and sure, she looks young; when she feels small, she looks old. The curse was never only about magic.'
+      },
+      {
+        id: 'hmc2-2',
+        question: 'Why doesn’t Sophie tell everyone she is really a young girl under a spell?',
+        options: [
+          'She forgot about the spell.',
+          'She likes being old and wrinkled best.',
+          'She is embarrassed and slowly gets used to her new life.',
+          'She lost her voice.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Sophie never tells Howl she is really eighteen. She just starts sweeping, as if being an old cleaning lady is the most natural thing.',
+        hint: 'Why would Sophie keep such a big secret?',
+        explanation: 'Sophie is embarrassed by the curse, and then she gets used to her new life. Sometimes we hide things because we are ashamed, not because we must.'
+      },
+      {
+        id: 'hmc2-3',
+        question: 'Howl hides from the war, but he turns into a giant bird to protect Sophie. What does this show?',
+        options: [
+          'He loves turning into birds.',
+          'He wants to scare Markl.',
+          'He is showing off his magic tricks to everyone in town.',
+          'He is only brave for people he loves.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Howl begs Sophie not to make him visit the palace, but when she is in danger he bursts into a huge bird-monster and carries her to safety.',
+        hint: 'What is different about the two scary things — the war and Sophie in danger?',
+        explanation: 'Howl runs from a war he thinks is pointless, but he is fearless when someone he loves needs him. Courage is not about never being scared — it is about what you face anyway.'
+      },
+      {
+        id: 'hmc2-4',
+        question: 'Why does Calcifer agree to help Sophie?',
+        options: [
+          'She gives him candy.',
+          'She promises to help break his contract with Howl.',
+          'He likes her broom.',
+          'He is bored and wants someone to talk to all day long.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: '“Break my contract with Howl,” Calcifer crackles, “and I’ll break your spell.” They shake on it — a pinky promise between girl and fire.',
+        hint: 'What does each of them want from the other?',
+        explanation: 'Calcifer and Sophie make a deal: each one helps free the other. Good deals help both sides.'
+      },
+      {
+        id: 'hmc2-5',
+        question: 'When the Witch of the Waste becomes old and helpless, how does Sophie treat her?',
+        options: [
+          'Sophie chases her out of the castle.',
+          'Sophie stays kind and takes care of her like family.',
+          'Sophie laughs at her.',
+          'Sophie hides from her.'
+        ],
+        correctAnswerIndex: 1,
+        samplePassage: 'The Witch of the Waste ends up toothless and dotty, and Sophie — the girl she cursed! — tucks blankets around her and calls her “dear”.',
+        hint: 'The Witch was mean to Sophie once. How does Sophie treat her now?',
+        explanation: 'Sophie answers meanness with kindness. Taking care of someone who hurt you is one of the bravest, kindest things in the story.'
+      },
+      {
+        id: 'hmc2-6',
+        question: 'Why does Sophie cut off her hair and give it to Calcifer?',
+        options: [
+          'She decided she wants a much shorter haircut for summer.',
+          'She needs thread to sew.',
+          'The hair was dirty.',
+          'To give him something precious of hers to live on.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'Calcifer is dying without Howl’s heart to hold. Sophie takes the kitchen shears, cuts her long braid, and feeds it to his flames.',
+        hint: 'What does Sophie give up to save her friend?',
+        explanation: 'Sophie gives Calcifer something precious — her own hair — so he can live. Real giving costs us something.'
+      },
+      {
+        id: 'hmc2-7',
+        question: 'What does the movie teach us about the war?',
+        options: [
+          'War is exciting and fun.',
+          'Fighting solves every problem.',
+          'War hurts everyone and solves nothing.',
+          'Only wizards should fight in wars, and everyone else should just watch quietly from far away.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'Battleships burn in the sky, towns crumble, and Prince Justin says he is going home to end the stupid war.',
+        hint: 'Does the war make anyone happy in the movie?',
+        explanation: 'Nobody wins the war — it only burns ships and breaks towns. The movie shows that fighting is not the answer; going home to stop it is.'
+      },
+      {
+        id: 'hmc2-8',
+        question: 'How is Sophie’s curse finally broken?',
+        options: [
+          'By loving others and being brave, she accepts herself.',
+          'She finds a glowing magic potion hidden deep in the castle.',
+          'A prince kisses her.',
+          'The Witch says sorry.'
+        ],
+        correctAnswerIndex: 0,
+        samplePassage: 'No wizard lifts the curse with a wand. It fades as Sophie stops apologizing for herself — loving Howl, Calcifer, and even the Witch just as they are.',
+        hint: 'What changes inside Sophie, not outside her?',
+        explanation: 'Sophie breaks her own curse by becoming brave and loving. When she accepts herself, the old-woman spell has nothing left to hold onto.'
+      },
+      {
+        id: 'hmc2-9',
+        question: 'How does Howl change by the end of the movie?',
+        options: [
+          'He becomes king.',
+          'He forgets all magic.',
+          'He learns to be brave for the people he loves.',
+          'He packs up and moves to a quiet town far away.'
+        ],
+        correctAnswerIndex: 2,
+        samplePassage: 'The Howl who once ran from every problem now dives through fire for Sophie, and at the end he is gentle, steady, and home.',
+        hint: 'Compare the Howl at the start with the Howl at the end.',
+        explanation: 'Howl starts out vain and cowardly, running from everything. Loving Sophie teaches him to be brave and to stay — people can grow.'
+      },
+      {
+        id: 'hmc2-10',
+        question: 'What does Sophie learn about herself in the end?',
+        options: [
+          'That making hats is the most important thing in the world.',
+          'That old people cannot have adventures.',
+          'That she should never leave home.',
+          'That she was always strong and kind inside.'
+        ],
+        correctAnswerIndex: 3,
+        samplePassage: 'The shy hat-shop girl who talked to hats is gone. In her place stands someone who cleans a wizard’s castle, faces down a sorceress, and saves everyone she loves.',
+        hint: 'Was brave Sophie hiding inside shy Sophie all along?',
+        explanation: 'Sophie discovers she was strong and kind all along — the adventure just helped her see it. That is the deepest magic in the movie.'
+      }
+    ]
+  },
+  {
     id: 'rowley-jefferson-awesome-friendly-adventure',
     title: "Rowley Jefferson's Awesome Friendly Adventure",
     author: 'Jeff Kinney',
